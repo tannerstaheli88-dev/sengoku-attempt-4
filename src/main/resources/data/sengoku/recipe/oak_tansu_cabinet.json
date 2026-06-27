@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tansu_cabinet",
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chest"
+    },
+    "/": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "id": "sengoku:oak_tansu_cabinet",
+    "count": 3
+  }
+}

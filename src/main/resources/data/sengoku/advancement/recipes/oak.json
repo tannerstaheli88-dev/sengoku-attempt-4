@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:oak_planks"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:oak_checkered_shoji_door",
+      "sengoku:oak_checkered_double_shoji_door",
+      "sengoku:oak_checkered_triple_shoji_door",
+      "sengoku:oak_checkered_shoji_panel",
+      "sengoku:oak_paly_shoji_door",
+      "sengoku:oak_paly_double_shoji_door",
+      "sengoku:oak_paly_triple_shoji_door",
+      "sengoku:oak_paly_shoji_panel",
+      "sengoku:oak_shoji_door",
+      "sengoku:oak_double_shoji_door",
+      "sengoku:oak_triple_shoji_door",
+      "sengoku:oak_shoji_panel",
+      "sengoku:oak_covered_shoji_frame",
+      "sengoku:oak_checkered_shoji_frame",
+      "sengoku:oak_paly_shoji_frame",
+      "sengoku:oak_shoji_frame",
+      "sengoku:oak_tatami_block",
+      "sengoku:oak_tatami_mat"
+    ]
+  }
+}

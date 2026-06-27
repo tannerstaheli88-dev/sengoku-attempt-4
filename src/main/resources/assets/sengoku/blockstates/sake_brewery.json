@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "has_bottle_0=false,has_bottle_1=false,has_bottle_2=false,lit=false": { "model": "sengoku:block/sake_brewery" },
+    "has_bottle_0=true,has_bottle_1=false,has_bottle_2=false,lit=false": { "model": "sengoku:block/sake_brewery_1" },
+    "has_bottle_0=false,has_bottle_1=true,has_bottle_2=false,lit=false": { "model": "sengoku:block/sake_brewery_1" },
+    "has_bottle_0=false,has_bottle_1=false,has_bottle_2=true,lit=false": { "model": "sengoku:block/sake_brewery_1" },
+    "has_bottle_0=true,has_bottle_1=true,has_bottle_2=false,lit=false": { "model": "sengoku:block/sake_brewery_2" },
+    "has_bottle_0=true,has_bottle_1=false,has_bottle_2=true,lit=false": { "model": "sengoku:block/sake_brewery_2" },
+    "has_bottle_0=false,has_bottle_1=true,has_bottle_2=true,lit=false": { "model": "sengoku:block/sake_brewery_2" },
+    "has_bottle_0=true,has_bottle_1=true,has_bottle_2=true,lit=false": { "model": "sengoku:block/sake_brewery_3" },
+
+    "has_bottle_0=false,has_bottle_1=false,has_bottle_2=false,lit=true": { "model": "sengoku:block/sake_brewery_lit" },
+    "has_bottle_0=true,has_bottle_1=false,has_bottle_2=false,lit=true": { "model": "sengoku:block/sake_brewery_lit_1" },
+    "has_bottle_0=false,has_bottle_1=true,has_bottle_2=false,lit=true": { "model": "sengoku:block/sake_brewery_lit_1" },
+    "has_bottle_0=false,has_bottle_1=false,has_bottle_2=true,lit=true": { "model": "sengoku:block/sake_brewery_lit_1" },
+    "has_bottle_0=true,has_bottle_1=true,has_bottle_2=false,lit=true": { "model": "sengoku:block/sake_brewery_lit_2" },
+    "has_bottle_0=true,has_bottle_1=false,has_bottle_2=true,lit=true": { "model": "sengoku:block/sake_brewery_lit_2" },
+    "has_bottle_0=false,has_bottle_1=true,has_bottle_2=true,lit=true": { "model": "sengoku:block/sake_brewery_lit_2" },
+    "has_bottle_0=true,has_bottle_1=true,has_bottle_2=true,lit=true": { "model": "sengoku:block/sake_brewery_lit_3" }
+  }
+}

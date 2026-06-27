@@ -1,0 +1,96 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm1",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm2",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm3",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm4",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+	    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm5",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm1_empty",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm2_empty",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm3_empty",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm4_empty",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+	    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/outcast_farm5_empty",
+        "processors": "minecraft:farm",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    }
+  ]
+}

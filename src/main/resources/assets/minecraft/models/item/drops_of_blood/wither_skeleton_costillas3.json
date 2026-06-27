@@ -1,0 +1,85 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "blood_n_particles_datapack:item/wither_skeleton_for_parts",
+		"particle": "blood_n_particles_datapack:item/wither_skeleton_for_parts"
+	},
+	"elements": [
+		{
+			"name": "bone_costilla4",
+			"from": [4, 1.02, 6.45],
+			"to": [4, 9.02, 10.45],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 5.02, 8.45]},
+			"faces": {
+				"east": {"uv": [7, 7, 8, 5], "texture": "#0"},
+				"west": {"uv": [7, 5, 8, 7], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "bone_costilla1",
+			"from": [4, 1.02, 10.45],
+			"to": [12, 9.02, 10.45],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 5.02, 8.45]},
+			"faces": {
+				"north": {"uv": [5, 7, 7, 5], "texture": "#0"},
+				"south": {"uv": [5, 5, 7, 7], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "bone_costilla2",
+			"from": [4, 1.02, 6.45],
+			"to": [12, 10.02, 6.45],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 5.02, 8.45]},
+			"faces": {
+				"north": {"uv": [8, 7, 10, 5], "texture": "#0"},
+				"south": {"uv": [8, 5, 10, 7.25], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "bone_costilla3",
+			"from": [12, 1.02, 6.45],
+			"to": [12, 9.02, 10.45],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 5.02, 8.45]},
+			"faces": {
+				"east": {"uv": [4, 7, 5, 5], "texture": "#0"},
+				"west": {"uv": [4, 5, 5, 7], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -2.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "costillas",
+			"origin": [7, 0, 3],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "sengoku:iron_tanto"
+    },
+    "title": {
+      "translate": "sengoku.advancements.tanto_stealth_oneshot.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.tanto_stealth_oneshot.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "one_shot_with_tanto_stealth": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "sends_telemetry_event": false
+}

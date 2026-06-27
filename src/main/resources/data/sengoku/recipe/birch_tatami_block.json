@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tatami_block",
+  "pattern": [
+    "##",
+    "//",
+    "//"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:grass"
+    },
+    "/": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "id": "sengoku:birch_tatami_block",
+    "count": 6
+  }
+}

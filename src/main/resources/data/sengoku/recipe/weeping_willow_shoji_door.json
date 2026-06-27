@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shoji_door",
+  "key": {
+    "#": {
+      "item": "minecraft:warped_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SS",
+    " S",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sengoku:weeping_willow_shoji_door"
+  }
+}

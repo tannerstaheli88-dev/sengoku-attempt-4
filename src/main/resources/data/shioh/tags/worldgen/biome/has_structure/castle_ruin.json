@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+   "#shioh:collections/plains",
+   "#shioh:collections/forest",
+   "#shioh:collections/snowy_structures",
+   "minecraft:desert"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "sengoku:item/macaque_spawn_egg",
+		"particle": "sengoku:item/macaque_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "macaque_spawn_egg_0",
+			"from": [3, 6, 6],
+			"to": [11, 13, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [11, 3, 3, 10], "texture": "#0"},
+				"east": {"uv": [10, 3, 11, 10], "texture": "#0"},
+				"south": {"uv": [3, 3, 11, 10], "texture": "#0"},
+				"west": {"uv": [3, 3, 4, 10], "texture": "#0"},
+				"up": {"uv": [3, 3, 11, 4], "texture": "#0"},
+				"down": {"uv": [3, 9, 11, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "macaque_spawn_egg_1",
+			"from": [11, 1, 6],
+			"to": [12, 12, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [12, 4, 11, 15], "texture": "#0"},
+				"east": {"uv": [11, 4, 12, 15], "texture": "#0"},
+				"south": {"uv": [11, 4, 12, 15], "texture": "#0"},
+				"west": {"uv": [11, 4, 12, 15], "texture": "#0"},
+				"up": {"uv": [11, 4, 12, 5], "texture": "#0"},
+				"down": {"uv": [11, 14, 12, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "macaque_spawn_egg_2",
+			"from": [12, 1, 6],
+			"to": [14, 11, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [14, 5, 12, 15], "texture": "#0"},
+				"east": {"uv": [13, 5, 14, 15], "texture": "#0"},
+				"south": {"uv": [12, 5, 14, 15], "texture": "#0"},
+				"west": {"uv": [12, 5, 13, 15], "texture": "#0"},
+				"up": {"uv": [12, 5, 14, 6], "texture": "#0"},
+				"down": {"uv": [12, 14, 14, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "macaque_spawn_egg_3",
+			"from": [5, 1, 6],
+			"to": [11, 6, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [11, 10, 5, 15], "texture": "#0"},
+				"east": {"uv": [10, 10, 11, 15], "texture": "#0"},
+				"south": {"uv": [5, 10, 11, 15], "texture": "#0"},
+				"west": {"uv": [5, 10, 6, 15], "texture": "#0"},
+				"up": {"uv": [5, 10, 11, 11], "texture": "#0"},
+				"down": {"uv": [5, 14, 11, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "macaque_spawn_egg_4",
+			"from": [4, 1, 6],
+			"to": [5, 5, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [5, 11, 4, 15], "texture": "#0"},
+				"east": {"uv": [4, 11, 5, 15], "texture": "#0"},
+				"south": {"uv": [4, 11, 5, 15], "texture": "#0"},
+				"west": {"uv": [4, 11, 5, 15], "texture": "#0"},
+				"up": {"uv": [4, 11, 5, 12], "texture": "#0"},
+				"down": {"uv": [4, 14, 5, 15], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "macaque_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

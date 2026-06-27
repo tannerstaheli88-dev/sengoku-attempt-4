@@ -1,0 +1,23 @@
+{
+  "feature": "shioh:foliage/trees/yomi/conifer_tree",
+  "placement": [
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:grid",
+        "radius": 20,
+        "distance_between_points": 6,
+        "condition": {
+          "type": "lithostitched:in_biome",
+          "biomes": [
+			"minecraft:crimson_forest",
+			"minecraft:warped_forest",
+			"minecraft:soul_sand_valley",
+			"minecraft:basalt_deltas"
+          ]
+        },
+        "allowed_count": 0
+      }
+    }
+  ]
+}

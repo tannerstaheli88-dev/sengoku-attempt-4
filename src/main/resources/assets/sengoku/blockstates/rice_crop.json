@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "age=0,waterlogged=true":  { "model": "sengoku:block/rice_crop_0" },
+    "age=0,waterlogged=false": { "model": "sengoku:block/rice_crop_0_surface" },
+
+    "age=1,waterlogged=true":  { "model": "sengoku:block/rice_crop_1" },
+    "age=1,waterlogged=false": { "model": "sengoku:block/rice_crop_1_surface" },
+
+    "age=2,waterlogged=true":  { "model": "sengoku:block/rice_crop_2" },
+    "age=2,waterlogged=false": { "model": "sengoku:block/rice_crop_2_surface" },
+
+    "age=3,waterlogged=true":  { "model": "sengoku:block/rice_crop_3" },
+    "age=3,waterlogged=false": { "model": "sengoku:block/rice_crop_3_surface" },
+
+    "age=4,waterlogged=true":  { "model": "sengoku:block/rice_crop_4" },
+    "age=4,waterlogged=false": { "model": "sengoku:block/rice_crop_4_surface" },
+
+    "age=5,waterlogged=true":  { "model": "sengoku:block/rice_crop_5" },
+    "age=5,waterlogged=false": { "model": "sengoku:block/rice_crop_5_surface" },
+
+    "age=6,waterlogged=true":  { "model": "sengoku:block/rice_crop_6" },
+    "age=6,waterlogged=false": { "model": "sengoku:block/rice_crop_6_surface" },
+
+    "age=7,waterlogged=true":  { "model": "sengoku:block/rice_crop_7" },
+    "age=7,waterlogged=false": { "model": "sengoku:block/rice_crop_7_surface" }
+  }
+}

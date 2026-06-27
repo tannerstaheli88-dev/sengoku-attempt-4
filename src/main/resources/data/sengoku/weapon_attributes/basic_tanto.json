@@ -1,0 +1,6 @@
+{
+  "parent": "bettercombat:tanto",
+  "attributes": {
+    "range_bonus": -0.25
+  }
+}

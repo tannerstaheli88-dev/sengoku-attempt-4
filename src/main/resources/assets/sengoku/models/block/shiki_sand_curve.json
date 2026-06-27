@@ -1,0 +1,8 @@
+{
+  "parent": "sengoku:block/template_shiki_raked_cube",
+  "textures": {
+    "top": "sengoku:block/shiki_sand_curve",
+    "bottom": "minecraft:block/sand",
+    "side": "minecraft:block/sand"
+  }
+}

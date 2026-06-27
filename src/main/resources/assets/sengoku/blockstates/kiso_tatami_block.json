@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sengoku:block/kiso_tatami_mat_double_x"
+    },
+    "axis=y": {
+      "model": "sengoku:block/kiso_tatami_mat_double"
+    },
+    "axis=z": {
+      "model": "sengoku:block/kiso_tatami_mat_double_z"
+    }
+  }
+}

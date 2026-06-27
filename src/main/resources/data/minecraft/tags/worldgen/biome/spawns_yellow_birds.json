@@ -1,0 +1,26 @@
+{
+  "values": [
+    "minecraft:plains",
+    "minecraft:cherry_grove",
+    "minecraft:windswept_savanna",
+	"minecraft:savanna",
+	"minecraft:savanna_plateau",
+	"minecraft:river",
+    {
+      "id": "sengoku:lily_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:hotsprings_autumnal",
+      "required": false
+    },
+    {
+      "id": "sengoku:ginkgo_forest",
+      "required": false
+    },
+    {
+      "id": "sengoku:autumnal_bamboo_forest",
+      "required": false
+    }
+  ]
+}

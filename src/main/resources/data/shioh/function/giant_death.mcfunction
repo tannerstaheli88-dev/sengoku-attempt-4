@@ -1,0 +1,3 @@
+execute at @e[tag=brain,tag=!played] unless entity @e[type=minecraft:giant,distance=..20] run playsound minecraft:entity.skeleton.death hostile @a[distance=..50] ~ ~ ~ 100 0.25
+execute at @e[tag=brain,tag=!played] unless entity @e[type=minecraft:giant,distance=..20] run scoreboard players set @a giant_cooldown 60000
+execute at @e[tag=brain,tag=!played] unless entity @e[type=minecraft:giant,distance=..20] run tag @s add played

@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/shoji_door_bottom_hinge",
+	"textures": {
+		"2": "sengoku:block/weeping_willow_planks",
+		"particle": "sengoku:block/weeping_willow_paly_door_bottom",
+		"bottom": "sengoku:block/weeping_willow_paly_door_bottom"
+	}
+}

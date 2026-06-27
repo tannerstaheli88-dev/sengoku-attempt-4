@@ -1,0 +1,65 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "blood_n_particles_datapack:item/vex_for_parts",
+		"particle": "blood_n_particles_datapack:item/vex_for_parts"
+	},
+	"elements": [
+		{
+			"name": "wing_1",
+			"from": [0, 4.77, 6.45],
+			"to": [8, 9.77, 6.45],
+			"rotation": {"angle": 0, "axis": "z", "origin": [4, 10.77, 8.45]},
+			"faces": {
+				"north": {"uv": [12, 11, 8, 13.5], "texture": "#0"},
+				"south": {"uv": [8, 11, 12, 13.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "wing_2",
+			"from": [11, 2.77, 6.45],
+			"to": [19, 7.77, 6.45],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [15, 8.77, 8.45]},
+			"faces": {
+				"north": {"uv": [8, 11, 12, 13.5], "texture": "#0"},
+				"south": {"uv": [12, 11, 8, 13.5], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -1.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "wing",
+			"origin": [7, 0, 3],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

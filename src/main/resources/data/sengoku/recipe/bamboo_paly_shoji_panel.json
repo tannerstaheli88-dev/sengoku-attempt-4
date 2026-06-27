@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "paly_shoji_panel",
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sengoku:bamboo_paly_shoji_panel"
+  },
+  "show_notification": true
+}

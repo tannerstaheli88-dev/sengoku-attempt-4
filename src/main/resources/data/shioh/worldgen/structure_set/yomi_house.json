@@ -1,0 +1,25 @@
+{
+  "structures": [
+    {
+      "structure": "shioh:yomi_house",
+      "weight": 1
+    },
+    {
+      "structure": "shioh:yomi_house_highland",
+      "weight": 3
+    }
+  ],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:nether_complexes",
+      "chunk_count": 8
+    },
+		"spacing": 16,
+		"separation": 4,
+	    "frequency_reduction_method": "default",
+		"frequency": 0.7,
+		"spread_type": "triangular",
+		"salt": 213930,
+		"type": "minecraft:random_spread"
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": [
+      "minecraft:grove",
+      "minecraft:jagged_peaks",
+      "minecraft:snowy_slopes",
+      "minecraft:savanna_plateau",
+      "minecraft:warm_ocean",
+      "minecraft:frozen_peaks",
+      "minecraft:eroded_badlands",
+      "minecraft:meadow"
+    ]
+  }
+}

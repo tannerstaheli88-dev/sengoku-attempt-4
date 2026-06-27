@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "S": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+	"###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sengoku:oak_shikkui"
+  }
+}

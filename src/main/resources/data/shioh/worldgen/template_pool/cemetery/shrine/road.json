@@ -1,0 +1,33 @@
+{
+  "name": "meme",
+  "fallback": "shioh:cemetery/shrine/tori",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:cemetery/shrine/shrine_road1",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:cemetery/shrine/shrine_road2",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:cemetery/shrine/shrine_road3",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

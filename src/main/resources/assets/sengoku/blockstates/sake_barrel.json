@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "facing=north,open=false": { "model": "sengoku:block/sake_barrel", "y": 0 },
+    "facing=east,open=false":  { "model": "sengoku:block/sake_barrel", "y": 90 },
+    "facing=south,open=false": { "model": "sengoku:block/sake_barrel", "y": 180 },
+    "facing=west,open=false":  { "model": "sengoku:block/sake_barrel", "y": 270 },
+    "facing=up,open=false":    { "model": "sengoku:block/sake_barrel" },
+    "facing=down,open=false":  { "model": "sengoku:block/sake_barrel" },
+
+    "facing=north,open=true": { "model": "sengoku:block/sake_barrel_open", "y": 0 },
+    "facing=east,open=true":  { "model": "sengoku:block/sake_barrel_open", "y": 90 },
+    "facing=south,open=true": { "model": "sengoku:block/sake_barrel_open", "y": 180 },
+    "facing=west,open=true":  { "model": "sengoku:block/sake_barrel_open", "y": 270 },
+    "facing=up,open=true":    { "model": "sengoku:block/sake_barrel_open" },
+    "facing=down,open=true":  { "model": "sengoku:block/sake_barrel_open" }
+  }
+}

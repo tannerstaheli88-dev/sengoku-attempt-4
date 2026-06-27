@@ -1,0 +1,77 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"shadowSize": 512,
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -9, 3],
+			"texture": "dragon.png",
+			"textureSize": [512, 512],
+			"submodels": [
+				{
+					"id": "Created_by_FreshLX_for_Fresh_Animations",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				}
+			]
+		},
+		{
+			"part": "tip",
+			"id": "tip",
+			"invertAxis": "xy",
+			"translate": [0, -8, 22],
+			"boxes": [
+				{"coordinates": [-2.5, 3, -23, 5, 10, 30], "textureOffset": [156, 85]},
+				{"coordinates": [-9.5, 7, -23, 19, 1, 44], "textureOffset": [105, 437]}
+			],
+			"submodels": [
+				{
+					"id": "bone27",
+					"invertAxis": "xy",
+					"translate": [0, 7.5, -1],
+					"rotate": [0, 0, 92.5],
+					"boxes": [
+						{"coordinates": [-9.5, -0.5, -22, 19, 1, 44], "textureOffset": [105, 437]}
+					]
+				},
+				{
+					"id": "RyujinTail11",
+					"invertAxis": "xy",
+					"translate": [0, 8.75, 8.5],
+					"rotate": [0, 0, 90],
+					"boxes": [
+						{"coordinates": [-0.5, -11, -2.5, 1, 22, 57], "textureOffset": [227, 267]}
+					],
+					"submodels": [
+						{
+							"id": "bone28",
+							"invertAxis": "xy",
+							"translate": [0, 0, 31.5],
+							"rotate": [0, 0, 77.5],
+							"boxes": [
+								{"coordinates": [-0.5, -11, -34, 1, 22, 68], "textureOffset": [345, 256]}
+							]
+						},
+						{
+							"id": "RyujinTail12",
+							"invertAxis": "xy",
+							"translate": [0, 0, 55.5],
+							"boxes": [
+								{"coordinates": [-0.5, -11, -1, 1, 22, 68], "textureOffset": [345, 256]}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

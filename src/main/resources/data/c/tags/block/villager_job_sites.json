@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "sengoku:fishing_net",
+    "minecraft:smithing_table",
+    "minecraft:loom",
+    "minecraft:cartography_table",
+    "minecraft:stonecutter",
+    "minecraft:grindstone",
+    "minecraft:fletching_table",
+    "minecraft:blast_furnace",
+    "minecraft:smoker",
+    "minecraft:composter",
+    "minecraft:cauldron"
+  ]
+}

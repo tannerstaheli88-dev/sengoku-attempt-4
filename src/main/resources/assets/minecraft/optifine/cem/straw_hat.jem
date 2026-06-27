@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-1, 11, -1, 2, 1, 2], "textureOffset": [24, 65]},
+				{"coordinates": [-2, 10, -2, 4, 1, 4], "textureOffset": [20, 68]},
+				{"coordinates": [-3, 9, -3, 6, 1, 6], "textureOffset": [16, 73]},
+				{"coordinates": [-4, 8, -4, 8, 1, 8], "textureOffset": [12, 80]},
+				{"coordinates": [-5, 7, -5, 10, 1, 10], "textureOffset": [8, 89]},
+				{"coordinates": [-6, 6, -6, 12, 1, 12], "textureOffset": [4, 100]},
+				{"coordinates": [-7, 5, -7, 14, 1, 14], "textureOffset": [0, 113]}
+			]
+		}
+	]
+}

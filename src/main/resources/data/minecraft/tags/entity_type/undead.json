@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:skeletons",
+	"minecraft:drowned",
+    "minecraft:zombie_villager",
+    "minecraft:wither",
+    "minecraft:phantom",
+	"minecraft:enderman",
+	"sengoku:gaki",
+	"sengoku:goryo",
+	"sengoku:maikubi"
+  ]
+}

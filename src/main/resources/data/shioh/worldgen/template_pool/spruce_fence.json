@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:foundation_spruce_fence",
+        "projection": "rigid"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "shioh:foundation_fail"
+}

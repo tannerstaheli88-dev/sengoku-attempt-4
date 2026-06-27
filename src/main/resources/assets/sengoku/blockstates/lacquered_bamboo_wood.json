@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "sengoku:block/lacquered_bamboo_wood", "x": 90, "y": 90 },
+    "axis=y": { "model": "sengoku:block/lacquered_bamboo_wood" },
+    "axis=z": { "model": "sengoku:block/lacquered_bamboo_wood", "x": 90 }
+  }
+}

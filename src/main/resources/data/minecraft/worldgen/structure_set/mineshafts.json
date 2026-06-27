@@ -1,0 +1,22 @@
+{
+  "placement": {
+		"exclusion_zone": {
+    "other_set": "minecraft:ancient_cities",
+    "chunk_count": 5
+    },
+    "salt": 420,
+    "spacing": 20,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  },
+  "structures": [
+    {
+      "structure": "minecraft:mineshaft",
+      "weight": 8
+    },
+    {
+      "structure": "shioh:buried_palace",
+      "weight": 2
+    }
+  ]
+}

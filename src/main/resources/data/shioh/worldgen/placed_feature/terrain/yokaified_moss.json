@@ -1,0 +1,135 @@
+{
+  "feature": "shioh:terrain/yokaified_moss",
+  "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 30
+      },
+      {
+        "type": "minecraft:count",
+        "count": 150
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 50
+        },
+        "min_inclusive": {
+          "absolute": -76
+        }
+      }
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:any_of",
+        "conditions": [
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              40,
+              0,
+              0
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/desolate"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              -40,
+              0,
+              0
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/desolate"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              0,
+              0,
+              40
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/desolate"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              0,
+              0,
+              -40
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/desolate"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              40,
+              0,
+              40
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/desolate"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              40,
+              0,
+              -40
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/desolate"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              -40,
+              0,
+              40
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/desolate"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              -40,
+              0,
+              -40
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/desolate"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_beach",
+  	"minecraft:beach",
+  	"minecraft:snowy_beach",
+  	"minecraft:stony_shore",
+    "minecraft:windswept_gravelly_hills",
+	"sengoku:autumnal_beach"
+  ]
+}

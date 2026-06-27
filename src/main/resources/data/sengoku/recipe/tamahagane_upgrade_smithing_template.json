@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "sengoku:iron_sand"
+    },
+    "#": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "SCS",
+    "#S#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sengoku:tamahagane_upgrade_smithing_template"
+  }
+}

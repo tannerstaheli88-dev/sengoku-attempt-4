@@ -1,0 +1,54 @@
+{
+  "feature": "minecraft:bamboo_some_podzol",
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_factor": 80.0,
+      "noise_offset": 0.3,
+      "noise_to_count_ratio": 160
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+  {
+    "type": "minecraft:block_predicate_filter",
+    "predicate": {
+      "type": "minecraft:not",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": [ "minecraft:muddy_mangrove_roots" ]
+      }
+    }
+  },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:grid",
+        "radius": 10,
+        "distance_between_points": 6,
+        "condition": {
+          "type": "lithostitched:in_biome",
+          "biomes": [
+            "minecraft:warm_ocean",
+            "minecraft:plains",
+            "minecraft:windswept_savanna",
+            "minecraft:old_growth_birch_forest",
+            "minecraft:savanna",
+            "minecraft:taiga",
+            "minecraft:old_growth_pine_taiga",
+            "minecraft:old_growth_spruce_taiga"
+          ]
+        },
+        "allowed_count": 0
+      }
+    }
+  ]
+}

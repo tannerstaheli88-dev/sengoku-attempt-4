@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sengoku:item/birch_triple_shoji_door"
+  }
+}

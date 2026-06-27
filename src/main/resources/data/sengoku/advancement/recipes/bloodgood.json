@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "obtain_crimson_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:crimson_planks"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:bloodgood_checkered_shoji_door",
+      "sengoku:bloodgood_checkered_double_shoji_door",
+      "sengoku:bloodgood_checkered_triple_shoji_door",
+      "sengoku:bloodgood_checkered_shoji_panel",
+      "sengoku:bloodgood_paly_shoji_door",
+      "sengoku:bloodgood_paly_double_shoji_door",
+      "sengoku:bloodgood_paly_triple_shoji_door",
+      "sengoku:bloodgood_paly_shoji_panel",
+      "sengoku:bloodgood_shoji_door",
+      "sengoku:bloodgood_double_shoji_door",
+      "sengoku:bloodgood_triple_shoji_door",
+      "sengoku:bloodgood_shoji_panel",
+      "sengoku:bloodgood_covered_shoji_frame",
+      "sengoku:bloodgood_checkered_shoji_frame",
+      "sengoku:bloodgood_paly_shoji_frame",
+      "sengoku:bloodgood_shoji_frame",
+      "sengoku:bloodgood_tatami_block",
+      "sengoku:bloodgood_tatami_mat"
+    ]
+  }
+}

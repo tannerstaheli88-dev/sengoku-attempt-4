@@ -1,0 +1,8 @@
+{
+  "parent": "sengoku:block/triple_shoji/triple_shoji_right_top",
+  "textures": {
+    "particle": "sengoku:block/keyaki_planks",
+    "bottom": "sengoku:block/keyaki_planks",
+    "face": "sengoku:block/triple_door/keyaki_triple_door_top_side"
+  }
+}

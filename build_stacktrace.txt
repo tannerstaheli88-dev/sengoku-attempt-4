@@ -1,0 +1,38 @@
+latest-loom: 1.15-SNAPSHOT
+
+> Configure project :
+Fabric Loom: 1.15.4
+Fabric Loader: 0.18.4
+Fabric Api: 0.116.9+1.21.1
+Parchment: 1.21.1 + 2024.11.17
+
+> Task :clean
+
+> Task :compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processResources
+> Task :classes
+
+> Task :compileClientJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processClientResources
+> Task :jar
+> Task :processIncludeJars
+> Task :clientClasses
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :validateAccessWidener UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :remapJar
+Terminate batch job (Y/N)? Terminate batch job (Y/N)? Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
+^CTerminate batch job (Y/N)? Terminate batch job (Y/N)? Terminate batch job (Y/N)? Terminate batch job (Y/N)? 
+^CTerminate batch job (Y/N)? ^CTerminate batch job (Y/N)? ^CTerminate batch job (Y/N)? 
+^CTerminate batch job (Y/N)? 

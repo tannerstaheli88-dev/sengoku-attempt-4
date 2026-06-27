@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:block/shoji_frame/damaged/2/template_shoji_frame_noside_alt",
+  "textures": {
+    "pane": "sengoku:block/shoji_frame/damaged/2/keyaki_paly_shoji_frame"
+  }
+}

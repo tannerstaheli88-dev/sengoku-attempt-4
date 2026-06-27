@@ -1,0 +1,123 @@
+{
+  "feature": "shioh:terrain/patch_snow_large",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:any_of",
+        "conditions": [
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              -30,
+              0,
+              0
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/winter"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              30,
+              0,
+              0
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/winter"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              0,
+              0,
+              -30
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/winter"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              0,
+              0,
+              30
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/winter"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              -30,
+              0,
+              -30
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/winter"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              -30,
+              0,
+              30
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/winter"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              30,
+              0,
+              -30
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/winter"
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [
+              30,
+              0,
+              -0
+            ],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": "#shioh:collections/winter"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

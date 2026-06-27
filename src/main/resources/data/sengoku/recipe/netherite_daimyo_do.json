@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sengoku:seigun_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "sengoku:broken_armor_piece"
+  },
+  "result": {
+    "id": "sengoku:netherite_daimyo_do"
+  }
+}

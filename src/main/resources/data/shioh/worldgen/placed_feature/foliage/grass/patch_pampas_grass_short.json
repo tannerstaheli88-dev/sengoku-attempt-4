@@ -1,0 +1,30 @@
+{
+  "feature": "shioh:foliage/grass/patch_pampas_grass_short",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 25
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+  {
+    "type": "minecraft:block_predicate_filter",
+    "predicate": {
+      "type": "minecraft:not",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": [ "minecraft:muddy_mangrove_roots" ]
+      }
+    }
+  },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

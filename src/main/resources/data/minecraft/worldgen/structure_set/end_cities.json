@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387313,
+    "separation": 17,
+    "spacing": 27,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "minecraft:end_city",
+      "weight": 1
+    },
+    {
+      "structure": "shioh:sea_shrine",
+      "weight": 3
+    }
+  ]
+}

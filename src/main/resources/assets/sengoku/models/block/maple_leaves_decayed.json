@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_2",
+  "textures": {
+    "all": "sengoku:block/maple_leaves_decayed",
+    "bushy": "sengoku:block/bushy_maple_leaves_distance_6"
+  }
+}

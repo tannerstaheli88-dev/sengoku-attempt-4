@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "double_shoji_door",
+  "key": {
+    "#": {
+      "item": "sengoku:birch_checkered_shoji_door"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sengoku:birch_checkered_double_shoji_door"
+  }
+}

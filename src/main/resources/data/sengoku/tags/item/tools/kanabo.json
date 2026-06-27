@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "sengoku:wooden_kanabo",
+    "sengoku:stone_kanabo",
+    "sengoku:iron_kanabo",
+    "sengoku:golden_kanabo",
+    "sengoku:diamond_kanabo",
+    "sengoku:netherite_kanabo",
+    "sengoku:kanabo_of_otakemaru",
+    "sengoku:netherite_kanabo_of_otakemaru",
+    {
+      "id": "sengoku:bronze_kanabo",
+      "required": false
+    }
+  ]
+}

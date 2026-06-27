@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:item/yari",
+  "textures": {
+    "0": "sengoku:item/yari/yari_of_the_taisho"
+  },
+  "overrides": [
+    {
+      "predicate": { "minecraft:blocking": 1 },
+      "model": "sengoku:item/yari_of_the_taisho_blocking"
+    }
+  ]
+}

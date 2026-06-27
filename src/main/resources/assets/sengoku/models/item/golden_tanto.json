@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:item/tanto",
+  "textures": {
+    "1": "sengoku:item/tanto/golden_tanto"
+  },
+   "overrides": [
+    {
+	  "predicate": { "minecraft:blocking": 1 },
+      "model": "sengoku:item/golden_tanto_blocking"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/shoji_door_bottom_slide",
+	"textures": {
+		"2": "sengoku:block/bamboo_planks",
+		"3": "sengoku:block/opendoor_bottom",
+		"particle": "sengoku:block/bamboo_paly_door_bottom",
+		"bottom": "sengoku:block/bamboo_paly_door_bottom"
+	}
+}

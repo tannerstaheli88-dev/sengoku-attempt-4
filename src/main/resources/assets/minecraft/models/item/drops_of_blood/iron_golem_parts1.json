@@ -1,0 +1,50 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"1": "blood_n_particles_datapack:item/iron_golem_parts",
+		"particle": "blood_n_particles_datapack:item/bogged_for_parts"
+	},
+	"elements": [
+		{
+			"from": [5, -2, 6.45],
+			"to": [11, 18, 10.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 5, 9.45]},
+			"faces": {
+				"north": {"uv": [7.5, 8, 8.25, 10.5], "texture": "#1"},
+				"east": {"uv": [9.5, 8, 10, 10.5], "texture": "#1"},
+				"south": {"uv": [8.75, 8, 9.5, 10.5], "texture": "#1"},
+				"west": {"uv": [8.25, 8, 8.75, 10.5], "texture": "#1"},
+				"up": {"uv": [8.25, 7.25, 8.75, 8], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [8.75, 7.25, 9.25, 8], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -2.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	}
+}

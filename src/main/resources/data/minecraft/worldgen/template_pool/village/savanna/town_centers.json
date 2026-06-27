@@ -1,0 +1,66 @@
+{
+  "name": "minecraft:village/savanna/town_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 40,
+      "element": {
+        "location": "minecraft:village/savanna/town_centers/savanna_pagoda",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "minecraft:village/savanna/town_centers/savanna_shrine",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "minecraft:village/savanna/town_centers/savanna_inn",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "minecraft:village/savanna/town_centers/savanna_tree_crossing",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "location": "minecraft:village/savanna/town_centers/savanna_tree_crossing2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    }
+  ]
+}

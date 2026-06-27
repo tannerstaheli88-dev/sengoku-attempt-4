@@ -1,0 +1,7 @@
+{
+  "parent": "sengoku:item/kanabo_blocking",
+  "textures": {
+    "0": "sengoku:item/kanabo/diamond_kanabo",
+    "1": "sengoku:item/kanabo/diamond"
+  }
+}

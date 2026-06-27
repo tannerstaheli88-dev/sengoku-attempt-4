@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"particle": "blood_n_particles_datapack:item/witch_for_parts"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -2.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	}
+}

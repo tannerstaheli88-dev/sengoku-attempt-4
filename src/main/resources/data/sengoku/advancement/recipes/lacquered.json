@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "obtain_jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:slime_ball"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:oak_lacquered_log",
+      "sengoku:oak_lacquered_wood",
+      "sengoku:birch_lacquered_log",
+      "sengoku:birch_lacquered_wood",
+      "sengoku:black_pine_lacquered_log",
+      "sengoku:black_pine_lacquered_wood",
+      "sengoku:kiso_lacquered_log",
+      "sengoku:kiso_lacquered_wood",
+      "sengoku:keyaki_lacquered_log",
+      "sengoku:keyaki_lacquered_wood",
+      "sengoku:dark_cedar_lacquered_log",
+      "sengoku:dark_cedar_lacquered_wood",
+      "sengoku:mangrove_lacquered_log",
+      "sengoku:mangrove_lacquered_wood",
+      "sengoku:sakura_lacquered_log",
+      "sengoku:sakura_lacquered_wood",
+      "sengoku:bamboo_lacquered_log",
+      "sengoku:bamboo_lacquered_wood",
+      "sengoku:bloodgood_lacquered_log",
+      "sengoku:bloodgood_lacquered_wood",
+      "sengoku:weeping_willow_lacquered_log",
+      "sengoku:weeping_willow_lacquered_wood"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 83469867,
+    "separation": 38,
+    "spacing": 54
+  },
+  "structures": [
+    {
+      "structure": "shioh:tree",
+      "weight": 1
+    }
+  ]
+}

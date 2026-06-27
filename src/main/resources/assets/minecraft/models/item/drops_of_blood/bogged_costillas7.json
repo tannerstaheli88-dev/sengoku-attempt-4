@@ -1,0 +1,100 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "blood_n_particles_datapack:item/bogged_for_parts",
+		"particle": "blood_n_particles_datapack:item/bogged_for_parts"
+	},
+	"elements": [
+		{
+			"name": "bone_costilla4",
+			"from": [6.75, 8.77, 6.45],
+			"to": [14.75, 8.77, 10.45],
+			"rotation": {"angle": -45, "axis": "z", "origin": [11, 4.77, 8.45]},
+			"faces": {
+				"up": {"uv": [7, 5, 8, 7], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [7, 7, 8, 5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "bone_costilla1",
+			"from": [6.75, 0.77, 10.45],
+			"to": [14.75, 8.77, 10.45],
+			"rotation": {"angle": -45, "axis": "z", "origin": [11, 4.77, 8.45]},
+			"faces": {
+				"north": {"uv": [5, 7, 7, 5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [5, 5, 7, 7], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "bone_costilla2",
+			"from": [6.75, 0.77, 6.45],
+			"to": [15.75, 8.77, 6.45],
+			"rotation": {"angle": -45, "axis": "z", "origin": [11, 4.77, 8.45]},
+			"faces": {
+				"north": {"uv": [8, 7, 10, 5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [8, 5, 10, 7.25], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "bone_costilla3",
+			"from": [6.75, 0.77, 6.45],
+			"to": [14.75, 0.77, 10.45],
+			"rotation": {"angle": -45, "axis": "z", "origin": [11, 4.77, 8.45]},
+			"faces": {
+				"up": {"uv": [4, 5, 5, 7], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [4, 7, 5, 5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "brazo",
+			"from": [3, 4, 6.5],
+			"to": [5, 16, 8.5],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [4, 10, 7.5]},
+			"faces": {
+				"north": {"uv": [11.5, 4.5, 12, 7.5], "texture": "#0"},
+				"east": {"uv": [11, 4.5, 11.5, 7.5], "texture": "#0"},
+				"south": {"uv": [10.5, 4.5, 11, 7.5], "texture": "#0"},
+				"west": {"uv": [10, 4.5, 10.5, 7.5], "texture": "#0"},
+				"up": {"uv": [10.5, 4, 11, 4.5], "texture": "#0"},
+				"down": {"uv": [11, 4, 11.5, 4.5], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -2.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "costillas",
+			"origin": [7, 0, 3],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		},
+		4
+	]
+}

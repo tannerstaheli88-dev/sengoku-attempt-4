@@ -1,0 +1,9 @@
+{
+ "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "minecraft:block/tuff_shingles_bottom",
+    "front": "minecraft:block/tuff_bricks",
+    "side": "minecraft:block/tuff_bricks",
+    "top": "minecraft:block/tuff_bricks"
+  }
+}

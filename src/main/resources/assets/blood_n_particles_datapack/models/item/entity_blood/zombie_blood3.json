@@ -1,0 +1,23 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "blood_n_particles_datapack:item/bloods/blood_zombie3",
+		"particle": "blood_n_particles_datapack:item/bloods/blood_zombie3"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8.044],
+			"to": [16, 16, 8.044],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 0.1, 8]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 0], "rotation": 270, "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 0], "rotation": 90, "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "rotation": 180, "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
+			}
+		}
+	],
+	"gui_light": "front"
+}

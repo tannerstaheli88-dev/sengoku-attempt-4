@@ -1,0 +1,10 @@
+{
+	"values": [
+	  {"required": false, "id": "minecraft:air"},
+	  {"required": false, "id": "minecraft:cave_air"},
+	  {"required": false, "id": "minecraft:void_air"},
+	  {"required": false, "id": "minecraft:water"},
+	  {"required": false, "id": "minecraft:bubble_column"}
+	]
+  }
+  

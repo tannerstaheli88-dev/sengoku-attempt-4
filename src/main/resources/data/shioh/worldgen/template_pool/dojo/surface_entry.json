@@ -1,0 +1,40 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_adaptation_override",
+        "terrain_adaptation": "none",
+        "delegate": {
+          "element_type": "lithostitched:delegating",
+          "delegate": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "shioh:dojo/shinobi_surface_dojo1",
+            "processors": "minecraft:empty",
+            "override_liquid_settings": "ignore_waterlogging"
+          }
+        }
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_adaptation_override",
+        "terrain_adaptation": "none",
+        "delegate": {
+          "element_type": "lithostitched:delegating",
+          "delegate": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "shioh:dojo/shinobi_surface_dojo2",
+            "processors": "minecraft:empty",
+            "override_liquid_settings": "ignore_waterlogging"
+          }
+        }
+      }
+    }
+  ]
+}

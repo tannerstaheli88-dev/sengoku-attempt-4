@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "sengoku:sake_barrel"
+    },
+    "R": {
+      "item": "sengoku:rice"
+    },
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "#R#",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "id": "sengoku:sake_brewery",
+    "count": 1
+  }
+}

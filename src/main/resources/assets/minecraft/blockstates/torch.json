@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/torch",
+        "y": 0
+      },
+      {
+        "model": "minecraft:block/torch",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/torch",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/torch",
+        "y": 270
+      }
+    ]
+  }
+}

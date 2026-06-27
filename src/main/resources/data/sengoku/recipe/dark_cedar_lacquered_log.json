@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "lacquered_log",
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "###",
+	"#S#",
+	"###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sengoku:lacquered_dark_cedar_log"
+  }
+}

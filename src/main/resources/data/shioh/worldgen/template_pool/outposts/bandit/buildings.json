@@ -1,0 +1,159 @@
+{
+  "name": "meme",
+  "fallback": "shioh:outposts/decor",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_banner1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_banner2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_logs1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_watertower",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_tent1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_tent2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_short_tower1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_house1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_house2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_house3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_watchtower1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_watchtower2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_watchtower3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_watchtower4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_watchtower5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_fence1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_fence2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+      "#shioh:collections/forest",
+      "#shioh:collections/forest_snowy"
+    ]
+}

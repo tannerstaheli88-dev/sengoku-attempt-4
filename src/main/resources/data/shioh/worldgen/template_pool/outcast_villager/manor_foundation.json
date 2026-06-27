@@ -1,0 +1,15 @@
+{
+	"name": "shioh:outcast_abandoned_manor_foundation",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:outcast_villager/abandoned_manor_foundation",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+  "biomes": "#shioh:collections/nether",
+  "spawn_overrides": {},
+  "type": "sengoku:ceiling_jigsaw",
+  "start_pool": "shioh:outcast_villager/yomi_houses",
+  "size": 7,
+  "step": "underground_decoration",
+  "start_height": {
+    "type": "sengoku:ceiling_search",
+    "max_inclusive": {
+      "absolute": 140
+    },
+    "min_inclusive": {
+      "absolute": 40
+    }
+  },
+  "terrain_adaptation": "beard_box",
+  "max_distance_from_center": 37,
+  "use_expansion_hack": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    },
+    "o": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "   ",
+    "XXX",
+    " o "
+  ],
+  "result": {
+    "id": "minecraft:saddle"
+  },
+  "show_notification": true
+}

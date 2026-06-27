@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "block/brown_stained_glass",
+		"side": "block/green_stained_glass"
+	}
+}

@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:fern"
+          },
+          "weight": 40
+        },
+        {
+          "data": {
+            "Name": "minecraft:brown_mushroom"
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "Name": "sengoku:mossy_cobblestone_lantern"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "sengoku:mossy_cobblestone_lantern",
+            "Properties": {
+              "lit": "true"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:short_grass"
+          },
+          "weight": 180
+        },
+        {
+          "data": {
+            "Name": "minecraft:tall_grass",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 30
+        },
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:large_fern",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:red_mushroom"
+          }
+        }
+      ]
+    }
+  }
+}

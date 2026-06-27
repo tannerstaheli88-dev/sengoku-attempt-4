@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "minecraft:block/petrified_oak_bottom",
+    "top": "minecraft:block/petrified_oak",
+    "side": "minecraft:block/petrified_oak_side",
+    "front": "minecraft:block/petrified_oak_side"
+  }
+}

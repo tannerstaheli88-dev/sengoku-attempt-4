@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:iron_ingot"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+	  "sengoku:kunai",
+      "sengoku:stone_yari",
+      "sengoku:stone_naginata",
+      "sengoku:stone_tetsubo",
+      "sengoku:stone_odachi",
+      "sengoku:stone_tanto",
+      "sengoku:stone_kanabo",
+      "minecraft:chainmail_helmet",
+      "minecraft:chainmail_chestplate",
+      "minecraft:chainmail_leggings",
+      "minecraft:chainmail_boots",
+      "sengoku:tamahagane_upgrade_smithing_template_duplicate"
+    ]
+  }
+}

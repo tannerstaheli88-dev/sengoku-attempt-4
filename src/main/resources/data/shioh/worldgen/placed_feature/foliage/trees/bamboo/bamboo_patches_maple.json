@@ -1,0 +1,75 @@
+{
+  "feature": "shioh:foliage/trees/bamboo/trees_bamboo_maple",
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": -1,
+      "noise_factor": 1000,
+      "noise_offset": 0.5
+    },
+    {
+      "type": "minecraft:count",
+      "count": 250
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "minecraft:fern"
+                }
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:snow_block",
+                  "minecraft:powder_snow"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:replaceable"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:grid",
+        "radius": 10,
+        "distance_between_points": 6,
+        "condition": {
+          "type": "lithostitched:in_biome",
+          "biomes": [
+			"minecraft:savanna_plateau",
+			"minecraft:wooded_badlands"
+          ]
+        },
+        "allowed_count": 0
+      }
+    }
+  ]
+}

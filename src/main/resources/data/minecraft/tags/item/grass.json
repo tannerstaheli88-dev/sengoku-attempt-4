@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:short_grass",
+    "minecraft:wheat",
+    "minecraft:lilac",
+    "minecraft:lily_of_the_valley",
+    "minecraft:peony",
+    "minecraft:blue_orchid",
+	"#minecraft:reeds"
+  ]
+}

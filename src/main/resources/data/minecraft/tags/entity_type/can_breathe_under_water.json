@@ -1,0 +1,29 @@
+{
+    "values": [
+        "#minecraft:undead",
+        "minecraft:axolotl",
+        "minecraft:frog",
+        "minecraft:guardian",
+        "minecraft:elder_guardian",
+        "minecraft:turtle",
+        "minecraft:glow_squid",
+        "minecraft:cod",
+        "minecraft:pufferfish",
+        "minecraft:salmon",
+        "minecraft:squid",
+        "minecraft:tropical_fish",
+        "minecraft:tadpole",
+        "minecraft:armor_stand",
+        "minecraft:drowned",
+        "sengoku:akugyo",
+        "sengoku:kamiike_hime",
+        "sengoku:kojin",
+        "sengoku:ningyo",
+		"sengoku:umi_nyobo",
+        "sengoku:umi_inu",
+		"sengoku:ikuchi",
+		"sengoku:ikuchi_part",
+		"sengoku:ikuchi_end",
+		"sengoku:umi_bozu"
+    ]
+}

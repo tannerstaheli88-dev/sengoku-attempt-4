@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/template_trapdoor_top",
+	"textures": {
+		"1": "sengoku:block/oak_planks",
+		"particle": "sengoku:block/oak_planks",
+		"texture": "sengoku:block/oak_paly_trapdoor"
+	}
+}

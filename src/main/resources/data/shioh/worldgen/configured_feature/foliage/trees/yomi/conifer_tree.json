@@ -1,0 +1,242 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": {
+        "type": "minecraft:tree",
+        "config": {
+          "decorators": [
+            {
+              "type": "minecraft:attached_to_leaves",
+              "probability": 0.1,
+              "exclusion_radius_xz": 2,
+              "exclusion_radius_y": 2,
+              "required_empty_blocks": 1,
+              "block_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "sengoku:soul_paper_lantern",
+                  "Properties": {
+                    "hanging": "true",
+                    "waterlogged": "false"
+                  }
+                }
+              },
+              "directions": [
+                "down"
+              ]
+            },
+            {
+              "type": "minecraft:attached_to_leaves",
+              "probability": 0.2,
+              "exclusion_radius_xz": 1,
+              "exclusion_radius_y": 2,
+              "required_empty_blocks": 1,
+              "block_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:sculk_catalyst"
+                }
+              },
+              "directions": [
+                "down"
+              ]
+            },
+            {
+              "type": "minecraft:leave_vine",
+              "probability": 0.2
+            }
+          ],
+          "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:netherrack"
+            }
+          },
+          "foliage_placer": {
+            "type": "minecraft:acacia_foliage_placer",
+            "offset": 1,
+            "radius": {
+              "type": "minecraft:constant",
+              "value": 1
+            }
+          },
+          "foliage_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:spruce_leaves",
+                  "Properties": {
+                    "persistent": "false",
+                    "waterlogged": "false"
+                  }
+                },
+                "weight": 1
+              }
+            ]
+          },
+          "ignore_vines": true,
+          "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "limit": 0,
+            "lower_size": 0,
+            "min_clipped_height": 10,
+            "upper_size": 0
+          },
+          "trunk_placer": {
+            "type": "minecraft:fancy_trunk_placer",
+            "base_height": 10,
+            "height_rand_a": 4,
+            "height_rand_b": 8
+          },
+          "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dark_oak_wood",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:rarity_filter",
+          "chance": 5
+        }
+      ]
+    },
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "decorators": [
+                {
+                  "type": "minecraft:alter_ground",
+                  "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:mycelium"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:attached_to_leaves",
+                  "probability": 0.1,
+                  "exclusion_radius_xz": 2,
+                  "exclusion_radius_y": 2,
+                  "required_empty_blocks": 1,
+                  "block_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "sengoku:soul_paper_lantern",
+                      "Properties": {
+                        "hanging": "true",
+                        "waterlogged": "false"
+                      }
+                    }
+                  },
+                  "directions": [
+                    "down"
+                  ]
+                }
+              ],
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:netherrack"
+                }
+              },
+              "foliage_placer": {
+                "type": "minecraft:fancy_foliage_placer",
+                "offset": 1,
+                "radius": {
+                  "type": "minecraft:constant",
+                  "value": 4
+                },
+                "height": 3
+              },
+              "foliage_provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "data": {
+                      "Name": "minecraft:air",
+                      "Properties": {
+                        "distance": "7",
+                        "persistent": "false",
+                        "waterlogged": "false"
+                      }
+                    },
+                    "weight": 10
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:dead_bubble_coral",
+                      "Properties": {
+                        "waterlogged": "false"
+                      }
+                    },
+                    "weight": 6
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:dead_brain_coral",
+                      "Properties": {
+                        "waterlogged": "false"
+                      }
+                    },
+                    "weight": 4
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:dead_fire_coral",
+                      "Properties": {
+                        "waterlogged": "false"
+                      }
+                    },
+                    "weight": 3
+                  }
+                ]
+              },
+              "ignore_vines": true,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size",
+                "limit": 0,
+                "lower_size": 0,
+                "min_clipped_height": 16,
+                "upper_size": 0
+              },
+              "trunk_placer": {
+                "type": "minecraft:fancy_trunk_placer",
+                "base_height": 15,
+                "height_rand_a": 4,
+                "height_rand_b": 8
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:warped_hyphae",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                }
+              }
+            }
+          },
+          "placement": [
+            {
+              "type": "minecraft:rarity_filter",
+              "chance": 15
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "sengoku:item/hitosume_nyudo_spawn_egg",
+		"particle": "sengoku:item/hitosume_nyudo_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "hitosume_nyudo_spawn_egg_0",
+			"from": [4, 2, 6],
+			"to": [12, 15, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [12, 1, 4, 14], "texture": "#0"},
+				"east": {"uv": [11, 1, 12, 14], "texture": "#0"},
+				"south": {"uv": [4, 1, 12, 14], "texture": "#0"},
+				"west": {"uv": [4, 1, 5, 14], "texture": "#0"},
+				"up": {"uv": [4, 1, 12, 2], "texture": "#0"},
+				"down": {"uv": [4, 13, 12, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hitosume_nyudo_spawn_egg_1",
+			"from": [3, 0, 6],
+			"to": [4, 14, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [4, 2, 3, 16], "texture": "#0"},
+				"east": {"uv": [3, 2, 4, 16], "texture": "#0"},
+				"south": {"uv": [3, 2, 4, 16], "texture": "#0"},
+				"west": {"uv": [3, 2, 4, 16], "texture": "#0"},
+				"up": {"uv": [3, 2, 4, 3], "texture": "#0"},
+				"down": {"uv": [3, 15, 4, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hitosume_nyudo_spawn_egg_2",
+			"from": [2, 2, 6],
+			"to": [3, 9, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [3, 7, 2, 14], "texture": "#0"},
+				"east": {"uv": [2, 7, 3, 14], "texture": "#0"},
+				"south": {"uv": [2, 7, 3, 14], "texture": "#0"},
+				"west": {"uv": [2, 7, 3, 14], "texture": "#0"},
+				"up": {"uv": [2, 7, 3, 8], "texture": "#0"},
+				"down": {"uv": [2, 13, 3, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hitosume_nyudo_spawn_egg_3",
+			"from": [12, 2, 6],
+			"to": [13, 9, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [13, 7, 12, 14], "texture": "#0"},
+				"east": {"uv": [12, 7, 13, 14], "texture": "#0"},
+				"south": {"uv": [12, 7, 13, 14], "texture": "#0"},
+				"west": {"uv": [12, 7, 13, 14], "texture": "#0"},
+				"up": {"uv": [12, 7, 13, 8], "texture": "#0"},
+				"down": {"uv": [12, 13, 13, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hitosume_nyudo_spawn_egg_4",
+			"from": [13, 2, 6],
+			"to": [14, 8, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [14, 8, 13, 14], "texture": "#0"},
+				"east": {"uv": [13, 8, 14, 14], "texture": "#0"},
+				"south": {"uv": [13, 8, 14, 14], "texture": "#0"},
+				"west": {"uv": [13, 8, 14, 14], "texture": "#0"},
+				"up": {"uv": [13, 8, 14, 9], "texture": "#0"},
+				"down": {"uv": [13, 13, 14, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hitosume_nyudo_spawn_egg_5",
+			"from": [4, 0, 6],
+			"to": [7, 2, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [7, 14, 4, 16], "texture": "#0"},
+				"east": {"uv": [6, 14, 7, 16], "texture": "#0"},
+				"south": {"uv": [4, 14, 7, 16], "texture": "#0"},
+				"west": {"uv": [4, 14, 5, 16], "texture": "#0"},
+				"up": {"uv": [4, 14, 7, 15], "texture": "#0"},
+				"down": {"uv": [4, 15, 7, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hitosume_nyudo_spawn_egg_6",
+			"from": [8, 0, 6],
+			"to": [12, 2, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [12, 14, 8, 16], "texture": "#0"},
+				"east": {"uv": [11, 14, 12, 16], "texture": "#0"},
+				"south": {"uv": [8, 14, 12, 16], "texture": "#0"},
+				"west": {"uv": [8, 14, 9, 16], "texture": "#0"},
+				"up": {"uv": [8, 14, 12, 15], "texture": "#0"},
+				"down": {"uv": [8, 15, 12, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "hitosume_nyudo_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

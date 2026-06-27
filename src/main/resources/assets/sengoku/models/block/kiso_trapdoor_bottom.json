@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/template_trapdoor_bottom",
+	"textures": {
+		"1": "sengoku:block/kiso_planks",
+		"particle": "sengoku:block/kiso_planks",
+		"texture": "sengoku:block/kiso_trapdoor"
+	}
+}

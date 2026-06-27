@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "distract_umibozu": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "sengoku:umi_bozu"
+            }
+          }
+        ],
+        "item": {
+          "items": "#sengoku:umibozu_offering"
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_entity"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "sengoku.advancements.sea_offering.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.sea_offering.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:barrel"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "requirements": [
+    [
+      "distract_umibozu"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

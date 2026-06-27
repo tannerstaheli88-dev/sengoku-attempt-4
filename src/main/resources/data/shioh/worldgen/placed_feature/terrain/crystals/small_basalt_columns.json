@@ -1,0 +1,20 @@
+{
+  "feature": "minecraft:small_basalt_columns",
+  "placement": [
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "min_inclusive": {
+          "above_bottom": -64
+        },
+        "max_inclusive": {
+          "absolute": -40
+          }
+        }
+      },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

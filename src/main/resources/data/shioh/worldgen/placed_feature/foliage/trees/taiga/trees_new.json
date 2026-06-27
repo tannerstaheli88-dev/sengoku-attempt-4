@@ -1,0 +1,112 @@
+{
+  "feature": "shioh:foliage/trees/taiga/trees_new",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:oak_sapling",
+          "Properties": { "stage": "0" }
+        }
+      }
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_factor": 89,
+      "noise_offset": -0.25,
+      "noise_to_count_ratio": -1
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [10, -1, 0],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland","minecraft:moss_block"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [-10, -1, 0],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland","minecraft:moss_block"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [0, -1, 10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland","minecraft:moss_block"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [0, -1, -10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland","minecraft:moss_block"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [10, -1, 10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland","minecraft:moss_block"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [10, -1, -10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland","minecraft:moss_block"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [-10, -1, 10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland","minecraft:moss_block"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [-10, -1, -10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland","minecraft:moss_block"]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      }
+    }
+  ]
+}

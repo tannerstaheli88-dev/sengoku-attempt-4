@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "sengoku:limestone_jade_ore",
+    "sengoku:limestone_coal_ore",
+    "sengoku:limestone_iron_ore",
+    "sengoku:limestone_gold_ore",
+    "sengoku:limestone_redstone_ore",
+    "sengoku:limestone_copper_ore",
+    "sengoku:limestone_diamond_ore",
+	"sengoku:limestone_lapis_ore"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "head_wither_skeleton.png",
+	"models": [
+		{
+			"part": "bone",
+			"id": "bone",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{
+					"coordinates": [-4.5, -0.5, -4.5, 9, 9, 9],
+					"uvNorth": [8, 24, 16, 32],
+					"uvEast": [0, 24, 8, 32],
+					"uvSouth": [24, 24, 32, 32],
+					"uvWest": [16, 24, 24, 32],
+					"uvUp": [16, 24, 8, 16],
+					"uvDown": [8, 16, 0, 24]
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			]
+		}
+	]
+}

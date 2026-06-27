@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/shoji_door_top_slide",
+	"textures": {
+		"2": "sengoku:block/opendoor_top",
+		"particle": "sengoku:block/dark_cedar_paly_door_top",
+		"top": "sengoku:block/dark_cedar_paly_door_top",
+		"bottom": "sengoku:block/dark_cedar_planks"
+	}
+}

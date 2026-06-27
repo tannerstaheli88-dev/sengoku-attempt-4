@@ -1,0 +1,45 @@
+{
+  "parent": "shioh:recipes/root",
+  "criteria": {
+    "has_smooth_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smooth_quartz"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:smooth_quartz"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_quartz",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+    "sengoku:oak_shikkui",
+    "sengoku:black_pine_shikkui",
+    "sengoku:birch_shikkui",
+    "sengoku:kiso_shikkui",
+    "sengoku:keyaki_shikkui",
+    "sengoku:dark_cedar_shikkui",
+    "sengoku:mangrove_shikkui",
+    "sengoku:sakura_shikkui",
+    "sengoku:bamboo_shikkui",
+    "sengoku:bloodgood_shikkui",
+    "sengoku:weeping_willow_shikkui"
+    ]
+  },
+  "sends_telemetry_event": false
+}

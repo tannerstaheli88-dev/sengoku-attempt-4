@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/shoji_door_bottom",
+	"textures": {
+		"top": "sengoku:block/sakura_planks",
+		"particle": "sengoku:block/sakura_paly_door_bottom",
+		"bottom": "sengoku:block/sakura_paly_door_bottom"
+	}
+}

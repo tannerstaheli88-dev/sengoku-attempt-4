@@ -1,0 +1,35 @@
+{
+  "feature": "shioh:foliage/trees/birch/birch_giant",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 55
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:podzol",
+          "minecraft:dirt",
+          "minecraft:coarse_dirt"
+        ],
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame"
+  }
+}

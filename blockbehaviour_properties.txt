@@ -1,0 +1,556 @@
+﻿Compiled from "BlockBehaviour.java"
+public class net.minecraft.world.level.block.state.BlockBehaviour$Properties {
+  public static final com.mojang.serialization.Codec<net.minecraft.world.level.block.state.BlockBehaviour$Properties> CODEC;
+
+  java.util.function.Function<net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.material.MapColor> mapColor;
+
+  boolean hasCollision;
+
+  net.minecraft.world.level.block.SoundType soundType;
+
+  java.util.function.ToIntFunction<net.minecraft.world.level.block.state.BlockState> lightEmission;
+
+  float explosionResistance;
+
+  float destroyTime;
+
+  boolean requiresCorrectToolForDrops;
+
+  boolean isRandomlyTicking;
+
+  float friction;
+
+  float speedFactor;
+
+  float jumpFactor;
+
+  net.minecraft.resources.ResourceKey<net.minecraft.world.level.storage.loot.LootTable> drops;
+
+  boolean canOcclude;
+
+  boolean isAir;
+
+  boolean ignitedByLava;
+
+  boolean liquid;
+
+  boolean forceSolidOff;
+
+  boolean forceSolidOn;
+
+  net.minecraft.world.level.material.PushReaction pushReaction;
+
+  boolean spawnTerrainParticles;
+
+  net.minecraft.world.level.block.state.properties.NoteBlockInstrument instrument;
+
+  boolean replaceable;
+
+  net.minecraft.world.level.block.state.BlockBehaviour$StateArgumentPredicate<net.minecraft.world.entity.EntityType<?>> isValidSpawn;
+
+  net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate isRedstoneConductor;
+
+  net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate isSuffocating;
+
+  net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate isViewBlocking;
+
+  net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate hasPostProcess;
+
+  net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate emissiveRendering;
+
+  boolean dynamicShape;
+
+  net.minecraft.world.flag.FeatureFlagSet requiredFeatures;
+
+  net.minecraft.world.level.block.state.BlockBehaviour$OffsetFunction offsetFunction;
+
+  public static net.minecraft.world.level.block.state.BlockBehaviour$Properties of();
+    Code:
+       0: new           #2                  // class net/minecraft/world/level/block/state/BlockBehaviour$Properties
+       3: dup
+       4: invokespecial #210                // Method "<init>":()V
+       7: areturn
+
+  public static net.minecraft.world.level.block.state.BlockBehaviour$Properties ofFullCopy(net.minecraft.world.level.block.state.BlockBehaviour);
+    Code:
+       0: aload_0
+       1: invokestatic  #216                // Method ofLegacyCopy:(Lnet/minecraft/world/level/block/state/BlockBehaviour;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
+       4: astore_1
+       5: aload_0
+       6: getfield      #219                // Field net/minecraft/world/level/block/state/BlockBehaviour.properties:Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
+       9: astore_2
+      10: aload_1
+      11: aload_2
+      12: getfield      #132                // Field jumpFactor:F
+      15: putfield      #132                // Field jumpFactor:F
+      18: aload_1
+      19: aload_2
+      20: getfield      #175                // Field isRedstoneConductor:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+      23: putfield      #175                // Field isRedstoneConductor:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+      26: aload_1
+      27: aload_2
+      28: getfield      #164                // Field isValidSpawn:Lnet/minecraft/world/level/block/state/BlockBehaviour$StateArgumentPredicate;
+      31: putfield      #164                // Field isValidSpawn:Lnet/minecraft/world/level/block/state/BlockBehaviour$StateArgumentPredicate;
+      34: aload_1
+      35: aload_2
+      36: getfield      #191                // Field hasPostProcess:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+      39: putfield      #191                // Field hasPostProcess:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+      42: aload_1
+      43: aload_2
+      44: getfield      #182                // Field isSuffocating:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+      47: putfield      #182                // Field isSuffocating:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+      50: aload_1
+      51: aload_2
+      52: getfield      #184                // Field isViewBlocking:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+      55: putfield      #184                // Field isViewBlocking:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+      58: aload_1
+      59: aload_2
+      60: getfield      #221                // Field drops:Lnet/minecraft/resources/ResourceKey;
+      63: putfield      #221                // Field drops:Lnet/minecraft/resources/ResourceKey;
+      66: aload_1
+      67: areturn
+
+  public static net.minecraft.world.level.block.state.BlockBehaviour$Properties ofLegacyCopy(net.minecraft.world.level.block.state.BlockBehaviour);
+    Code:
+       0: new           #2                  // class net/minecraft/world/level/block/state/BlockBehaviour$Properties
+       3: dup
+       4: invokespecial #210                // Method "<init>":()V
+       7: astore_1
+       8: aload_0
+       9: getfield      #219                // Field net/minecraft/world/level/block/state/BlockBehaviour.properties:Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
+      12: astore_2
+      13: aload_1
+      14: aload_2
+      15: getfield      #225                // Field destroyTime:F
+      18: putfield      #225                // Field destroyTime:F
+      21: aload_1
+      22: aload_2
+      23: getfield      #227                // Field explosionResistance:F
+      26: putfield      #227                // Field explosionResistance:F
+      29: aload_1
+      30: aload_2
+      31: getfield      #104                // Field hasCollision:Z
+      34: putfield      #104                // Field hasCollision:Z
+      37: aload_1
+      38: aload_2
+      39: getfield      #229                // Field isRandomlyTicking:Z
+      42: putfield      #229                // Field isRandomlyTicking:Z
+      45: aload_1
+      46: aload_2
+      47: getfield      #125                // Field lightEmission:Ljava/util/function/ToIntFunction;
+      50: putfield      #125                // Field lightEmission:Ljava/util/function/ToIntFunction;
+      53: aload_1
+      54: aload_2
+      55: getfield      #102                // Field mapColor:Ljava/util/function/Function;
+      58: putfield      #102                // Field mapColor:Ljava/util/function/Function;
+      61: aload_1
+      62: aload_2
+      63: getfield      #111                // Field soundType:Lnet/minecraft/world/level/block/SoundType;
+      66: putfield      #111                // Field soundType:Lnet/minecraft/world/level/block/SoundType;
+      69: aload_1
+      70: aload_2
+      71: getfield      #128                // Field friction:F
+      74: putfield      #128                // Field friction:F
+      77: aload_1
+      78: aload_2
+      79: getfield      #130                // Field speedFactor:F
+      82: putfield      #130                // Field speedFactor:F
+      85: aload_1
+      86: aload_2
+      87: getfield      #231                // Field dynamicShape:Z
+      90: putfield      #231                // Field dynamicShape:Z
+      93: aload_1
+      94: aload_2
+      95: getfield      #134                // Field canOcclude:Z
+      98: putfield      #134                // Field canOcclude:Z
+     101: aload_1
+     102: aload_2
+     103: getfield      #233                // Field isAir:Z
+     106: putfield      #233                // Field isAir:Z
+     109: aload_1
+     110: aload_2
+     111: getfield      #235                // Field ignitedByLava:Z
+     114: putfield      #235                // Field ignitedByLava:Z
+     117: aload_1
+     118: aload_2
+     119: getfield      #237                // Field liquid:Z
+     122: putfield      #237                // Field liquid:Z
+     125: aload_1
+     126: aload_2
+     127: getfield      #239                // Field forceSolidOff:Z
+     130: putfield      #239                // Field forceSolidOff:Z
+     133: aload_1
+     134: aload_2
+     135: getfield      #241                // Field forceSolidOn:Z
+     138: putfield      #241                // Field forceSolidOn:Z
+     141: aload_1
+     142: aload_2
+     143: getfield      #141                // Field pushReaction:Lnet/minecraft/world/level/material/PushReaction;
+     146: putfield      #141                // Field pushReaction:Lnet/minecraft/world/level/material/PushReaction;
+     149: aload_1
+     150: aload_2
+     151: getfield      #243                // Field requiresCorrectToolForDrops:Z
+     154: putfield      #243                // Field requiresCorrectToolForDrops:Z
+     157: aload_1
+     158: aload_2
+     159: getfield      #245                // Field offsetFunction:Lnet/minecraft/world/level/block/state/BlockBehaviour$OffsetFunction;
+     162: putfield      #245                // Field offsetFunction:Lnet/minecraft/world/level/block/state/BlockBehaviour$OffsetFunction;
+     165: aload_1
+     166: aload_2
+     167: getfield      #143                // Field spawnTerrainParticles:Z
+     170: putfield      #143                // Field spawnTerrainParticles:Z
+     173: aload_1
+     174: aload_2
+     175: getfield      #205                // Field requiredFeatures:Lnet/minecraft/world/flag/FeatureFlagSet;
+     178: putfield      #205                // Field requiredFeatures:Lnet/minecraft/world/flag/FeatureFlagSet;
+     181: aload_1
+     182: aload_2
+     183: getfield      #198                // Field emissiveRendering:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+     186: putfield      #198                // Field emissiveRendering:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+     189: aload_1
+     190: aload_2
+     191: getfield      #150                // Field instrument:Lnet/minecraft/world/level/block/state/properties/NoteBlockInstrument;
+     194: putfield      #150                // Field instrument:Lnet/minecraft/world/level/block/state/properties/NoteBlockInstrument;
+     197: aload_1
+     198: aload_2
+     199: getfield      #247                // Field replaceable:Z
+     202: putfield      #247                // Field replaceable:Z
+     205: aload_1
+     206: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties mapColor(net.minecraft.world.item.DyeColor);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokedynamic #257,  0            // InvokeDynamic #7:apply:(Lnet/minecraft/world/item/DyeColor;)Ljava/util/function/Function;
+       7: putfield      #102                // Field mapColor:Ljava/util/function/Function;
+      10: aload_0
+      11: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties mapColor(net.minecraft.world.level.material.MapColor);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokedynamic #267,  0            // InvokeDynamic #8:apply:(Lnet/minecraft/world/level/material/MapColor;)Ljava/util/function/Function;
+       7: putfield      #102                // Field mapColor:Ljava/util/function/Function;
+      10: aload_0
+      11: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties mapColor(java.util.function.Function<net.minecraft.world.level.block.state.BlockState, net.minecraft.world.level.material.MapColor>);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #102                // Field mapColor:Ljava/util/function/Function;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties noCollission();
+    Code:
+       0: aload_0
+       1: iconst_0
+       2: putfield      #104                // Field hasCollision:Z
+       5: aload_0
+       6: iconst_0
+       7: putfield      #134                // Field canOcclude:Z
+      10: aload_0
+      11: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties noOcclusion();
+    Code:
+       0: aload_0
+       1: iconst_0
+       2: putfield      #134                // Field canOcclude:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties friction(float);
+    Code:
+       0: aload_0
+       1: fload_1
+       2: putfield      #128                // Field friction:F
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties speedFactor(float);
+    Code:
+       0: aload_0
+       1: fload_1
+       2: putfield      #130                // Field speedFactor:F
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties jumpFactor(float);
+    Code:
+       0: aload_0
+       1: fload_1
+       2: putfield      #132                // Field jumpFactor:F
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties sound(net.minecraft.world.level.block.SoundType);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #111                // Field soundType:Lnet/minecraft/world/level/block/SoundType;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties lightLevel(java.util.function.ToIntFunction<net.minecraft.world.level.block.state.BlockState>);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #125                // Field lightEmission:Ljava/util/function/ToIntFunction;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties strength(float, float);
+    Code:
+       0: aload_0
+       1: fload_1
+       2: invokevirtual #286                // Method destroyTime:(F)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
+       5: fload_2
+       6: invokevirtual #288                // Method explosionResistance:(F)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
+       9: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties instabreak();
+    Code:
+       0: aload_0
+       1: fconst_0
+       2: invokevirtual #291                // Method strength:(F)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
+       5: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties strength(float);
+    Code:
+       0: aload_0
+       1: fload_1
+       2: fload_1
+       3: invokevirtual #293                // Method strength:(FF)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;
+       6: pop
+       7: aload_0
+       8: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties randomTicks();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #229                // Field isRandomlyTicking:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties dynamicShape();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #231                // Field dynamicShape:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties noLootTable();
+    Code:
+       0: aload_0
+       1: getstatic     #300                // Field net/minecraft/world/level/storage/loot/BuiltInLootTables.EMPTY:Lnet/minecraft/resources/ResourceKey;
+       4: putfield      #221                // Field drops:Lnet/minecraft/resources/ResourceKey;
+       7: aload_0
+       8: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties dropsLike(net.minecraft.world.level.block.Block);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokevirtual #309                // Method net/minecraft/world/level/block/Block.getLootTable:()Lnet/minecraft/resources/ResourceKey;
+       5: putfield      #221                // Field drops:Lnet/minecraft/resources/ResourceKey;
+       8: aload_0
+       9: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties ignitedByLava();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #235                // Field ignitedByLava:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties liquid();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #237                // Field liquid:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties forceSolidOn();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #241                // Field forceSolidOn:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties forceSolidOff();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #239                // Field forceSolidOff:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties pushReaction(net.minecraft.world.level.material.PushReaction);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #141                // Field pushReaction:Lnet/minecraft/world/level/material/PushReaction;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties air();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #233                // Field isAir:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties isValidSpawn(net.minecraft.world.level.block.state.BlockBehaviour$StateArgumentPredicate<net.minecraft.world.entity.EntityType<?>>);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #164                // Field isValidSpawn:Lnet/minecraft/world/level/block/state/BlockBehaviour$StateArgumentPredicate;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties isRedstoneConductor(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #175                // Field isRedstoneConductor:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties isSuffocating(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #182                // Field isSuffocating:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties isViewBlocking(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #184                // Field isViewBlocking:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties hasPostProcess(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #191                // Field hasPostProcess:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties emissiveRendering(net.minecraft.world.level.block.state.BlockBehaviour$StatePredicate);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #198                // Field emissiveRendering:Lnet/minecraft/world/level/block/state/BlockBehaviour$StatePredicate;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties requiresCorrectToolForDrops();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #243                // Field requiresCorrectToolForDrops:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties destroyTime(float);
+    Code:
+       0: aload_0
+       1: fload_1
+       2: putfield      #225                // Field destroyTime:F
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties explosionResistance(float);
+    Code:
+       0: aload_0
+       1: fconst_0
+       2: fload_1
+       3: invokestatic  #323                // Method java/lang/Math.max:(FF)F
+       6: putfield      #227                // Field explosionResistance:F
+       9: aload_0
+      10: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties offsetType(net.minecraft.world.level.block.state.BlockBehaviour$OffsetType);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: invokevirtual #329                // Method net/minecraft/world/level/block/state/BlockBehaviour$OffsetType.ordinal:()I
+       5: tableswitch   { // 0 to 2
+
+                     0: 42
+
+                     1: 54
+
+                     2: 46
+               default: 32
+          }
+      32: new           #331                // class java/lang/MatchException
+      35: dup
+      36: aconst_null
+      37: aconst_null
+      38: invokespecial #334                // Method java/lang/MatchException."<init>":(Ljava/lang/String;Ljava/lang/Throwable;)V
+      41: athrow
+      42: aconst_null
+      43: goto          59
+      46: invokedynamic #344,  0            // InvokeDynamic #9:evaluate:()Lnet/minecraft/world/level/block/state/BlockBehaviour$OffsetFunction;
+      51: goto          59
+      54: invokedynamic #349,  0            // InvokeDynamic #10:evaluate:()Lnet/minecraft/world/level/block/state/BlockBehaviour$OffsetFunction;
+      59: putfield      #245                // Field offsetFunction:Lnet/minecraft/world/level/block/state/BlockBehaviour$OffsetFunction;
+      62: aload_0
+      63: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties noTerrainParticles();
+    Code:
+       0: aload_0
+       1: iconst_0
+       2: putfield      #143                // Field spawnTerrainParticles:Z
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties requiredFeatures(net.minecraft.world.flag.FeatureFlag...);
+    Code:
+       0: aload_0
+       1: getstatic     #357                // Field net/minecraft/world/flag/FeatureFlags.REGISTRY:Lnet/minecraft/world/flag/FeatureFlagRegistry;
+       4: aload_1
+       5: invokevirtual #363                // Method net/minecraft/world/flag/FeatureFlagRegistry.subset:([Lnet/minecraft/world/flag/FeatureFlag;)Lnet/minecraft/world/flag/FeatureFlagSet;
+       8: putfield      #205                // Field requiredFeatures:Lnet/minecraft/world/flag/FeatureFlagSet;
+      11: aload_0
+      12: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties instrument(net.minecraft.world.level.block.state.properties.NoteBlockInstrument);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: putfield      #150                // Field instrument:Lnet/minecraft/world/level/block/state/properties/NoteBlockInstrument;
+       5: aload_0
+       6: areturn
+
+  public net.minecraft.world.level.block.state.BlockBehaviour$Properties replaceable();
+    Code:
+       0: aload_0
+       1: iconst_1
+       2: putfield      #247                // Field replaceable:Z
+       5: aload_0
+       6: areturn
+
+  static {};
+    Code:
+       0: invokedynamic #466,  0            // InvokeDynamic #11:get:()Ljava/util/function/Supplier;
+       5: invokestatic  #472                // InterfaceMethod com/mojang/serialization/Codec.unit:(Ljava/util/function/Supplier;)Lcom/mojang/serialization/Codec;
+       8: putstatic     #474                // Field CODEC:Lcom/mojang/serialization/Codec;
+      11: return
+}

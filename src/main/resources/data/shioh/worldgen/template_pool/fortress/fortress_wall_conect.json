@@ -1,0 +1,24 @@
+{
+	"name": "shioh:fortress_wall_conect",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:fortress/fortress_wall_conect_1",
+				"projection": "rigid",
+				"processors": "shioh:yokai_moss"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:fortress/fortress_wall_conect_2",
+				"projection": "rigid",
+				"processors": "shioh:yokai_moss"
+			}
+		}
+	]
+}

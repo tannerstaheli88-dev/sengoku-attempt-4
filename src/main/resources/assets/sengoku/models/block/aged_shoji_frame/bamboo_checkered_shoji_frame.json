@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/cube_all",
+  "textures": {
+    "all": "sengoku:block/aged_shoji_frame/bamboo_checkered_checkered_shoji_frame"
+  }
+}

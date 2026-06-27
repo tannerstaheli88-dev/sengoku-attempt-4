@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tansu_cabinet",
+  "pattern": [
+    "///",
+    "/#/",
+    "///"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chest"
+    },
+    "/": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result": {
+    "id": "sengoku:keyaki_tansu_cabinet",
+    "count": 3
+  }
+}

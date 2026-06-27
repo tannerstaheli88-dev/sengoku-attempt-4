@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:adventure/kill_a_mob",
+    "criteria": {
+        "open_tavern_chest": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "shioh:chests/shrine/shrine"
+            }
+        }
+    },
+    "display": {
+        "icon": {
+            "id": "minecraft:totem_of_undying"
+        },
+        "title": { "translate": "sengoku.advancements.gift_from_the_gods.title" },
+        "description": { "translate": "sengoku.advancements.gift_from_the_gods.description" },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "sends_telemetry_event": false
+}

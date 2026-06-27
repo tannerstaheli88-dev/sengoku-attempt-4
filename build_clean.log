@@ -1,0 +1,79 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+latest-loom: 1.15.5
+
+> Configure project :
+Fabric Loom: 1.15.5
+Fabric Loader: 0.18.6
+Fabric Api: 0.116.10+1.21.1
+Parchment: 1.21.1 + 2024.11.17
+
+> Task :clean
+
+> Task :compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processResources
+> Task :classes
+
+> Task :compileClientJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processClientResources
+> Task :jar
+> Task :processIncludeJars
+> Task :clientClasses
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :validateAccessWidener UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :remapJar
+Cannot remap attackAnimationTick because it does not exist in any of the targets [net/minecraft/world/entity/monster/Blaze] or their parents.
+
+Cannot remap tick because it does not exist in any of the targets [net/minecraft/world/entity/monster/Giant]
+Cannot remap renderFlame because it does not exist in any of the targets [net/minecraft/client/renderer/entity/EntityRenderer]
+Cannot remap tick because it does not exist in any of the targets [net/minecraft/world/entity/boss/enderdragon/EnderDragon]
+Cannot remap tick because it does not exist in any of the targets [net/minecraft/world/entity/boss/enderdragon/EnderDragon]
+Cannot remap tick because it does not exist in any of the targets [net/minecraft/world/entity/boss/enderdragon/EnderDragon]
+Cannot remap remove because it does not exist in any of the targets [net/minecraft/world/entity/boss/enderdragon/EnderDragon]
+Cannot remap use because it does not exist in any of the targets [net/minecraft/world/item/ArrowItem]
+Cannot remap releaseUsing because it does not exist in any of the targets [net/minecraft/world/item/ArrowItem]
+Cannot remap getEquippedStack because it does not exist in any of the targets [net/minecraft/world/entity/LivingEntity]
+Cannot remap getUseDuration because it does not exist in any of the targets [net/minecraft/world/item/ArrowItem]
+Cannot remap getUseAnimation because it does not exist in any of the targets [net/minecraft/world/item/ArrowItem]
+Cannot remap hurt because it does not exist in any of the targets [net/minecraft/world/entity/monster/Vindicator]
+Cannot remap setItemSlot because it does not exist in any of the targets [net/minecraft/world/entity/monster/PatrollingMonster]
+Cannot remap renderFlame because it does not exist in any of the targets [net/minecraft/client/renderer/entity/EntityRenderer]
+Cannot remap setTarget because it does not exist in any of the targets [net/minecraft/world/entity/animal/PolarBear]
+Cannot remap defineSynchedData because it does not exist in any of the targets [net/minecraft/world/entity/monster/AbstractIllager]
+Cannot remap neighborChanged because it does not exist in any of the targets [net/minecraft/world/level/block/Block]
+Cannot remap defineSynchedData because it does not exist in any of the targets [net/minecraft/world/entity/monster/Vindicator]
+Cannot remap getItemBySlot because it does not exist in any of the targets [net/minecraft/world/entity/Entity]
+Cannot remap randomTick because it does not exist in any of the targets [net/minecraft/world/level/block/CoralBlock, net/minecraft/world/level/block/CoralFanBlock, net/minecraft/world/level/block/CoralWallFanBlock]
+Cannot remap renderFire because it does not exist in any of the targets [net/minecraft/client/renderer/LevelRenderer]
+Cannot remap getMaxStackSize because it does not exist in any of the targets [net/minecraft/world/entity/player/Inventory]
+Cannot remap makeStuckInBlock because it does not exist in any of the targets [net/minecraft/world/entity/LivingEntity]
+Cannot remap use because it does not exist in any of the targets [net/minecraft/world/level/block/BeehiveBlock]
+Cannot remap use because it does not exist in any of the targets [net/minecraft/world/level/block/BeehiveBlock]
+Cannot remap tick because it does not exist in any of the targets [net/minecraft/world/entity/ai/goal/target/TargetGoal]
+
+> Task :remapSourcesJar SKIPPED
+> Task :assemble
+> Task :build
+
+[Incubating] Problems report is available at: file:///D:/Minecraft/mods/mod%20workspace/sengoku%20attempt%204/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 4m 38s
+9 actionable tasks: 8 executed, 1 up-to-date

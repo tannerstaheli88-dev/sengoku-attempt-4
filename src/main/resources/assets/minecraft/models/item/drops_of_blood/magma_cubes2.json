@@ -1,0 +1,89 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "block/crying_obsidian",
+		"1": "item/magma_blood_size3",
+		"particle": "block/crying_obsidian"
+	},
+	"elements": [
+		{
+			"name": "cubo_afuera",
+			"from": [8, 6.52, 6.45],
+			"to": [11, 9.52, 9.45],
+			"rotation": {"angle": 0, "axis": "z", "origin": [9.5, 8.02, 7.95]},
+			"faces": {
+				"north": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "cubo_adentro",
+			"from": [8.5, 7.02, 6.95],
+			"to": [10.5, 9.02, 8.95],
+			"rotation": {"angle": 0, "axis": "z", "origin": [9.5, 8.02, 7.95]},
+			"faces": {
+				"north": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [3, 13, 13, 3], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "splash",
+			"from": [3, 1.52, 6.43],
+			"to": [15, 13.52, 6.43],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 7.52, 8.45]},
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -2.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "cubo1",
+			"origin": [7, 0, 3],
+			"color": 0,
+			"children": [0, 1]
+		},
+		2
+	]
+}

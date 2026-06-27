@@ -1,0 +1,8 @@
+{
+  "parent": "sengoku:block/double_shoji/shoji_double_right_door_bottom_hinge",
+  "textures": {
+    "bottom": "sengoku:block/bloodgood_planks",
+    "face": "sengoku:block/double_door/bloodgood_checkered_double_door_bottom_right",
+    "particle": "sengoku:block/bloodgood_planks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "count=1": { "model": "sengoku:block/basket" },
+    "count=2": { "model": "sengoku:block/basket2" },
+    "count=3": { "model": "sengoku:block/basket3" },
+    "count=4": { "model": "sengoku:block/basket4" }
+  }
+}

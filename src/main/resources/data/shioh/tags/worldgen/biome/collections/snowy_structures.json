@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "#shioh:collections/plains_snowy",
+	"minecraft:snowy_taiga",
+	"minecraft:ice_spikes",
+	"sengoku:snowy_forest",
+	"sengoku:snowy_dark_forest"
+  ]
+}

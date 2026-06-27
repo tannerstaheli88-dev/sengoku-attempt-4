@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "obtain_jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:jungle_planks"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:kiso_checkered_shoji_door",
+      "sengoku:kiso_checkered_double_shoji_door",
+      "sengoku:kiso_checkered_triple_shoji_door",
+      "sengoku:kiso_checkered_shoji_panel",
+      "sengoku:kiso_paly_shoji_door",
+      "sengoku:kiso_paly_double_shoji_door",
+      "sengoku:kiso_paly_triple_shoji_door",
+      "sengoku:kiso_paly_shoji_panel",
+      "sengoku:kiso_shoji_door",
+      "sengoku:kiso_double_shoji_door",
+      "sengoku:kiso_triple_shoji_door",
+      "sengoku:kiso_shoji_panel",
+      "sengoku:kiso_covered_shoji_frame",
+      "sengoku:kiso_checkered_shoji_frame",
+      "sengoku:kiso_paly_shoji_frame",
+      "sengoku:kiso_shoji_frame",
+      "sengoku:kiso_tatami_block",
+      "sengoku:kiso_tatami_mat"
+    ]
+  }
+}

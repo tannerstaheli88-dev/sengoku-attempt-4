@@ -1,0 +1,178 @@
+{
+  "name": "meme",
+  "fallback": "shioh:outposts/decor",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_tent1"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_tent2"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_tent3"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_tent4"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_building1"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_building2"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_building3"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_watchtower1"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_watchtower2"
+        },
+        "allow_bounding_box_collisions": true,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/satomi/satomi_banners1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/satomi/satomi_banners2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_fence1"
+        },
+        "allow_bounding_box_collisions": false,
+        "override_terrain_adaptation": "beard_box"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+          "processors": "minecraft:empty",
+          "location": "shioh:outposts/satomi/satomi_fence2"
+        },
+        "allow_bounding_box_collisions": false,
+        "override_terrain_adaptation": "beard_box"
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "sengoku:item/shinobi_spawn_egg",
+		"particle": "sengoku:item/shinobi_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "shinobi_spawn_egg_0",
+			"from": [5, 1, 8],
+			"to": [11, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [11, 2, 5, 15], "texture": "#0"},
+				"east": {"uv": [10, 2, 11, 15], "texture": "#0"},
+				"south": {"uv": [5, 2, 11, 15], "texture": "#0"},
+				"west": {"uv": [5, 2, 6, 15], "texture": "#0"},
+				"up": {"uv": [5, 2, 11, 3], "texture": "#0"},
+				"down": {"uv": [5, 14, 11, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shinobi_spawn_egg_1",
+			"from": [4, 3, 8],
+			"to": [5, 13, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [5, 3, 4, 13], "texture": "#0"},
+				"east": {"uv": [4, 3, 5, 13], "texture": "#0"},
+				"south": {"uv": [4, 3, 5, 13], "texture": "#0"},
+				"west": {"uv": [4, 3, 5, 13], "texture": "#0"},
+				"up": {"uv": [4, 3, 5, 4], "texture": "#0"},
+				"down": {"uv": [4, 12, 5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shinobi_spawn_egg_2",
+			"from": [11, 6, 8],
+			"to": [12, 13, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [12, 3, 11, 10], "texture": "#0"},
+				"east": {"uv": [11, 3, 12, 10], "texture": "#0"},
+				"south": {"uv": [11, 3, 12, 10], "texture": "#0"},
+				"west": {"uv": [11, 3, 12, 10], "texture": "#0"},
+				"up": {"uv": [11, 3, 12, 4], "texture": "#0"},
+				"down": {"uv": [11, 9, 12, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shinobi_spawn_egg_3",
+			"from": [3, 6, 8],
+			"to": [4, 7, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 9, 3, 10], "texture": "#0"},
+				"east": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"south": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"west": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"up": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"down": {"uv": [3, 9, 4, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shinobi_spawn_egg_4",
+			"from": [11, 2, 8],
+			"to": [13, 3, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [13, 13, 11, 14], "texture": "#0"},
+				"east": {"uv": [12, 13, 13, 14], "texture": "#0"},
+				"south": {"uv": [11, 13, 13, 14], "texture": "#0"},
+				"west": {"uv": [11, 13, 12, 14], "texture": "#0"},
+				"up": {"uv": [11, 13, 13, 14], "texture": "#0"},
+				"down": {"uv": [11, 13, 13, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shinobi_spawn_egg_5",
+			"from": [13, 1, 8],
+			"to": [15, 2, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [15, 14, 13, 15], "texture": "#0"},
+				"east": {"uv": [14, 14, 15, 15], "texture": "#0"},
+				"south": {"uv": [13, 14, 15, 15], "texture": "#0"},
+				"west": {"uv": [13, 14, 14, 15], "texture": "#0"},
+				"up": {"uv": [13, 14, 15, 15], "texture": "#0"},
+				"down": {"uv": [13, 14, 15, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shinobi_spawn_egg_6",
+			"from": [5, 0, 8],
+			"to": [8, 1, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 15, 5, 16], "texture": "#0"},
+				"east": {"uv": [7, 15, 8, 16], "texture": "#0"},
+				"south": {"uv": [5, 15, 8, 16], "texture": "#0"},
+				"west": {"uv": [5, 15, 6, 16], "texture": "#0"},
+				"up": {"uv": [5, 15, 8, 16], "texture": "#0"},
+				"down": {"uv": [5, 15, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shinobi_spawn_egg_7",
+			"from": [9, 0, 8],
+			"to": [11, 1, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [11, 15, 9, 16], "texture": "#0"},
+				"east": {"uv": [10, 15, 11, 16], "texture": "#0"},
+				"south": {"uv": [9, 15, 11, 16], "texture": "#0"},
+				"west": {"uv": [9, 15, 10, 16], "texture": "#0"},
+				"up": {"uv": [9, 15, 11, 16], "texture": "#0"},
+				"down": {"uv": [9, 15, 11, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "shinobi_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

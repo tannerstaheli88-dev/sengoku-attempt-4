@@ -1,0 +1,60 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_courtyard1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water" 
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_outerwalls1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_gate1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_courtyard2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water" 
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_outerwalls2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/bandit/bandit_gate2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    }
+  ]
+}

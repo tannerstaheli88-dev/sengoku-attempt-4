@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shoji_panel",
+  "key": {
+    "#": {
+      "item": "minecraft:warped_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "S  ",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sengoku:weeping_willow_shoji_panel"
+  },
+  "show_notification": true
+}

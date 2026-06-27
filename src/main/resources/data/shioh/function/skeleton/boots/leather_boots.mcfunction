@@ -1,0 +1,2 @@
+execute if predicate shioh:percentages/5percent run data modify entity @e[type=minecraft:skeleton,limit=1,sort=nearest,tag=!shioh_boots] ArmorItems[0] set value {id:"minecraft:leather_boots",Count:1b}
+execute as @e[type=minecraft:skeleton,limit=1,sort=nearest,tag=!shioh_boots] run tag @s add shioh_boots

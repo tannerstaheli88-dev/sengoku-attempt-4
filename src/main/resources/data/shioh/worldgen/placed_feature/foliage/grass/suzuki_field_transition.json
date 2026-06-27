@@ -1,0 +1,127 @@
+{
+  "feature": "shioh:foliage/grass/patch_silver_grass_short",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "blocks": [
+            "minecraft:farmland"
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:count",
+      "count": 15
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:any_of",
+        "conditions": [
+          {
+            "type": "lithostitched:offset",
+            "offset": [35, 0, 0],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:old_growth_birch_forest",
+				"minecraft:sparse_jungle"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-35, 0, 0],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:old_growth_birch_forest",
+				"minecraft:sparse_jungle"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [0, 0, 35],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:old_growth_birch_forest",
+				"minecraft:sparse_jungle"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [0, 0, -35],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:old_growth_birch_forest",
+				"minecraft:sparse_jungle"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [35, 0, 35],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:old_growth_birch_forest",
+				"minecraft:sparse_jungle"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [35, 0, -35],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:old_growth_birch_forest",
+				"minecraft:sparse_jungle"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-35, 0, 35],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:old_growth_birch_forest",
+				"minecraft:sparse_jungle"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-35, 0, -35],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:old_growth_birch_forest",
+				"minecraft:sparse_jungle"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

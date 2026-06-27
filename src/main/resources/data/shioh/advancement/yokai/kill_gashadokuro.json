@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "sengoku:gashadokuro_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_gashadokuro.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_gashadokuro.description"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:giant"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 475
+  }
+}

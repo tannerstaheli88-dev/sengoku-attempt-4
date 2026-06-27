@@ -1,0 +1,79 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "block/slime_block",
+		"particle": "block/slime_block"
+	},
+	"elements": [
+		{
+			"name": "cubo_afuera",
+			"from": [5.5, 4.52, 6.45],
+			"to": [6.5, 5.52, 7.45],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [6, 5.02, 8.45]},
+			"faces": {
+				"north": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "cubo_afuera",
+			"from": [6.58239, 5.90687, 6.45],
+			"to": [7.58239, 6.90687, 7.45],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [6, 9.02, 6.95]},
+			"faces": {
+				"north": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [5, 11, 11, 5], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -2.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "cubo2",
+			"origin": [7, 0, 3],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "cubo3",
+			"origin": [7, 0, 3],
+			"color": 0,
+			"children": [1]
+		}
+	]
+}

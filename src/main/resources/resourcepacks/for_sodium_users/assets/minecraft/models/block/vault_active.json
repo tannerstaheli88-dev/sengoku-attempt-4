@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_vault",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "block/vault_on",
+		"particle": "block/vault_on"
+	}
+}

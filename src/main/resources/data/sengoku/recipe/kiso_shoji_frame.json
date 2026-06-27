@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shoji_frame",
+  "key": {
+    "S": {
+      "item": "sengoku:kiso_shoji_panel"
+    },
+    "#": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "###",
+	"#S#",
+	"###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sengoku:kiso_shoji_frame"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_tsurube_otoshi.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_tsurube_otoshi.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:slime"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}

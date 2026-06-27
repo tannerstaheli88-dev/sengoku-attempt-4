@@ -1,0 +1,9 @@
+{
+  "type": "sengoku:sake_brewing",
+  "ingredients": [
+    { "item": "sengoku:rice" },
+    { "item": "minecraft:poisonous_potato" },
+    { "item": "minecraft:feather" }
+  ],
+  "output": { "item": "sengoku:fermented_sake_of_leaping", "count": 1 }
+}

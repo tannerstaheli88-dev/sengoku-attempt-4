@@ -1,0 +1,331 @@
+{
+  "entity.vindicator.ambient": {
+    "sounds": [
+	  "mob/vindication_illager/idle6",
+	  "mob/vindication_illager/idle7",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence"
+    ]
+  },
+  "entity.pillager.ambient": {
+    "sounds": [
+	  "mob/pillager/idle5",
+	  "mob/pillager/idle6",
+	  "mob/pillager/idle7",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence"
+    ]
+  },
+  "entity.illusioner.prepare_blindness": {
+    "sounds": [
+	  "mob/illusion_illager/prepare_blind2",
+	  "mob/illusion_illager/prepare_blind",
+	  "mob/illusion_illager/prepare_blind"
+    ]
+  },
+  "entity.illusioner.prepare_mirror": {
+    "sounds": [
+	  "mob/illusion_illager/prepare_mirror2",
+	  "mob/illusion_illager/prepare_mirror",
+	  "mob/illusion_illager/prepare_mirror"
+    ]
+  },
+  "entity.illusioner.ambient": {
+    "sounds": [
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence"
+    ]
+  },
+  "entity.sarugami.ambient": {
+    "sounds": [
+	  "mob/monkey/idle1",
+	  "mob/monkey/idle2",
+	  "mob/monkey/idle3"
+    ]
+  },
+  "entity.sarugami.hurt": {
+    "sounds": [
+	  "mob/monkey/hurt1",
+	  "mob/monkey/hurt2",
+	  "mob/monkey/hurt3",
+	  "mob/monkey/hurt4"
+    ]
+  },
+  "entity.zombie.ambient": {
+    "sounds": [
+	  "mob/oni/say1",
+	  "mob/oni/say2",
+	  "mob/oni/say3",
+	  "mob/oni/say4",
+	  "mob/oni/say5",
+	  "mob/oni/say6",
+	  "mob/oni/say7",
+	  "mob/oni/say8"
+    ]
+  },
+  "entity.oni.hurt": {
+    "sounds": [
+	  "mob/oni/hurt1",
+	  "mob/oni/hurt2",
+	  "mob/oni/hurt3"
+    ]
+  },
+  "entity.villager.ambient": {
+    "sounds": [
+      "mob/villager/idle4",
+      "mob/villager/idle5",
+      "mob/villager/idle6",
+      "mob/villager/idle7",
+      "mob/villager/idle8",
+      "mob/villager/idle9",
+      "mob/villager/idle10",
+      "mob/villager/idle11",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence"
+    ]
+  },
+  "entity.villager.ambient2": {
+    "sounds": [
+      "mob/villager/idle12",
+      "mob/villager/idle13",
+      "mob/villager/idle14",
+      "mob/villager/idle15",
+      "mob/villager/idle16",
+      "mob/villager/idle17",
+      "mob/villager/idle18",
+      "mob/villager/idle19",
+      "mob/villager/idle20",
+      "mob/villager/idle21",
+      "mob/villager/idle22",
+      "mob/villager/idle23",
+      "mob/villager/idle24",
+      "mob/villager/idle25",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence"
+    ]
+  },
+   "entity.villager.ambient3": {
+    "sounds": [
+      "mob/villager/old/idle12",
+      "mob/villager/old/idle13",
+      "mob/villager/old/idle14",
+      "mob/villager/old/idle15",
+      "mob/villager/old/idle16",
+      "mob/villager/old/idle17",
+      "mob/villager/old/idle18",
+      "mob/villager/old/idle19",
+      "mob/villager/old/idle20",
+      "mob/villager/old/idle21",
+      "mob/villager/old/idle22",
+      "mob/villager/old/idle23",
+      "mob/villager/old/idle24",
+      "mob/villager/old/idle25",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence",
+	  "mob/silence"
+    ]
+  },
+  "entity.villager.hurt2": {
+    "sounds": [
+      "mob/villager/hit5",
+      "mob/villager/hit6",
+      "mob/villager/hit7",
+      "mob/villager/hit8"
+    ]
+  },
+  "entity.slime.jump": {
+    "sounds": [
+      "mob/slime/oi/big1",
+      "mob/slime/oi/big2",
+      "mob/slime/oi/big3",
+      "mob/slime/oi/big4",
+      "mob/slime/oi/big1",
+      "mob/slime/oi/big2",
+      "mob/slime/oi/big3",
+      "mob/slime/oi/big4"
+    ]
+  },
+  "entity.slime.jump_small": {
+    "sounds": [
+      "mob/slime/oi/small1",
+      "mob/slime/oi/small2",
+      "mob/slime/oi/small3",
+      "mob/slime/oi/small4",
+      "mob/slime/oi/small1",
+      "mob/slime/oi/small2",
+      "mob/slime/oi/small3",
+      "mob/slime/oi/small4"
+    ]
+  },
+  "entity.stray.yuki_onna": {
+    "sounds": [
+      "mob/stray/yukionna_idle1",
+      "mob/stray/yukionna_idle2",
+      "mob/stray/yukionna_idle3",
+      "mob/stray/yukionna_idle4",
+      "mob/stray/yukionna_idle5",
+      "mob/stray/yukionna_idle6"
+    ]
+  },
+  "howling_wind": {
+    "sounds": [
+      "mob/stray/howling_wind"
+    ]
+  },
+  "entity.iron_golem.idle":  {
+    "sounds": [
+	  "mob/irongolem/idle1",
+	  "mob/irongolem/idle2",
+	  "mob/irongolem/idle3",
+	  "mob/irongolem/idle4",
+	  "mob/irongolem/idle5",
+	  "mob/irongolem/idle6"
+    ]
+  }, 
+    "entity.ender_dragon.say":  {
+    "sounds": [
+	  "mob/enderdragon/say1",
+	  "mob/enderdragon/say2",
+	  "mob/enderdragon/say3",
+	  "mob/enderdragon/say4"
+    ]
+  }, 
+    "entity.ender_dragon.impressed":  {
+    "sounds": [
+	  "mob/enderdragon/say5"
+    ]
+  }, 
+    "entity.ender_dragon.annoyed":  {
+    "sounds": [
+	  "mob/enderdragon/say2"
+    ]
+  }, 
+    "entity.ender_dragon.rage":  {
+    "sounds": [
+	  "mob/enderdragon/say1"
+    ]
+  }, 
+    "player.death":  {
+    "sounds": [
+	  "entity/player/hurt/death"
+    ]
+  }, 
+    "entity.ender_dragon.desperate":  {
+    "sounds": [
+	  "mob/enderdragon/say3"
+    ]
+  }, 
+    "entity.ender_dragon.near_death":  {
+    "sounds": [
+	  "mob/enderdragon/say4"
+    ]
+  }, 
+    "entity.ender_dragon.greet":  {
+    "sounds": [
+	  "mob/enderdragon/greet"
+    ]
+  }, 
+  "entity.vindicator.kensei_finale": {
+    "sounds": [
+	  "mob/vindication_illager/kensei1",
+	  "mob/vindication_illager/kensei2",
+	  "mob/vindication_illager/kensei3",
+	  "mob/vindication_illager/kensei4"
+    ]
+  },
+  "jack_black": {
+    "sounds": [
+	  "note/inward_singing/fuck"
+    ]
+  },
+  "music.shioh.rice_planting_song": {
+    "sounds": [
+	  "music/shioh/rice_planting_song"
+    ]
+  },
+   "block.glass.break": {
+    "sounds": [
+      "block/scaffold/place1",
+	  "block/scaffold/place2",
+	  "block/scaffold/place3",
+	  "block/scaffold/place4"
+    ]
+  }
+}

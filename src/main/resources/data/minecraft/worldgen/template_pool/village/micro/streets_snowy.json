@@ -1,0 +1,60 @@
+{
+  "name": "minecraft:village/micro/snowy_streets",
+  "fallback": "minecraft:village/micro/terminators_snowy",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/snowy_micro_road_straight1",
+        "processors": "minecraft:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/snowy_micro_road_straight2",
+        "processors": "minecraft:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/snowy_micro_road_straight3",
+        "processors": "minecraft:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/snowy_micro_road_curve1",
+        "processors": "minecraft:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/snowy_micro_road_curve2",
+        "processors": "minecraft:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/snowy_micro_road_t_crossing",
+        "processors": "minecraft:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

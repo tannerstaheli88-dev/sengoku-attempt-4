@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shoji_frame",
+  "key": {
+    "S": {
+      "item": "minecraft:cherry_trapdoor"
+    },
+    "#": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "###",
+	"#S#",
+	"###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sengoku:sakura_covered_shoji_frame"
+  }
+}

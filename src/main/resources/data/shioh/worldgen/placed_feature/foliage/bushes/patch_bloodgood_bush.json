@@ -1,0 +1,35 @@
+{
+  "feature": "shioh:foliage/bushes/patch_bloodgood_bush",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 20
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:grid",
+        "radius": 30,
+        "distance_between_points": 6,
+        "condition": {
+          "type": "lithostitched:in_biome",
+          "biomes": [
+            "minecraft:old_growth_birch_forest",
+            "sengoku:ginkgo_forest"
+          ]
+        },
+        "allowed_count": 0
+      }
+    }
+  ]
+}

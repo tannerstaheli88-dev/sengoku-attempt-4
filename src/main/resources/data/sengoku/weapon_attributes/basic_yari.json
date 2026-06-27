@@ -1,0 +1,6 @@
+{
+  "parent": "bettercombat:yari",
+  "attributes": {
+    "range_bonus": 1.75
+  }
+}

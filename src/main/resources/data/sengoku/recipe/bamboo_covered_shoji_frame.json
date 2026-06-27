@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shoji_frame",
+  "key": {
+    "S": {
+      "item": "minecraft:bamboo_trapdoor"
+    },
+    "#": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "pattern": [
+    "###",
+	"#S#",
+	"###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sengoku:bamboo_covered_shoji_frame"
+  }
+}

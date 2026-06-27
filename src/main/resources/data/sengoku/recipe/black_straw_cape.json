@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "hat",
+  "ingredients": [
+    {
+      "item": "sengoku:straw_cape"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "result": {
+    "id": "sengoku:black_straw_cape",
+    "count": 1
+  }
+}

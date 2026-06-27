@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sengoku:ryoshin_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:leather_boots"
+  },
+  "addition": {
+    "item": "sengoku:tattered_shinobi_cloth"
+  },
+  "result": {
+    "id": "sengoku:shinobi_thigh_guards"
+  }
+}

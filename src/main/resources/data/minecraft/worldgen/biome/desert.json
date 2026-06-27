@@ -1,0 +1,198 @@
+{
+    "temperature": 2,
+    "downfall": 0,
+    "has_precipitation": true,
+    "effects": {
+        "sky_color": 10261898,
+        "fog_color": 6185060,
+        "water_color": 4607310,
+        "water_fog_color": 4607310,
+        "grass_color": 10261898,
+        "foliage_color": 10261898,
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "music": {
+            "sound": "minecraft:music.nether.basalt_deltas",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": true
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.118093334
+        }
+    },
+    "spawners": {
+        "ambient": [{
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 8,
+                "maxCount": 8
+            }, {
+                "type": "sengoku:crow",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [{
+                "type": "minecraft:husk",
+                "weight": 50,
+                "minCount": 4,
+                "maxCount": 4
+            }, {
+                "type": "minecraft:zombie",
+                "weight": 19,
+                "minCount": 1,
+                "maxCount": 1
+            }, {
+                "type": "minecraft:zombie_villager",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }, {
+                "type": "minecraft:skeleton",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            }, {
+                "type": "minecraft:hoglin",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 3
+            }, {
+                "type": "minecraft:zoglin",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 3
+            }, {
+                "type": "minecraft:witch",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            }, {
+                "type": "minecraft:husk",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "underground_water_creature": [{
+                "type": "minecraft:glow_squid",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ],
+        "water_ambient": [],
+        "water_creature": []
+    },
+    "spawn_costs": {
+        "sengoku:crow": {
+            "energy_budget": 8.0,
+            "charge": 1.0
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon"
+        ]
+    },
+    "features": [
+        [
+            "shioh:misc/deepslateboulders"
+        ],
+        [
+            "minecraft:lake_lava_underground",
+            "shioh:terrain/base_windswept_gravelly_hills"
+        ],
+        [
+            "minecraft:amethyst_geode"
+        ],
+        [
+            "minecraft:fossil_upper",
+            "minecraft:fossil_lower",
+            "minecraft:monster_room",
+            "minecraft:monster_room_deep"
+        ],
+        [
+            "minecraft:desert_well"
+        ],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite_upper",
+            "minecraft:ore_granite_lower",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_andesite_lower",
+            "minecraft:ore_tuff",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:ore_copper",
+            "minecraft:underwater_magma",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel",
+            "shioh:terrain/desert_edge",
+            "shioh:terrain/badlands_edge",
+            "sengoku:iron_sand_in_river"
+        ],
+        [],
+        [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
+            "shioh:foliage/trees/secondary/dead_trees",
+            "shioh:foliage/trees/secondary/trees_dead_sparse",
+			"shioh:foliage/trees/forest/conifer_trees_giant_burnt",
+            "shioh:misc/burnt_plains",
+            "minecraft:patch_fire",
+            "minecraft:glow_lichen",
+			"shioh:terrain/burnt_grass_patches",
+			"shioh:terrain/burnt_mud_patches",
+			"shioh:terrain/snow_patches_edge",
+            "shioh:foliage/grass/patch_dead_pampas_grass",
+            "shioh:misc/stone_pillars",
+            "shioh:misc/dry_rocks",
+            "minecraft:patch_skulls",
+            "shioh:foliage/grass/grass_desert",
+            "shioh:foliage/grass/grass_standard",
+            "minecraft:patch_dead_bush_2",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal"
+        ],
+        [
+            "minecraft:freeze_top_layer",
+            "shioh:misc/snowy/layer/lite/first",
+            "shioh:misc/snowy/layer/lite/second",
+            "shioh:misc/snowy/layer/lite/third"
+        ]
+    ]
+}

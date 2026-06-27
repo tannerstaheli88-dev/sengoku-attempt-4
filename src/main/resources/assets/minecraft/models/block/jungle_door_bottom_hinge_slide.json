@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/door_bottom_rh_slide",
+	"textures": {
+		"2": "block/jungle_door_top",
+		"3": "block/opendoor_bottom",
+		"bottom": "block/jungle_door_bottom",
+		"particle": "block/jungle_door_top"
+	},
+	"elements": [
+		{
+			"from": [12.85, 0, 12],
+			"to": [15.85, 16, 28],
+			"faces": {
+				"north": {"uv": [3, 0, 0, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#bottom", "cullface": "west"},
+				"down": {"uv": [15, 0, 16, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3", "cullface": "west"},
+				"east": {"uv": [10, 0, 7, 16], "texture": "#3", "cullface": "north"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#3"},
+				"west": {"uv": [7, 0, 10, 16], "texture": "#3", "cullface": "south"},
+				"down": {"uv": [7, 0, 10, 16], "rotation": 270, "texture": "#3", "cullface": "down"}
+			}
+		}
+	]
+}

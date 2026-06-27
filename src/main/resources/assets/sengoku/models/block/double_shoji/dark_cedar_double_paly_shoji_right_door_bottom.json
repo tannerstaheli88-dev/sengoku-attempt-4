@@ -1,0 +1,9 @@
+{
+  "parent": "sengoku:block/double_shoji/shoji_double_right_door_bottom",
+  "textures": {
+    "bottom": "sengoku:block/dark_cedar_planks",
+    "face": "sengoku:block/double_door/dark_cedar_paly_double_door_bottom_right",
+    "particle": "sengoku:block/double_door/dark_cedar_paly_double_door_bottom_right",
+    "top": "sengoku:block/double_door/dark_cedar_paly_double_door_bottom_right"
+  }
+}

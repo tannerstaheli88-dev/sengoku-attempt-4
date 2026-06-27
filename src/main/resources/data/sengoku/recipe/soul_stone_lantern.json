@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "minecraft:nether_bricks"
+    },
+    "T": {
+      "item": "minecraft:candle"
+    }
+  },
+  "pattern": [
+    " S ",
+    "STS",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sengoku:soul_stone_lantern"
+  },
+  "show_notification": true
+}

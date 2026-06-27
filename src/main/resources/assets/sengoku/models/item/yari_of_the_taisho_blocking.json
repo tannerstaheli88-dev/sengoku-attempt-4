@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:item/yari_blocking",
+  "textures": {
+    "0": "sengoku:item/yari/yari_of_the_taisho"
+  }
+}

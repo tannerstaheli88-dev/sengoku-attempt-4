@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "shioh:foliage/trees/jungle/jungle_oak",
+    "features": [
+      {
+        "chance": 0.05,
+        "feature": "shioh:foliage/trees/jungle/small_jungle"
+      },
+      {
+        "chance": 0.2,
+        "feature": "shioh:foliage/trees/jungle/jungle_oak2"
+      },
+      {
+        "chance": 0.04,
+        "feature": {
+          "feature": "shioh:foliage/trees/jungle/kiso",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.014,
+        "feature": "shioh:foliage/trees/jungle/twilight_tree"
+      }
+    ]
+  }
+}

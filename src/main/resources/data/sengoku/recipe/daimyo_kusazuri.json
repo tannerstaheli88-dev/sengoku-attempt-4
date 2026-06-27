@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sengoku:seigun_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:diamond_boots"
+  },
+  "addition": {
+    "item": "sengoku:broken_armor_piece"
+  },
+  "result": {
+    "id": "sengoku:daimyo_kusazuri"
+  }
+}

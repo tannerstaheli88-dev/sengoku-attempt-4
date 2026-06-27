@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "hat",
+  "key": {
+    "X": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sengoku:tengai_hat"
+  }
+}

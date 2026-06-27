@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enderman_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_kuchisake_onna.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_kuchisake_onna.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:enderman",
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 175
+  }
+}

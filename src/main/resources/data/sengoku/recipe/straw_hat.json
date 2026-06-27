@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "hat",
+  "key": {
+    "X": {
+      "tag": "minecraft:foliage_lesser"
+    }
+  },
+  "pattern": [
+    " X ",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sengoku:straw_hat"
+  }
+} 

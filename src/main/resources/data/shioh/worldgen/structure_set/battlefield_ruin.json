@@ -1,0 +1,21 @@
+{
+	"structures": [
+		{
+			"structure": "shioh:battlefield_ruin",
+			"weight": 5
+		}
+	],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 3
+    },
+		"spacing": 2,
+		"separation": 1,
+	    "frequency_reduction_method": "default",
+		"frequency": 0.7,
+		"spread_type": "triangular",
+		"salt": 260930,
+		"type": "minecraft:random_spread"
+	}
+}

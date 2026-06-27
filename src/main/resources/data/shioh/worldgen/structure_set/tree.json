@@ -1,0 +1,21 @@
+{
+	"structures": [
+		{
+			"structure": "shioh:tree",
+			"weight": 5
+		}
+	],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 2
+    },
+		"spacing": 4,
+		"separation": 2,
+	    "frequency_reduction_method": "default",
+		"frequency": 0.7,
+		"spread_type": "triangular",
+		"salt": 430930,
+		"type": "minecraft:random_spread"
+	}
+}

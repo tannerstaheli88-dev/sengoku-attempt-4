@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:plains",
+	"minecraft:forest",
+	"minecraft:dark_forest",
+	"minecraft:jungle",
+	"minecraft:birch_forest",
+	"minecraft:taiga",
+	"minecraft:windswept_savanna",
+	"minecraft:swamp",
+	"minecraft:bamboo_jungle",
+	"minecraft:stony_shore",
+	"sengoku:lily_field"
+  ]
+}

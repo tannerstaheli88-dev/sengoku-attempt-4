@@ -1,0 +1,40 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [16, 24],
+	"textures": {
+		"0": "sengoku:block/rice_crop_7",
+		"particle": "sengoku:block/rice_crop_7"
+	},
+	"elements": [
+		{
+			"from": [1.4, 0, 7.8],
+			"to": [15.8, 32, 7.8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8.6, 8, 7.8], "rescale": true},
+			"faces": {
+				"north": {"uv": [15, 0, 1, 16], "texture": "#0"},
+				"south": {"uv": [1, 0, 15, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.6, 0, 0.8],
+			"to": [7.6, 32, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [7.6, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [1, 0, 15, 16], "texture": "#0"},
+				"west": {"uv": [15, 0, 1, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "short_crop",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

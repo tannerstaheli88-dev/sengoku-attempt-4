@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "sengoku:lacquered_bamboo_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:bamboo_planks"
+  }
+}

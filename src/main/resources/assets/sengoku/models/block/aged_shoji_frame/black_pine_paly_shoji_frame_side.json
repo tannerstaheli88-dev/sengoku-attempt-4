@@ -1,0 +1,7 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/template_shoji_frame_side",
+  "textures": {
+    "edge": "sengoku:block/black_pine_planks",
+    "pane": "sengoku:block/aged_shoji_frame/black_pine_paly_shoji_frame"
+  }
+}

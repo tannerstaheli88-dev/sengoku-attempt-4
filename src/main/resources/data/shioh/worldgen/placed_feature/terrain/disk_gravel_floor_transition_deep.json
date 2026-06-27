@@ -1,0 +1,119 @@
+{
+  "feature": "shioh:terrain/disk_gravel",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 15
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "fluids": "minecraft:water"
+      }
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:any_of",
+        "conditions": [
+          {
+            "type": "lithostitched:offset",
+            "offset": [60, 0, 0],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:deep_ocean",
+				"minecraft:deep_cold_ocean"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-60, 0, 0],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:deep_ocean",
+				"minecraft:deep_cold_ocean"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [0, 0, 60],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:deep_ocean",
+				"minecraft:deep_cold_ocean"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [0, 0, -60],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:deep_ocean",
+				"minecraft:deep_cold_ocean"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [60, 0, 60],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:deep_ocean",
+				"minecraft:deep_cold_ocean"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [60, 0, -60],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:deep_ocean",
+				"minecraft:deep_cold_ocean"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-60, 0, 60],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:deep_ocean",
+				"minecraft:deep_cold_ocean"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-60, 0, -60],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:deep_ocean",
+				"minecraft:deep_cold_ocean"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

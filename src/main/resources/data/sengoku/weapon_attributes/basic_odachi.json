@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:odachi",
+  "attributes": {
+    "range_bonus": 1.5,
+    "pose": "bettercombat:pose_two_handed_heavy"
+  }
+}

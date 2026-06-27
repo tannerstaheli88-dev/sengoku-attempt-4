@@ -1,0 +1,114 @@
+{
+"name": "minecraft:stronghold/hallway",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway1",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway2",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/room/stronghold_library2",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway3",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway4",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway_stairs1",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway_stairs2",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway_stairs3",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway5",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway6",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway_t_cross1",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallway_curve1",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:stronghold/terminators/hallway_terminator"
+}

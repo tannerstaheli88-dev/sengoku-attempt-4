@@ -1,0 +1,4 @@
+{
+   "targets": ["minecraft:birch_leaves", "minecraft:lily_pad"],
+   "colormap": "shioh:colormap_foliage_birch"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "sengoku:block/shoji_frame/damaged/1/template_shoji_frame_post",
+  "textures": {
+    "edge": "sengoku:block/dark_cedar_planks",
+    "pane": "sengoku:block/shoji_frame/damaged/1/dark_cedar_checkered_shoji_frame"
+  }
+}

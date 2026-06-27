@@ -1,0 +1,42 @@
+{
+  "feature": "shioh:foliage/trees/aomori/coral_small",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 23
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_factor": 400,
+      "noise_offset": 0,
+      "noise_to_count_ratio": 100
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:surface_relative_threshold_filter",
+      "heightmap": "WORLD_SURFACE_WG",
+      "max_inclusive": -3
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          1,
+          0
+        ],
+        "blocks": "minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.93333334,
+        "feature": {
+          "feature": "shioh:foliage/trees/secondary/tree_deadfallen",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "shioh:foliage/trees/secondary/tree_dead",
+      "placement": []
+    }
+  }
+}

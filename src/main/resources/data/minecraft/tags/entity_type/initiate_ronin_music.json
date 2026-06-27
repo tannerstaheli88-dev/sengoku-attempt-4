@@ -1,0 +1,18 @@
+{
+  "values": [
+    "minecraft:vindicator",
+    "minecraft:pillager",
+    "minecraft:evoker",
+    "sengoku:ronin",
+  	"sengoku:bandit",
+  	"sengoku:kobayakawa_samurai",
+    "sengoku:kobayakawa_ashigaru",
+    "sengoku:kobayakawa_sohei",
+    "sengoku:satomi_samurai",
+    "sengoku:satomi_ashigaru",
+    "sengoku:satomi_sohei",
+    "sengoku:takeda_samurai",
+    "sengoku:takeda_ashigaru",
+    "sengoku:takeda_sohei"
+  ]
+}

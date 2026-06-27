@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "facing=north,open=false": { "model": "sengoku:block/bamboo_tansu_cabinet", "y": 0 },
+    "facing=east,open=false":  { "model": "sengoku:block/bamboo_tansu_cabinet", "y": 90 },
+    "facing=south,open=false": { "model": "sengoku:block/bamboo_tansu_cabinet", "y": 180 },
+    "facing=west,open=false":  { "model": "sengoku:block/bamboo_tansu_cabinet", "y": 270 },
+    "facing=up,open=false":    { "model": "sengoku:block/bamboo_tansu_cabinet" },
+    "facing=down,open=false":  { "model": "sengoku:block/bamboo_tansu_cabinet" },
+
+    "facing=north,open=true": { "model": "sengoku:block/bamboo_tansu_cabinet_open", "y": 0 },
+    "facing=east,open=true":  { "model": "sengoku:block/bamboo_tansu_cabinet_open", "y": 90 },
+    "facing=south,open=true": { "model": "sengoku:block/bamboo_tansu_cabinet_open", "y": 180 },
+    "facing=west,open=true":  { "model": "sengoku:block/bamboo_tansu_cabinet_open", "y": 270 },
+    "facing=up,open=true":    { "model": "sengoku:block/bamboo_tansu_cabinet_open" },
+    "facing=down,open=true":  { "model": "sengoku:block/bamboo_tansu_cabinet_open" }
+  }
+}

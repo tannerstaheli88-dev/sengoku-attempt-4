@@ -1,0 +1,42 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room_fallback",
+        "processors": []
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room_fallback2",
+        "processors": []
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room_partial_fallback",
+        "processors": []
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room_partial_fallback2",
+        "processors": []
+      }
+    }
+  ]
+}

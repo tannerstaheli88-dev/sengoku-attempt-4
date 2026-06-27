@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "part=head,facing=north,occupied=false":  { "model": "sengoku:block/grass_bed_head" },
+    "part=head,facing=north,occupied=true":   { "model": "sengoku:block/grass_bed_head" },
+    "part=head,facing=south,occupied=false":  { "model": "sengoku:block/grass_bed_head", "y": 180 },
+    "part=head,facing=south,occupied=true":   { "model": "sengoku:block/grass_bed_head", "y": 180 },
+    "part=head,facing=west,occupied=false":   { "model": "sengoku:block/grass_bed_head", "y": 270 },
+    "part=head,facing=west,occupied=true":    { "model": "sengoku:block/grass_bed_head", "y": 270 },
+    "part=head,facing=east,occupied=false":   { "model": "sengoku:block/grass_bed_head", "y": 90 },
+    "part=head,facing=east,occupied=true":    { "model": "sengoku:block/grass_bed_head", "y": 90 },
+
+    "part=foot,facing=north,occupied=false":  { "model": "sengoku:block/grass_bed_foot" },
+    "part=foot,facing=north,occupied=true":   { "model": "sengoku:block/grass_bed_foot" },
+    "part=foot,facing=south,occupied=false":  { "model": "sengoku:block/grass_bed_foot", "y": 180 },
+    "part=foot,facing=south,occupied=true":   { "model": "sengoku:block/grass_bed_foot", "y": 180 },
+    "part=foot,facing=west,occupied=false":   { "model": "sengoku:block/grass_bed_foot", "y": 270 },
+    "part=foot,facing=west,occupied=true":    { "model": "sengoku:block/grass_bed_foot", "y": 270 },
+    "part=foot,facing=east,occupied=false":   { "model": "sengoku:block/grass_bed_foot", "y": 90 },
+    "part=foot,facing=east,occupied=true":    { "model": "sengoku:block/grass_bed_foot", "y": 90 }
+  }
+}

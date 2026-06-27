@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:cobbled_deepslate",
+    "minecraft:deepslate",
+	"minecraft:stone",
+	"minecraft:granite",
+    "minecraft:dirt"
+  ]
+}

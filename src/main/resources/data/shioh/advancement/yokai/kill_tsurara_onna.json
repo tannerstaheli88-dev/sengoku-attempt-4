@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stray_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_tsurara_onna.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_tsurara_onna.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:stray"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}

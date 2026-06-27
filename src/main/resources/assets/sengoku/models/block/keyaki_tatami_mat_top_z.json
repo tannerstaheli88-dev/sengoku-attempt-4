@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:block/tatami_mat_top",
+  "textures": {
+    "up": "sengoku:block/keyaki_tatami_mat_top_z",
+    "down": "sengoku:block/keyaki_planks",
+    "north": "sengoku:block/keyaki_tatami_mat_side",
+    "south": "sengoku:block/keyaki_tatami_mat_side",
+    "east": "sengoku:block/keyaki_tatami_mat_side",
+    "west": "sengoku:block/keyaki_tatami_mat_side",
+	"particle": "sengoku:block/keyaki_tatami_mat_top_z"
+  }
+}

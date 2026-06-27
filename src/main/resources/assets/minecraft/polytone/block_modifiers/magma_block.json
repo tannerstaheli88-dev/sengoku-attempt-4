@@ -1,0 +1,4 @@
+{
+   "targets": ["minecraft:magma_block"],
+   "colormap": "shioh:colormap_lava"
+}

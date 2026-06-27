@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:meadow",
+	"minecraft:windswept_forest",
+	"minecraft:windswept_hills"
+  ]
+}

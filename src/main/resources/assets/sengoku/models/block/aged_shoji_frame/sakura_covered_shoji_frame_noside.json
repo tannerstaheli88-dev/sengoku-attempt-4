@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/template_shoji_frame_noside",
+  "textures": {
+    "pane": "sengoku:block/aged_shoji_frame/sakura_covered_shoji_frame"
+  }
+}

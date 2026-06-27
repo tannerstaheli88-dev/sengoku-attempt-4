@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+	"minecraft:bamboo_jungle",
+	"minecraft:ice_spikes",
+	"minecraft:jungle",
+	"minecraft:wooded_badlands",
+	"sengoku:autumnal_bamboo_forest",
+	"minecraft:windswept_hills",
+	"minecraft:mushroom_fields"
+  ]
+}

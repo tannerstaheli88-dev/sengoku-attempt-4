@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "obtain_jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:honeycomb"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:sap_torch"
+    ]
+  }
+}

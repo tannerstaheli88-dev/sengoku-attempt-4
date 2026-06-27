@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:leather_chestplate",
+    "minecraft:chainmail_chestplate",
+    "minecraft:golden_chestplate",
+    "minecraft:iron_chestplate",
+    "minecraft:diamond_chestplate",
+    "minecraft:netherite_chestplate",
+    "sengoku:daimyo_do",
+    "sengoku:netherite_daimyo_do",
+    "sengoku:shinobi_shoulder_plates",
+    "sengoku:straw_cape",
+	"sengoku:black_straw_cape",
+	"sengoku:white_straw_cape"
+  ]
+}

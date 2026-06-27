@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "sengoku:umi_nyobo_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_umi_nyobo.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_umi_nyobo.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sengoku:umi_nyobo"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 175
+  }
+}

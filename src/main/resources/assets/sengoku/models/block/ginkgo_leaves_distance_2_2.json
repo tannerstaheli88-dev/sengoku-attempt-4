@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_2",
+  "textures": {
+    "all": "sengoku:block/ginkgo_leaves2",
+    "bushy": "sengoku:block/bushy_ginkgo_leaves_distance_2"
+  }
+}

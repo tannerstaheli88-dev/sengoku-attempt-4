@@ -1,0 +1,78 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "shioh:outcast_villager/abandoned_manor6",
+        "processors": "shioh:abandoned_manor",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/abandoned_manor5",
+        "processors": "shioh:abandoned_manor",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/abandoned_manor4",
+        "processors": "shioh:abandoned_manor",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/abandoned_manor3",
+        "processors": "shioh:abandoned_manor",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/abandoned_manor2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/abandoned_manor",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:adjustable_beard_pool_element",
+		    "horizontal_beard_radius": 0,
+        "beard_strength": 0.0,
+        "carve_strength": 0
+      }
+    }
+  ]
+}

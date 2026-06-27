@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:block/shoji_frame/template_shoji_frame_noside_alt",
+  "textures": {
+    "pane": "sengoku:block/shoji_frame/bamboo_checkered_shoji_frame"
+  }
+}

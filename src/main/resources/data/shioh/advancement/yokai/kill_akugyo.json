@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "sengoku:akugyo_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_akugyo.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_akugyo.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sengoku:akugyo"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 375
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:item/tetsubo_blocking",
+  "textures": {
+    "1": "sengoku:item/tetsubo/wooden_tetsubo"
+  }
+}

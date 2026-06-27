@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:crimson_fungus"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:dead_bush"
+          },
+          "weight": 7
+        },
+        {
+          "data": {
+            "Name": "minecraft:crimson_roots"
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "minecraft:short_grass"
+          },
+          "weight": 40
+        },
+        {
+          "data": {
+            "Name": "minecraft:air"
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "minecraft:fern"
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "minecraft:rose_bush",
+            "Properties": {
+              "half": "lower"
+            }
+          },
+          "weight": 10
+        }
+      ]
+    }
+  }
+}

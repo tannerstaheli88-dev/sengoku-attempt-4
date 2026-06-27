@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sengoku:kunai"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+	  "sengoku:poison_kunai",
+	  "sengoku:weakness_kunai",
+	  "sengoku:slowness_kunai"
+    ]
+  }
+}

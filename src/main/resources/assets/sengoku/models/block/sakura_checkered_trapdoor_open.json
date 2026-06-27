@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/template_trapdoor_open",
+	"textures": {
+		"1": "sengoku:block/sakura_planks",
+		"particle": "sengoku:block/sakura_planks",
+		"texture": "sengoku:block/sakura_checkered_trapdoor"
+	}
+}

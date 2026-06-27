@@ -1,0 +1,23 @@
+accessWidener v1 named
+
+accessible field net/minecraft/world/entity/ai/village/poi/PoiTypes BEDS Ljava/util/Set;
+mutable field net/minecraft/world/entity/ai/village/poi/PoiTypes BEDS Ljava/util/Set;
+accessible method net/minecraft/world/entity/ai/village/poi/PoiTypes registerBlockStates (Lnet/minecraft/core/Holder;Ljava/util/Set;)V
+accessible field net/minecraft/world/level/block/BedBlock BASE              Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/level/block/BedBlock LEG_NORTH_EAST    Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/level/block/BedBlock LEG_NORTH_WEST    Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/level/block/BedBlock LEG_SOUTH_EAST    Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/level/block/BedBlock LEG_SOUTH_WEST    Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/level/block/BedBlock NORTH_SHAPE    Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/level/block/BedBlock EAST_SHAPE    Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/level/block/BedBlock SOUTH_SHAPE    Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/level/block/BedBlock WEST_SHAPE    Lnet/minecraft/world/phys/shapes/VoxelShape;
+accessible field net/minecraft/world/entity/ai/village/poi/PoiTypes TYPE_BY_STATE Ljava/util/Map;
+mutable field net/minecraft/world/entity/ai/village/poi/PoiTypes TYPE_BY_STATE Ljava/util/Map;
+
+# Raid system access for custom raid members - DISABLED (invalid signatures for 1.21.1)
+# accessible class net/minecraft/world/entity/raid/Raid$RaiderType
+# accessible method net/minecraft/world/entity/raid/Raid$RaiderType create (Ljava/lang/String;Lnet/minecraft/world/entity/EntityType;[I)Lnet/minecraft/world/entity/raid/Raid$RaiderType;
+# accessible field net/minecraft/world/entity/raid/Raid RAID_MEMBER_WAVE_COUNTS Ljava/util/Map;
+# mutable field net/minecraft/world/entity/raid/Raid RAID_MEMBER_WAVE_COUNTS Ljava/util/Map;
+

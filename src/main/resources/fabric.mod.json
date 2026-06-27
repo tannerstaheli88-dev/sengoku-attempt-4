@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "sengoku",
+  "version": "2.1.3",
+  "name": "Sengoku Jidai",
+  "description": "minecraft but japan lol",
+  "authors": [
+    "qwik"
+  ],
+  "contact": {
+    "email": "tannerstaheli88@gmail.com",
+    "homepage": "https://www.immortalizeuniverse.com/"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.shioh.sengoku.sengokuFabric"
+    ],
+    "client": [
+      "com.shioh.sengoku.sengokuClient"
+    ],
+    "modmenu": [
+      "com.shioh.sengoku.client.config.ModMenuIntegrationAlt"
+    ]
+  },
+  "mixins": [
+    {
+      "environment": "client",
+      "config": "sengoku.client.mixins.json"
+    },
+    "sengoku.fabric.mixins.json"
+  ],
+  "accessWidener": "sengoku.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": ">=1.21.1",
+    "java": ">=21",
+    "fabric-api": ">=0.100.0",
+    "lithostitched": "*",
+    "entity_texture_features": "*",
+    "entity_model_features": "*",
+    "continuity": "*",
+    "polytone": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/YQSfzhjGzY"
+      }
+    }
+  }
+}

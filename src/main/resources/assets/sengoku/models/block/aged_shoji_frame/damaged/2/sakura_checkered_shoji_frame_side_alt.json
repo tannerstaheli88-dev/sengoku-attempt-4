@@ -1,0 +1,7 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/damaged/2/template_shoji_frame_side_alt",
+  "textures": {
+    "edge": "sengoku:block/sakura_planks",
+    "pane": "sengoku:block/aged_shoji_frame/damaged/2/sakura_checkered_shoji_frame"
+  }
+}

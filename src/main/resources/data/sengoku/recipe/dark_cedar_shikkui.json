@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+	"###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:quartz_block"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "sengoku:bronze_tanto"
+    },
+    {
+      "item": "sengoku:bronze_tetsubo"
+    },
+    {
+      "item": "sengoku:bronze_kanabo"
+    },
+    {
+      "item": "sengoku:bronze_naginata"
+    },
+    {
+      "item": "sengoku:bronze_yari"
+    },
+    {
+      "item": "sengoku:bronze_odachi"
+    }
+  ],
+  "result": {
+    "id": "bronze:bronze_nugget",
+    "count": 1
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "bronze"
+      ]
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bronze"
+    }
+  ]
+}

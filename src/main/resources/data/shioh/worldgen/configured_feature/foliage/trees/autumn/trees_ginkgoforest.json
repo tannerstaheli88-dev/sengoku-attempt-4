@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "shioh:foliage/trees/autumn/tree_ginkgo",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.33333334,
+        "feature": {
+          "feature": "shioh:foliage/trees/autumn/tree_ginkgo",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outcast_villager/snowy_hut_1",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:outcast_villager/snowy_hut_2",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:outcast_villager/snowy_hut_3",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

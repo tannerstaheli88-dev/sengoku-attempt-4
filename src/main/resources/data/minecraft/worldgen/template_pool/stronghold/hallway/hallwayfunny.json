@@ -1,0 +1,15 @@
+{
+"name": "minecraft:stronghold/hallwayfunny",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/hallway/hallwayfunny",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:stronghold/terminators/hallway_terminator"
+}

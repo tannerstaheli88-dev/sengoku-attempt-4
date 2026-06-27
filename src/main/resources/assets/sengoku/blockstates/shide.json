@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sengoku:block/shide"
+    },
+    "facing=south": {
+      "model": "sengoku:block/shide",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sengoku:block/shide",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "sengoku:block/shide",
+      "y": 90
+    }
+  }
+}

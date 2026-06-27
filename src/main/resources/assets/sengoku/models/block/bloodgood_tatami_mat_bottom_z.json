@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:block/tatami_mat_bottom",
+  "textures": {
+    "up": "sengoku:block/bloodgood_tatami_mat_top_z",
+    "down": "sengoku:block/bloodgood_planks",
+    "north": "sengoku:block/bloodgood_tatami_mat_side",
+    "south": "sengoku:block/bloodgood_tatami_mat_side",
+    "east": "sengoku:block/bloodgood_tatami_mat_side",
+    "west": "sengoku:block/bloodgood_tatami_mat_side",
+	"particle": "sengoku:block/bloodgood_tatami_mat_top_z"
+  }
+}

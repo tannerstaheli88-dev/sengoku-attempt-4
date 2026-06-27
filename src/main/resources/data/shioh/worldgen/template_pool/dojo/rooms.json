@@ -1,0 +1,217 @@
+{
+  "name": "meme",
+  "fallback": "shioh:dojo/shinobi_stairs_boss_fallback",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_shaft1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "none"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "lithostitched:guaranteed",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/boss_dojo1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "other_pieces_can_intersect": true,
+        "count": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_shaft2",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "none"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_center1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_puzzle1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_puzzle2",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/fake_door1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/secret_door1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/secret_door2",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/secret_door3",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/secret_door4",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/stairway1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/stairway2",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_quarters1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "lithostitched:delegating",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_quarters2",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "override_terrain_adaptation": "encapsulate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"structures": [
+		{
+			"structure": "shioh:tree_ryugu",
+			"weight": 5
+		},
+		{
+			"structure": "shioh:stonelantern_ryugu",
+			"weight": 5
+		}
+	],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:end_cities",
+      "chunk_count": 5
+    },
+		"spacing": 4,
+		"separation": 2,
+	    "frequency_reduction_method": "default",
+		"frequency": 0.7,
+		"spread_type": "triangular",
+		"salt": 430930,
+		"type": "minecraft:random_spread"
+	}
+}

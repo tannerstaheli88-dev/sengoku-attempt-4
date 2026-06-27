@@ -1,0 +1,96 @@
+{
+	"item.minecraft.wooden_axe": "Деревянный оно",
+	"item.minecraft.wooden_hoe": "Деревянная кама",
+	"item.minecraft.wooden_sword": "Деревянная катана",
+	
+	"item.minecraft.leather_helmet": "Кожаный капюшон",
+	"item.minecraft.leather_chestplate": "Кожаные наплечники",
+	"item.minecraft.leather_leggings": "Кожаный пояс",
+	"item.minecraft.leather_boots": "Кожаные набедренники",
+	
+	"item.minecraft.stone_shovel": "Железная лопата",
+	"item.minecraft.stone_pickaxe": "Железная кирка",
+	"item.minecraft.stone_axe": "Железный оно",
+	"item.minecraft.stone_hoe": "Железная кама",
+	"item.minecraft.stone_sword": "Железная катана",
+	
+	"item.minecraft.chainmail_helmet": "Железный кабуто",
+	"item.minecraft.chainmail_chestplate": "Железный до",
+	"item.minecraft.chainmail_leggings": "Железный хайдатэ",
+	"item.minecraft.chainmail_boots": "Железный кусадзури",
+	
+	"item.minecraft.iron_shovel": "Лопата из тамахаганэ",
+	"item.minecraft.iron_pickaxe": "Кирка из тамахаганэ",
+	"item.minecraft.iron_axe": "Оно из тамахаганэ",
+	"item.minecraft.iron_hoe": "Кама из тамахаганэ",
+	"item.minecraft.iron_sword": "Катана из тамахаганэ",
+	
+	"item.minecraft.iron_helmet": "Кабуто из тамахаганэ",
+	"item.minecraft.iron_chestplate": "До из тамахаганэ",
+	"item.minecraft.iron_leggings": "Хайдатэ из тамахаганэ",
+	"item.minecraft.iron_boots": "Кусадзури из тамахаганэ",
+	
+	"item.minecraft.golden_axe": "Золотой оно",
+	"item.minecraft.golden_hoe": "Золотая кама",
+	"item.minecraft.golden_sword": "Золотая катана",
+	
+	"item.minecraft.golden_helmet": "Золотой кабуто",
+	"item.minecraft.golden_chestplate": "Золотой до",
+	"item.minecraft.golden_leggings": "Золотой хайдатэ",
+	"item.minecraft.golden_boots": "Золотой кусадзури",
+	
+	"item.minecraft.diamond_axe": "Алмазный оно",
+	"item.minecraft.diamond_hoe": "Алмазная кама",
+	"item.minecraft.diamond_sword": "Алмазная катана",
+	
+	"item.minecraft.diamond_helmet": "Алмазный кабуто",
+	"item.minecraft.diamond_chestplate": "Алмазный до",
+	"item.minecraft.diamond_leggings": "Алмазный хайдатэ",
+	"item.minecraft.diamond_boots": "Алмазный кусадзури",
+	
+	"item.minecraft.netherite_ingot": "Слиток хихиирокане",
+	"item.minecraft.netherite_scrap": "Лом хихиирокане",
+	
+	"item.minecraft.netherite_shovel": "Лопата из хихиирокане",
+	"item.minecraft.netherite_pickaxe": "Кирка из хихиирокане",
+	"item.minecraft.netherite_axe": "Оно из хихиирокане",
+	"item.minecraft.netherite_hoe": "Кама из хихиирокане",
+	"item.minecraft.netherite_sword": "Катана из хихиирокане",
+	
+	"item.minecraft.netherite_helmet": "Кабуто из хихиирокане",
+	"item.minecraft.netherite_chestplate": "До из хихиирокане",
+	"item.minecraft.netherite_leggings": "Хайдатэ из хихиирокане",
+	"item.minecraft.netherite_boots": "Кусадзури из хихиирокане",
+	
+	"item.minecraft.turtle_helmet": "Маска Генбу",
+	"item.minecraft.trident": "Аме-но-Нубоко",
+	"item.minecraft.mace": "Кусанаги-но цуруги",
+	"item.minecraft.crossbow": "Танэгасима",
+	"item.minecraft.spectral_arrow": "Пуля",
+	
+	"item.minecraft.apple": "Персик",
+	"item.minecraft.golden_apple": "Хурма",
+	"item.minecraft.enchanted_golden_apple": "Божественная хурма",
+	"item.minecraft.melon_slice": "Ломтик арбуза Юбари",
+	"item.minecraft.sweet_berries": "Виноград",
+	"item.minecraft.carrot": "Дайкон",
+	"item.minecraft.golden_carrot": "Золотой дайкон",
+	"item.minecraft.potato": "Гобо",
+	"item.minecraft.poisonous_potato": "Плесень коджи",
+	"item.minecraft.baked_potato": "Онигири",
+	"item.minecraft.beetroot": "Очищенные соевые бобы",
+	"item.minecraft.beetroot_seeds": "Соевые бобы",
+	"item.minecraft.porkchop": "Сырое мясо",
+	"item.minecraft.cooked_porkchop": "Жареное мясо",
+	"item.minecraft.mutton": "Сырой кальмар",
+	"item.minecraft.cooked_mutton": "Жареный кальмар",
+	"item.minecraft.bread": "Сырой сомэн",
+	"item.minecraft.cookie": "Моти",
+	"block.minecraft.cake": "Суши-торт",
+	"item.minecraft.pumpkin_pie": "Кабоча",
+	"item.minecraft.beetroot_soup": "Мисо-суп",
+	"item.minecraft.rabbit_stew": "Лапша сомэн",
+	"item.minecraft.honey_bottle": "Амадзакэ",
+	
+	"item.minecraft.honeycomb": "Древесная смола"
+}

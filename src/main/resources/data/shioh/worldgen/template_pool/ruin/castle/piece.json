@@ -1,0 +1,186 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/castle2",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/castle3",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/circle_small",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/circle_tall",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/doorway",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/house1",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/house2",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/house3",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/mound_castle_small",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/mound_corner",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/mound_tabletwall",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/mound_watchtower",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/mound1",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/mound1",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/castle5",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/banners",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/banner1",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/banner2",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/castle6",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/castle7",
+        "processors": "shioh:ruin/castle",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

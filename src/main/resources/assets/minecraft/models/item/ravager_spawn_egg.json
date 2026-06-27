@@ -1,0 +1,187 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"2": "item/ravager_spawn_egg",
+		"particle": "item/ravager_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "ravager_spawn_egg_0",
+			"from": [1, 12, 8],
+			"to": [2, 15, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [2, 1, 1, 4], "texture": "#2"},
+				"east": {"uv": [1, 1, 2, 4], "texture": "#2"},
+				"south": {"uv": [1, 1, 2, 4], "texture": "#2"},
+				"west": {"uv": [1, 1, 2, 4], "texture": "#2"},
+				"up": {"uv": [1, 1, 2, 2], "texture": "#2"},
+				"down": {"uv": [1, 3, 2, 4], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_1",
+			"from": [7, 1, 8],
+			"to": [8, 15, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 1, 7, 15], "texture": "#2"},
+				"east": {"uv": [7, 1, 8, 15], "texture": "#2"},
+				"south": {"uv": [7, 1, 8, 15], "texture": "#2"},
+				"west": {"uv": [7, 1, 8, 15], "texture": "#2"},
+				"up": {"uv": [7, 1, 8, 2], "texture": "#2"},
+				"down": {"uv": [7, 14, 8, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_2",
+			"from": [0, 8, 8],
+			"to": [1, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [1, 2, 0, 8], "texture": "#2"},
+				"east": {"uv": [0, 2, 1, 8], "texture": "#2"},
+				"south": {"uv": [0, 2, 1, 8], "texture": "#2"},
+				"west": {"uv": [0, 2, 1, 8], "texture": "#2"},
+				"up": {"uv": [0, 2, 1, 3], "texture": "#2"},
+				"down": {"uv": [0, 7, 1, 8], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_3",
+			"from": [2, 13, 8],
+			"to": [3, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [3, 2, 2, 3], "texture": "#2"},
+				"east": {"uv": [2, 2, 3, 3], "texture": "#2"},
+				"south": {"uv": [2, 2, 3, 3], "texture": "#2"},
+				"west": {"uv": [2, 2, 3, 3], "texture": "#2"},
+				"up": {"uv": [2, 2, 3, 3], "texture": "#2"},
+				"down": {"uv": [2, 2, 3, 3], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_4",
+			"from": [6, 2, 8],
+			"to": [7, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [7, 2, 6, 14], "texture": "#2"},
+				"east": {"uv": [6, 2, 7, 14], "texture": "#2"},
+				"south": {"uv": [6, 2, 7, 14], "texture": "#2"},
+				"west": {"uv": [6, 2, 7, 14], "texture": "#2"},
+				"up": {"uv": [6, 2, 7, 3], "texture": "#2"},
+				"down": {"uv": [6, 13, 7, 14], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_5",
+			"from": [8, 1, 8],
+			"to": [9, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [9, 2, 8, 15], "texture": "#2"},
+				"east": {"uv": [8, 2, 9, 15], "texture": "#2"},
+				"south": {"uv": [8, 2, 9, 15], "texture": "#2"},
+				"west": {"uv": [8, 2, 9, 15], "texture": "#2"},
+				"up": {"uv": [8, 2, 9, 3], "texture": "#2"},
+				"down": {"uv": [8, 14, 9, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_6",
+			"from": [3, 1, 8],
+			"to": [6, 13, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [6, 3, 3, 15], "texture": "#2"},
+				"east": {"uv": [5, 3, 6, 15], "texture": "#2"},
+				"south": {"uv": [3, 3, 6, 15], "texture": "#2"},
+				"west": {"uv": [3, 3, 4, 15], "texture": "#2"},
+				"up": {"uv": [3, 3, 6, 4], "texture": "#2"},
+				"down": {"uv": [3, 14, 6, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_7",
+			"from": [9, 2, 8],
+			"to": [15, 13, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [15, 3, 9, 14], "texture": "#2"},
+				"east": {"uv": [14, 3, 15, 14], "texture": "#2"},
+				"south": {"uv": [9, 3, 15, 14], "texture": "#2"},
+				"west": {"uv": [9, 3, 10, 14], "texture": "#2"},
+				"up": {"uv": [9, 3, 15, 4], "texture": "#2"},
+				"down": {"uv": [9, 13, 15, 14], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_8",
+			"from": [2, 1, 8],
+			"to": [3, 12, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [3, 4, 2, 15], "texture": "#2"},
+				"east": {"uv": [2, 4, 3, 15], "texture": "#2"},
+				"south": {"uv": [2, 4, 3, 15], "texture": "#2"},
+				"west": {"uv": [2, 4, 3, 15], "texture": "#2"},
+				"up": {"uv": [2, 4, 3, 5], "texture": "#2"},
+				"down": {"uv": [2, 14, 3, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_9",
+			"from": [1, 5, 8],
+			"to": [2, 11, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [2, 5, 1, 11], "texture": "#2"},
+				"east": {"uv": [1, 5, 2, 11], "texture": "#2"},
+				"south": {"uv": [1, 5, 2, 11], "texture": "#2"},
+				"west": {"uv": [1, 5, 2, 11], "texture": "#2"},
+				"up": {"uv": [1, 5, 2, 6], "texture": "#2"},
+				"down": {"uv": [1, 10, 2, 11], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_10",
+			"from": [9, 1, 8],
+			"to": [10, 2, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [10, 14, 9, 15], "texture": "#2"},
+				"east": {"uv": [9, 14, 10, 15], "texture": "#2"},
+				"south": {"uv": [9, 14, 10, 15], "texture": "#2"},
+				"west": {"uv": [9, 14, 10, 15], "texture": "#2"},
+				"up": {"uv": [9, 14, 10, 15], "texture": "#2"},
+				"down": {"uv": [9, 14, 10, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "ravager_spawn_egg_11",
+			"from": [11, 1, 8],
+			"to": [14, 2, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [14, 14, 11, 15], "texture": "#2"},
+				"east": {"uv": [13, 14, 14, 15], "texture": "#2"},
+				"south": {"uv": [11, 14, 14, 15], "texture": "#2"},
+				"west": {"uv": [11, 14, 12, 15], "texture": "#2"},
+				"up": {"uv": [11, 14, 14, 15], "texture": "#2"},
+				"down": {"uv": [11, 14, 14, 15], "texture": "#2"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "ravager_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+		}
+	]
+}

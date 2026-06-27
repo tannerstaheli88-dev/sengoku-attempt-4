@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sengoku:item/weeping_willow_checkered_double_shoji_door"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "structures": [
+	{
+      "structure": "shioh:boat",
+      "weight": 4
+    }
+  ],
+  "placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:ocean_monuments",
+      "chunk_count": 3
+    },
+    "salt": 420,
+    "spacing": 30,
+    "separation": 15,
+    "type": "minecraft:random_spread"
+  }
+}

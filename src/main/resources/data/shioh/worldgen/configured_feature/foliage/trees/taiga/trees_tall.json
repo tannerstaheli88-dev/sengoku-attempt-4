@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "shioh:foliage/trees/taiga/spruce_tall",
+    "features": [
+      {
+        "chance": 0.01,
+        "feature": "shioh:foliage/trees/taiga/pine_tall"
+      },
+      {
+        "chance": 0.75,
+        "feature": "shioh:foliage/trees/taiga/spruce_tall_m"
+      }
+    ]
+  }
+}

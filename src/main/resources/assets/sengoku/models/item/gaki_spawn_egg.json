@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/zombie_spawn_egg",
+	"textures": {
+		"0": "sengoku:item/gaki_spawn_egg",
+		"particle": "sengoku:item/gaki_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "gaki_spawn_egg_0",
+			"from": [4, 7, 6],
+			"to": [12, 15, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [12, 1, 4, 9], "texture": "#0"},
+				"east": {"uv": [11, 1, 12, 9], "texture": "#0"},
+				"south": {"uv": [4, 1, 12, 9], "texture": "#0"},
+				"west": {"uv": [4, 1, 5, 9], "texture": "#0"},
+				"up": {"uv": [4, 1, 12, 2], "texture": "#0"},
+				"down": {"uv": [4, 8, 12, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gaki_spawn_egg_1",
+			"from": [1, 7, 6],
+			"to": [4, 10, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [4, 6, 1, 9], "texture": "#0"},
+				"east": {"uv": [3, 6, 4, 9], "texture": "#0"},
+				"south": {"uv": [1, 6, 4, 9], "texture": "#0"},
+				"west": {"uv": [1, 6, 2, 9], "texture": "#0"},
+				"up": {"uv": [1, 6, 4, 7], "texture": "#0"},
+				"down": {"uv": [1, 8, 4, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gaki_spawn_egg_2",
+			"from": [12, 7, 6],
+			"to": [13, 9, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [13, 7, 12, 9], "texture": "#0"},
+				"east": {"uv": [12, 7, 13, 9], "texture": "#0"},
+				"south": {"uv": [12, 7, 13, 9], "texture": "#0"},
+				"west": {"uv": [12, 7, 13, 9], "texture": "#0"},
+				"up": {"uv": [12, 7, 13, 8], "texture": "#0"},
+				"down": {"uv": [12, 8, 13, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gaki_spawn_egg_3",
+			"from": [5, 1, 6],
+			"to": [11, 7, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [11, 9, 5, 15], "texture": "#0"},
+				"east": {"uv": [10, 9, 11, 15], "texture": "#0"},
+				"south": {"uv": [5, 9, 11, 15], "texture": "#0"},
+				"west": {"uv": [5, 9, 6, 15], "texture": "#0"},
+				"up": {"uv": [5, 9, 11, 10], "texture": "#0"},
+				"down": {"uv": [5, 14, 11, 15], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "gaki_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

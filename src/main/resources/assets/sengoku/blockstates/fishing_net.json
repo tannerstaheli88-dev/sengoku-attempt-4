@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,upper=false":  { "model": "sengoku:block/fishing_net", "y": 90 },
+    "facing=east,upper=false":   { "model": "sengoku:block/fishing_net", "y": 0 },
+    "facing=south,upper=false":  { "model": "sengoku:block/fishing_net", "y": 270 },
+    "facing=west,upper=false":   { "model": "sengoku:block/fishing_net", "y": 180 },
+
+    "facing=north,upper=true":   { "model": "sengoku:block/fishing_net", "y": 90 },
+    "facing=east,upper=true":    { "model": "sengoku:block/fishing_net", "y": 0 },
+    "facing=south,upper=true":   { "model": "sengoku:block/fishing_net", "y": 270 },
+    "facing=west,upper=true":    { "model": "sengoku:block/fishing_net", "y": 180 }
+  }
+}

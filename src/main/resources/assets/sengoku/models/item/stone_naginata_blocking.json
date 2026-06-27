@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:item/naginata_blocking",
+	"textures": {
+		"0": "sengoku:item/naginata/stone_naginata",
+		"particle": "sengoku:item/naginata/stone_naginata"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:item/blood_parent",
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "item/blaze_blood",
+		"particle": "item/blaze_blood"
+	}
+}

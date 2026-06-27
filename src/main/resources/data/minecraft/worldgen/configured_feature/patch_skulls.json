@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 96,
+    "xz_spread": 7,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "4"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "2"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "3"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "1"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "5"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "6"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "7"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "8"
+                  }
+                }
+              },
+			  {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "9"
+                  }
+                }
+              },
+			  {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "10"
+                  }
+                }
+              },
+			  {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "11"
+                  }
+                }
+              },
+			  {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "12"
+                  }
+                }
+              },
+			  {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "13"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:skeleton_skull",
+                  "Properties": {
+                    "rotation": "14"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": "minecraft:netherrack"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "paly_shoji_door",
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "PS",
+    "PS",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sengoku:bloodgood_paly_shoji_door"
+  }
+}

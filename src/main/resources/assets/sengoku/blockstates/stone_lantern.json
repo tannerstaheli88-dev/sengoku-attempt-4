@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "lit=false": [
+      { "model": "sengoku:block/stonelantern_1" },
+      { "model": "sengoku:block/stonelantern_2" },
+      { "model": "sengoku:block/stonelantern_3" },
+      { "model": "sengoku:block/stonelantern_4" }
+    ],
+    "lit=true": [
+      { "model": "sengoku:block/stonelantern_1_lit" },
+      { "model": "sengoku:block/stonelantern_2_lit" },
+      { "model": "sengoku:block/stonelantern_3_lit" },
+      { "model": "sengoku:block/stonelantern_4_lit" }
+    ]
+  }
+}

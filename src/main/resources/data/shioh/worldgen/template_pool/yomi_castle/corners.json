@@ -1,0 +1,42 @@
+{
+	"name": "shioh:fortress_foundation_conect",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:yomi_castle/yomi_castle_corner_right1",
+				"projection": "rigid",
+				"processors": "shioh:fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:yomi_castle/yomi_castle_corner_right2",
+				"projection": "rigid",
+				"processors": "shioh:fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:yomi_castle/yomi_castle_corner_left1",
+				"projection": "rigid",
+				"processors": "shioh:fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:yomi_castle/yomi_castle_corner_left2",
+				"projection": "rigid",
+				"processors": "shioh:fortress_generic_degradation"
+			}
+		}
+	]
+}

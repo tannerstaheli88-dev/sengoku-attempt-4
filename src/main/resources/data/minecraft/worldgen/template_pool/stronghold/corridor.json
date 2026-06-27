@@ -1,0 +1,60 @@
+{
+"name": "minecraft:stronghold/corridor",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/corridors/corridor1",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/corridors/corridor2",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/corridors/corridor3",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/corridors/corridor_stairs1",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/corridors/corridor_stairs2",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:stronghold/corridors/corridor_stairs3",
+        "processors": "minecraft:stronghold_waterlogged",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+   "fallback": "minecraft:stronghold/terminators/cross_room_terminator"
+}

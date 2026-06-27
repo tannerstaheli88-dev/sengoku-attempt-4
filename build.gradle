@@ -1,0 +1,192 @@
+import groovy.json.JsonSlurper
+import groovy.xml.XmlSlurper
+
+plugins {
+	id 'fabric-loom'
+	id 'maven-publish'
+}
+
+version = "${mod_version}+${minecraft_version}-Fabric"
+group = project.mod_group_id
+
+base {
+	archivesName = mod_comp_name
+}
+
+repositories {
+	maven {
+		name = 'ParchmentMC'
+		url = 'https://maven.parchmentmc.org'
+	}
+	maven {
+		name = 'Modrinth'
+		url = 'https://api.modrinth.com/maven'
+	}
+	maven {
+		name = 'TerraformersMC'
+		url = 'https://maven.terraformersmc.com/'
+	}
+	maven {
+		name = 'Shedaniel'
+		url = 'https://maven.shedaniel.me/'
+	}
+}
+
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"sengoku" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+	accessWidenerPath = file("src/main/resources/sengoku.accesswidener")
+
+}
+
+fabricApi {
+	//configureDataGeneration()
+}
+
+def getReleaseVersion(minecraftVersion) {
+	// Truncate version after first non-integer/dot
+	def releaseVersion = minecraftVersion.replaceAll(/[^0-9.].*/, '')
+	if (minecraftVersion != releaseVersion) {println('==='); println('Resolved \"' + minecraftVersion + '\" as \"' + releaseVersion + '\" for Fabric and Parchment.'); println('===')}
+	return releaseVersion
+}
+
+def releaseVersion = getReleaseVersion(minecraft_version)
+
+def getLatestFabric(minecraftVersion) {
+	def fApiXmlUrl = 'https://maven.fabricmc.net/net/fabricmc/fabric-api/fabric-api/maven-metadata.xml'
+	def fLoaderJsonUrl = 'https://meta.fabricmc.net/v2/versions/loader'
+
+	def fLoaderJson = new JsonSlurper().parseText(new URI(fLoaderJsonUrl).toURL().text)
+	def fLoaderLatestVersion = fLoaderJson.get(0).version
+	println('Fabric Loader: ' + fLoaderLatestVersion)
+
+	def fApiLatestVersion
+	try {
+		def metadata = new XmlSlurper().parse(fApiXmlUrl)
+		def versions = metadata.versioning.versions.version*.text()
+		fApiLatestVersion = versions.findAll { it ==~ /\d+(\.\d+)*.${minecraftVersion}/ }.last()
+		println('Fabric Api: ' + fApiLatestVersion)
+	} catch (Exception e) {
+		throw new GradleException("Failed to fetch $fApiXmlUrl: ${e.message}")
+	}
+	return [fLoaderLatestVersion, fApiLatestVersion]
+}
+
+def getParchmentWithDecrementedMC(minecraftVersion) {
+	def url = 'https://versioning.parchmentmc.org/versions'
+	def json = new JsonSlurper().parseText(new URI(url).toURL().text)
+	def releases = json.releases
+
+	// Truncate version after first non-integer/dot
+	def releaseVersion = minecraftVersion.replaceAll(/[^0-9.].*/, '')
+
+	def versionParts = releaseVersion.toString().split('\\.')
+	if (versionParts.size() == 2) versionParts << "0"
+	if (versionParts.size() < 2 || versionParts.size() > 3) throw new GradleException("Invalid Minecraft version format: $minecraftVersion")
+	def (major, minor, patch) = versionParts.collect {it as Integer}
+	def decrementedVersion = patch < 1 ? "$major.${minor - 1}.99" : "$major.$minor.${patch - 1}"
+
+	while (!releases["$major.$minor.$patch"]) {
+		if (patch > 0) {
+			patch--
+		} else {
+			if (minor == 0) break
+			minor--
+			patch = 7
+		}
+	}
+
+	def foundVersion = "$major.$minor.$patch"
+	if (releases[foundVersion]) {
+	def parchmentDate = releases[foundVersion]
+	println("Parchment: ${foundVersion} + ${parchmentDate}")
+		return [decrementedVersion, foundVersion, parchmentDate]
+	}
+
+	throw new GradleException("No valid Parchment version found for $minecraftVersion or earlier.")
+}
+
+def (fabric_loader_version, fabric_api_version) = getLatestFabric(releaseVersion)
+def (decrementedVersion, pMinecraftVersion, mostRecentParchmentDate) = getParchmentWithDecrementedMC(releaseVersion)
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings loom.layered() {
+		officialMojangMappings()
+		parchment("org.parchmentmc.data:parchment-${pMinecraftVersion}:${mostRecentParchmentDate}@zip")
+	}
+	modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_api_version}"
+
+	// Config Libraries
+	modImplementation "com.terraformersmc:modmenu:11.0.3"
+	modApi("me.shedaniel.cloth:cloth-config-fabric:15.0.140") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+
+	// Compat: Better Beds / EBE
+	//modRuntimeOnly "maven.modrinth:better-beds:${project.betterbeds_version}"
+	//modRuntimeOnly "maven.modrinth:ebe:${project.ebe_version}"
+}
+
+processResources {
+	var replaceProperties = [
+			loader_version: fabric_loader_version, mod_id: mod_id, mod_name: mod_name,
+			mod_license: mod_license, mod_version: mod_version, mod_authors: mod_authors,
+			mod_description: mod_description, quad_version: quad_version, minecraft_version_0: decrementedVersion
+	]
+	inputs.properties replaceProperties
+
+	filesMatching("fabric.mod.json") {
+		expand replaceProperties
+	}
+}
+
+//blockstates/*.json Minifier
+
+tasks.named("processClientResources").configure {
+	doLast {
+		fileTree(dir: layout.buildDirectory.file("resources/"), include: ["**/blockstates/**/*.json"]).each { file ->
+			def content = file.text
+			content = content.replaceAll("\\s(?=[\\s\":\\[\\]{}])", "")
+			file.text = content
+		}
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}"}
+	}
+}
+
+tasks.named("remapJar").configure {
+	dependsOn(tasks.named("jar"))
+}
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			from components.java
+		}
+	}
+	repositories {}
+}

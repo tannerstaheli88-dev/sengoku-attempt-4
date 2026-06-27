@@ -1,0 +1,150 @@
+{
+  "name": "minecraft:village/micro/snowy_houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_house1",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_house2",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_house3",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_house4",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_house5",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_house6",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_house7",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_house8",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/snowy/houses/snowy_onsen_1",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_shed1",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_shed2",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_farm1",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_farm2",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_farm3",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_farm4",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/snowy_micro_farm5",
+        "processors": "shioh:snowy_hut",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

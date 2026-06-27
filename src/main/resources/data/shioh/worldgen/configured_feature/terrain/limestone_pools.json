@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:random_boolean_selector",
+  "config": {
+    "feature_false": {
+      "feature": "shioh:terrain/limestone_pool",
+      "placement": []
+    },
+    "feature_true": {
+      "feature": "shioh:terrain/limestone_nopool",
+      "placement": []
+    }
+  }
+}

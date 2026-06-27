@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "iron_kanabo",
+  "pattern": [
+    " # ",
+    " # ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "/": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "sengoku:stone_kanabo",
+    "count": 1
+  }
+}

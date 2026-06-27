@@ -1,0 +1,97 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "blood_n_particles_datapack:item/zombified_piglin_for_parts",
+		"particle": "blood_n_particles_datapack:item/zombified_piglin_for_parts"
+	},
+	"elements": [
+		{
+			"from": [8, 4.02, 6.45],
+			"to": [12, 8.02, 7.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 4, 6.5]},
+			"faces": {
+				"north": {"uv": [9.25, 0.5, 10.25, 1.5], "texture": "#0"},
+				"east": {"uv": [9, 0.5, 9.25, 1.5], "texture": "#0"},
+				"south": {"uv": [8, 0.5, 9, 1.5], "texture": "#0"},
+				"west": {"uv": [7.75, 0.5, 8, 1.5], "texture": "#0"},
+				"up": {"uv": [8, 0.25, 9, 0.5], "texture": "#0"},
+				"down": {"uv": [9, 0.25, 10, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 6.98, 6.45],
+			"to": [6, 11.98, 7.45],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [5, 11, 6.5]},
+			"faces": {
+				"north": {"uv": [14, 2.5, 15, 3.75], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [13.75, 2.5, 14, 3.75], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [12.75, 2.5, 13.75, 3.75], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [15, 2.5, 15.25, 3.75], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [13.75, 1.5, 14, 2.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [14.25, 1.5, 14, 2.5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [12, 4.02, 6.45],
+			"to": [13, 6.02, 7.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 4, 6.5]},
+			"faces": {
+				"north": {"uv": [1.25, 0.25, 1.5, 0.75], "texture": "#0"},
+				"east": {"uv": [1, 0.25, 1.25, 0.75], "texture": "#0"},
+				"south": {"uv": [0.75, 0.25, 1, 0.75], "texture": "#0"},
+				"west": {"uv": [0.5, 0.25, 0.75, 0.75], "texture": "#0"},
+				"up": {"uv": [0.75, 0, 1, 0.25], "texture": "#0"},
+				"down": {"uv": [1, 0, 1.25, 0.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 4.02, 6.45],
+			"to": [8, 6.02, 7.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 6.5]},
+			"faces": {
+				"north": {"uv": [1.25, 0.25, 1.5, 0.75], "texture": "#0"},
+				"east": {"uv": [1, 0.25, 1.25, 0.75], "texture": "#0"},
+				"south": {"uv": [0.75, 0.25, 1, 0.75], "texture": "#0"},
+				"west": {"uv": [0.5, 0.25, 0.75, 0.75], "texture": "#0"},
+				"up": {"uv": [0.75, 0, 1, 0.25], "texture": "#0"},
+				"down": {"uv": [1, 0, 1.25, 0.25], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -1, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "nariz",
+			"origin": [7, 0, 3],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

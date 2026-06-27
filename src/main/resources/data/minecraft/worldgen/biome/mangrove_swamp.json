@@ -1,0 +1,213 @@
+{
+  "temperature": 1.2,
+  "downfall": 0.2,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 7898252,
+    "fog_color": 12638463,
+    "water_color": 3829036,
+    "water_fog_color": 3829036,
+    "foliage_color": 12355897,
+    "grass_color": 12034369,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:bogged",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:frog",
+        "weight": 50,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "sengoku:red_crowned_crane",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 25,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "shioh:terrain/base_mangrove_swamp"
+    ],
+    [
+      "shioh:misc/mossyboulders",
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:large_dripstone",
+      "shioh:terrain/base_mangrove_swamp_bayou_hills"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [
+	],
+    [
+      "shioh:terrain/cave_disk_basalt",
+      "shioh:terrain/cave_disk_blackstone",
+      "shioh:terrain/cave_disk_magma"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_clay",
+      "sengoku:iron_sand_in_river"
+    ],
+    [
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+	  "shioh:foliage/grass/suzuki_field_transition",
+      "minecraft:glow_lichen",
+	  "shioh:foliage/trees/swamp/weeping_mangrove_tree",
+      "shioh:foliage/grass/large_ferns_dense_forests",
+	  "shioh:misc/mossy_rocks",
+	  "shioh:misc/mossy_stone_pillars",
+      "shioh:foliage/trees/swamp/trees_dead",
+      "shioh:foliage/trees/swamp/mangrove_swamp_bayou_2",
+      "shioh:foliage/trees/swamp/mangrove_swamp_mangroves",
+      "shioh:foliage/grass/elephant_grass",
+      "shioh:foliage/grass/grass_standard",
+      "minecraft:mudpond",
+	  "minecraft:lush_caves_vegetation",
+	  "shioh:foliage/grass/flower_white",
+      "minecraft:patch_waterlily",
+      "minecraft:seagrass_swamp"
+    ],
+    [
+      "shioh:foliage/misc/mangrove_swamp_dripleaves",
+      "minecraft:freeze_top_layer",
+      "shioh:foliage/misc/swamp_moss"
+    ]
+  ]
+}

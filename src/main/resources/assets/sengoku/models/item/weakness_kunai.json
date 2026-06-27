@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "sengoku:item/kunai_weakness"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 35],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, -36],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_righthand": {
+			"rotation": [132.53, -26.09, -78.99],
+			"translation": [2, 2.75, 0],
+			"scale": [0.56, 0.56, 0.56]
+		},
+		"firstperson_lefthand": {
+			"rotation": [143.51, -36.18, -161.9],
+			"translation": [2, 2.75, 0],
+			"scale": [0.56, 0.56, 0.56]
+		}
+	}
+}

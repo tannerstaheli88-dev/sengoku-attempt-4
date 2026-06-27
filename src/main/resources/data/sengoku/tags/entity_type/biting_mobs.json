@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:pig",
+    "minecraft:silverfish",
+	"minecraft:endermite",
+	"minecraft:phantom",
+    "sengoku:akugyo",
+    "sengoku:omukade",
+    "sengoku:umi_inu",
+	"sengoku:ikuchi"
+  ]
+}

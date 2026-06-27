@@ -1,0 +1,77 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_post"
+      }
+    },
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_side"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_side",
+        "y": 90
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_side_alt"
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_side_alt",
+        "y": 90
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_noside"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_noside_alt"
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_noside_alt",
+        "y": 90
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "sengoku:block/shoji_frame/mangrove_checkered_shoji_frame_noside",
+        "y": 270
+      },
+      "when": {
+        "west": "false"
+      }
+    }
+  ]
+}

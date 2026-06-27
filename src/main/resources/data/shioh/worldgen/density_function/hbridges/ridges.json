@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": "shioh:hbridges/noiseshift/base",
+    "argument2": {
+      "type": "mul",
+      "argument1": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": {
+            "type": "add",
+            "argument1": -0.05, 
+            "argument2": {
+              "type": "add",
+              "argument1": {
+                "type": "mul",
+                "argument1": 0.2, 
+                "argument2": {
+                  "type": "noise",
+                  "noise": "shioh:mt_fuji_ridge",
+                  "xz_scale": 250,
+                  "y_scale": 0
+                }
+              },
+              "argument2": "shioh:overworld/continents" 
+            }
+          },
+          "points": [
+            {
+              "location": -0.5,
+              "value": 0,
+              "derivative": 0
+            },
+            {
+              "location": -0.164,
+              "value": 0,
+              "derivative": 0
+            },
+            {
+              "location": 0.7,
+              "value": 0.5,
+              "derivative": 1.3100436681222607
+            },
+            {
+              "location": 1.4957218502292502,
+              "value": 0.9966698642152904,
+              "derivative": 0
+            }
+          ]
+        }
+      },
+      "argument2": {
+        "type": "add",
+        "argument1": {
+          "type": "mul",
+          "argument1": {
+            "type": "mul",
+            "argument1": {
+              "type": "add",
+              "argument1": "shioh:roughness", 
+              "argument2": {
+                "type": "mul",
+                "argument1": "shioh:orogeny", 
+                "argument2": "shioh:mountains_base" 
+              }
+            },
+            "argument2": {
+              "type": "mul",
+              "argument1": "shioh:mountains_shape", 
+              "argument2": "shioh:orogeny" 
+            }
+          },
+          "argument2": 0.04 
+        },
+        "argument2": {
+          "type": "mul",
+          "argument1": {
+            "type": "mul",
+            "argument1": "shioh:orogeny", 
+            "argument2": "shioh:mountains_base" 
+          },
+          "argument2": 0.01 
+        }
+      }
+    }
+    }
+  }
+}

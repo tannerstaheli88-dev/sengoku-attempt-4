@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "checkered_shoji_panel",
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_planks"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sengoku:kiso_checkered_shoji_panel"
+  },
+  "show_notification": true
+}

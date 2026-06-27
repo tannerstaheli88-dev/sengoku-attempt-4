@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shoji_door",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "PP",
+    "PP",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sengoku:sakura_shoji_door"
+  }
+}

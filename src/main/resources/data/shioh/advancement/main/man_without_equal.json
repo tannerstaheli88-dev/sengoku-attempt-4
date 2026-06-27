@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "sengoku:warlord_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.man_without_equal.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.man_without_equal.description"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "shioh:main/occupied_castle",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sengoku:warlord"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 375
+  }
+}

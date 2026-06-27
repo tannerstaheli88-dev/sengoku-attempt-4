@@ -1,0 +1,142 @@
+{
+  "feature": {
+    "type": "minecraft:simple_random_selector",
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "type": "minecraft:netherrack_replace_blobs",
+            "config": {
+              "state": {
+                "Name": "minecraft:fire_coral_block"
+              },
+              "target": {
+                "Name": "minecraft:end_stone"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 7,
+                  "max_inclusive": 10
+              }
+            }
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "type": "minecraft:netherrack_replace_blobs",
+            "config": {
+              "state": {
+                "Name": "minecraft:sandstone"
+              },
+              "target": {
+                "Name": "minecraft:end_stone"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 7,
+                  "max_inclusive": 10
+              }
+            }
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "type": "minecraft:netherrack_replace_blobs",
+            "config": {
+              "state": {
+                "Name": "minecraft:granite"
+              },
+              "target": {
+                "Name": "minecraft:end_stone"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 7,
+                  "max_inclusive": 10
+              }
+            }
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "type": "minecraft:netherrack_replace_blobs",
+            "config": {
+              "state": {
+                "Name": "minecraft:deepslate"
+              },
+              "target": {
+                "Name": "minecraft:end_stone"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 7,
+                  "max_inclusive": 10
+              }
+            }
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "type": "minecraft:netherrack_replace_blobs",
+            "config": {
+              "state": {
+                "Name": "minecraft:end_stone"
+              },
+              "target": {
+                "Name": "minecraft:fire_coral_block"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 7,
+                  "max_inclusive": 10
+              }
+            }
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "type": "minecraft:netherrack_replace_blobs",
+            "config": {
+              "state": {
+                "Name": "minecraft:fire_coral_block"
+              },
+              "target": {
+                "Name": "minecraft:mud"
+              },
+              "radius": {
+                "type": "minecraft:uniform",
+                  "min_inclusive": 7,
+                  "max_inclusive": 10
+              }
+            }
+          },
+          "placement": []
+        }
+      ]
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 3
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "large_fern_top": "minecraft:block/large_fern_top",
+		"particle": "block/fern"
+    },
+    "elements": [
+        {
+            "from": [ 0, 6, -4 ], 
+            "to": [ 16, 22, -4 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 16 ], "tintindex":1 },
+                "east": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ], "tintindex":1 },
+                "south": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 16 ], "tintindex":1 },
+                "west": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ], "tintindex":1 },
+                "up": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 0 ] },
+                "down": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 0 ] }
+            }
+        },
+        {
+            "from": [ 0, 6, 20 ], 
+            "to": [ 16, 22, 20 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 16 ], "tintindex":1 },
+                "east": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ], "tintindex":1 },
+                "south": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 16 ], "tintindex":1 },
+                "west": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ], "tintindex":1 },
+                "up": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 0 ] },
+                "down": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 0 ] }
+            }
+        },
+        {
+            "from": [ -4, 6, 0 ], 
+            "to": [ -4, 22, 16 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ], "tintindex":1 },
+                "east": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 16 ], "tintindex":1 },
+                "south": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ], "tintindex":1 },
+                "west": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 16 ], "tintindex":1 },
+                "up": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ] },
+                "down": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ] }
+            }
+        },
+        {
+            "from": [ 20, 6, 0 ], 
+            "to": [ 20, 22, 16 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ], "tintindex":1 },
+                "east": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 16 ], "tintindex":1 },
+                "south": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ], "tintindex":1 },
+                "west": { "texture": "#large_fern_top", "uv": [ 0, 0, 16, 16 ], "tintindex":1 },
+                "up": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ] },
+                "down": { "texture": "#large_fern_top", "uv": [ 0, 0, 0, 16 ] }
+            }
+        }
+    ]
+}

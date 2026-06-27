@@ -1,0 +1,77 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/sea_shrine1",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/sea_shrine2",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/sea_shrine3",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/sea_shrine4",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/sea_shrine5",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/sea_shrine6",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/sea_monastery1",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/sea_monastery2",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 3
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

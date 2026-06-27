@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:item/tetsubo",
+  "textures": {
+    "1": "sengoku:item/tetsubo/netherite_tetsubo_of_the_hatamoto"
+  },
+  "overrides": [
+    {
+      "predicate": { "minecraft:blocking": 1 },
+      "model": "sengoku:item/netherite_tetsubo_of_the_hatamoto_blocking"
+    }
+  ]
+}

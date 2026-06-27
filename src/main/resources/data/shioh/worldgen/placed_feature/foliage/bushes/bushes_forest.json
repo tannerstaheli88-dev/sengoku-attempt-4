@@ -1,0 +1,244 @@
+{
+  "feature": "shioh:foliage/bushes/sets/bushes1",
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": -1,
+      "noise_factor": 1000,
+      "noise_offset": -0.45
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 3,
+            "weight": 90
+          },
+          {
+            "data": 14,
+            "weight": 10
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:any_of",
+          "predicates": [
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                8,
+                -1,
+                0
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -8,
+                -1,
+                0
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                8
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                -8
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                3,
+                -1,
+                0
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -3,
+                -1,
+                0
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                3
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                -3
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                2,
+                -1,
+                2
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -2,
+                -1,
+                2
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                2,
+                -1,
+                -2
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -2,
+                -1,
+                -2
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                1,
+                -1,
+                8
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -1,
+                -1,
+                8
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                1,
+                -1,
+                -8
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -1,
+                -1,
+                -8
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                8,
+                -1,
+                1
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                8,
+                -1,
+                -1
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -8,
+                -1,
+                1
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -8,
+                -1,
+                -1
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:oak_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

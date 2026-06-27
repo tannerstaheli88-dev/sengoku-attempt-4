@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:item/tanto_blocking",
+  "textures": {
+    "1": "sengoku:item/tanto/netherite_tanto_of_tamatori_hime"
+  }
+}

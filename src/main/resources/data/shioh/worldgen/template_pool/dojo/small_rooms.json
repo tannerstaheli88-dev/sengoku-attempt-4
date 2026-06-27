@@ -1,0 +1,156 @@
+{
+  "name": "meme",
+  "fallback": "shioh:dojo/small_room_fallback",
+  "elements": [
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_room_huge1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_room_huge2",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "shioh:dojo/shinobi_dojo1",
+          "processors": "minecraft:empty",
+          "override_liquid_settings": "ignore_waterlogging"
+        },
+        "limit": 2
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room1",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room2",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room3",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room4",
+        "processors": []
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room5",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room_partial1",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_room_partial2",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_small_door1",
+        "processors": []
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_small_door2",
+        "processors": []
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_stairs1",
+        "processors": []
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_stairs2",
+        "processors": []
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "shioh:dojo/shinobi_stairs3",
+        "processors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "block/tinted_cross_6",
+	"textures": {
+		"cross": "block/bamboo_large_leaves_2"
+	}
+}

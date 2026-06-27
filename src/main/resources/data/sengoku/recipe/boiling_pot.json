@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pot",
+  "pattern": [
+    " / ",
+    " # ",
+	" W "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smoker"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "/": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "id": "sengoku:boiling_pot",
+    "count": 1
+  }
+}

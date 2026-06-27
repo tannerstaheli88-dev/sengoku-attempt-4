@@ -1,0 +1,24 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "priority": 4,
+  "structures": "#minecraft:flat_structures_large",
+  "spawn_condition": {
+    "type": "lithostitched:grid",
+    "radius": 40,
+    "distance_between_points": 26,
+    "condition": {
+      "type": "lithostitched:not",
+      "condition": {
+        "type": "lithostitched:height_filter",
+        "range_type": "heightmap_relative",
+        "heightmap": "WORLD_SURFACE_WG",
+        "permitted_range": [
+          -6,
+          6
+        ]
+      }
+    },
+    "allowed_count": 0
+  },
+  "append": true
+}

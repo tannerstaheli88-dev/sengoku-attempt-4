@@ -1,0 +1,19 @@
+{
+    "multipart": [
+        {   "apply": [
+				{ "model": "block/warped_wart_block" },
+				{ "model": "block/warped_wart_block2" }
+			]
+        },
+        {   "apply": [
+                { "model": "block/warped_wart_leaves" },
+                { "model": "block/warped_wart_leaves", "y": 90 },
+                { "model": "block/warped_wart_leaves", "y": 180 },
+                { "model": "block/warped_wart_leaves", "y": 270 },
+                { "model": "block/warped_wart_leaves2", "y": 90 },
+                { "model": "block/warped_wart_leaves2", "y": 180 },
+                { "model": "block/warped_wart_leaves2", "y": 270 }
+            ]
+        }
+    ]
+}

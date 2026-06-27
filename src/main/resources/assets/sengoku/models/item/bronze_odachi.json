@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:item/odachi",
+  "textures": {
+    "0": "sengoku:item/odachi/bronze_odachi"
+  }
+}

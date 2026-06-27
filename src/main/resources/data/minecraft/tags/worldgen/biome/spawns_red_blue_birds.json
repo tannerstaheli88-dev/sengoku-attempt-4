@@ -1,0 +1,38 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+	"minecraft:warm_ocean",
+	"minecraft:old_growth_birch_forest",
+	"minecraft:sparse_jungle",
+    "sengoku:hotsprings",
+	"sengoku:kerria_field",
+	"sengoku:rose_field",
+    {
+      "id": "sengoku:kerria_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:rose_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:autumnal_bamboo_forest",
+      "required": false
+    },
+    {
+      "id": "sengoku:autumnal_river",
+      "required": false
+    },
+    {
+      "id": "sengoku:autumnal_beach",
+      "required": false
+    },
+    {
+      "id": "sengoku:hotsprings",
+      "required": false
+    }
+  ]
+}

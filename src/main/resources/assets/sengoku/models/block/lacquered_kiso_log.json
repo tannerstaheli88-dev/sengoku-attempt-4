@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "sengoku:block/kiso_log_top",
+    "side": "sengoku:block/kiso_log"
+  }
+}

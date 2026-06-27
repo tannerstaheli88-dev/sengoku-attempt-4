@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/shoji_door_top_hinge",
+	"textures": {
+		"particle": "sengoku:block/black_pine_paly_door_top",
+		"top": "sengoku:block/black_pine_paly_door_top",
+		"bottom": "sengoku:block/black_pine_planks"
+	}
+}

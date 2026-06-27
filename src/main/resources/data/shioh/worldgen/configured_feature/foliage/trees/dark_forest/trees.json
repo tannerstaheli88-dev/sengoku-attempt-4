@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "shioh:foliage/trees/dark_forest/oak",
+    "features": [
+      {
+        "chance": 0.025,
+        "feature": "shioh:foliage/trees/dark_forest/twilight_tree"
+      },
+      {
+        "chance": 0.34,
+        "feature": {
+          "feature": "shioh:foliage/trees/dark_forest/dark_oak",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE"
+            },
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+				  "minecraft:grass_block",
+                  "minecraft:podzol",
+                  "minecraft:dirt",
+                  "minecraft:coarse_dirt"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.34,
+        "feature": "shioh:foliage/trees/dark_forest/twilight_tree"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_base": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sengoku:netherite_tetsubo"]
+          }
+        ]
+      }
+    },
+    "has_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sengoku:seigun_upgrade_smithing_template"]
+          }
+        ]
+      }
+    },
+    "has_broken_piece": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sengoku:broken_hilt_piece"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "sengoku:netherite_tetsubo_of_the_hatamoto"
+      }
+    }
+  },
+  "requirements": [["has_base", "has_template", "has_broken_piece", "has_the_recipe"]],
+  "rewards": {
+    "recipes": ["sengoku:netherite_tetsubo_of_the_hatamoto"]
+  }
+}

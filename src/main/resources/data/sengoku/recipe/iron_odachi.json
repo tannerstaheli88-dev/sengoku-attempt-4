@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "sengoku:tamahagane_ingot"
+  },
+  "base": {
+    "item": "sengoku:stone_odachi"
+  },
+  "result": {
+    "count": 1,
+    "id": "sengoku:iron_odachi"
+  },
+  "template": {
+    "item": "sengoku:tamahagane_upgrade_smithing_template"
+  }
+}

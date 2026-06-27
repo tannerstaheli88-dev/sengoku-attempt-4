@@ -1,0 +1,8 @@
+{
+  "parent": "sengoku:block/double_shoji_left_door_top_hinge",
+  "textures": {
+    "particle": "sengoku:block/oak_double_door_top",
+    "bottom": "sengoku:block/oak_double_door_bottom",
+    "top": "sengoku:block/oak_double_door_top"
+  }
+}

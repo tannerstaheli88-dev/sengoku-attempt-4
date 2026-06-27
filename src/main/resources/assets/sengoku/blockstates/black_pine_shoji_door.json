@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=east,half=lower,hinge=left,open=false": {
+      "model": "sengoku:block/black_pine_shoji_bottom"
+    },
+    "facing=east,half=lower,hinge=left,open=true": {
+      "model": "sengoku:block/black_pine_shoji_bottom_hinge_slide",
+      "y": 180
+    },
+    "facing=east,half=lower,hinge=right,open=false": {
+      "model": "sengoku:block/black_pine_shoji_bottom_hinge"
+    },
+    "facing=east,half=lower,hinge=right,open=true": {
+      "model": "sengoku:block/black_pine_shoji_bottom_slide",
+      "y": 180
+    },
+    "facing=east,half=upper,hinge=left,open=false": {
+      "model": "sengoku:block/black_pine_shoji_top"
+    },
+    "facing=east,half=upper,hinge=left,open=true": {
+      "model": "sengoku:block/black_pine_shoji_top_hinge_slide",
+      "y": 180
+    },
+    "facing=east,half=upper,hinge=right,open=false": {
+      "model": "sengoku:block/black_pine_shoji_top_hinge"
+    },
+    "facing=east,half=upper,hinge=right,open=true": {
+      "model": "sengoku:block/black_pine_shoji_top_slide",
+      "y": 180
+    },
+    "facing=north,half=lower,hinge=left,open=false": {
+      "model": "sengoku:block/black_pine_shoji_bottom",
+      "y": 270
+    },
+    "facing=north,half=lower,hinge=left,open=true": {
+      "model": "sengoku:block/black_pine_shoji_bottom_hinge_slide",
+      "y": 90
+    },
+    "facing=north,half=lower,hinge=right,open=false": {
+      "model": "sengoku:block/black_pine_shoji_bottom_hinge",
+      "y": 270
+    },
+    "facing=north,half=lower,hinge=right,open=true": {
+      "model": "sengoku:block/black_pine_shoji_bottom_slide",
+      "y": 90
+    },
+    "facing=north,half=upper,hinge=left,open=false": {
+      "model": "sengoku:block/black_pine_shoji_top",
+      "y": 270
+    },
+    "facing=north,half=upper,hinge=left,open=true": {
+      "model": "sengoku:block/black_pine_shoji_top_hinge_slide",
+      "y": 90
+    },
+    "facing=north,half=upper,hinge=right,open=false": {
+      "model": "sengoku:block/black_pine_shoji_top_hinge",
+      "y": 270
+    },
+    "facing=north,half=upper,hinge=right,open=true": {
+      "model": "sengoku:block/black_pine_shoji_top_slide",
+      "y": 90
+    },
+    "facing=south,half=lower,hinge=left,open=false": {
+      "model": "sengoku:block/black_pine_shoji_bottom",
+      "y": 90
+    },
+    "facing=south,half=lower,hinge=left,open=true": {
+      "model": "sengoku:block/black_pine_shoji_bottom_hinge_slide",
+      "y": 270
+    },
+    "facing=south,half=lower,hinge=right,open=false": {
+      "model": "sengoku:block/black_pine_shoji_bottom_hinge",
+      "y": 90
+    },
+    "facing=south,half=lower,hinge=right,open=true": {
+      "model": "sengoku:block/black_pine_shoji_bottom_slide",
+      "y": 270
+    },
+    "facing=south,half=upper,hinge=left,open=false": {
+      "model": "sengoku:block/black_pine_shoji_top",
+      "y": 90
+    },
+    "facing=south,half=upper,hinge=left,open=true": {
+      "model": "sengoku:block/black_pine_shoji_top_hinge_slide",
+      "y": 270
+    },
+    "facing=south,half=upper,hinge=right,open=false": {
+      "model": "sengoku:block/black_pine_shoji_top_hinge",
+      "y": 90
+    },
+    "facing=south,half=upper,hinge=right,open=true": {
+      "model": "sengoku:block/black_pine_shoji_top_slide",
+      "y": 270
+    },
+    "facing=west,half=lower,hinge=left,open=false": {
+      "model": "sengoku:block/black_pine_shoji_bottom",
+      "y": 180
+    },
+    "facing=west,half=lower,hinge=left,open=true": {
+      "model": "sengoku:block/black_pine_shoji_bottom_hinge_slide"
+    },
+    "facing=west,half=lower,hinge=right,open=false": {
+      "model": "sengoku:block/black_pine_shoji_bottom_hinge",
+      "y": 180
+    },
+    "facing=west,half=lower,hinge=right,open=true": {
+      "model": "sengoku:block/black_pine_shoji_bottom_slide"
+    },
+    "facing=west,half=upper,hinge=left,open=false": {
+      "model": "sengoku:block/black_pine_shoji_top",
+      "y": 180
+    },
+    "facing=west,half=upper,hinge=left,open=true": {
+      "model": "sengoku:block/black_pine_shoji_top_hinge_slide"
+    },
+    "facing=west,half=upper,hinge=right,open=false": {
+      "model": "sengoku:block/black_pine_shoji_top_hinge",
+      "y": 180
+    },
+    "facing=west,half=upper,hinge=right,open=true": {
+      "model": "sengoku:block/black_pine_shoji_top_slide"
+    }
+  }
+}

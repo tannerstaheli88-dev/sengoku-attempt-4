@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "minecraft:block/dark_oak_log",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/dark_oak_log_mirrored",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/dark_oak_log",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/dark_oak_log_mirrored",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "minecraft:block/dark_oak_log"
+      },
+      {
+        "model": "minecraft:block/dark_oak_log_mirrored"
+      },
+      {
+        "model": "minecraft:block/dark_oak_log",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/dark_oak_log_mirrored",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "minecraft:block/dark_oak_log",
+        "x": 90
+      },
+      {
+        "model": "minecraft:block/dark_oak_log_mirrored",
+        "x": 90
+      },
+      {
+        "model": "minecraft:block/dark_oak_log",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/dark_oak_log_mirrored",
+        "x": 90,
+        "y": 180
+      }
+    ]
+  }
+}

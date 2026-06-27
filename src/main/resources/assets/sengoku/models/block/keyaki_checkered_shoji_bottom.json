@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/shoji_door_bottom",
+	"textures": {
+		"top": "sengoku:block/keyaki_planks",
+		"particle": "sengoku:block/keyaki_checkered_door_bottom",
+		"bottom": "sengoku:block/keyaki_checkered_door_bottom"
+	}
+}

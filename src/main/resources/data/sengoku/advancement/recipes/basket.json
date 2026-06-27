@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hay_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:composter"] }]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:basket"
+    ]
+  }
+}

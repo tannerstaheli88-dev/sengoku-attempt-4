@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_base": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sengoku:diamond_tanto"]
+          }
+        ]
+      }
+    },
+    "has_template": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sengoku:seigun_upgrade_smithing_template"]
+          }
+        ]
+      }
+    },
+    "has_broken_piece": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sengoku:broken_hilt_piece"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "sengoku:tanto_of_tamatori_hime"
+      }
+    }
+  },
+  "requirements": [["has_base", "has_template", "has_broken_piece", "has_the_recipe"]],
+  "rewards": {
+    "recipes": ["sengoku:tanto_of_tamatori_hime",
+	  "sengoku:seigun_upgrade_smithing_template"]
+  }
+}

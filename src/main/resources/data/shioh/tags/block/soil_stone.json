@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:cobbled_deepslate",
+    "minecraft:deepslate",
+    "minecraft:basalt",
+	"minecraft:mud",
+	"minecraft:gravel",
+	"minecraft:mycelium",
+    "#minecraft:base_stone_overworld"
+  ]
+}

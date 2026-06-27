@@ -1,0 +1,118 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "sengoku:item/shiryo_spawn_egg",
+		"particle": "sengoku:item/shiryo_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "shiryo_spawn_egg_0",
+			"from": [6, 0, 7],
+			"to": [8, 15, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [8, 1, 6, 16], "texture": "#0"},
+				"east": {"uv": [7, 1, 8, 16], "texture": "#0"},
+				"south": {"uv": [6, 1, 8, 16], "texture": "#0"},
+				"west": {"uv": [6, 1, 7, 16], "texture": "#0"},
+				"up": {"uv": [6, 1, 8, 2], "texture": "#0"},
+				"down": {"uv": [6, 15, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shiryo_spawn_egg_1",
+			"from": [5, 0, 7],
+			"to": [6, 14, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [6, 2, 5, 16], "texture": "#0"},
+				"east": {"uv": [5, 2, 6, 16], "texture": "#0"},
+				"south": {"uv": [5, 2, 6, 16], "texture": "#0"},
+				"west": {"uv": [5, 2, 6, 16], "texture": "#0"},
+				"up": {"uv": [5, 2, 6, 3], "texture": "#0"},
+				"down": {"uv": [5, 15, 6, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shiryo_spawn_egg_2",
+			"from": [8, 1, 7],
+			"to": [10, 14, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [10, 2, 8, 15], "texture": "#0"},
+				"east": {"uv": [9, 2, 10, 15], "texture": "#0"},
+				"south": {"uv": [8, 2, 10, 15], "texture": "#0"},
+				"west": {"uv": [8, 2, 9, 15], "texture": "#0"},
+				"up": {"uv": [8, 2, 10, 3], "texture": "#0"},
+				"down": {"uv": [8, 14, 10, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shiryo_spawn_egg_3",
+			"from": [4, 4, 7],
+			"to": [5, 13, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [5, 3, 4, 12], "texture": "#0"},
+				"east": {"uv": [4, 3, 5, 12], "texture": "#0"},
+				"south": {"uv": [4, 3, 5, 12], "texture": "#0"},
+				"west": {"uv": [4, 3, 5, 12], "texture": "#0"},
+				"up": {"uv": [4, 3, 5, 4], "texture": "#0"},
+				"down": {"uv": [4, 11, 5, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shiryo_spawn_egg_4",
+			"from": [10, 2, 7],
+			"to": [12, 13, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [12, 3, 10, 14], "texture": "#0"},
+				"east": {"uv": [11, 3, 12, 14], "texture": "#0"},
+				"south": {"uv": [10, 3, 12, 14], "texture": "#0"},
+				"west": {"uv": [10, 3, 11, 14], "texture": "#0"},
+				"up": {"uv": [10, 3, 12, 4], "texture": "#0"},
+				"down": {"uv": [10, 13, 12, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shiryo_spawn_egg_5",
+			"from": [10, 0, 7],
+			"to": [11, 2, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [11, 14, 10, 16], "texture": "#0"},
+				"east": {"uv": [10, 14, 11, 16], "texture": "#0"},
+				"south": {"uv": [10, 14, 11, 16], "texture": "#0"},
+				"west": {"uv": [10, 14, 11, 16], "texture": "#0"},
+				"up": {"uv": [10, 14, 11, 15], "texture": "#0"},
+				"down": {"uv": [10, 15, 11, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "shiryo_spawn_egg_6",
+			"from": [9, 0, 7],
+			"to": [10, 1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [10, 15, 9, 16], "texture": "#0"},
+				"east": {"uv": [9, 15, 10, 16], "texture": "#0"},
+				"south": {"uv": [9, 15, 10, 16], "texture": "#0"},
+				"west": {"uv": [9, 15, 10, 16], "texture": "#0"},
+				"up": {"uv": [9, 15, 10, 16], "texture": "#0"},
+				"down": {"uv": [9, 15, 10, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "shiryo_spawn_egg",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
+}

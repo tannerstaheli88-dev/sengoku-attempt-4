@@ -1,0 +1,51 @@
+{
+  "name": "minecraft:village/swamp/streets",
+  "fallback": "minecraft:village/swamp/terminators",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/swamp/streets/swamp_street1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/swamp/streets/swamp_street2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/swamp/streets/swamp_street3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/swamp/streets/swamp_street4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/swamp/streets/swamp_street5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

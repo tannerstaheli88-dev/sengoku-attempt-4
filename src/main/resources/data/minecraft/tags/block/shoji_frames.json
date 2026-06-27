@@ -1,0 +1,53 @@
+{
+  "values": [
+    "sengoku:oak_shoji_frame",
+    "sengoku:oak_covered_shoji_frame",
+    "sengoku:oak_checkered_shoji_frame",
+    "sengoku:oak_paly_shoji_frame",
+
+    "sengoku:black_pine_shoji_frame",
+    "sengoku:black_pine_covered_shoji_frame",
+    "sengoku:black_pine_checkered_shoji_frame",
+    "sengoku:black_pine_paly_shoji_frame",
+
+    "sengoku:birch_shoji_frame",
+    "sengoku:birch_covered_shoji_frame",
+    "sengoku:birch_checkered_shoji_frame",
+    "sengoku:birch_paly_shoji_frame",
+
+    "sengoku:dark_cedar_shoji_frame",
+    "sengoku:dark_cedar_covered_shoji_frame",
+    "sengoku:dark_cedar_checkered_shoji_frame",
+    "sengoku:dark_cedar_paly_shoji_frame",
+
+    "sengoku:kiso_shoji_frame",
+    "sengoku:kiso_covered_shoji_frame",
+    "sengoku:kiso_checkered_shoji_frame",
+    "sengoku:kiso_paly_shoji_frame",
+
+    "sengoku:keyaki_shoji_frame",
+    "sengoku:keyaki_covered_shoji_frame",
+    "sengoku:keyaki_checkered_shoji_frame",
+    "sengoku:keyaki_paly_shoji_frame",
+
+    "sengoku:mangrove_shoji_frame",
+    "sengoku:mangrove_covered_shoji_frame",
+    "sengoku:mangrove_checkered_shoji_frame",
+    "sengoku:mangrove_paly_shoji_frame",
+
+    "sengoku:bamboo_shoji_frame",
+    "sengoku:bamboo_covered_shoji_frame",
+    "sengoku:bamboo_checkered_shoji_frame",
+    "sengoku:bamboo_paly_shoji_frame",
+
+    "sengoku:bloodgood_shoji_frame",
+    "sengoku:bloodgood_covered_shoji_frame",
+    "sengoku:bloodgood_checkered_shoji_frame",
+    "sengoku:bloodgood_paly_shoji_frame",
+
+    "sengoku:weeping_willow_shoji_frame",
+    "sengoku:weeping_willow_covered_shoji_frame",
+    "sengoku:weeping_willow_checkered_shoji_frame",
+    "sengoku:weeping_willow_paly_shoji_frame"
+  ]
+}

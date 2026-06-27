@@ -1,0 +1,32 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "priority": 5,
+  "structures": "#minecraft:flat_structures_extra_large",
+  "spawn_condition": {
+    "type": "lithostitched:grid",
+    "radius": 65,
+    "distance_between_points": 20,
+    "condition": {
+      "type": "lithostitched:not",
+      "condition": {
+        "type": "lithostitched:any_of",
+        "conditions": [
+          {
+            "type": "lithostitched:height_filter",
+            "range_type": "heightmap_relative",
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+            "permitted_range": {
+              "min_inclusive": -5,
+              "max_inclusive": 5
+            }
+          },
+          {
+            "type": "lithostitched:in_biome",
+            "biomes": "#minecraft:is_water"
+          }
+        ]
+      }
+    },
+    "allowed_count": 0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/template_shoji_frame_side_alt",
+  "textures": {
+    "edge": "sengoku:block/mangrove_planks",
+    "pane": "sengoku:block/aged_shoji_frame/mangrove_paly_shoji_frame"
+  }
+}

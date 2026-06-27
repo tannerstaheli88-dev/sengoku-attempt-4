@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/template_stonelantern_3_lit",
+	"textures": {
+		"1": "block/andesite",
+		"particle": "block/andesite"
+	}
+}

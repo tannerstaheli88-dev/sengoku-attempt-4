@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sengoku:seigun_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "sengoku:diamond_kanabo"
+  },
+  "addition": {
+    "item": "sengoku:broken_hilt_piece"
+  },
+  "result": {
+    "id": "sengoku:kanabo_of_otakemaru"
+  }
+}

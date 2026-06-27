@@ -1,0 +1,50 @@
+latest-loom: 1.15-SNAPSHOT
+
+> Configure project :
+Fabric Loom: 1.15.5
+Fabric Loader: 0.18.4
+Fabric Api: 0.116.9+1.21.1
+Parchment: 1.21.1 + 2024.11.17
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :compileClientJava UP-TO-DATE
+> Task :processClientResources UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :processIncludeJars UP-TO-DATE
+> Task :clientClasses UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :validateAccessWidener UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :remapJar
+Cannot remap attackAnimationTick because it does not exist in any of the targets [net/minecraft/world/entity/monster/Blaze] or their parents.
+
+Cannot remap tick because it does not exist in any of the targets [net/minecraft/world/entity/monster/Giant]
+Cannot remap renderFlame because it does not exist in any of the targets [net/minecraft/client/renderer/entity/EntityRenderer]
+Cannot remap use because it does not exist in any of the targets [net/minecraft/world/item/ArrowItem]
+Cannot remap releaseUsing because it does not exist in any of the targets [net/minecraft/world/item/ArrowItem]
+Cannot remap getUseDuration because it does not exist in any of the targets [net/minecraft/world/item/ArrowItem]
+Cannot remap getUseAnimation because it does not exist in any of the targets [net/minecraft/world/item/ArrowItem]
+Cannot remap getEquippedStack because it does not exist in any of the targets [net/minecraft/world/entity/LivingEntity]
+Cannot remap hurt because it does not exist in any of the targets [net/minecraft/world/entity/monster/Vindicator]
+Cannot remap setItemSlot because it does not exist in any of the targets [net/minecraft/world/entity/monster/PatrollingMonster]
+Cannot remap renderFlame because it does not exist in any of the targets [net/minecraft/client/renderer/entity/EntityRenderer]
+Cannot remap setTarget because it does not exist in any of the targets [net/minecraft/world/entity/animal/PolarBear]
+Cannot remap defineSynchedData because it does not exist in any of the targets [net/minecraft/world/entity/monster/AbstractIllager]
+Cannot remap defineSynchedData because it does not exist in any of the targets [net/minecraft/world/entity/monster/Vindicator]
+Cannot remap neighborChanged because it does not exist in any of the targets [net/minecraft/world/level/block/Block]
+Cannot remap getItemBySlot because it does not exist in any of the targets [net/minecraft/world/entity/Entity]
+Cannot remap tick because it does not exist in any of the targets [net/minecraft/world/entity/ai/goal/target/TargetGoal]
+Cannot remap randomTick because it does not exist in any of the targets [net/minecraft/world/level/block/CoralBlock, net/minecraft/world/level/block/CoralFanBlock, net/minecraft/world/level/block/CoralWallFanBlock]
+Cannot remap renderFire because it does not exist in any of the targets [net/minecraft/client/renderer/LevelRenderer]
+Cannot remap getMaxStackSize because it does not exist in any of the targets [net/minecraft/world/entity/player/Inventory]
+Cannot remap makeStuckInBlock because it does not exist in any of the targets [net/minecraft/world/entity/LivingEntity]
+Cannot remap use because it does not exist in any of the targets [net/minecraft/world/level/block/BeehiveBlock]
+Cannot remap use because it does not exist in any of the targets [net/minecraft/world/level/block/BeehiveBlock]
+
+> Task :remapJar FAILED
+8 actionable tasks: 1 executed, 7 up-to-date

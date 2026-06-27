@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "shioh:tori",
+			"weight": 5
+		}
+	],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 8
+    },
+		"spacing": 40,
+		"separation": 5,
+		"salt": 460430,
+		"type": "minecraft:random_spread"
+	}
+}

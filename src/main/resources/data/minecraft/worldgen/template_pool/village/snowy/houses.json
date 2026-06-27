@@ -1,0 +1,365 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_1",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_2",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_3",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_4",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_5",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_6",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm4b",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm5",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm6",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm6b",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm7",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm7b",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "terrain_matching",
+        "location": "minecraft:village/snowy/houses/snowy_farm8",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm9",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm9b",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_sidehouse1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_sidehouse2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_sidehouse3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_barn",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_stables",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm_1",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm_2",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm_3",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_farm_4",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_shed_1",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "sengoku:terrain_filling",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_shed_2",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_small",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_small_2",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_minka_small_3",
+        "processors": "shioh:snow_weathering"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_house_1",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_house_2",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_house_3",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_house_4",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_house_5",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_house_8",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_onsen_1",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_shrine",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_toolsmith",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_weaponsmith",
+        "processors": "shioh:snowy_hut"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/snowy/houses/snowy_forge",
+        "processors": "shioh:snowy_hut"
+      }
+    }
+  ]
+}

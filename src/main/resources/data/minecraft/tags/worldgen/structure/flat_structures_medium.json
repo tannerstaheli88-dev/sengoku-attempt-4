@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+	"shioh:sakura_temple",
+    "minecraft:village_desert",
+	"shioh:farmstead",
+	"minecraft:pillager_outpost",
+	"shioh:bandit_outpost"
+  ]
+}

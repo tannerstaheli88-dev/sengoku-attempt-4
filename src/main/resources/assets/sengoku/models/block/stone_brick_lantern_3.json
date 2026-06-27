@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/template_stonelantern_3",
+	"textures": {
+		"1": "block/stone_bricks",
+		"particle": "block/stone_bricks"
+	}
+}

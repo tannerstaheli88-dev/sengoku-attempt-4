@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooded_kabe",
+  "key": {
+    "#": {
+      "item": "minecraft:yellow_terracotta"
+    },
+    "X": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sengoku:black_pine_yellow_shirasu_kabe"
+  }
+}

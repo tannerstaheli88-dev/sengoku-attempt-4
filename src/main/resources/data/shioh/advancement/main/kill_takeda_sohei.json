@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "sengoku:takeda_sohei_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_takeda_sohei.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_takeda_sohei.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "zombie_horse_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sengoku:takeda_sohei"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}

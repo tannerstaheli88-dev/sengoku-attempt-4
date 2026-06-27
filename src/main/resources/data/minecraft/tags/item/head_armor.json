@@ -1,0 +1,22 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:leather_helmet",
+    "minecraft:chainmail_helmet",
+    "minecraft:golden_helmet",
+    "minecraft:iron_helmet",
+    "minecraft:diamond_helmet",
+    "minecraft:netherite_helmet",
+    "minecraft:turtle_helmet",
+    "sengoku:daimyo_kabuto",
+    "sengoku:netherite_daimyo_kabuto",
+    "sengoku:shinobi_hood",
+	"sengoku:sando_hat",
+	"sengoku:straw_hat",
+	"sengoku:black_sando_hat",
+	"sengoku:black_straw_hat",
+	"sengoku:white_sando_hat",
+	"sengoku:white_straw_hat",
+	"sengoku:tengai_hat"
+  ]
+}

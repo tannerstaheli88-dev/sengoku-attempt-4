@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sengoku:item/dark_cedar_paly_shoji_door"
+  }
+}

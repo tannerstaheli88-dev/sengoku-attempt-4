@@ -1,0 +1,46 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10327312,
+    "separation": 17,
+    "spacing": 25
+  },
+  "structures": [
+    {
+      "structure": "minecraft:village_taiga",
+      "weight": 8
+    },
+    {
+      "structure": "minecraft:village_plains",
+      "weight": 8
+    },
+    {
+      "structure": "minecraft:village_micro",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_micro_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_forest",
+      "weight": 15
+    },
+	{
+      "structure": "shioh:sakura_temple",
+      "weight": 16
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "weight": 5
+    },
+    {
+      "structure": "minecraft:village_bamboo",
+      "weight": 4
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "weight": 8
+    }
+  ]
+}

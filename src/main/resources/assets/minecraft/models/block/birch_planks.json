@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/birch_planks",
+    "front": "minecraft:block/birch_planks",
+    "side": "minecraft:block/birch_planks",
+    "bottom": "minecraft:block/birch_planks"
+  }
+}

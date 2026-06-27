@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#shioh:has_structure/nowhere",
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:shulker",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 4
+        }
+      ]
+    }
+  },
+  "start_pool": "shioh:decoration/jungle_well",
+  "size": 3,
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "max_distance_from_center": 80,
+  "use_expansion_hack": true
+}

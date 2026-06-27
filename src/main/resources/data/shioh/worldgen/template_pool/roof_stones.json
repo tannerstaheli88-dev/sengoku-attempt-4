@@ -1,0 +1,69 @@
+{
+	"name": "shioh:roof_stones",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "shioh:roof_stones/roofstone1",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "shioh:roof_stones/roofstone2",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "shioh:roof_stones/roofstone3",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "shioh:roof_stones/roofstone4",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "shioh:roof_stones/roofstone5",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "shioh:roof_stones/roofstone6",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		},
+		{
+			"weight": 15,
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "shioh:roof_stones/roofstone_empty",
+				"projection": "rigid",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

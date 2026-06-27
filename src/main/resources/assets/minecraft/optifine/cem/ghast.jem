@@ -1,0 +1,220 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -20, 0],
+			"submodels": [
+				{
+					"id": "body2",
+					"invertAxis": "xy",
+					"translate": [-4, 16, 9],
+					"boxes": [
+						{"coordinates": [-4, -4, -17, 16, 16, 16], "textureOffset": [0, 0]},
+						{"coordinates": [-4.25, -9, -17.5, 17, 22, 17], "textureOffset": [0, 89]},
+						{"coordinates": [-4.75, -3, -8.5, 18, 9, 9], "textureOffset": [64, 14]}
+					],
+					"submodels": [
+						{
+							"id": "tentacle_1",
+							"invertAxis": "xy",
+							"translate": [8.7, -3, -17],
+							"boxes": [
+								{"coordinates": [0, -8, -0.5, 1, 8, 0], "textureOffset": [2, 2]}
+							]
+						},
+						{
+							"id": "tentacle_2",
+							"invertAxis": "xy",
+							"translate": [-4.3, 5, -8],
+							"boxes": [
+								{"coordinates": [0, -17, -1, 1, 18, 2], "textureOffset": [0, 55]}
+							]
+						},
+						{
+							"id": "tentacle_3",
+							"invertAxis": "xy",
+							"translate": [-4.3, 1, -5],
+							"boxes": [
+								{"coordinates": [0.00219, -15.0582, -1.03126, 1, 16, 2], "textureOffset": [80, 110]}
+							]
+						},
+						{
+							"id": "tentacle_4",
+							"invertAxis": "xy",
+							"translate": [11.55, -3, -10],
+							"boxes": [
+								{"coordinates": [0, -11, -1, 1, 11, 1], "textureOffset": [1, 1]}
+							]
+						},
+						{
+							"id": "tentacle_5",
+							"invertAxis": "xy",
+							"translate": [7.3, -2, -3],
+							"boxes": [
+								{"coordinates": [-3, -10, 1, 7, 11, 2], "textureOffset": [0, 91]}
+							]
+						},
+						{
+							"id": "tentacle_6",
+							"invertAxis": "xy",
+							"translate": [0.3, 3, -2],
+							"boxes": [
+								{"coordinates": [-1, -16, 0, 2, 14, 2], "textureOffset": [93, 110]}
+							]
+						},
+						{
+							"id": "tentacle_7",
+							"invertAxis": "xy",
+							"translate": [10.7, 2, -2],
+							"boxes": [
+								{"coordinates": [0.25, -15, -0.25, 2, 17, 2], "textureOffset": [11, 53]}
+							]
+						},
+						{
+							"id": "tentacle_8",
+							"invertAxis": "xy",
+							"translate": [-2.3, 1, -2.25],
+							"boxes": [
+								{"coordinates": [-1, -14, 0, 2, 15, 2], "textureOffset": [103, 111]}
+							]
+						},
+						{
+							"id": "tentacle_9",
+							"invertAxis": "xy",
+							"translate": [2.7, -3, -1],
+							"boxes": [
+								{"coordinates": [5, -9, 0, 1, 9, 1], "textureOffset": [1, 1]}
+							]
+						}
+					]
+				},
+				{
+					"id": "body_part",
+					"invertAxis": "xy",
+					"translate": [0, 20, 0],
+					"submodels": [
+						{
+							"id": "Created_by_FreshLX_for_Fresh_Animations",
+							"invertAxis": "xy",
+							"translate": [0, -20, 0],
+							"submodels": [
+								{
+									"id": "body_part2",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"var.r": "random(id)*pi*4",
+					"var.b": "var.r+age*1.5"
+				},
+				{
+					"body2.rx": "-sin(var.b/30)/6 +torad(head_pitch)/4 +clamp(torad(20)*limb_speed, 0, torad(10))",
+					"body2.rz": " sin(var.b/25)/16 +clamp(torad(head_yaw)/3, torad(-15), torad(15))",
+					"body2.tx": "-cos(var.b/25)",
+					"body2.ty": "-cos(age/10) -cos(age/10-sin(age/10)/2)*2 *clamp(-2 +cos((age)/80)*4, 0, 1) -17",
+					"body2.tz": "-cos(var.b/30)*3",
+					"body2.sx": "0.8 -sin(age/10+cos(age/10)/2)/40 *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"body2.sy": "0.8 +sin(age/10+cos(age/10)/2)/30 *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"body2.sz": "0.8 -sin(age/10+cos(age/10)/2)/40 *clamp(-2 +cos((age)/80)*4, 0, 1)"
+				},
+				{
+					"tentacle_1.rx": "-body2.rx -sin(var.b/30)/2 +sin(limb_swing/3+torad( 0)+age/11)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +(-sin(limb_swing/3+torad( 0)+age/11)/6 +torad(-15)/2 +cos(age/10-sin(age/10))/4) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_2.rx": "-body2.rx -sin(var.b/30)/2 -sin(limb_swing/3+torad(10)+age/16)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +( sin(limb_swing/3+torad(10)+age/16)/6 +torad(-15)/2 +cos(age/10-sin(age/10))/4) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_3.rx": "-body2.rx -sin(var.b/30)/2 -cos(limb_swing/3+torad(40)+age/14)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +( cos(limb_swing/3+torad(40)+age/14)/6 +torad(-30)/2 +cos(age/10-sin(age/10))/2) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_4.rx": "-body2.rx -sin(var.b/30)/2 +cos(limb_swing/3+torad(30)+age/12)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +(-cos(limb_swing/3+torad(30)+age/12)/6                                         ) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_5.rx": "-body2.rx -sin(var.b/30)/2 +sin(limb_swing/3+torad(60)+age/14)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +(-sin(limb_swing/3+torad(60)+age/14)/6                                         ) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_6.rx": "-body2.rx -sin(var.b/30)/2 -cos(limb_swing/3+torad(70)+age/16)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +( cos(limb_swing/3+torad(70)+age/16)/6                                         ) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_7.rx": "-body2.rx -sin(var.b/30)/2 -sin(limb_swing/3+torad(20)+age/12)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +( sin(limb_swing/3+torad(20)+age/12)/6 +torad( 15)/2 -cos(age/10-sin(age/10))/4) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_8.rx": "-body2.rx -sin(var.b/30)/2 +cos(limb_swing/3+torad(50)+age/11)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +(-cos(limb_swing/3+torad(50)+age/11)/6 +torad( 15)/2 -cos(age/10-sin(age/10))/4) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_9.rx": "-body2.rx -sin(var.b/30)/2 +cos(limb_swing/3+torad(80)+age/12)/4 +clamp(torad(50)*limb_speed, 0, torad(30))               +(-cos(limb_swing/3+torad(80)+age/12)/6 +torad( 30)/2 -cos(age/10-sin(age/10))/2) *clamp(-2 +cos((age)/80)*4, 0, 1)"
+				},
+				{
+					"tentacle_1.rz": "-body2.rz -cos(var.b/25)/6 -sin(limb_swing/3+torad( 0)+age/13)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +( sin(limb_swing/3+torad( 0)+age/13)/16 +torad(-15)/2 +cos(age/10-sin(age/10))/4) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_2.rz": "-body2.rz -cos(var.b/25)/6 +cos(limb_swing/3+torad(30)+age/10)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +(-cos(limb_swing/3+torad(30)+age/10)/16 +torad( 15)/2 -cos(age/10-sin(age/10))/4) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_3.rz": "-body2.rz -cos(var.b/25)/6 -cos(limb_swing/3+torad(50)+age/12)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +( cos(limb_swing/3+torad(50)+age/12)/16 +torad(  5)/2                           ) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_4.rz": "-body2.rz -cos(var.b/25)/6 -sin(limb_swing/3+torad(10)+age/13)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +( sin(limb_swing/3+torad(10)+age/13)/16 +torad(-30)/2 +cos(age/10-sin(age/10))/2) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_5.rz": "-body2.rz -cos(var.b/25)/6 +cos(limb_swing/3+torad(3270)+age/12)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +(-cos(limb_swing/3+torad(70)+age/12)/16 +torad(- 5)/2                           ) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_6.rz": "-body2.rz -cos(var.b/25)/6 +cos(limb_swing/3+torad(80)+age/10)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +(-cos(limb_swing/3+torad(80)+age/10)/16 +torad( 30)/2 -cos(age/10-sin(age/10))/2) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_7.rz": "-body2.rz -cos(var.b/25)/6 -cos(limb_swing/3+torad(40)+age/13)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +( cos(limb_swing/3+torad(40)+age/13)/16 +torad(-15)/2 +cos(age/10-sin(age/10))/4) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_8.rz": "-body2.rz -cos(var.b/25)/6 -sin(limb_swing/3+torad(60)+age/12)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +( sin(limb_swing/3+torad(60)+age/12)/16 +torad( 15)/2 -cos(age/10-sin(age/10))/4) *clamp(-2 +cos((age)/80)*4, 0, 1)",
+					"tentacle_9.rz": "-body2.rz -cos(var.b/25)/6 +sin(limb_swing/3+torad(20)+age/10)/12 +clamp(-torad(head_yaw)/3, torad(-15), torad(15)) +(-sin(limb_swing/3+torad(20)+age/10)/16 +torad(  5)/2                           ) *clamp(-2 +cos((age)/80)*4, 0, 1)"
+				},
+				{
+					"body_part.rx": "body2.rx",
+					"body_part.ry": "body2.ry",
+					"body_part.rz": "body2.rz",
+					"body_part.tx": "body2.tx",
+					"body_part.ty": "body2.ty +20",
+					"body_part.tz": "body2.tz",
+					"body_part.sx": "body2.sx",
+					"body_part.sy": "body2.sy",
+					"body_part.sz": "body2.sz"
+				}
+			]
+		},
+		{
+			"part": "tentacle1",
+			"id": "tentacle1",
+			"invertAxis": "xy",
+			"translate": [-3.7, -13, 5]
+		},
+		{
+			"part": "tentacle2",
+			"id": "tentacle2",
+			"invertAxis": "xy",
+			"translate": [1.3, -13, 5]
+		},
+		{
+			"part": "tentacle3",
+			"id": "tentacle3",
+			"invertAxis": "xy",
+			"translate": [6.3, -13, 5]
+		},
+		{
+			"part": "tentacle4",
+			"id": "tentacle4",
+			"invertAxis": "xy",
+			"translate": [-6.3, -13, 0]
+		},
+		{
+			"part": "tentacle5",
+			"id": "tentacle5",
+			"invertAxis": "xy",
+			"translate": [-1.3, -13, 0]
+		},
+		{
+			"part": "tentacle6",
+			"id": "tentacle6",
+			"invertAxis": "xy",
+			"translate": [3.7, -13, 0]
+		},
+		{
+			"part": "tentacle7",
+			"id": "tentacle7",
+			"invertAxis": "xy",
+			"translate": [-3.7, -13, -5]
+		},
+		{
+			"part": "tentacle8",
+			"id": "tentacle8",
+			"invertAxis": "xy",
+			"translate": [1.3, -13, -5]
+		},
+		{
+			"part": "tentacle9",
+			"id": "tentacle9",
+			"invertAxis": "xy",
+			"translate": [6.3, -13, -5]
+		}
+	]
+}

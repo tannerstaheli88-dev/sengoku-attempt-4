@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "sengoku:block/tea_crop_1",
+		"particle": "sengoku:block/tea_crop_1"
+	},
+	"elements": [
+		{
+			"from": [1.4, -0.75, 7.8],
+			"to": [15.8, 15.25, 7.8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8.6, 7.25, 7.8], "rescale": true},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.6, -0.75, 0.8],
+			"to": [7.6, 15.25, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [7.6, 7.25, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "short_crop",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

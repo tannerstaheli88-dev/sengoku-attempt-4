@@ -1,0 +1,30 @@
+{
+  "values": [
+    "minecraft:clay",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "sengoku:coarse_farmland",
+    "minecraft:podzol",
+    "minecraft:farmland",
+    "minecraft:grass_block",
+    "minecraft:gravel",
+    "minecraft:mycelium",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:snow_block",
+    "minecraft:snow",
+    "minecraft:soul_sand",
+    "minecraft:dirt_path",
+    "minecraft:soul_soil",
+    "minecraft:rooted_dirt",
+    "minecraft:muddy_mangrove_roots",
+    "minecraft:mud",
+    "minecraft:suspicious_sand",
+    "minecraft:suspicious_gravel",
+	"sengoku:iron_sand",
+	"sengoku:shiki_sand",
+	"sengoku:shiki_gravel",
+	"sengoku:shirakawa_suna",
+    "#minecraft:concrete_powder"
+  ]
+}

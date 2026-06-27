@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"1": "block/bricks_bottom",
+		"top": "block/bricks",
+		"particle": "block/bricks_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#top", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#top", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

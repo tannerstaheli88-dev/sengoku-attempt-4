@@ -1,0 +1,124 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": {
+          "feature": {
+            "type": "minecraft:tree",
+            "config": {
+              "ignore_vines": true,
+              "minimum_size": {
+                "type": "minecraft:two_layers_feature_size",
+                "min_clipped_height": 1,
+                "limit": 1,
+                "lower_size": 0,
+                "upper_size": 1
+              },
+              "force_dirt": false,
+              "dirt_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "Name": "minecraft:sand" }
+              },
+              "trunk_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": { "Name": "minecraft:tube_coral_block" }
+              },
+              "foliage_provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:tube_coral",
+                      "Properties": { "waterlogged": "true" }
+                    }
+                  },
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:tube_coral_fan",
+                      "Properties": { "waterlogged": "true" }
+                    }
+                  }
+                ]
+              },
+              "trunk_placer": {
+                "type": "minecraft:forking_trunk_placer",
+                "base_height": 1,
+                "height_rand_a": 0,
+                "height_rand_b": 1
+              },
+              "foliage_placer": {
+                "type": "minecraft:bush_foliage_placer",
+                "radius": 1,
+                "offset": 0,
+                "height": 0
+              },
+              "decorators": []
+            }
+          },
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": {
+        "type": "minecraft:tree",
+        "config": {
+          "ignore_vines": true,
+          "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "min_clipped_height": 1,
+            "limit": 1,
+            "lower_size": 0,
+            "upper_size": 1
+          },
+          "force_dirt": false,
+          "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:sand" }
+          },
+          "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:bubble_coral_block" }
+          },
+          "foliage_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:bubble_coral",
+                  "Properties": { "waterlogged": "true" }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:bubble_coral_fan",
+                  "Properties": { "waterlogged": "true" }
+                }
+              }
+            ]
+          },
+          "trunk_placer": {
+            "type": "minecraft:forking_trunk_placer",
+            "base_height": 1,
+            "height_rand_a": 0,
+            "height_rand_b": 1
+          },
+          "foliage_placer": {
+            "type": "minecraft:bush_foliage_placer",
+            "radius": 1,
+            "offset": 0,
+            "height": 0
+          },
+          "decorators": []
+        }
+      },
+      "placement": []
+    }
+  }
+}

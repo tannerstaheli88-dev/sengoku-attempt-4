@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/quartz_pillar_top",
+    "front": "minecraft:block/quartz_bricks",
+    "side": "minecraft:block/quartz_bricks",
+    "bottom": "minecraft:block/quartz_pillar_top"
+  }
+}

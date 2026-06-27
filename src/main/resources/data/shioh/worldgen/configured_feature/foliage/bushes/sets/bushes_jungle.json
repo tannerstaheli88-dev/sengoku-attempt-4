@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "shioh:foliage/bushes/jungle/bush_small_jungle",
+    "features": [
+      {
+        "chance": 0.55,
+        "feature": "shioh:foliage/bushes/jungle/bush_medium_jungle"
+      }
+    ]
+  }
+}

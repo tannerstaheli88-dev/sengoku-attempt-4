@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:raw_iron"]
+          }
+          ,
+          {
+            "items": ["sengoku:iron_sand"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:tamahagane_from_iron_sand_blasting",
+      "sengoku:tamahagane_from_iron_sand_smelting",
+      "sengoku:tamahagane_upgrade_smithing_template"
+    ]
+  }
+}

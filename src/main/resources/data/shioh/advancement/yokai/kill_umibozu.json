@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "sengoku:umi_bozu_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_umibozu.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_umibozu.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sengoku:umi_bozu"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 475
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "sengoku:block/soul_stone_lantern"
+  }
+}

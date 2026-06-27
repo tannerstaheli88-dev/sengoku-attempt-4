@@ -1,0 +1,17 @@
+{
+   "colormap": "shioh:colormap_foliage_azalea",
+   
+     "particle_emitters": [
+     {
+      "spawn_location":"center",
+      "particle": "shioh:falling_leaves_azalea",
+      "chance": "0.05",
+      "x": "rand()", 
+      "z": "rand()",
+      "y": "-0.5",
+      "dx": "0",
+      "dy": "0",
+      "dz": "0"
+    }
+  ]
+}

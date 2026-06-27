@@ -1,0 +1,13 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:foundation",
+        "projection": "rigid"
+      },
+      "weight": 6
+    }
+  ],
+  "fallback": "shioh:foundation_fail"
+}

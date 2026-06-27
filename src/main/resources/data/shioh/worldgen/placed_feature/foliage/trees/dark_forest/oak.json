@@ -1,0 +1,344 @@
+{
+  "feature": "shioh:foliage/trees/dark_forest/oak",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:podzol",
+          "minecraft:dirt",
+          "minecraft:coarse_dirt"
+        ],
+        "offset": [0, -1, 0]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                10,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:muddy_mangrove_roots",
+                "minecraft:farmland",
+                "minecraft:moss_block"
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -10,
+                -1,
+                0
+              ],
+              "blocks": [
+                "minecraft:muddy_mangrove_roots",
+                "minecraft:farmland",
+                "minecraft:moss_block"
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                10
+              ],
+              "blocks": [
+                "minecraft:muddy_mangrove_roots",
+                "minecraft:farmland",
+                "minecraft:moss_block"
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                -10
+              ],
+              "blocks": [
+                "minecraft:muddy_mangrove_roots",
+                "minecraft:farmland",
+                "minecraft:moss_block"
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                10,
+                -1,
+                10
+              ],
+              "blocks": [
+                "minecraft:muddy_mangrove_roots",
+                "minecraft:farmland",
+                "minecraft:moss_block"
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                10,
+                -1,
+                -10
+              ],
+              "blocks": [
+                "minecraft:muddy_mangrove_roots",
+                "minecraft:farmland",
+                "minecraft:moss_block"
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -10,
+                -1,
+                10
+              ],
+              "blocks": [
+                "minecraft:muddy_mangrove_roots",
+                "minecraft:farmland",
+                "minecraft:moss_block"
+              ]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -10,
+                -1,
+                -10
+              ],
+              "blocks": [
+                "minecraft:muddy_mangrove_roots",
+                "minecraft:farmland",
+                "minecraft:moss_block"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:any_of",
+          "predicates": [
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                4,
+                -1,
+                0
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -4,
+                -1,
+                0
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                4
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                -4
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                3,
+                -1,
+                0
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -3,
+                -1,
+                0
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                3
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                -3
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                2,
+                -1,
+                2
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -2,
+                -1,
+                2
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                2,
+                -1,
+                -2
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -2,
+                -1,
+                -2
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                1,
+                -1,
+                4
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -1,
+                -1,
+                4
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                1,
+                -1,
+                -4
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -1,
+                -1,
+                -4
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                4,
+                -1,
+                1
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                4,
+                -1,
+                -1
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -4,
+                -1,
+                1
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -4,
+                -1,
+                -1
+              ],
+              "blocks": "#minecraft:villager_blocks"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

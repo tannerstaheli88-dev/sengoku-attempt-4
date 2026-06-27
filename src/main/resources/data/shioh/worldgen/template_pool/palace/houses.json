@@ -1,0 +1,59 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/red_house1",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/red_house2",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/red_house3",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/red_house_porcelain",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },    
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/red_house_library",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+	{
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "shioh:palace/red_house_bell1",
+        "processors": "shioh:decoration/jungle_well_weathering",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "shioh:palace/red_bridge_terminator"
+}

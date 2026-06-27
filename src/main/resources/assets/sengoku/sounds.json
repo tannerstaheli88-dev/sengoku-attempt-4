@@ -1,0 +1,1720 @@
+{
+    "backstab": {
+        "sounds": [{
+                "name": "sengoku:backstab",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.backstab"
+    },
+    "bullet_hit": {
+        "sounds": [{
+                "name": "sengoku:bullet_hit/hit1",
+                "stream": false
+            }, {
+                "name": "sengoku:bullet_hit/hit2",
+                "stream": false
+            }, {
+                "name": "sengoku:bullet_hit/hit3",
+                "stream": false
+            }, {
+                "name": "sengoku:bullet_hit/hit4",
+                "stream": false
+            }, {
+                "name": "sengoku:bullet_hit/hit5",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.item.bullet_hit"
+    },
+    "crow_ambient": {
+        "sounds": [{
+                "name": "sengoku:crow/idle1",
+                "stream": false
+            }, {
+                "name": "sengoku:crow/idle2",
+                "stream": false
+            }, {
+                "name": "sengoku:crow/idle3",
+                "stream": false
+            }, {
+                "name": "sengoku:crow/idle4",
+                "stream": false
+            }, {
+                "name": "sengoku:crow/idle5",
+                "stream": false
+            }, {
+                "name": "sengoku:crow/idle6",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.crow.ambient"
+    },
+    "crow_death": {
+        "sounds": [{
+                "name": "sengoku:crow_death",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.crow.death"
+    },
+    "crow_hurt": {
+        "sounds": [{
+                "name": "sengoku:crow_hurt",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.crow.hurt"
+    },
+    "enemy_alert": {
+        "sounds": [{
+                "name": "sengoku:enemy_alert",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.enemy_alert"
+    },
+    "warlord_phase_two_hurt": {
+        "sounds": [{
+                "name": "sengoku:warlord/hurt1",
+                "stream": false
+            }, {
+                "name": "sengoku:warlord/hurt2",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.warlord.phase_two.hurt"
+    },
+    "warlord_phase_two_death": {
+        "sounds": [{
+                "name": "sengoku:warlord/death1",
+                "stream": false
+            }, {
+                "name": "sengoku:warlord/death2",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.warlord.phase_two.death"
+    },
+    "warlord_phase_two_attack": {
+        "sounds": [{
+                "name": "sengoku:warlord/attack1",
+                "stream": false
+            }, {
+                "name": "sengoku:warlord/attack2",
+                "stream": false
+            }, {
+                "name": "sengoku:warlord/attack3",
+                "stream": false
+            }, {
+                "name": "sengoku:warlord/attack4",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.warlord.phase_two.attack"
+    },
+    "ronin_attack": {
+        "sounds": [{
+                "name": "sengoku:ronin/attack1",
+                "stream": false
+            }, {
+                "name": "sengoku:ronin/attack2",
+                "stream": false
+            }, {
+                "name": "sengoku:ronin/attack3",
+                "stream": false
+            }, {
+                "name": "sengoku:ronin/attack4",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.ronin.attack"
+    },
+    "goryo_attack": {
+        "sounds": [{
+                "name": "sengoku:goryo/attack1",
+                "stream": false
+            }, {
+                "name": "sengoku:goryo/attack2",
+                "stream": false
+            }, {
+                "name": "sengoku:goryo/attack3",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.goryo.attack"
+    },
+    "samurai_attack": {
+        "sounds": [{
+                "name": "sengoku:samurai/attack1",
+                "stream": false
+            }, {
+                "name": "sengoku:samurai/attack2",
+                "stream": false
+            }, {
+                "name": "sengoku:samurai/attack3",
+                "stream": false
+            }, {
+                "name": "sengoku:samurai/attack4",
+                "stream": false
+            }, {
+                "name": "sengoku:samurai/attack5",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.samurai.attack"
+    },
+    "shinobi_lord_attack": {
+        "sounds": [{
+                "name": "sengoku:shinobi_lord/attack1",
+                "stream": false
+            }, {
+                "name": "sengoku:shinobi_lord/attack2",
+                "stream": false
+            }, {
+                "name": "sengoku:shinobi_lord/attack3",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.shinobi_lord.attack"
+    },
+    "warlord_combat_enter": {
+        "sounds": [{
+                "name": "sengoku:warlord/encounter",
+                "stream": false
+            }
+        ],
+        "subtitle": "subtitles.entity.warlord.encounter"
+    },
+    "giant_footsteps": {
+                "sounds": [{
+                        "name": "sengoku:giant_footsteps/step1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:giant_footsteps/step2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:giant_footsteps/step3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:giant_footsteps/step4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:giant_footsteps/step5",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.giant_footsteps"
+            },
+            "ashigaru_ambient": {
+                "sounds": [{
+                        "name": "sengoku:ashigaru/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ashigaru/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ashigaru/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ashigaru/idle4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ashigaru/idle5",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ashigaru/idle6",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ashigaru.ambient"
+            },
+            "ashigaru_ambient_aggro": {
+                "sounds": [{
+                        "name": "sengoku:ashigaru/aggro1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ashigaru/aggro2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ashigaru/aggro3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ashigaru.aggro"
+            },
+            "ashigaru_hurt": {
+                "sounds": [{
+                        "name": "sengoku:ashigaru/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ashigaru/hurt2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ashigaru.hurt"
+            },
+            "ashigaru_death": {
+                "sounds": [{
+                        "name": "sengoku:ashigaru/death1",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ashigaru.death"
+            },
+            "omukade_ambient": {
+                "sounds": [{
+                        "name": "sengoku:omukade/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:omukade/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:omukade/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:omukade/idle4",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.omukade.ambient"
+            },
+            "omukade_death": {
+                "sounds": [{
+                        "name": "sengoku:omukade/death1",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.omukade.death"
+            },
+            "omukade_hurt": {
+                "sounds": [{
+                        "name": "sengoku:omukade/hurt1",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.omukade.hurt"
+            },
+            "goryo_ambient": {
+                "sounds": [{
+                        "name": "sengoku:goryo/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/idle4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/idle5",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/idle6",
+                        "stream": false
+                    },
+					{
+                        "name": "sengoku:goryo/idle7",
+                        "stream": false
+                    }
+
+                ],
+                "subtitle": "subtitles.entity.goryo.ambient"
+            },
+            "goryo_ambient_aggro": {
+                "sounds": [{
+                        "name": "sengoku:goryo/aggro1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/aggro2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/aggro3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/aggro4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/aggro5",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.goryo.ambient"
+            },
+            "goryo_death": {
+                "sounds": [{
+                        "name": "sengoku:goryo/death1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.goryo.death"
+            },
+            "goryo_hurt": {
+                "sounds": [{
+                        "name": "sengoku:goryo/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/hurt2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:goryo/hurt3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.goryo.hurt"
+            },
+            "shiryo_ambient": {
+                "sounds": [{
+                        "name": "minecraft:mob/endermen/idle1",
+                        "stream": false
+                    }, {
+                        "name": "minecraft:mob/endermen/idle2",
+                        "stream": false
+                    }, {
+                        "name": "minecraft:mob/endermen/idle3",
+                        "stream": false
+                    }, {
+                        "name": "minecraft:mob/endermen/idle4",
+                        "stream": false
+                    }, {
+                        "name": "minecraft:mob/endermen/idle5",
+                        "stream": false
+                    }, {
+                        "name": "minecraft:mob/endermen/idle6",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.shiryo.ambient"
+            },
+            "shiryo_death": {
+                "sounds": [{
+                        "name": "minecraft:mob/endermen/death",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.shiryo.death"
+            },
+            "shiryo_hurt": {
+                "sounds": [{
+                        "name": "minecraft:mob/endermen/hit1",
+                        "stream": false
+                    }, {
+                        "name": "minecraft:mob/endermen/hit2",
+                        "stream": false
+                    }, {
+                        "name": "minecraft:mob/endermen/hit3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.shiryo.hurt"
+            },
+            "umi_inu_ambient": {
+                "sounds": [{
+                        "name": "sengoku:umi_inu/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:umi_inu/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:umi_inu/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:umi_inu/idle4",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.umi_inu.ambient"
+            },
+            "umi_inu_death": {
+                "sounds": [{
+                        "name": "sengoku:umi_inu/death1",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.umi_inu.death"
+            },
+            "umi_inu_hurt": {
+                "sounds": [{
+                        "name": "sengoku:umi_inu/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:umi_inu/hurt2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.umi_inu.hurt"
+            },
+            "ikuchi_ambient": {
+                "sounds": [{
+                        "name": "sengoku:ikuchi/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ikuchi/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ikuchi/idle3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ikuchi.ambient"
+            },
+            "ikuchi_death": {
+                "sounds": [{
+                        "name": "sengoku:ikuchi/death1",
+                        "stream": false
+                    },{
+                        "name": "sengoku:ikuchi/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ikuchi.death"
+            },
+            "ikuchi_hurt": {
+                "sounds": [{
+                        "name": "sengoku:ikuchi/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ikuchi/hurt2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ikuchi.hurt"
+            },
+            "umi_nyobo_ambient": {
+                "sounds": [{
+                        "name": "minecraft:entity.guardian.ambient",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.umi_nyobo.ambient"
+            },
+            "umi_nyobo_death": {
+                "sounds": [{
+                        "name": "sengoku:umi_nyobo/death1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:umi_nyobo/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.umi_nyobo.death"
+            },
+            "umi_nyobo_hurt": {
+                "sounds": [{
+                        "name": "sengoku:umi_nyobo/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:umi_nyobo/hurt2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:umi_nyobo/hurt3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.umi_nyobo.hurt"
+            },
+            "ningyo_ambient": {
+                "sounds": [{
+                        "name": "minecraft:entity.guardian.ambient",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ningyo.ambient"
+            },
+            "ningyo_death": {
+                "sounds": [{
+                        "name": "sengoku:ningyo/death1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ningyo/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ningyo.death"
+            },
+            "ningyo_hurt": {
+                "sounds": [{
+                        "name": "sengoku:ningyo/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ningyo/hurt2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ningyo/hurt3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ningyo.hurt"
+            },
+            "hitotsume_nyudo_ambient": {
+                "sounds": [{
+                        "name": "sengoku:hitotsume_nyudo/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:hitotsume_nyudo/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:hitotsume_nyudo/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:hitotsume_nyudo/idle4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:hitotsume_nyudo/idle5",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.hitotsume_nyudo.ambient"
+            },
+            "hitotsume_nyudo_death": {
+                "sounds": [{
+                        "name": "sengoku:hitotsume_nyudo/death1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:hitotsume_nyudo/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.hitotsume_nyudo.death"
+            },
+            "hitotsume_nyudo_hurt": {
+                "sounds": [{
+                        "name": "sengoku:hitotsume_nyudo/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:hitotsume_nyudo/hurt2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:hitotsume_nyudo/hurt3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.hitotsume_nyudo.hurt"
+            },
+            "macaque_ambient": {
+                "sounds": [{
+                        "name": "sengoku:macaque/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:macaque/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:macaque/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:macaque/idle4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:macaque/idle5",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:macaque/idle6",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:macaque/idle7",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:macaque/idle8",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.macaque.ambient"
+            },
+            "macaque_death": {
+                "sounds": [{
+                        "name": "sengoku:macaque/death1",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.macaque.death"
+            },
+            "macaque_hurt": {
+                "sounds": [{
+                        "name": "sengoku:macaque/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:macaque/hurt2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.macaque.hurt"
+            },
+            "maikubi_ambient": {
+                "sounds": [{
+                        "name": "minecraft:entity.blaze.ambient",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.maikubi.ambient"
+            },
+            "maikubi_death": {
+                "sounds": [{
+                        "name": "minecraft:entity.blaze.death",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.maikubi.death"
+            },
+            "maikubi_hurt": {
+                "sounds": [{
+                        "name": "minecraft:entity.blaze.hurt",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.maikubi.hurt"
+            },
+            "melee_weapon_hit": {
+                "sounds": [{
+                        "name": "sengoku:melee_weapon_hit/sword_1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sword_2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sword_3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sword_4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sword_5",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sword_6",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sword_7",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sweep1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sweep2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sweep3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sweep4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sweep5",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sweep6",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:melee_weapon_hit/sweep7",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.item.melee_weapon_hit"
+            },
+            "music_basic_combat": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/basic_combat1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat6",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat7",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat8",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat9",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat10",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat11",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat12",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat13",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat6",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat7",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat8",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.basic_combat"
+            },
+            "music_castle": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/castle",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/castle2",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.castle"
+            },
+            "music_castle_combat": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/castle_combat1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/castle_combat2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/castle_combat3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/castle_combat4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/castle_combat5",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.castle_combat"
+            },
+            "music_day": {
+                "sounds": [{
+                        "name": "sengoku:music/day_time/daytime0",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime6",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime7",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime8",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime9",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime10",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime11",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime12",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime13",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime14",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime15",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime16",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime17",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime18",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime19",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime20",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime21",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime22",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime23",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime24",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime25",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/daytime26",
+                        "stream": true
+                    }, {
+                        "name": "music/game/pokopoko",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.day"
+            },
+            "music_deep_dark": {
+                "sounds": [{
+                        "name": "sengoku:music/night_time/deep_dark1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_dark2",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.deep_dark"
+            },
+            "music_deep_underground": {
+                "sounds": [{
+                        "name": "sengoku:music/night_time/deep_underground1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_underground2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_underground3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_underground4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_underground5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_underground6",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_underground7",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_underground8",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.deep_underground"
+            },
+            "music_night": {
+                "sounds": [{
+                        "name": "sengoku:music/night_time/night_time1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/night_time2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/night_time3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/night_time4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/night_time5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/night_time6",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/night_time7",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/hybrid1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/hybrid2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/hybrid3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/hybrid4",
+                        "stream": true
+                    }, {
+                        "name": "music/game/featherfall",
+                        "stream": true
+                    }, {
+                        "name": "music/game/watcher",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.night"
+            },
+            "music_raid": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/raid",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/raid2",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.raid"
+            },
+            "music_ronin": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/ronin_combat1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/ronin_combat2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/ronin_combat3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/ronin_combat4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/ronin_combat5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/ronin_combat6",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat6",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat7",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat8",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat9",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat10",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat11",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat12",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat13",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.ronin"
+            },
+            "music_ruins": {
+                "sounds": [{
+                        "name": "sengoku:music/night_time/ruins1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/ruins2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/ruins3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_ambient3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_ambient5",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.ruins"
+            },
+            "music_shinobi": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/shinobi1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/shinobi2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/shinobi3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/basic_combat5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/castle_combat1",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.shinobi"
+            },
+            "music_tatarigami": {
+                "replace": false,
+                "sounds": [{
+                        "name": "sengoku:music/combat/tatarigami",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.tatarigami"
+            },
+            "music_underground": {
+                "sounds": [{
+                        "name": "sengoku:music/night_time/underground1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/underground2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/underground3",
+                        "stream": true
+                    }, {
+                        "name": "music/menu/mutation",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/hybrid1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/hybrid2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/hybrid3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/hybrid4",
+                        "stream": true
+                    }, {
+                        "name": "music/game/featherfall",
+                        "stream": true
+                    }, {
+                        "name": "music/game/watcher",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.underground"
+            },
+            "music_victory": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/rice_planting_song",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.victory"
+            },
+            "music_village": {
+                "sounds": [{
+                        "name": "sengoku:music/day_time/village1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/village2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/village3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/village4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/village5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/day_time/village6",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.village"
+            },
+            "music_warlord": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/warlord",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.warlord"
+            },
+            "music_warlord_phase_1": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/warlord_phase1",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.warlord"
+            },
+            "music_warlord_phase_2": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/warlord_phase2",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.warlord"
+            },
+            "music_dragon_phase_1": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/dragon_phase1",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.dragon"
+            },
+            "music_dragon_phase_2": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/dragon_phase2",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.dragon"
+            },
+            "music_shinobi_lord_phase_1": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/shinobi_lord_phase1",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.shinobi"
+            },
+            "music_shinobi_lord_phase_2": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/shinobi_lord_phase2",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.shinobi"
+            },
+            "music_yomi": {
+                "sounds": [{
+                        "name": "sengoku:music/yomi/yomi_ambient1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_ambient2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_ambient3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_ambient4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_ambient5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_ambient6",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_ambient7",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.yomi"
+            },
+            "music_yomi_combat": {
+                "sounds": [{
+                        "name": "sengoku:music/yomi/yomi_combat1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_combat2",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/yomi/yomi_combat3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat3",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat4",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat5",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.yomi_combat"
+            },
+            "music_ryugu": {
+                "sounds": [{
+                        "name": "sengoku:music/ryugu/ryugu_ambient1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/ryugu/ryugu_ambient2",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.ryugu"
+            },
+            "music_ryugu_combat": {
+                "sounds": [{
+                        "name": "sengoku:music/ryugu/ryugu_combat1",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/ryugu/ryugu_combat2",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.music.ryugu_combat"
+            },
+
+            "musket_fire": {
+                "sounds": [{
+                        "name": "sengoku:bullet_hit/fire1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:bullet_hit/fire2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:bullet_hit/fire3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.item.musket_fire"
+            },
+            "oni_brute_ambient": {
+                "sounds": [{
+                        "name": "sengoku:oni_brute/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/idle4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/idle5",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.oni_brute.ambient"
+            },
+            "oni_brute_ambient_aggro": {
+                "sounds": [{
+                        "name": "sengoku:oni_brute/aggro1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/aggro2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/aggro3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/aggro4",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.oni_brute.ambient_aggro"
+            },
+            "oni_brute_death": {
+                "sounds": [{
+                        "name": "sengoku:oni_brute/death1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.oni_brute.death"
+            },
+            "oni_brute_hurt": {
+                "sounds": [{
+                        "name": "sengoku:oni_brute/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/hurt2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:oni_brute/hurt3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.oni_brute.hurt"
+            },
+            "posture_break": {
+                "sounds": [{
+                        "name": "sengoku:posture_break",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.posture_break"
+            },
+            "red_crowned_crane_ambient": {
+                "sounds": [{
+                        "name": "sengoku:red_crowned_crane/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:red_crowned_crane/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:red_crowned_crane/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:red_crowned_crane/idle4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:red_crowned_crane/idle5",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:red_crowned_crane/idle6",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.red_crowned_crane.ambient"
+            },
+            "red_crowned_crane_death": {
+                "sounds": [{
+                        "name": "sengoku:red_crowned_crane/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:red_crowned_crane/hurt2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.red_crowned_crane.death"
+            },
+            "red_crowned_crane_hurt": {
+                "sounds": [{
+                        "name": "sengoku:red_crowned_crane/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:red_crowned_crane/hurt2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.red_crowned_crane.hurt"
+            },
+            "ronin_ambient": {
+                "sounds": [{
+                        "name": "sengoku:ronin/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/idle4",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ronin.ambient"
+            },
+            "ronin_ambient_aggro": {
+                "sounds": [{
+                        "name": "sengoku:ronin/aggro1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/aggro2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/aggro3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/aggro4",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ronin.ambient_aggro"
+            },
+            "bandit_ambient_aggro": {
+                "sounds": [{
+                        "name": "mob/pillager/idle1",
+                        "stream": false
+                    }, {
+                        "name": "mob/pillager/idle2",
+                        "stream": false
+                    }, {
+                        "name": "mob/pillager/idle3",
+                        "stream": false
+                    }, {
+                        "name": "mob/pillager/idle4",
+                        "stream": false
+                    }, {
+                        "name": "mob/pillager/idle5",
+                        "stream": false
+                    }, {
+                        "name": "mob/pillager/idle6",
+                        "stream": false
+                    }, {
+                        "name": "mob/pillager/idle7",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.bandit.ambient"
+            },
+            "ronin_celebrate": {
+                "sounds": [{
+                        "name": "sengoku:ronin/victory",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ronin.celebrate"
+            },
+            "ronin_death": {
+                "sounds": [{
+                        "name": "sengoku:ronin/death1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ronin.death"
+            },
+            "ronin_hurt": {
+                "sounds": [{
+                        "name": "sengoku:ronin/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:ronin/hurt2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.ronin.hurt"
+            },
+            "sarugami_ambient": {
+                "sounds": [{
+                        "name": "sengoku:sarugami/idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:sarugami/idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:sarugami/idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:sarugami/idle4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:sarugami/idle5",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.sarugami.ambient"
+            },
+            "sarugami_death": {
+                "sounds": [{
+                        "name": "sengoku:sarugami/death1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:sarugami/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.sarugami.death"
+            },
+            "sarugami_hurt": {
+                "sounds": [{
+                        "name": "sengoku:sarugami/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:sarugami/hurt2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:sarugami/hurt3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:sarugami/hurt4",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.sarugami.hurt"
+            },
+            "smoke_bomb": {
+                "sounds": [{
+                        "name": "sengoku:smoke_bomb",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.item.smoke_bomb"
+            },
+            "weapon_parry": {
+                "sounds": [{
+                        "name": "sengoku:parry/block1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/block2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/block3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/block4",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.item.weapon_parry"
+            },
+            "partial_parry": {
+                "sounds": [{
+                        "name": "sengoku:parry/partial_parry1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/partial_parry2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/partial_parry3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/partial_parry4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/partial_parry5",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.item.weapon_parry"
+            },
+            "perfect_parry": {
+                "sounds": [{
+                        "name": "sengoku:parry/parry1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/parry2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:parry/parry3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.item.weapon_parry"
+            },
+            "yuki_onna_ambient": {
+                "sounds": ["mob/stray/idle1", "mob/stray/idle2", "mob/stray/idle3", "mob/stray/idle4", "mob/stray/idle5", "mob/stray/idle6"],
+                "subtitle": "subtitles.entity.yuki_onna.ambient"
+            },
+            "yuki_onna_ambient_aggro": {
+                "sounds": [{
+                        "name": "sengoku:yuki_onna/aggro_idle1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/aggro_idle2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/aggro_idle3",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/aggro_idle4",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/aggro_idle5",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/aggro_idle6",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.yuki_onna.ambient_aggro"
+            },
+            "yuki_onna_breath": {
+                "sounds": [{
+                        "name": "sengoku:yuki_onna/ice_breath",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.yuki_onna.breath"
+            },
+            "yuki_onna_death": {
+                "sounds": [{
+                        "name": "sengoku:yuki_onna/death1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/death2",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.yuki_onna.death"
+            },
+            "yuki_onna_hurt": {
+                "sounds": [{
+                        "name": "sengoku:yuki_onna/hurt1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/hurt2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/hurt3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.yuki_onna.hurt"
+            },
+            "yuki_onna_music": {
+                "sounds": [{
+                        "name": "sengoku:music/combat/yuki_onna",
+                        "stream": true
+                    }
+                ],
+                "subtitle": "subtitles.entity.yuki_onna.music"
+            },
+            "yuki_onna_stare": {
+                "sounds": [{
+                        "name": "sengoku:yuki_onna/stare1",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/stare2",
+                        "stream": false
+                    }, {
+                        "name": "sengoku:yuki_onna/stare3",
+                        "stream": false
+                    }
+                ],
+                "subtitle": "subtitles.entity.yuki_onna.stare"
+            }
+        }

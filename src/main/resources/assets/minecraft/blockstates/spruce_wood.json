@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "minecraft:block/spruce_wood",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/spruce_wood_mirrored",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/spruce_wood",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/spruce_wood_mirrored",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "minecraft:block/spruce_wood"
+      },
+      {
+        "model": "minecraft:block/spruce_wood_mirrored"
+      },
+      {
+        "model": "minecraft:block/spruce_wood",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/spruce_wood_mirrored",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "minecraft:block/spruce_wood",
+        "x": 90
+      },
+      {
+        "model": "minecraft:block/spruce_wood_mirrored",
+        "x": 90
+      },
+      {
+        "model": "minecraft:block/spruce_wood",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/spruce_wood_mirrored",
+        "x": 90,
+        "y": 180
+      }
+    ]
+  }
+}

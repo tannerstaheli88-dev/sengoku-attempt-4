@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "sengoku:block/lacquered_keyaki_log", "x": 90, "y": 90 },
+    "axis=y": { "model": "sengoku:block/lacquered_keyaki_log" },
+    "axis=z": { "model": "sengoku:block/lacquered_keyaki_log", "x": 90 }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_2",
+  "textures": {
+    "all": "sengoku:block/bloodgood_leaves",
+    "bushy": "sengoku:block/bushy_bloodgood_leaves"
+  }
+}

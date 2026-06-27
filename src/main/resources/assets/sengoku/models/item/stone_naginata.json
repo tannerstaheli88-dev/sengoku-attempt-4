@@ -1,0 +1,12 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:item/naginata",
+	"textures": {
+		"0": "sengoku:item/naginata/stone_naginata",
+		"particle": "sengoku:item/naginata/stone_naginata"
+	},
+	"overrides": [
+		{"predicate": {"minecraft:blocking": 1}, "model": "sengoku:item/stone_naginata_blocking"}
+	]
+}

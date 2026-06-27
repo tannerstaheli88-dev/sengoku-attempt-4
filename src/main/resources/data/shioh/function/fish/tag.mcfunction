@@ -1,0 +1,26 @@
+execute as @e[type=tropical_fish,nbt={Variant:50660352}] run data modify entity @s Variant set value 0
+execute as @e[type=tropical_fish,nbt={Variant:101253888}] run data modify entity @s Variant set value 1
+execute as @e[type=tropical_fish,nbt={Variant:67240705}] run data modify entity @s Variant set value 256
+execute as @e[type=tropical_fish,nbt={Variant:67699456}] run data modify entity @s Variant set value 512
+execute as @e[type=tropical_fish,nbt={Variant:67371009}] run data modify entity @s Variant set value 257
+execute as @e[type=tropical_fish,nbt={Variant:134283521}] run data modify entity @s Variant set value 768
+execute as @e[type=tropical_fish,nbt={Variant:117899265}] run data modify entity @s Variant set value 1024
+execute as @e[type=tropical_fish,nbt={Variant:185008129}] run data modify entity @s Variant set value 1280
+execute as @e[type=tropical_fish,nbt={Variant:65536}] run data modify entity @s Variant set value 1280
+execute as @e[type=tropical_fish,nbt={Variant:151453952}] run data modify entity @s Variant set value 513
+execute as @e[type=tropical_fish,nbt={Variant:117441793}] run data modify entity @s Variant set value 769
+execute as @e[type=tropical_fish,nbt={Variant:118161664}] run data modify entity @s Variant set value 1281
+execute as @e[type=tropical_fish,nbt={Variant:50790656}] run data modify entity @s Variant set value 0
+execute as @e[type=tropical_fish,nbt={Variant:50726144}] run data modify entity @s Variant set value 0
+execute as @e[type=tropical_fish,nbt={Variant:234882305}] run data modify entity @s Variant set value 0
+execute as @e[type=tropical_fish,nbt={Variant:67110144}] run data modify entity @s Variant set value 1
+execute as @e[type=tropical_fish,nbt={Variant:117441025}] run data modify entity @s Variant set value 257
+execute as @e[type=tropical_fish,nbt={Variant:16778497}] run data modify entity @s Variant set value 769
+execute as @e[type=tropical_fish,nbt={Variant:918529}] run data modify entity @s Variant set value 257
+execute as @e[type=tropical_fish,nbt={Variant:235340288}] run data modify entity @s Variant set value 256
+execute as @e[type=tropical_fish,nbt={Variant:918273}] run data modify entity @s Variant set value 257
+execute as @e[type=tropical_fish,nbt={Variant:67108865}] run data modify entity @s Variant set value 512
+execute as @e[type=tropical_fish,nbt={Variant:917504}] run data modify entity @s Variant set value 512
+execute as @e[type=tropical_fish,nbt={Variant:917760}] run data modify entity @s Variant set value 768
+execute as @e[type=tropical_fish,nbt={Variant:459008}] run data modify entity @s Variant set value 512
+tag @s add shioh.checked

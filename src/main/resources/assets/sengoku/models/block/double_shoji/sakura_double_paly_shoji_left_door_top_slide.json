@@ -1,0 +1,9 @@
+{
+  "parent": "sengoku:block/double_shoji/shoji_double_left_door_top_slide",
+  "textures": {
+    "bottom": "sengoku:block/sakura_planks",
+    "face": "sengoku:block/double_door/sakura_paly_double_door_top_left",
+    "particle": "sengoku:block/sakura_planks",
+    "top": "sengoku:block/sakura_planks"
+  }
+}

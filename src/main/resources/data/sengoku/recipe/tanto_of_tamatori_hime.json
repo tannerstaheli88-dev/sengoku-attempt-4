@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sengoku:seigun_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "sengoku:diamond_tanto"
+  },
+  "addition": {
+    "item": "sengoku:broken_hilt_piece"
+  },
+  "result": {
+    "id": "sengoku:tanto_of_tamatori_hime"
+  }
+}

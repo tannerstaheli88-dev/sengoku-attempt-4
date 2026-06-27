@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "hat",
+  "ingredients": [
+    {
+      "item": "sengoku:sando_hat"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "id": "sengoku:white_sando_hat",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:village_plains",
+    "minecraft:village_savanna",
+    "minecraft:village_bamboo",
+	"minecraft:village_swamp",
+	"shioh:abandoned_manor",
+	"shioh:abandoned_dojo"
+  ]
+}

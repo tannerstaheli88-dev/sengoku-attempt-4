@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"#shioh:collections/forest",
+	"#shioh:collections/forest_snowy",
+	"end_highlands"
+  ]
+}

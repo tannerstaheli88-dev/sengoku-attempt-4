@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/shoji_door_bottom_hinge",
+	"textures": {
+		"2": "sengoku:block/bamboo_planks",
+		"particle": "sengoku:block/bamboo_paly_door_bottom",
+		"bottom": "sengoku:block/bamboo_paly_door_bottom"
+	}
+}

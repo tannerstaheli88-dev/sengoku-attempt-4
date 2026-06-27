@@ -1,0 +1,8 @@
+{
+  "parent": "sengoku:block/double_shoji/shoji_double_left_door_top_hinge",
+  "textures": {
+    "bottom": "sengoku:block/birch_planks",
+    "face": "sengoku:block/double_door/birch_checkered_double_door_top_left",
+    "particle": "sengoku:block/birch_planks"
+  }
+}

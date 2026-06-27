@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+	"shioh:outcast_villager",
+	"shioh:jungle_pagoda",
+	"shioh:wasteland_pagoda",
+	"shioh:decayed_house",
+	"shioh:inari_shrine",
+	"shioh:shrine",
+	"shioh:graveyard",
+	"shioh:pagoda"
+  ]
+}

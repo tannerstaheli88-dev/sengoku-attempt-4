@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "tamahagane_ingot",
+  "ingredients": [
+    {
+      "item": "sengoku:raw_tamahagane"
+    },
+    {
+      "item": "sengoku:raw_tamahagane"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "sengoku:tamahagane_ingot"
+  }
+}

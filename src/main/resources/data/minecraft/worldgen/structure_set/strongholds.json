@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "count": 500,
+    "distance": 58,
+    "preferred_biomes": "#minecraft:has_structure/ocean_monument",
+    "salt": 60,
+    "spread": 40
+  },
+  "structures": [
+    {
+      "structure": "minecraft:stronghold",
+      "weight": 1
+    }
+  ]
+}

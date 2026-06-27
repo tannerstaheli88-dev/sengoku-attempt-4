@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bamboo_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:bamboo_planks"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:bamboo_checkered_shoji_door",
+      "sengoku:bamboo_checkered_double_shoji_door",
+      "sengoku:bamboo_checkered_triple_shoji_door",
+      "sengoku:bamboo_checkered_shoji_panel",
+      "sengoku:bamboo_paly_shoji_door",
+      "sengoku:bamboo_paly_double_shoji_door",
+      "sengoku:bamboo_paly_triple_shoji_door",
+      "sengoku:bamboo_paly_shoji_panel",
+      "sengoku:bamboo_shoji_door",
+      "sengoku:bamboo_double_shoji_door",
+      "sengoku:bamboo_triple_shoji_door",
+      "sengoku:bamboo_shoji_panel",
+      "sengoku:bamboo_covered_shoji_frame",
+      "sengoku:bamboo_checkered_shoji_frame",
+      "sengoku:bamboo_paly_shoji_frame",
+      "sengoku:bamboo_shoji_frame",
+      "sengoku:bamboo_tatami_block",
+      "sengoku:bamboo_tatami_mat"
+    ]
+  }
+}

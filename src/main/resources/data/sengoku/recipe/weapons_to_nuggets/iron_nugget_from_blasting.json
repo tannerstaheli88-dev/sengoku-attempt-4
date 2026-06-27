@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "sengoku:iron_tanto"
+    },
+    {
+      "item": "sengoku:iron_tetsubo"
+    },
+    {
+      "item": "sengoku:iron_kanabo"
+    },
+    {
+      "item": "sengoku:iron_naginata"
+    },
+    {
+      "item": "sengoku:iron_yari"
+    },
+    {
+      "item": "sengoku:iron_odachi"
+    }
+  ],
+  "result": {
+    "id": "minecraft:iron_nugget",
+    "count": 1
+  }
+}

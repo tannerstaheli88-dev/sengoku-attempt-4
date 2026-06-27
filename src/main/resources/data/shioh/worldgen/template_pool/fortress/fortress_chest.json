@@ -1,0 +1,24 @@
+{
+	"name": "shioh:fortress_chest",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:fortress/fortress_chest",
+				"projection": "rigid",
+				"processors": "shioh:fortress_generic_degradation"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:fortress/fortress_chest_fail",
+				"projection": "rigid",
+				"processors": "shioh:fortress_generic_degradation"
+			}
+		}
+	]
+}

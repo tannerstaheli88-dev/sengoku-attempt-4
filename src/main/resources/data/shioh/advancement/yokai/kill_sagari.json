@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_horse_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_sagari.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_sagari.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "zombie_horse_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie_horse"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 105
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:snowy_plains",
+    "minecraft:deep_dark",
+    "minecraft:ice_spikes",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_beach",
+    "minecraft:frozen_river",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:stony_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:grove",
+    {
+      "id": "sengoku:snowy_forest",
+      "required": false
+    },
+    {
+      "id": "sengoku:snowy_dark_forest",
+      "required": false
+    },
+    {
+      "id": "sengoku:hotsprings_snowy",
+      "required": false
+    },
+    {
+      "id": "sengoku:spider_lily_field",
+      "required": false
+    }
+  ]
+}

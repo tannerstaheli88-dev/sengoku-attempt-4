@@ -1,0 +1,125 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.shioh.sengoku.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DoorBlockMixin",
+    "InteractWithDoorMixin",
+    "GiantAIMixin",
+    "SwordShieldMixin",
+    "KamaBuffMixin",
+    "OniMixin",
+    "GiantFootstepMixin",
+    "GiantStepHeightMixin",
+    "SkeletonMixin",
+    "SpiderMixin",
+    "WalkNodeEvaluatorMixin",
+    "PotionStackSizeMixin",
+    "BrewingStandBlockEntityMixin",
+    "BrewingStandPotionSlotMixin",
+    "BowlItemStackSizeMixin",
+    "ItemStackSetCountClampMixin",
+    "MobAccessor",
+    "MobPoiseBreakMixin",
+    "VillagerAvoidMixin",
+    "PoiTypesAccessor",
+    "PoiTypeAccessor",
+    "BedBlockMixin",
+    "DoorInteractGoalMixin",
+    "BlockUseTrapdoorStiffMixin",
+    "TrapDoorStiffStateMixin",
+    "TrapDoorRedstoneStiffMixin",
+    "TrapDoorExplosionStiffMixin",
+    "EnchantmentMixin",
+    "MinecraftServerMixin",
+    "PlayerEntityMixin",
+    "ServerPacksSourceMixin",
+    "BowItemMixin",
+    "CrossbowItemMixin",
+    "CrossbowLouderSoundMixin",
+    "IceFormationMixin",
+    "RabbitFootPlacementMixin",
+    "YokaiAvoidShideMixin",
+    "LlamaBehaviorMixin",
+    "LlamaTamingMixin",
+    "ParrotBehaviorMixin",
+    "RaidWaveSpawnMixin",
+    "RaidRavagerReplacementMixin",
+    "OminousBannerReplacementMixin",
+    "VindicatorEliteEntityMixin",
+    "IllusionerMixin",
+    "PlayerSwiftSneakHoldMixin",
+    "EnchantmentMenuMixin",
+    "SpectralArrowVelocityMixin",
+    "SpectralArrowCustomSoundMixin",
+    "SpectralArrowNoCritParticlesMixin",
+    "SpectralArrowNoGlowMixin",
+    "AbstractArrowAccessor",
+    "HeavyWeaponSlownessMixin",
+    "IllagerHandednessMixin",
+    "SplashPotionSmokeBombMixin",
+    "PillagerTargetingMixin",
+    "VindicatorTargetingMixin",
+    "EvokerTargetingMixin",
+    "WeepingVinesPlacementMixin",
+    "RandomSpreadStructurePlacementMixin",
+    "PoolElementStructurePieceMixin",
+    "BeardifierMixin",
+    "SurfaceMonsterSpawnReductionMixin",
+    "SpawnOnTagMixin",
+    "SpawnPlacementsMixin",
+    "AquaticSpawnSafetyMixin",
+    "EndermanBurnInDaylightMixin",
+    "EndermanStalkingMixin",
+    "EndermanTeleportAwayMixin",
+    "HorseDeathMixin",
+    "HorsePatrolDespawnMixin",
+    "MeleeWeaponHitMixin",
+    "PlayerNoiseMixin",
+    "TargetingConditionsMixin",
+    "MobInvisibilityTargetMixin",
+    "EnderDragonPhase2EventsMixin",
+    "MobSetTargetMixin",
+    "FermentedSakeStackSizeMixin",
+    "MaxStackSizeMixin",
+    "SlotMaxStackMixin",
+    "ServerPlayerGameModeMixin",
+    "VindicatorGoalMixin",
+    "LivingEntityVindicatorParryMixin"
+    ,"IronGolemTargetClearMixin"
+    ,"PolarBearHostilityMixin"
+    ,"LevelPreventDeadCoralMixin"
+    ,"PigBehaviorMixin"
+    ,"AxolotlBehaviorMixin"
+    ,"IronToolDurabilityMixin"
+    ,"SnowLayerGrassPreservationMixin",
+    "ParrotSpawnVariantMixin"
+    ,"WolfMixin"
+    ,"FungusBonemealMixin"
+    ,"HoeItemMixin"
+    ,"BundleContentsWeightMixin"
+    ,"BundleItemTooltipMixin"
+    ,"MobSpawnEggPersistenceMixin"
+    ,"EnderDragonJapaneseTailMixin"
+    ,"EndDragonFightPortalScanFixMixin"
+    ,"WardenSuffocationImmunityMixin"
+    ,"MobAttackSweepMixin"
+    ,"GravityProcessorMixin"
+    ,"FoxSafeAvoidanceMixin"
+    ,"MoonPhaseSpawnMixin"
+  ],
+    "core": [
+      "FireBlockNetherMixin"
+    ],
+  "client": [
+    "client.BlastFurnaceCampfireSmokeMixin",
+    "client.TwoHandBlockMixin",
+    "client.IllagerModelTwoHandMixin",
+    "client.BossHealthOverlayAccessor"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"3": "sengoku:block/sake_barrel_front",
+		"particle": "sengoku:block/sake_barrel_front",
+		"bottom": "sengoku:block/sake_barrel_bottom",
+		"side": "sengoku:block/sake_barrel_side",
+		"top": "sengoku:block/sake_barrel_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [1, 14.75, 1],
+			"to": [15, 17.75, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 14.75, 1]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 3], "texture": "#3"},
+				"east": {"uv": [1, 0, 15, 3], "texture": "#side"},
+				"south": {"uv": [1, 0, 15, 3], "texture": "#3"},
+				"west": {"uv": [1, 0, 15, 3], "texture": "#side"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#top"},
+				"down": {"uv": [0, 0, 14, 14], "texture": "#missing"}
+			}
+		}
+	]
+}

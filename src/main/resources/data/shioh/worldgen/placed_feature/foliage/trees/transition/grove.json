@@ -1,0 +1,157 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.9,
+          "feature": {
+            "feature": "minecraft:trees_grove",
+            "placement": []
+          }
+        }
+      ],
+      "default": {
+        "feature": "minecraft:trees_grove",
+        "placement": []
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:constant",
+        "value": 25
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:would_survive",
+                "state": {
+                  "Name": "minecraft:fern"
+                }
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:snow_block",
+                  "minecraft:powder_snow"
+                ],
+                "offset": [0, -1, 0]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:replaceable"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:any_of",
+        "conditions": [
+          {
+            "type": "lithostitched:offset",
+            "offset": [30, 0, 0],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:grove"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-30, 0, 0],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:grove"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [0, 0, 30],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:grove"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [0, 0, -30],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:grove"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [30, 0, 30],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:grove"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [30, 0, -30],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:grove"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-30, 0, 30],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:grove"
+              ]
+            }
+          },
+          {
+            "type": "lithostitched:offset",
+            "offset": [-30, 0, -30],
+            "condition": {
+              "type": "lithostitched:in_biome",
+              "biomes": [
+                "minecraft:grove"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

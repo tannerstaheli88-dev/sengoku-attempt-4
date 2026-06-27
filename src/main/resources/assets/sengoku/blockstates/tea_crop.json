@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0":  { "model": "sengoku:block/tea_crop_0" },
+    "age=1":  { "model": "sengoku:block/tea_crop_1" },
+    "age=2":  { "model": "sengoku:block/tea_crop_2" },
+    "age=3":  { "model": "sengoku:block/tea_crop_3" },
+    "age=4":  { "model": "sengoku:block/tea_crop_4" },
+    "age=5":  { "model": "sengoku:block/tea_crop_5" },
+    "age=6":  { "model": "sengoku:block/tea_crop_6" },
+    "age=7":  { "model": "sengoku:block/tea_crop_7" }
+  }
+}

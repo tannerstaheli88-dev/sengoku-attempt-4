@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:stick"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:wooden_yari",
+      "sengoku:wooden_naginata",
+      "sengoku:wooden_tetsubo",
+      "sengoku:wooden_odachi",
+      "sengoku:wooden_tanto",
+      "sengoku:wooden_kanabo"
+    ]
+  }
+}

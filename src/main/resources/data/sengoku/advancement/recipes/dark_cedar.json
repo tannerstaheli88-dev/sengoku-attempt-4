@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "obtain_dark_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:dark_oak_planks"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:dark_cedar_checkered_shoji_door",
+      "sengoku:dark_cedar_checkered_double_shoji_door",
+      "sengoku:dark_cedar_checkered_triple_shoji_door",
+      "sengoku:dark_cedar_checkered_shoji_panel",
+      "sengoku:dark_cedar_paly_shoji_door",
+      "sengoku:dark_cedar_paly_double_shoji_door",
+      "sengoku:dark_cedar_paly_triple_shoji_door",
+      "sengoku:dark_cedar_paly_shoji_panel",
+      "sengoku:dark_cedar_shoji_door",
+      "sengoku:dark_cedar_double_shoji_door",
+      "sengoku:dark_cedar_triple_shoji_door",
+      "sengoku:dark_cedar_shoji_panel",
+      "sengoku:dark_cedar_covered_shoji_frame",
+      "sengoku:dark_cedar_checkered_shoji_frame",
+      "sengoku:dark_cedar_paly_shoji_frame",
+      "sengoku:dark_cedar_shoji_frame",
+      "sengoku:dark_cedar_tatami_block",
+      "sengoku:dark_cedar_tatami_mat"
+    ]
+  }
+}

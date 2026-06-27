@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:goats_spawnable_on",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:podzol",
+    "minecraft:sand"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:strider_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_katawaguruma.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_katawaguruma.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:strider",
+          "team": "katawaguruma"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

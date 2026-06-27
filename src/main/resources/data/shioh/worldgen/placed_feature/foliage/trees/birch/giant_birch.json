@@ -1,0 +1,9 @@
+{
+  "feature": "shioh:foliage/trees/birch/giant_birch",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 2
+    }
+  ]
+}

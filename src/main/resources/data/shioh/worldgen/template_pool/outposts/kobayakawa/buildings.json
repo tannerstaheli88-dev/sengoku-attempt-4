@@ -1,0 +1,123 @@
+{
+  "name": "meme",
+  "fallback": "shioh:outposts/decor",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_tent1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_tent2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_tent3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_tent4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_building1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_building2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_building3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_watchtower1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_watchtower2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_banners1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_banners2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_fence1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_fence2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

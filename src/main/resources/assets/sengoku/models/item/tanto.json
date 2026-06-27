@@ -1,0 +1,264 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [8, 8],
+	"textures": {
+		"1": "./1",
+		"particle": "./1"
+	},
+	"elements": [
+		{
+			"name": "iron_tanto_0",
+			"from": [11, 11, 8],
+			"to": [12, 11.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [12, 4.5, 11, 5], "texture": "#1"},
+				"east": {"uv": [11.5, 4.5, 12, 5], "texture": "#1"},
+				"south": {"uv": [11, 4.5, 12, 5], "texture": "#1"},
+				"west": {"uv": [11, 4.5, 11.5, 5], "texture": "#1"},
+				"up": {"uv": [11, 4.5, 12, 5], "texture": "#1"},
+				"down": {"uv": [11, 4.5, 12, 5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_1",
+			"from": [10, 10, 8],
+			"to": [11, 11, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [11, 5, 10, 6], "texture": "#1"},
+				"east": {"uv": [10.5, 5, 11, 6], "texture": "#1"},
+				"south": {"uv": [10, 5, 11, 6], "texture": "#1"},
+				"west": {"uv": [10, 5, 10.5, 6], "texture": "#1"},
+				"up": {"uv": [10, 5, 11, 5.5], "texture": "#1"},
+				"down": {"uv": [10, 5.5, 11, 6], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_2",
+			"from": [11, 10.5, 8],
+			"to": [11.5, 11, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [11.5, 5, 11, 5.5], "texture": "#1"},
+				"east": {"uv": [11, 5, 11.5, 5.5], "texture": "#1"},
+				"south": {"uv": [11, 5, 11.5, 5.5], "texture": "#1"},
+				"west": {"uv": [11, 5, 11.5, 5.5], "texture": "#1"},
+				"up": {"uv": [11, 5, 11.5, 5.5], "texture": "#1"},
+				"down": {"uv": [11, 5, 11.5, 5.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_3",
+			"from": [9.5, 9.5, 8],
+			"to": [10, 10.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [10, 5.5, 9.5, 6.5], "texture": "#1"},
+				"east": {"uv": [9.5, 5.5, 10, 6.5], "texture": "#1"},
+				"south": {"uv": [9.5, 5.5, 10, 6.5], "texture": "#1"},
+				"west": {"uv": [9.5, 5.5, 10, 6.5], "texture": "#1"},
+				"up": {"uv": [9.5, 5.5, 10, 6], "texture": "#1"},
+				"down": {"uv": [9.5, 6, 10, 6.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_4",
+			"from": [9, 9, 8],
+			"to": [9.5, 10, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [9.5, 6, 9, 7], "texture": "#1"},
+				"east": {"uv": [9, 6, 9.5, 7], "texture": "#1"},
+				"south": {"uv": [9, 6, 9.5, 7], "texture": "#1"},
+				"west": {"uv": [9, 6, 9.5, 7], "texture": "#1"},
+				"up": {"uv": [9, 6, 9.5, 6.5], "texture": "#1"},
+				"down": {"uv": [9, 6.5, 9.5, 7], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_5",
+			"from": [8.5, 8.5, 8],
+			"to": [9, 9.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [9, 6.5, 8.5, 7.5], "texture": "#1"},
+				"east": {"uv": [8.5, 6.5, 9, 7.5], "texture": "#1"},
+				"south": {"uv": [8.5, 6.5, 9, 7.5], "texture": "#1"},
+				"west": {"uv": [8.5, 6.5, 9, 7.5], "texture": "#1"},
+				"up": {"uv": [8.5, 6.5, 9, 7], "texture": "#1"},
+				"down": {"uv": [8.5, 7, 9, 7.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_6",
+			"from": [8, 8, 8],
+			"to": [8.5, 9, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [8.5, 7, 8, 8], "texture": "#1"},
+				"east": {"uv": [8, 7, 8.5, 8], "texture": "#1"},
+				"south": {"uv": [8, 7, 8.5, 8], "texture": "#1"},
+				"west": {"uv": [8, 7, 8.5, 8], "texture": "#1"},
+				"up": {"uv": [8, 7, 8.5, 7.5], "texture": "#1"},
+				"down": {"uv": [8, 7.5, 8.5, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_7",
+			"from": [7.5, 7.5, 8],
+			"to": [8, 8.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 7.5, 7.5, 8.5], "texture": "#1"},
+				"east": {"uv": [7.5, 7.5, 8, 8.5], "texture": "#1"},
+				"south": {"uv": [7.5, 7.5, 8, 8.5], "texture": "#1"},
+				"west": {"uv": [7.5, 7.5, 8, 8.5], "texture": "#1"},
+				"up": {"uv": [7.5, 7.5, 8, 8], "texture": "#1"},
+				"down": {"uv": [7.5, 8, 8, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_8",
+			"from": [7, 6.5, 8],
+			"to": [7.5, 8, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [7.5, 8, 7, 9.5], "texture": "#1"},
+				"east": {"uv": [7, 8, 7.5, 9.5], "texture": "#1"},
+				"south": {"uv": [7, 8, 7.5, 9.5], "texture": "#1"},
+				"west": {"uv": [7, 8, 7.5, 9.5], "texture": "#1"},
+				"up": {"uv": [7, 8, 7.5, 8.5], "texture": "#1"},
+				"down": {"uv": [7, 9, 7.5, 9.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_9",
+			"from": [6.5, 5.5, 8],
+			"to": [7, 7.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [7, 8.5, 6.5, 10.5], "texture": "#1"},
+				"east": {"uv": [6.5, 8.5, 7, 10.5], "texture": "#1"},
+				"south": {"uv": [6.5, 8.5, 7, 10.5], "texture": "#1"},
+				"west": {"uv": [6.5, 8.5, 7, 10.5], "texture": "#1"},
+				"up": {"uv": [6.5, 8.5, 7, 9], "texture": "#1"},
+				"down": {"uv": [6.5, 10, 7, 10.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_10",
+			"from": [5.5, 5.5, 8],
+			"to": [6.5, 7, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [6.5, 9, 5.5, 10.5], "texture": "#1"},
+				"east": {"uv": [6, 9, 6.5, 10.5], "texture": "#1"},
+				"south": {"uv": [5.5, 9, 6.5, 10.5], "texture": "#1"},
+				"west": {"uv": [5.5, 9, 6, 10.5], "texture": "#1"},
+				"up": {"uv": [5.5, 9, 6.5, 9.5], "texture": "#1"},
+				"down": {"uv": [5.5, 10, 6.5, 10.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_11",
+			"from": [5, 4.5, 8],
+			"to": [5.5, 6, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [5.5, 10, 5, 11.5], "texture": "#1"},
+				"east": {"uv": [5, 10, 5.5, 11.5], "texture": "#1"},
+				"south": {"uv": [5, 10, 5.5, 11.5], "texture": "#1"},
+				"west": {"uv": [5, 10, 5.5, 11.5], "texture": "#1"},
+				"up": {"uv": [5, 10, 5.5, 10.5], "texture": "#1"},
+				"down": {"uv": [5, 11, 5.5, 11.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_12",
+			"from": [4.5, 4, 8],
+			"to": [5, 5.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [5, 10.5, 4.5, 12], "texture": "#1"},
+				"east": {"uv": [4.5, 10.5, 5, 12], "texture": "#1"},
+				"south": {"uv": [4.5, 10.5, 5, 12], "texture": "#1"},
+				"west": {"uv": [4.5, 10.5, 5, 12], "texture": "#1"},
+				"up": {"uv": [4.5, 10.5, 5, 11], "texture": "#1"},
+				"down": {"uv": [4.5, 11.5, 5, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_13",
+			"from": [5.5, 5, 8],
+			"to": [6, 5.5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [6, 10.5, 5.5, 11], "texture": "#1"},
+				"east": {"uv": [5.5, 10.5, 6, 11], "texture": "#1"},
+				"south": {"uv": [5.5, 10.5, 6, 11], "texture": "#1"},
+				"west": {"uv": [5.5, 10.5, 6, 11], "texture": "#1"},
+				"up": {"uv": [5.5, 10.5, 6, 11], "texture": "#1"},
+				"down": {"uv": [5.5, 10.5, 6, 11], "texture": "#1"}
+			}
+		},
+		{
+			"name": "iron_tanto_14",
+			"from": [4, 4, 8],
+			"to": [4.5, 5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [4.5, 11, 4, 12], "texture": "#1"},
+				"east": {"uv": [4, 11, 4.5, 12], "texture": "#1"},
+				"south": {"uv": [4, 11, 4.5, 12], "texture": "#1"},
+				"west": {"uv": [4, 11, 4.5, 12], "texture": "#1"},
+				"up": {"uv": [4, 11, 4.5, 11.5], "texture": "#1"},
+				"down": {"uv": [4, 11.5, 4.5, 12], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [20, -103, 69.28],
+			"translation": [0, 5.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-28, 79, -22.55],
+			"translation": [0, 5.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-13, 174, -16],
+			"translation": [0, 2.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [15, 71, -101],
+			"translation": [1.75, 4.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"rotation": [0, 0, -45],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"scale": [1.92, 1.92, 1.92]
+		},
+		"fixed": {
+			"rotation": [-90, 0, -45],
+			"translation": [0, 0, -7.5],
+			"scale": [3, 3, 3]
+		}
+	},
+	"groups": [
+		{
+			"name": "iron_tanto",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sengoku:iron_sand"
+  },
+  "result": {
+    "id": "sengoku:raw_tamahagane"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}

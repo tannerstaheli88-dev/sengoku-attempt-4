@@ -1,0 +1,15 @@
+{
+  "name": "minecraft:village/swamp/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/swamp/streets/swamp_street_terminator",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:frozen_peaks",
+    "minecraft:snowy_beach",
+    "minecraft:snowy_slopes",
+	"minecraft:windswept_hills",
+	"minecraft:windswept_forest",
+	"minecraft:jagged_peaks",
+	"minecraft:grove",
+    {
+      "id": "sengoku:hotsprings_snowy",
+      "required": false
+    }
+  ]
+}

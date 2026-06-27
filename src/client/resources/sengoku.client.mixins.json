@@ -1,0 +1,32 @@
+{
+  "required": true,
+  "package": "com.shioh.sengoku.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockEntityRenderersMixin",
+    "BossHealthOverlayAccessor",
+    "ClientPackFinderMixin",
+    "ItemRendererAccessor",
+    "ItemRendererMixin",
+    "ModelBakeryMixin",
+    "WarmWaterRenderingMixin",
+    "FluidRendererMixin",
+    "SpectralArrowSmokeMixin",
+    "EndDragonNoFogMixin",
+    "MistWeatherSkyMixin",
+    "EndDragonDarknessMixin",
+    "EndDragonBossEventMixin",
+    "BlazeSoulFireParticleMixin",
+    "DragonBreathOverlayMixin",
+    "VindicatorRendererMixin",
+    "IllusionerRendererMixin",
+    "BlazeNoFireOverlayMixin",
+    "FireballNoFireOverlayMixin",
+    "ExplosionSmokeParticlesMixin",
+    "PlayerRendererArmorHideMixin"
+    ,"PlayerRendererArmorLayerMixin"
+  ],
+  "injectors": { 
+    "defaultRequire": 1
+  }
+}

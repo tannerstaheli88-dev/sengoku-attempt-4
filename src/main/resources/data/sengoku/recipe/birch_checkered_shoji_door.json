@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "checkered_shoji_door",
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "PS",
+    "SP",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sengoku:birch_checkered_shoji_door"
+  }
+}

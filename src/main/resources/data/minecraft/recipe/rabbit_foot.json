@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "#  ",
+	" # ",
+	"#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:rabbit_foot"
+  },
+  "show_notification": true
+}

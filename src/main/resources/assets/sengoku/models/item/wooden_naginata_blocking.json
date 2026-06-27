@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:item/naginata_blocking",
+  "textures": {
+    "0": "sengoku:item/naginata/wooden_naginata"
+  }
+}

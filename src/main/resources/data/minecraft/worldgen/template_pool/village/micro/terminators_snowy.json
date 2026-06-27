@@ -1,0 +1,24 @@
+{
+  "name": "minecraft:village/micro/snowy_terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/snowy_micro_road_terminator1",
+        "processors": "minecraft:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/snowy_micro_road_terminator2",
+        "processors": "minecraft:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

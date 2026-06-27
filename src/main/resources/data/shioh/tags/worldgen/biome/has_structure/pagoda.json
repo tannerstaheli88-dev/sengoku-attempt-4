@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+		"#shioh:collections/deep_forest",
+		"minecraft:cherry_grove",
+        "minecraft:old_growth_birch_forest",
+        "minecraft:flower_forest"
+    ]
+}

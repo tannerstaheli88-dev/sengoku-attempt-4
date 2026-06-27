@@ -1,0 +1,175 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_shed1"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_shed2"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_shed3"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_shed4"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_shed5"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_shed6"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_shed7"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_wagon"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_watertower"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_lanterns1"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_lanterns2"
+        },
+        "limit": 2
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_logs1"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "shioh:outcast_villager/decor/outcast_decor_logs2"
+        },
+        "limit": 1
+      }
+    }
+  ]
+}

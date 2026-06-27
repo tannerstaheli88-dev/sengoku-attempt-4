@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "obtain_jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:soul_torch"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:soul_paper_lantern",
+      "sengoku:soul_stone_lantern"
+    ]
+  }
+}

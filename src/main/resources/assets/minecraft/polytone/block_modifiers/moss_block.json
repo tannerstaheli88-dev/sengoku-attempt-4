@@ -1,0 +1,4 @@
+{
+   "targets": ["minecraft:moss_block", "minecraft:moss_carpet", "minecraft:azalea"],
+   "colormap": "shioh:colormap_moss"
+}

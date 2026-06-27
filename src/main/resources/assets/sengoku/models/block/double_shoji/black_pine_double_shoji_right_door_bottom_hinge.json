@@ -1,0 +1,9 @@
+{
+  "parent": "sengoku:block/double_shoji/shoji_double_right_door_bottom_hinge",
+  "textures": {
+    "bottom": "sengoku:block/black_pine_planks",
+    "face": "sengoku:block/double_door/black_pine_double_door_bottom_right",
+    "particle": "sengoku:block/double_door/black_pine_double_door_bottom_right",
+    "top": "sengoku:block/double_door/black_pine_double_door_bottom_right"
+  }
+}

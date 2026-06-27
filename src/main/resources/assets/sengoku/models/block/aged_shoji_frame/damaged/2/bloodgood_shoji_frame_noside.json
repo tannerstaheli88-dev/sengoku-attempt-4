@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/damaged/2/template_shoji_frame_noside",
+  "textures": {
+    "pane": "sengoku:block/aged_shoji_frame/damaged/2/bloodgood_shoji_frame"
+  }
+}

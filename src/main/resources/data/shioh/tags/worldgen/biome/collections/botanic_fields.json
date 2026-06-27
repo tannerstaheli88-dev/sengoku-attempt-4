@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sunflower_plains",
+	  "sengoku:kerria_field",
+    "sengoku:lily_field",
+    "sengoku:rose_field"
+  ]
+}

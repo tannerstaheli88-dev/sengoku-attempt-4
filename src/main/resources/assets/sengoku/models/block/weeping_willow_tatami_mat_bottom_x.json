@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:block/tatami_mat_bottom",
+  "textures": {
+    "up": "sengoku:block/weeping_willow_tatami_mat_top_x",
+    "down": "sengoku:block/weeping_willow_planks",
+    "north": "sengoku:block/weeping_willow_tatami_mat_side",
+    "south": "sengoku:block/weeping_willow_tatami_mat_side",
+    "east": "sengoku:block/weeping_willow_tatami_mat_side",
+    "west": "sengoku:block/weeping_willow_tatami_mat_side",
+	"particle": "sengoku:block/weeping_willow_tatami_mat_top_x"
+  }
+}

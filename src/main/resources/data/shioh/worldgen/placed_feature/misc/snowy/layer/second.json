@@ -1,0 +1,438 @@
+{
+  "feature": "shioh:misc/snowy/layer/second",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 80
+    },
+    {
+      "type": "minecraft:count",
+      "count": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:any_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:coarse_dirt",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:gravel",
+                    "minecraft:diorite",
+                    "minecraft:basalt",
+                    "minecraft:smooth_basalt",
+                    "minecraft:mud",
+                    "minecraft:tuff",
+                    "minecraft:andesite",
+                    "minecraft:stone",
+                    "minecraft:deepslate",
+                    "minecraft:podzol",
+                    "minecraft:acacia_wood",
+                    "minecraft:snow_block",
+                    "rooted_dirt"
+                  ],
+                  "offset": [
+                    1,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:coarse_dirt",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:tuff",
+                    "minecraft:gravel",
+                    "minecraft:diorite",
+                    "minecraft:basalt",
+                    "minecraft:smooth_basalt",
+                    "minecraft:mud",
+                    "minecraft:andesite",
+                    "minecraft:stone",
+                    "minecraft:deepslate",
+                    "minecraft:podzol",
+                    "minecraft:acacia_wood",
+                    "minecraft:snow_block",
+                    "rooted_dirt"
+                  ],
+                  "offset": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:coarse_dirt",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:tuff",
+                    "minecraft:andesite",
+                    "minecraft:gravel",
+                    "minecraft:diorite",
+                    "minecraft:basalt",
+                    "minecraft:smooth_basalt",
+                    "minecraft:mud",
+                    "minecraft:stone",
+                    "minecraft:deepslate",
+                    "minecraft:podzol",
+                    "minecraft:acacia_wood",
+                    "minecraft:snow_block",
+                    "rooted_dirt"
+                  ],
+                  "offset": [
+                    -1,
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:diorite",
+                    "minecraft:basalt",
+                    "minecraft:smooth_basalt",
+                    "minecraft:mud",
+                    "minecraft:cobbled_deepslate",
+                    "minecraft:tuff",
+                    "minecraft:andesite",
+                    "minecraft:stone",
+                    "minecraft:deepslate",
+                    "minecraft:podzol",
+                    "minecraft:acacia_wood",
+                    "minecraft:snow_block",
+                    "rooted_dirt"
+                  ],
+                  "offset": [
+                    0,
+                    0,
+                    -1
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
+                  "offset": [
+                    1,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    1
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
+                  "offset": [
+                    -1,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    -1
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:grass_block",
+              "minecraft:coarse_dirt",
+              "minecraft:cobbled_deepslate",
+              "minecraft:gravel",
+              "minecraft:diorite",
+              "minecraft:basalt",
+              "minecraft:smooth_basalt",
+              "minecraft:mud",
+              "minecraft:andesite",
+              "minecraft:tuff",
+              "minecraft:stone",
+              "minecraft:deepslate",
+              "minecraft:podzol",
+              "minecraft:acacia_wood",
+              "minecraft:snow_block",
+              "rooted_dirt"
+            ],
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air",
+              "snow"
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:any_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:coarse_dirt",
+                  "minecraft:gravel",
+                  "minecraft:diorite",
+                  "minecraft:basalt",
+                  "minecraft:smooth_basalt",
+                  "minecraft:mud",
+                  "minecraft:cobbled_deepslate",
+                  "minecraft:tuff",
+                  "minecraft:andesite",
+                  "minecraft:stone",
+                  "minecraft:deepslate",
+                  "minecraft:podzol",
+                  "minecraft:acacia_wood",
+                  "minecraft:snow_block",
+                  "rooted_dirt"
+                ],
+                "offset": [
+                  2,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:coarse_dirt",
+                  "minecraft:gravel",
+                  "minecraft:diorite",
+                  "minecraft:basalt",
+                  "minecraft:smooth_basalt",
+                  "minecraft:mud",
+                  "minecraft:cobbled_deepslate",
+                  "minecraft:tuff",
+                  "minecraft:stone",
+                  "minecraft:andesite",
+                  "minecraft:deepslate",
+                  "minecraft:podzol",
+                  "minecraft:acacia_wood",
+                  "minecraft:snow_block",
+                  "rooted_dirt"
+                ],
+                "offset": [
+                  0,
+                  0,
+                  2
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:coarse_dirt",
+                  "minecraft:gravel",
+                  "minecraft:diorite",
+                  "minecraft:basalt",
+                  "minecraft:smooth_basalt",
+                  "minecraft:mud",
+                  "minecraft:tuff",
+                  "minecraft:andesite",
+                  "minecraft:cobbled_deepslate",
+                  "minecraft:stone",
+                  "minecraft:deepslate",
+                  "minecraft:podzol",
+                  "minecraft:acacia_wood",
+                  "minecraft:snow_block",
+                  "rooted_dirt"
+                ],
+                "offset": [
+                  -2,
+                  0,
+                  0
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:coarse_dirt",
+                  "minecraft:gravel",
+                  "minecraft:diorite",
+                  "minecraft:basalt",
+                  "minecraft:smooth_basalt",
+                  "minecraft:mud",
+                  "minecraft:tuff",
+                  "minecraft:andesite",
+                  "minecraft:cobbled_deepslate",
+                  "minecraft:stone",
+                  "minecraft:deepslate",
+                  "minecraft:podzol",
+                  "minecraft:acacia_wood",
+                  "minecraft:snow_block",
+                  "rooted_dirt"
+                ],
+                "offset": [
+                  0,
+                  0,
+                  -2
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:coarse_dirt",
+                  "minecraft:gravel",
+                  "minecraft:diorite",
+                  "minecraft:basalt",
+                  "minecraft:smooth_basalt",
+                  "minecraft:mud",
+                  "minecraft:cobbled_deepslate",
+                  "minecraft:tuff",
+                  "minecraft:andesite",
+                  "minecraft:stone",
+                  "minecraft:deepslate",
+                  "minecraft:podzol",
+                  "minecraft:acacia_wood",
+                  "minecraft:snow_block",
+                  "rooted_dirt"
+                ],
+                "offset": [
+                  1,
+                  0,
+                  1
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:coarse_dirt",
+                  "minecraft:gravel",
+                  "minecraft:diorite",
+                  "minecraft:basalt",
+                  "minecraft:smooth_basalt",
+                  "minecraft:mud",
+                  "minecraft:cobbled_deepslate",
+                  "minecraft:tuff",
+                  "minecraft:andesite",
+                  "minecraft:stone",
+                  "minecraft:deepslate",
+                  "minecraft:podzol",
+                  "minecraft:acacia_wood",
+                  "minecraft:snow_block",
+                  "rooted_dirt"
+                ],
+                "offset": [
+                  -1,
+                  0,
+                  1
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:coarse_dirt",
+                  "minecraft:cobbled_deepslate",
+                  "minecraft:gravel",
+                  "minecraft:diorite",
+                  "minecraft:basalt",
+                  "minecraft:smooth_basalt",
+                  "minecraft:mud",
+                  "minecraft:tuff",
+                  "minecraft:andesite",
+                  "minecraft:stone",
+                  "minecraft:deepslate",
+                  "minecraft:podzol",
+                  "minecraft:acacia_wood",
+                  "minecraft:snow_block",
+                  "rooted_dirt"
+                ],
+                "offset": [
+                  1,
+                  0,
+                  -1
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:grass_block",
+                  "minecraft:coarse_dirt",
+                  "minecraft:tuff",
+                  "minecraft:gravel",
+                  "minecraft:diorite",
+                  "minecraft:basalt",
+                  "minecraft:smooth_basalt",
+                  "minecraft:mud",
+                  "minecraft:cobbled_deepslate",
+                  "minecraft:stone",
+                  "minecraft:andesite",
+                  "minecraft:deepslate",
+                  "minecraft:podzol",
+                  "minecraft:acacia_wood",
+                  "minecraft:snow_block",
+                  "rooted_dirt"
+                ],
+                "offset": [
+                  -1,
+                  0,
+                  -1
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

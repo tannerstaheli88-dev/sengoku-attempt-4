@@ -1,0 +1,7 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/damaged/2/template_shoji_frame_side",
+  "textures": {
+    "edge": "sengoku:block/weeping_willow_planks",
+    "pane": "sengoku:block/aged_shoji_frame/damaged/2/weeping_willow_checkered_shoji_frame"
+  }
+}

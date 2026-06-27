@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:item/odachi_blocking",
+  "textures": {
+    "0": "sengoku:item/odachi/netherite_odachi_of_the_shugodai"
+  }
+}

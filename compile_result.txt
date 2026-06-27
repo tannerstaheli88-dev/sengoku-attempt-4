@@ -1,0 +1,42 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+latest-loom: 1.15-SNAPSHOT
+
+> Configure project :
+Fabric Loom: 1.15.4
+Fabric Loader: 0.18.4
+Fabric Api: 0.116.9+1.21.1
+Parchment: 1.21.1 + 2024.11.17
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources
+> Task :processResources FAILED
+./gradlew.bat : 
+At line:1 char:1
++ ./gradlew.bat :compileClientJava --no-daemon 2>&1 | Out-File "compile ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':processResources'.
+> Timeout waiting to lock file hash cache (D:\Minecraft\mods\mod 
+workspace\sengoku attempt 4\.gradle\9.2.0\fileHashes). It is currently in use 
+by another process.
+  Owner PID: 16336
+  Our PID: 15504
+  Owner Operation: 
+  Our operation: 
+  Lock file: D:\Minecraft\mods\mod workspace\sengoku attempt 
+4\.gradle\9.2.0\fileHashes\fileHashes.lock
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2m 42s
+2 actionable tasks: 1 executed, 1 up-to-date

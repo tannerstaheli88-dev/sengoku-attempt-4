@@ -1,0 +1,60 @@
+{
+  "name": "minecraft:village/micro/streets",
+  "fallback": "minecraft:village/micro/terminators_kiso",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/kiso_micro_road_straight1",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/kiso_micro_road_straight2",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/kiso_micro_road_straight3",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/kiso_micro_road_curve1",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/kiso_micro_road_curve2",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/micro/streets/kiso_micro_road_t_crossing",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

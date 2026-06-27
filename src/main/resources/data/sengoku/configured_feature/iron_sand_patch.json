@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:patch",
+  "config": {
+    "state": { "Name": "sengoku:iron_sand" },
+    "tries": 32
+  }
+}

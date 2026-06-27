@@ -1,0 +1,18 @@
+{
+  "values": [
+    "sengoku:boiling_pot",
+	"sengoku:stone_lantern",
+	"sengoku:soul_stone_lantern",
+	"sengoku:cobblestone_lantern",
+	"sengoku:mossy_cobblestone_lantern",
+	"sengoku:cobbled_deepslate_lantern",
+	"sengoku:stone_brick_lantern",
+	"sengoku:mossy_stone_brick_lantern",
+	"sengoku:andesite_lantern",
+	"sengoku:diorite_lantern",
+	"sengoku:tuff_lantern",
+	"#minecraft:shirasu_kabe",
+	"#minecraft:shikkui",
+	"#minecraft:limestone_ores"
+  ]
+}

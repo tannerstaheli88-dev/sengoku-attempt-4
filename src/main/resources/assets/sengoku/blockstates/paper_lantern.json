@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "sengoku:block/lantern"
+    },
+    "hanging=true": [
+      {
+        "model": "sengoku:block/lantern_hanging"
+      },
+      {
+        "model": "sengoku:block/lantern_hanging1"
+      },
+      {
+        "model": "sengoku:block/lantern_hanging2"
+      },
+      {
+        "model": "sengoku:block/lantern_hanging3"
+      },
+      {
+        "model": "sengoku:block/lantern_hanging4"
+      },
+      {
+        "model": "sengoku:block/lantern_hanging5"
+      },
+      {
+        "model": "sengoku:block/lantern_hanging6"
+      }
+    ]
+  }
+}

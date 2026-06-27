@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.01,
+        "feature": {
+          "feature": "shioh:foliage/misc/thin_jungle_bamboo_patch",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": "shioh:foliage/misc/stick_plant_small",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": "shioh:foliage/misc/marula",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": "shioh:foliage/misc/red_ivorywood",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.3,
+        "feature": {
+          "feature": "shioh:foliage/misc/mpingo",
+          "placement": []
+        }
+      }
+    ],
+    "default": {
+      "feature": "shioh:foliage/misc/acacia_forest",
+      "placement": []
+    }
+  }
+}

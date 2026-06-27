@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "blocks": [
+        "minecraft:air",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:dandelion",
+        "minecraft:poppy",
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom",
+        "minecraft:short_grass",
+		"minecraft:tall_grass",
+		"minecraft:fern",
+		"minecraft:large_fern",
+		"minecraft:dead_bush",
+        "minecraft:lily_of_the_valley",
+        "minecraft:sugar_cane",
+		"minecraft:moss_carpet",
+        "minecraft:lilac",
+        "minecraft:rose_bush",
+		"minecraft:blue_orchid",
+        "minecraft:peony",
+        "minecraft:oak_leaves",
+        "minecraft:birch_leaves",
+        "minecraft:dark_oak_leaves",
+        "minecraft:azalea_leaves",
+        "minecraft:flowering_azalea_leaves"
+      ]
+    },
+    "prioritize_tip": false,
+    "direction": "down",
+    "layers": [
+      {
+        "height": 70,
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 3,
+              "data": {
+                "Name": "minecraft:birch_fence"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

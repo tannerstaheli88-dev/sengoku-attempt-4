@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "wooden_slab",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "SSS",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:petrified_oak_slab"
+  },
+  "show_notification": true
+}

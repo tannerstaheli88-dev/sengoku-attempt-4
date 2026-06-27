@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "checkered_shoji_panel",
+  "key": {
+    "#": {
+      "item": "minecraft:crimson_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "S S",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sengoku:bloodgood_checkered_shoji_panel"
+  },
+  "show_notification": true
+}

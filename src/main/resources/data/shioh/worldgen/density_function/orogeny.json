@@ -1,0 +1,101 @@
+
+{
+  "type": "flat_cache",
+  "argument": {
+    "type": "cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": {
+          "type": "add",
+          "argument1": -0.2, 
+          "argument2": {
+            "type": "mul",
+            "argument1": 3.200000000000001, 
+            "argument2": {
+              "type": "add",
+              "argument1": {
+                "type": "minecraft:spline",
+                "spline": {
+                  "coordinate": {
+                    "type": "mul",
+                    "argument1": 3, 
+                    "argument2": {
+                      "type": "add",
+                      "argument1": -0.10000000000000003, 
+                      "argument2": {
+                        "type": "abs",
+                        "argument": {
+                          "type": "noise",
+                          "noise": "shioh:orogeny",
+                          "xz_scale": 0.06,
+                          "y_scale": 0
+                        }
+                      }
+                    }
+                  },
+                  "points": [
+                    {
+                      "location": -1,
+                      "value": -1,
+                      "derivative": 1
+                    },
+                    {
+                      "location": 1.9869910107372983,
+                      "value": 1.493458466864761,
+                      "derivative": 0
+                    }
+                  ]
+                }
+              },
+              "argument2": {
+                "type": "mul",
+                "argument1": {
+                  "type": "add",
+                  "argument1": {
+                    "type": "abs",
+                    "argument": {
+                      "type": "noise",
+                      "noise": "shioh:orogeny_variation",
+                      "xz_scale": 0.08,
+                      "y_scale": 0
+                    }
+                  },
+                  "argument2": -1.2000000000000037 
+                },
+                "argument2": 0.35 
+              }
+            }
+          }
+        },
+        "points": [
+          {
+            "location": -1.5473011420027334,
+            "value": 2.1448256191166886,
+            "derivative": 0
+          },
+          {
+            "location": -0.0034350304074217686,
+            "value": 1.912965422058449,
+            "derivative": -0.03837981999595763
+          },
+          {
+            "location": 1.2462071875958165,
+            "value": 1.112938038310409,
+            "derivative": -0.1041737971318851
+          },
+          {
+            "location": 2.4862331054926377,
+            "value": 0.43427069702551413,
+            "derivative": 0
+          },
+          {
+            "location": 4.545910168043465,
+            "value": -0.014228459376440017,
+            "derivative": 0
+          }
+        ]
+      }
+    }
+  }
+}

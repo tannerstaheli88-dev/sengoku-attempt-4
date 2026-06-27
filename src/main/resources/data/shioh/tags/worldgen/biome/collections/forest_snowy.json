@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+	"#shioh:collections/deep_forest_snowy",
+	"minecraft:windswept_forest",
+	"minecraft:windswept_hills",
+	"minecraft:grove"
+  ]
+}

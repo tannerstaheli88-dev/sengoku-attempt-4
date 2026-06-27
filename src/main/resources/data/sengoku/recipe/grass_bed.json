@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "grass_bed",
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "tag": "minecraft:reeds"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sengoku:grass_bed"
+  }
+}

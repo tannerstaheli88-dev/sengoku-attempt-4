@@ -1,0 +1,37 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:snowy_plains",
+    "minecraft:plains",
+    "minecraft:windswept_savanna",
+    "minecraft:snowy_beach",
+    "minecraft:frozen_river",
+    "minecraft:savanna",
+    "minecraft:desert",
+    "minecraft:savanna_plateau",
+    "minecraft:sunflower_plains",
+    "minecraft:sparse_jungle",
+    "minecraft:mangrove_swamp",
+    "minecraft:swamp",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:beach",
+    "minecraft:meadow",
+    {
+      "id": "sengoku:kerria_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:lily_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:spider_lily_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:rose_field",
+      "required": false
+    }
+  ]
+}

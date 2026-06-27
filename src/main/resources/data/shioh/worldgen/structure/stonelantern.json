@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:jigsaw",
+	"start_pool": "shioh:stonelantern",
+	"biomes": "#shioh:collections/no_oceans_no_rivers",
+	"project_start_to_heightmap": "WORLD_SURFACE_WG",
+	"start_height": {
+		"absolute": 0
+	},
+	"spawn_overrides": {},
+	"step": "surface_structures",
+	"use_expansion_hack": true,
+	"max_distance_from_center": 40,
+	"size": 2,
+	"terrain_adaptation": "none"
+}

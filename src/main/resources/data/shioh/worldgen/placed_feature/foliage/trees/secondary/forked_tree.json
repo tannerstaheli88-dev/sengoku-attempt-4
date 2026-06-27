@@ -1,0 +1,28 @@
+{
+  "feature": "shioh:foliage/trees/secondary/forked_tree",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:jungle_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    },
+  {
+    "type": "minecraft:block_predicate_filter",
+    "predicate": {
+      "type": "minecraft:not",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [0, -1, 0],
+        "blocks": [ "minecraft:muddy_mangrove_roots" ]
+      }
+    }
+  }
+  ]
+}

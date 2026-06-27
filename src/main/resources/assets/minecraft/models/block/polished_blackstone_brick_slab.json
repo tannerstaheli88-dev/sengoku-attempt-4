@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"1": "block/polished_blackstone_bottom",
+		"2": "block/polished_blackstone_bricks2",
+		"particle": "block/polished_blackstone_bricks",
+		"top": "block/polished_blackstone_bricks"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#top", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#top", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

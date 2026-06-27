@@ -1,0 +1,146 @@
+{
+  "carvers": {},
+  "downfall": 0.0,
+  "effects": {
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:underwater"
+      },
+      "probability": 0.005
+    },
+    "fog_color": 14998993,
+    "sky_color": 14008232,
+    "water_color": 2732442,
+    "water_fog_color": 1332810
+  },
+  "features": [
+    [	  
+      "shioh:terrain/end_terrain2",
+	  "shioh:terrain/onsen_basalt",
+      "shioh:terrain/onsen",
+	  "shioh:terrain/base_end_midlands",
+	  "shioh:terrain/sand"
+	],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_gateway_return"
+    ],
+    [],
+    [
+      "minecraft:disk_sand",
+      "minecraft:disk_clay"
+    ],
+    [
+      "minecraft:ore_infested"
+    ],
+    [],
+    [
+      "minecraft:chorus_plant",
+      "shioh:foliage/trees/secondary/trees_coral",
+      "minecraft:glow_lichen",
+	  "shioh:misc/stone_pillars",
+	  "shioh:misc/dry_rocks",
+      "shioh:foliage/trees/bamboo/bamboo_low",
+      "shioh:foliage/grass/grass_desert",
+      "shioh:foliage/grass/grass_standard",
+	  "minecraft:flower_cherry",
+	  "minecraft:flower_forest_flowers",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:warm_ocean_vegetation",
+      "minecraft:seagrass_warm",
+      "minecraft:sea_pickle",
+	  "minecraft:seagrass_normal",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold"
+    ],
+    [
+	  "shioh:misc/dense_steambig"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "sengoku:ningyo": {
+      "charge": 0.7,
+      "energy_budget": 0.6
+    },
+    "sengoku:umi_nyobo": {
+      "charge": 0.7,
+      "energy_budget": 0.9
+    },
+    "minecraft:enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.8
+    },
+    "minecraft:turtle": {
+      "charge": 0.7,
+      "energy_budget": 0.9
+    },
+    "sengoku:kamiike_hime": {
+      "charge": 0.7,
+      "energy_budget": 0.6
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:turtle",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:armadillo",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 8
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 50
+      },
+      {
+        "type": "sengoku:ningyo",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "sengoku:kamiike_hime",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": [	  
+	  {
+        "type": "sengoku:kamiike_hime",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      }
+	]
+  },
+  "temperature": 0.5
+}

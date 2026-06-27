@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "sengoku:seigun_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "sengoku:broken_hilt_piece"
+  },
+  "result": {
+    "id": "sengoku:blade_of_the_kensei"
+  }
+}

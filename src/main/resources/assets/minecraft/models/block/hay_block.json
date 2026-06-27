@@ -1,0 +1,73 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"2": "block/hay_block_grass",
+		"particle": "block/hay_block_grass",
+		"end": "block/hay_block_top",
+		"side": "block/hay_block_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "down"}
+			}
+		},
+		{
+			"from": [16.25, -2, 0],
+			"to": [16.25, 14, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "z", "origin": [15.25, 14, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "rotation": 90, "texture": "#2", "tintindex": 0},
+				"west": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, -2, -1],
+			"to": [16, 14, -1],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 14, 0]},
+			"faces": {
+				"north": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, -2, 16.5],
+			"to": [16, 14, 16.5],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 14, 15.5]},
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"south": {"uv": [16, 16, 0, 0], "rotation": 90, "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-0.5, -2, 0],
+			"to": [-0.5, 14, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "z", "origin": [0.5, 14, 8]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "rotation": 270, "texture": "#2", "tintindex": 0},
+				"west": {"uv": [16, 0, 0, 16], "rotation": 90, "texture": "#2", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3, 4]
+		}
+	]
+}

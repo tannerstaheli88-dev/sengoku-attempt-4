@@ -1,0 +1,31 @@
+{
+  "feature": "shioh:terrain/disk_blackstone",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 120
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "min_inclusive": {
+          "absolute": -55
+        },
+        "max_inclusive": {
+          "absolute": -45
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "fluids": "minecraft:lava"
+      }
+    }
+  ]
+}

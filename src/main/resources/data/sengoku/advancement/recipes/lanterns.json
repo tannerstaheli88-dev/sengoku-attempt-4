@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "obtain_jungle_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:torch"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:paper_lantern",
+      "sengoku:stone_lantern",
+      "sengoku:cobblestone_lantern",
+      "sengoku:mossy_cobblestone_lantern",
+      "sengoku:cobbled_deepslate_lantern",
+      "sengoku:stone_brick_lantern",
+      "sengoku:mossy_stone_brick_lantern",
+      "sengoku:andesite_lantern",
+      "sengoku:diorite_lantern",
+      "sengoku:tuff_lantern"
+    ]
+  }
+}

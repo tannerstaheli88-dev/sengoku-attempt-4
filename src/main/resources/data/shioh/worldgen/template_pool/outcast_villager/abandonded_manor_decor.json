@@ -1,0 +1,136 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_banner1"
+        },
+        "limit": 2
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_banner2"
+        },
+        "limit": 2
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_banner3"
+        },
+        "limit": 2
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_banner4"
+        },
+        "limit": 2
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_lantern1"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_wall1"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_wall2"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_wall3"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_koi_pond1"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "shioh:abandoned_manor",
+          "location": "shioh:outcast_villager/decor/abandoned_koi_pond2"
+        },
+        "limit": 1
+      }
+    }
+  ]
+}

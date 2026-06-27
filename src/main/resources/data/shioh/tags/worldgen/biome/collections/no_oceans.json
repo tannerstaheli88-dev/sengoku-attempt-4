@@ -1,0 +1,107 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:mushroom_fields",
+    "minecraft:stony_shore",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:snowy_slopes",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_beach",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:grove",
+    "minecraft:windswept_hills",
+    "minecraft:snowy_taiga",
+    "minecraft:windswept_forest",
+    "minecraft:taiga",
+    "minecraft:plains",
+    "minecraft:meadow",
+    "minecraft:beach",
+    "minecraft:forest",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:savanna_plateau",
+    "minecraft:savanna",
+    "minecraft:jungle",
+    "minecraft:badlands",
+    "minecraft:desert",
+    "minecraft:wooded_badlands",
+    "minecraft:jagged_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:frozen_river",
+    "minecraft:river",
+    "minecraft:ice_spikes",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:sunflower_plains",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:eroded_badlands",
+    "minecraft:windswept_savanna",
+	"minecraft:end_highlands",
+	"minecraft:end_midlands",
+    "minecraft:cherry_grove",
+    "minecraft:frozen_peaks",
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves",
+    "minecraft:deep_dark",
+    {
+      "id": "sengoku:kerria_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:lily_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:spider_lily_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:rose_field",
+      "required": false
+    },
+    {
+      "id": "sengoku:snowy_forest",
+      "required": false
+    },
+    {
+      "id": "sengoku:snowy_dark_forest",
+      "required": false
+    },
+    {
+      "id": "sengoku:hotsprings_autumnal",
+      "required": false
+    },
+    {
+      "id": "sengoku:hotsprings",
+      "required": false
+    },
+    {
+      "id": "sengoku:ginkgo_forest",
+      "required": false
+    },
+    {
+      "id": "sengoku:autumnal_bamboo_forest",
+      "required": false
+    },
+    {
+      "id": "sengoku:autumnal_river",
+      "required": false
+    },
+    {
+      "id": "sengoku:hotsprings_snowy",
+      "required": false
+    },
+    {
+      "id": "sengoku:suisho_caves",
+      "required": false
+    },
+    {
+      "id": "sengoku:caverns",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "type": "sengoku:sake_brewing",
+  "ingredients": [ { "item": "sengoku:rice" }, { "item": "minecraft:poisonous_potato" } ],
+  "output": { "item": "sengoku:fermented_sake_bottle", "count": 1 }
+}

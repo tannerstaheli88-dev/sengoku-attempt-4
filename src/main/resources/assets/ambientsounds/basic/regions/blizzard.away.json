@@ -1,0 +1,32 @@
+{
+    "name": "blizzard.away",
+    "snowing": true,
+    "bad-regions": [
+        "very_cold"
+    ],
+    "regions": [
+        "cave",
+        "sky"
+    ],
+    "relative-height": {
+        "min": -30,
+        "fade": 20
+    },
+    "sounds": [
+        {
+            "name": "blizzard-away",
+            "category": "weather",
+            "files": [
+                "ambientsounds:weather.blizzard-away"
+            ]
+        },
+        {
+            "name": "howling-wind",
+            "category": "weather",
+            "files": [
+                "ambientsounds:wind.howling-wind"
+            ],
+            "volume": 0.2
+        }
+    ]
+}

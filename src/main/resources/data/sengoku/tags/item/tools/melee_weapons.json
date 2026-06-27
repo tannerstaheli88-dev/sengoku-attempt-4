@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#sengoku:tools/tanto",
+    "#sengoku:tools/kanabo",
+    "#sengoku:tools/tetsubo",
+    "#sengoku:tools/yari",
+    "#sengoku:tools/naginata",
+    "#sengoku:tools/odachi"
+  ]
+}

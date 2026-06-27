@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "sengoku:wooden_tetsubo",
+    "sengoku:stone_tetsubo",
+    "sengoku:iron_tetsubo",
+    "sengoku:golden_tetsubo",
+    "sengoku:diamond_tetsubo",
+    "sengoku:netherite_tetsubo",
+    "sengoku:tetsubo_of_the_hatamoto",
+    "sengoku:netherite_tetsubo_of_the_hatamoto",
+    {
+      "id": "sengoku:bronze_tetsubo",
+      "required": false
+    }
+  ]
+}

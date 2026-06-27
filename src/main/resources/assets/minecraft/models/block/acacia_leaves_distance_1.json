@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_1",
+  "textures": {
+    "all": "minecraft:block/acacia_leaves",
+    "bushy": "block/bushy_acacia_leaves_distance_1"
+  }
+}

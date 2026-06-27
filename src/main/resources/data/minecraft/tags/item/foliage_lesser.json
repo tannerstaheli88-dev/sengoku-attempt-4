@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wheat_seeds",
+    "sengoku:ramie",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+    "minecraft:stick"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "minecraft:village/plains/streets",
+  "fallback": "minecraft:village/plains/terminators",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_crossroad_1_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_crossroad_2_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_crossroad_3_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_curve_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_deadend_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight":11,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_straight_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_straight2_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_straight3_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/plains/streets/plains_straight4_oak",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

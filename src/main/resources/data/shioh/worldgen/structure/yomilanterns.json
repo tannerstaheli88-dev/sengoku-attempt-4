@@ -1,0 +1,20 @@
+{
+  "biomes": "#shioh:has_structure/yomilantern",
+  "spawn_overrides": {},
+  "type": "sengoku:ceiling_jigsaw",
+  "start_pool": "shioh:yomilanterns",
+  "size": 2,
+  "step": "underground_decoration",
+  "terrain_adaptation": "beard_box",
+  "start_height": {
+    "type": "sengoku:ceiling_search",
+    "max_inclusive": {
+      "absolute": 160
+    },
+    "min_inclusive": {
+      "absolute": 33
+    }
+  },
+  "max_distance_from_center": 2,
+  "use_expansion_hack": true
+}

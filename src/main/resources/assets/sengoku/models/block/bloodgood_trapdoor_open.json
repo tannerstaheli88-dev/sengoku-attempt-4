@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/template_trapdoor_open",
+	"textures": {
+		"1": "sengoku:block/bloodgood_planks",
+		"particle": "sengoku:block/bloodgood_planks",
+		"texture": "sengoku:block/bloodgood_trapdoor"
+	}
+}

@@ -1,0 +1,173 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "sengoku:item/oni_brute_spawn_egg",
+		"particle": "sengoku:item/oni_brute_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "oni_brute_spawn_egg_0",
+			"from": [3, 14, 8],
+			"to": [5, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [5, 0, 3, 2], "texture": "#0"},
+				"east": {"uv": [4, 0, 5, 2], "texture": "#0"},
+				"south": {"uv": [3, 0, 5, 2], "texture": "#0"},
+				"west": {"uv": [3, 0, 4, 2], "texture": "#0"},
+				"up": {"uv": [3, 0, 5, 1], "texture": "#0"},
+				"down": {"uv": [3, 1, 5, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_1",
+			"from": [6, 0, 8],
+			"to": [8, 16, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 6, 16], "texture": "#0"},
+				"east": {"uv": [7, 0, 8, 16], "texture": "#0"},
+				"south": {"uv": [6, 0, 8, 16], "texture": "#0"},
+				"west": {"uv": [6, 0, 7, 16], "texture": "#0"},
+				"up": {"uv": [6, 0, 8, 1], "texture": "#0"},
+				"down": {"uv": [6, 15, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_2",
+			"from": [5, 0, 8],
+			"to": [6, 15, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [6, 1, 5, 16], "texture": "#0"},
+				"east": {"uv": [5, 1, 6, 16], "texture": "#0"},
+				"south": {"uv": [5, 1, 6, 16], "texture": "#0"},
+				"west": {"uv": [5, 1, 6, 16], "texture": "#0"},
+				"up": {"uv": [5, 1, 6, 2], "texture": "#0"},
+				"down": {"uv": [5, 15, 6, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_3",
+			"from": [8, 0, 8],
+			"to": [12, 15, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [12, 1, 8, 16], "texture": "#0"},
+				"east": {"uv": [11, 1, 12, 16], "texture": "#0"},
+				"south": {"uv": [8, 1, 12, 16], "texture": "#0"},
+				"west": {"uv": [8, 1, 9, 16], "texture": "#0"},
+				"up": {"uv": [8, 1, 12, 2], "texture": "#0"},
+				"down": {"uv": [8, 15, 12, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_4",
+			"from": [4, 3, 8],
+			"to": [5, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [5, 2, 4, 13], "texture": "#0"},
+				"east": {"uv": [4, 2, 5, 13], "texture": "#0"},
+				"south": {"uv": [4, 2, 5, 13], "texture": "#0"},
+				"west": {"uv": [4, 2, 5, 13], "texture": "#0"},
+				"up": {"uv": [4, 2, 5, 3], "texture": "#0"},
+				"down": {"uv": [4, 12, 5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_5",
+			"from": [12, 3, 8],
+			"to": [13, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [13, 2, 12, 13], "texture": "#0"},
+				"east": {"uv": [12, 2, 13, 13], "texture": "#0"},
+				"south": {"uv": [12, 2, 13, 13], "texture": "#0"},
+				"west": {"uv": [12, 2, 13, 13], "texture": "#0"},
+				"up": {"uv": [12, 2, 13, 3], "texture": "#0"},
+				"down": {"uv": [12, 12, 13, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_6",
+			"from": [3, 5, 8],
+			"to": [4, 12, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 3, 11], "texture": "#0"},
+				"east": {"uv": [3, 4, 4, 11], "texture": "#0"},
+				"south": {"uv": [3, 4, 4, 11], "texture": "#0"},
+				"west": {"uv": [3, 4, 4, 11], "texture": "#0"},
+				"up": {"uv": [3, 4, 4, 5], "texture": "#0"},
+				"down": {"uv": [3, 10, 4, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_7",
+			"from": [13, 6, 8],
+			"to": [14, 11, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [14, 5, 13, 10], "texture": "#0"},
+				"east": {"uv": [13, 5, 14, 10], "texture": "#0"},
+				"south": {"uv": [13, 5, 14, 10], "texture": "#0"},
+				"west": {"uv": [13, 5, 14, 10], "texture": "#0"},
+				"up": {"uv": [13, 5, 14, 6], "texture": "#0"},
+				"down": {"uv": [13, 9, 14, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_8",
+			"from": [1, 8, 8],
+			"to": [3, 10, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [3, 6, 1, 8], "texture": "#0"},
+				"east": {"uv": [2, 6, 3, 8], "texture": "#0"},
+				"south": {"uv": [1, 6, 3, 8], "texture": "#0"},
+				"west": {"uv": [1, 6, 2, 8], "texture": "#0"},
+				"up": {"uv": [1, 6, 3, 7], "texture": "#0"},
+				"down": {"uv": [1, 7, 3, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_9",
+			"from": [14, 5, 8],
+			"to": [15, 10, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [15, 6, 14, 11], "texture": "#0"},
+				"east": {"uv": [14, 6, 15, 11], "texture": "#0"},
+				"south": {"uv": [14, 6, 15, 11], "texture": "#0"},
+				"west": {"uv": [14, 6, 15, 11], "texture": "#0"},
+				"up": {"uv": [14, 6, 15, 7], "texture": "#0"},
+				"down": {"uv": [14, 10, 15, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "oni_brute_spawn_egg_10",
+			"from": [2, 7, 8],
+			"to": [3, 8, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 8]},
+			"faces": {
+				"north": {"uv": [3, 8, 2, 9], "texture": "#0"},
+				"east": {"uv": [2, 8, 3, 9], "texture": "#0"},
+				"south": {"uv": [2, 8, 3, 9], "texture": "#0"},
+				"west": {"uv": [2, 8, 3, 9], "texture": "#0"},
+				"up": {"uv": [2, 8, 3, 9], "texture": "#0"},
+				"down": {"uv": [2, 8, 3, 9], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "oni_brute_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+		}
+	]
+}

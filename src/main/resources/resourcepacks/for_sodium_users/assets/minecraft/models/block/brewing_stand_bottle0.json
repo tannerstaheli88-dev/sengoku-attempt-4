@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/brewing_stand",
+		"stand": "block/brewing_stand"
+	},
+	"elements": [
+		{
+			"from": [8, 5, 8],
+			"to": [16, 21, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 5, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#stand"},
+				"south": {"uv": [8, 0, 0, 16], "texture": "#stand"}
+			}
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "checkered_shoji_panel",
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "S S",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sengoku:mangrove_checkered_shoji_panel"
+  },
+  "show_notification": true
+}

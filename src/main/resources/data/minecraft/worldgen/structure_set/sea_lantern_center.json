@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "spread": 300,
+    "count": 300,
+    "distance": 7,
+    "preferred_biomes": "minecraft:the_end",
+    "salt": 27,
+    "frequency": 1
+  },
+  "structures": [
+    {
+      "structure": "minecraft:sea_lantern_center",
+      "weight": 25
+    }
+  ]
+}

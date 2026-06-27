@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:block/tatami_mat_double",
+  "textures": {
+    "up": "sengoku:block/dark_cedar_tatami_mat_top_z",
+    "down": "sengoku:block/dark_cedar_planks",
+    "north": "sengoku:block/dark_cedar_tatami_mat_side",
+    "south": "sengoku:block/dark_cedar_tatami_mat_side",
+    "east": "sengoku:block/dark_cedar_tatami_mat_side",
+    "west": "sengoku:block/dark_cedar_tatami_mat_side",
+	"particle": "sengoku:block/dark_cedar_tatami_mat_top_z"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:item/yari",
+  "textures": {
+    "0": "sengoku:item/yari/iron_yari"
+  },
+   "overrides": [
+    {
+	  "predicate": { "minecraft:blocking": 1 },
+      "model": "sengoku:item/iron_yari_blocking"
+    }
+  ]
+}

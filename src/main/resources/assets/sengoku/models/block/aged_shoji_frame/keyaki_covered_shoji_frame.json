@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/cube_all",
+  "textures": {
+    "all": "sengoku:block/aged_shoji_frame/keyaki_covered_shoji_frame"
+  }
+}

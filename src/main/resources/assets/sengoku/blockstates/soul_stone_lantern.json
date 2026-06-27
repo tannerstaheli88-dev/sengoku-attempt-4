@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "lit=false": [
+      { "model": "sengoku:block/soul_stonelantern_1" },
+      { "model": "sengoku:block/soul_stonelantern_2" },
+      { "model": "sengoku:block/soul_stonelantern_3" },
+      { "model": "sengoku:block/soul_stonelantern_4" },
+      { "model": "sengoku:block/soul_stonelantern_5" },
+      { "model": "sengoku:block/soul_stonelantern_6" },
+      { "model": "sengoku:block/soul_stonelantern_7" },
+      { "model": "sengoku:block/soul_stonelantern_8" }
+    ],
+    "lit=true": [
+      { "model": "sengoku:block/soul_stonelantern_1_lit" },
+      { "model": "sengoku:block/soul_stonelantern_2_lit" },
+      { "model": "sengoku:block/soul_stonelantern_3_lit" },
+      { "model": "sengoku:block/soul_stonelantern_4_lit" },
+      { "model": "sengoku:block/soul_stonelantern_5_lit" },
+      { "model": "sengoku:block/soul_stonelantern_6_lit" },
+      { "model": "sengoku:block/soul_stonelantern_7_lit" },
+      { "model": "sengoku:block/soul_stonelantern_8_lit" }
+    ]
+  }
+}

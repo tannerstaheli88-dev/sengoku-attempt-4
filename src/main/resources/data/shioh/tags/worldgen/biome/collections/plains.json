@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#shioh:collections/grassy_fields",
+    "#shioh:collections/botanic_fields",
+    "minecraft:savanna",
+    "minecraft:plains",
+    "minecraft:meadow"
+  ]
+}

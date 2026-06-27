@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:dirt_path",
+    "minecraft:farmland",
+    "sengoku:coarse_farmland",
+	"minecraft:dead_brain_coral_block",
+	"minecraft:gravel",
+	"minecraft:muddy_mangrove_roots",
+	"minecraft:polished_andesite",
+	"sengoku:rice_crop",
+	"minecraft:wheat",
+	"minecraft:potatoes",
+	"minecraft:carrots",
+	"#minecraft:slabs",
+	"#minecraft:wool",
+	"#minecraft:wooden_fences",
+	"#minecraft:doors",
+	"#minecraft:trapdoors"
+  ]
+}

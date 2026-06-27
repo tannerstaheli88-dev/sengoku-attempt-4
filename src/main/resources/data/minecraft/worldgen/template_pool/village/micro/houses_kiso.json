@@ -1,0 +1,212 @@
+{
+  "name": "minecraft:village/micro/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_house1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_house2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_house3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_house4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_house5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_house6",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_house7",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_house8",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_monastary1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_forge1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_forge2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_cellar",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_shed1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_shed2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_farm1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_farm2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_farm3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_farm4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_farm5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/micro/houses/kiso_micro_farm6",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "minecraft:village/micro/houses/kiso_micro_shrine"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "minecraft:village/micro/houses/kiso_micro_koi_pond1"
+        },
+        "limit": 1
+      }
+    }
+  ]
+}

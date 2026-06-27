@@ -1,0 +1,15 @@
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':remapJar'.
+> A failure occurred while executing net.fabricmc.loom.task.RemapJarTask$RemapAction
+   > Failed to remap D:\Minecraft\mods\mod workspace\sengoku attempt 4\build\libs\sengokuFabric-2.0.74+1.21.1-Fabric.jar, java.io.EOFException: Unexpected end of ZLIB input stream
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 25s

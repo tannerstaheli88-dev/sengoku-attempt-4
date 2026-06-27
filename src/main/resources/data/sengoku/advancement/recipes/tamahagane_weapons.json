@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["sengoku:tamahagane_ingot"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:iron_yari",
+      "sengoku:iron_naginata",
+      "sengoku:iron_tetsubo",
+      "sengoku:iron_odachi",
+      "sengoku:iron_tanto",
+      "sengoku:iron_kanabo"
+    ]
+  }
+}

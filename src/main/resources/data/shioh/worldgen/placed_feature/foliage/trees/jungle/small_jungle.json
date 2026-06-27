@@ -1,0 +1,9 @@
+{
+  "feature": "shioh:foliage/trees/jungle/small_jungle",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 3
+    }
+  ]
+}

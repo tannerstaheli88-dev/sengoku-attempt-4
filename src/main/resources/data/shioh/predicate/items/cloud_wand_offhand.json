@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "components": {
+          "minecraft:custom_data": {"multipack.cloud_wand":1}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "variants": {
+    "persistent=true,distance=1": [
+	{ "model": "minecraft:block/birch_leaves_distance_1" },
+	{ "model": "minecraft:block/birch_leaves_distance_1", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_1", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_1", "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_1_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_1_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_1_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_1_2", "y": 270 }	
+	],
+    "persistent=false,distance=1": [
+	{ "model": "minecraft:block/birch_leaves_distance_1" },
+	{ "model": "minecraft:block/birch_leaves_distance_1",  "y": 90 },	
+	{ "model": "minecraft:block/birch_leaves_distance_1",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_1",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_1_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_1_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_1_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_1_2", "y": 270 }
+	],
+    "persistent=true,distance=2": [
+	{ "model": "minecraft:block/birch_leaves_distance_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_2", "y": 90 },	
+	{ "model": "minecraft:block/birch_leaves_distance_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_2", "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_2_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_2_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_2_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_2_2", "y": 270 }
+	],
+    "persistent=false,distance=2": [
+	{ "model": "minecraft:block/birch_leaves_distance_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_2",  "y": 90 },	
+	{ "model": "minecraft:block/birch_leaves_distance_2",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_2",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_2_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_2_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_2_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_2_2", "y": 270 }
+	],
+    "persistent=true,distance=3": [
+	{ "model": "minecraft:block/birch_leaves_distance_3" },
+	{ "model": "minecraft:block/birch_leaves_distance_3",  "y": 90 },		
+	{ "model": "minecraft:block/birch_leaves_distance_3",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_3",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_3_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_3_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_3_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_3_2", "y": 270 }
+	],
+    "persistent=false,distance=3": [
+	{ "model": "minecraft:block/birch_leaves_distance_3" },	
+	{ "model": "minecraft:block/birch_leaves_distance_3",  "y": 90 },	
+	{ "model": "minecraft:block/birch_leaves_distance_3",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_3",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_3_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_3_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_3_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_3_2", "y": 270 }
+	],
+    "persistent=true,distance=4": [
+	{ "model": "minecraft:block/birch_leaves_distance_4" },
+	{ "model": "minecraft:block/birch_leaves_distance_4",  "y": 90 },		
+	{ "model": "minecraft:block/birch_leaves_distance_4",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_4",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_4_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_4_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_4_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_4_2", "y": 270 }
+	],
+    "persistent=false,distance=4": [
+	{ "model": "minecraft:block/birch_leaves_distance_4" },
+	{ "model": "minecraft:block/birch_leaves_distance_4",  "y": 90 },		
+	{ "model": "minecraft:block/birch_leaves_distance_4",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_4",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_4_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_4_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_4_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_4_2", "y": 270 }
+	],
+    "persistent=true,distance=5": [
+	{ "model": "minecraft:block/birch_leaves_distance_5" },
+	{ "model": "minecraft:block/birch_leaves_distance_5",  "y": 90 },		
+	{ "model": "minecraft:block/birch_leaves_distance_5",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_5",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_5_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_5_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_5_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_5_2", "y": 270 }
+	],
+    "persistent=false,distance=5": [
+	{ "model": "minecraft:block/birch_leaves_distance_5" },
+	{ "model": "minecraft:block/birch_leaves_distance_5",  "y": 90 },		
+	{ "model": "minecraft:block/birch_leaves_distance_5",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_5",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_5_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_5_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_5_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_5_2", "y": 270 }
+	],
+    "persistent=true,distance=6": [
+	{ "model": "minecraft:block/birch_leaves_distance_6" },
+	{ "model": "minecraft:block/birch_leaves_distance_6",  "y": 90 },		
+	{ "model": "minecraft:block/birch_leaves_distance_6",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_6",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_6_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_6_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_6_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_6_2", "y": 270 }
+	],
+    "persistent=false,distance=6": [
+	{ "model": "minecraft:block/birch_leaves_distance_6" },	
+	{ "model": "minecraft:block/birch_leaves_distance_6",  "y": 90 },		
+	{ "model": "minecraft:block/birch_leaves_distance_6",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_6",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_6_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_6_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_6_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_6_2", "y": 270 }
+	],
+    "persistent=true,distance=7": [
+	{ "model": "minecraft:block/birch_leaves_distance_7" },
+	{ "model": "minecraft:block/birch_leaves_distance_7",  "y": 90 },		
+	{ "model": "minecraft:block/birch_leaves_distance_7",  "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_7",  "y": 270 },
+	{ "model": "minecraft:block/birch_leaves_distance_7_2" },
+	{ "model": "minecraft:block/birch_leaves_distance_7_2", "y": 90 },
+	{ "model": "minecraft:block/birch_leaves_distance_7_2", "y": 180 },	
+	{ "model": "minecraft:block/birch_leaves_distance_7_2", "y": 270 }
+	],
+	"persistent=false,distance=7": {"model": "minecraft:block/birch_leaves_decayed"}	
+  }
+}

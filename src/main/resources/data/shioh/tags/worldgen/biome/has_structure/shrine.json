@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "#shioh:collections/forest",
+    "#shioh:collections/plains",
+    "#shioh:collections/plains_snowy",
+    "#shioh:collections/forest_snowy",
+	"end_highlands",
+	"mushroom_fields"
+  ]
+}

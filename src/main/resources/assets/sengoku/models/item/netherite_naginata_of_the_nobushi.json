@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:item/naginata",
+  "textures": {
+    "0": "sengoku:item/naginata/netherite_naginata_of_the_nobushi"
+  },
+  "overrides": [
+    {
+      "predicate": { "minecraft:blocking": 1 },
+      "model": "sengoku:item/netherite_naginata_of_the_nobushi_blocking"
+    }
+  ]
+}

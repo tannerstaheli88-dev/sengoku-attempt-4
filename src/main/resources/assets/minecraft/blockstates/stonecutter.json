@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "facing=north": [
+      {
+        "model": "minecraft:block/stonecutter"
+      },
+      {
+        "model": "minecraft:block/stonecutter2"
+      },
+      {
+        "model": "minecraft:block/stonecutter3"
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "minecraft:block/stonecutter",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/stonecutter2",
+        "y": 90
+      },
+      {
+        "model": "minecraft:block/stonecutter3",
+        "y": 90
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "minecraft:block/stonecutter",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/stonecutter2",
+        "y": 180
+      },
+      {
+        "model": "minecraft:block/stonecutter3",
+        "y": 180
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "minecraft:block/stonecutter",
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/stonecutter2",
+        "y": 270
+      },
+      {
+        "model": "minecraft:block/stonecutter3",
+        "y": 270
+      }
+    ]
+  }
+}

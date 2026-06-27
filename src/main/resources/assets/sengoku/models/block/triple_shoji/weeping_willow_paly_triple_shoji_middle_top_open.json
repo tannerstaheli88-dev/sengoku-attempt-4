@@ -1,0 +1,8 @@
+{
+  "parent": "sengoku:block/triple_shoji/triple_shoji_middle_top_open",
+  "textures": {
+    "particle": "sengoku:block/weeping_willow_planks",
+    "bottom": "sengoku:block/weeping_willow_planks",
+    "face": "sengoku:block/triple_door/weeping_willow_paly_triple_door_top"
+  }
+}

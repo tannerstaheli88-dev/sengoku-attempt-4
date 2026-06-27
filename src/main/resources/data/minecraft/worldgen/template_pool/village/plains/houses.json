@@ -1,0 +1,381 @@
+{
+  "name": "minecraft:village/plains/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_armorer",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_big_house",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_forge",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_forge2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_butcher",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_butcher2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_fisherman",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_cartographer",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "minecraft:village/plains/houses/plains_shrine"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 23,
+      "element": {
+        "location": "minecraft:village/plains/houses/tea_farm1",
+        "processors": "minecraft:farm",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_farm1",
+        "processors": "minecraft:farm",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_farm2",
+        "processors": "minecraft:farm",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_farm4",
+        "processors": "minecraft:farm",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_fletcher",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_library",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_mason",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_shepherd",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_shepherd2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "minecraft:village/plains/houses/plains_barn"
+        },
+        "limit": 1
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_smallbarn1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_smallbarn2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "minecraft:village/plains/houses/plains_smallhouse"
+        },
+        "limit": 4
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_smallhouse2",
+        "processors": "minecraft:roofstones",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_smallhouse3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_smallhouse4",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_smallhouse5",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_smallhouse6",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_smallhouse7",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_medium_house",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_medium_house2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_medium_house3",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_tannery",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_stable",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_toolsmith",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_weaponsmith",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/plains/houses/plains_cellar",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "minecraft:village/plains/houses/plains_well"
+        },
+        "limit": 2
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "minecraft:village/plains/houses/dark_oak_shed1"
+        },
+        "limit": 3
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "lithostitched:limited",
+        "delegate": {
+          "element_type": "sengoku:terrain_filling",
+          "projection": "rigid",
+		  "processors": "minecraft:empty",
+          "location": "minecraft:village/plains/houses/dark_oak_shed2"
+        },
+        "limit": 3
+      }
+    }
+  ]
+}

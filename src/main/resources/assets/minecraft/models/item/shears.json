@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/shears"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [29.86, -82.69, 100.41],
+			"translation": [0, 0, -2.25],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-15.64, -86.9, -47.69],
+			"translation": [0, 0, -2.25],
+			"scale": [0.71, 0.71, 0.71]
+		},
+		"firstperson_righthand": {
+			"rotation": [-73.11, -4.59, 49.08],
+			"translation": [0, 3.25, -3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-92.53, -17.32, -34.45],
+			"translation": [0, 3.25, -3]
+		}
+	}
+}

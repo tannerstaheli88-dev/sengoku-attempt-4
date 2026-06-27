@@ -1,0 +1,9 @@
+{
+  "parent": "sengoku:block/double_shoji/shoji_double_right_door_top_hinge",
+  "textures": {
+    "bottom": "sengoku:block/mangrove_planks",
+    "face": "sengoku:block/double_door/mangrove_double_door_top_right_crane",
+    "particle": "sengoku:block/double_door/mangrove_double_door_bottom_right_crane",
+    "top": "sengoku:block/double_door/mangrove_double_door_top_right_crane"
+  }
+}

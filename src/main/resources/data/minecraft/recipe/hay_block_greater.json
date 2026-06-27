@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "thatch",
+  "key": {
+    "#": {
+      "tag": "minecraft:foliage_greater"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+	"###"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:hay_block"
+  },
+  "show_notification": true
+}

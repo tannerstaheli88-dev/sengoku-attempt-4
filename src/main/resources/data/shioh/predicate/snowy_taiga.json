@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": [
+      "minecraft:grove",
+      "minecraft:snowy_beach",
+      "minecraft:snowy_taiga",
+      "minecraft:snowy_plains"
+    ]
+  }
+}

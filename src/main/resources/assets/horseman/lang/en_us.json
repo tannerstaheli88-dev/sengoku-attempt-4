@@ -1,0 +1,10 @@
+{
+  "advancement.horseman.summon_horse.description": "Summon a horse with Copper Horagi",
+  "gui.horseman.summoning.cannot_summon.in_other_dimension": "§cThe animal cannot hear the Horagi from this dimension",
+  "gui.horseman.summoning.cannot_summon.too_far": "§cThe animal is too far away to hear the Horagi",
+  "horseman.configuration.copper_horn_cooldown": "Copper Horagi Cooldown",
+  "horseman.configuration.copper_horn_details_tooltip": "Copper Horagi Details Tooltip",
+  "horseman.configuration.copper_horn_error_messages": "Copper Horagi Error Messages",
+  "horseman.configuration.copper_horn_sound_range": "Copper Horagi Sound Range",
+  "item.horseman.copper_horn": "Copper Horagi"
+}

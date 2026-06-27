@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sengoku:item/bamboo_paly_double_shoji_door"
+  }
+}

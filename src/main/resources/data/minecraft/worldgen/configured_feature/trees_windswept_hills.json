@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "minecraft:trees_windswept_spruce",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.33333334,
+        "feature": {
+          "feature": "minecraft:trees_windswept_oak",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

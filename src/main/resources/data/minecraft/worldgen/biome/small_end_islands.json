@@ -1,0 +1,180 @@
+{
+  "carvers": {},
+  "downfall": 0,
+  "effects": {
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:underwater"
+      },
+      "probability": 0.005
+    },
+    "fog_color": 7167041,
+    "sky_color": 14008232,
+    "water_color": 2732442,
+    "water_fog_color": 467229
+  },
+  "features": [
+    [
+      "minecraft:end_island_decorated"
+    ],
+	[
+	  "shioh:terrain/coral/cup_coral_patches",
+	  "shioh:terrain/coral/fire_coral_patches",
+	  "shioh:terrain/coral/bubble_coral_patches",
+	  "shioh:terrain/coral/horn_coral_patches",
+	  "shioh:terrain/coral/tube_coral_patches"
+	],
+    [
+      "minecraft:chorus_plant",
+      "minecraft:glow_lichen",
+      "shioh:foliage/trees/secondary/trees_coral_giant",
+      "minecraft:trees_water",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:warm_ocean_vegetation",
+      "minecraft:seagrass_warm",
+      "minecraft:sea_pickle",
+      "minecraft:seagrass_normal",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "sengoku:ningyo": {
+      "charge": 0.7,
+      "energy_budget": 0.9
+    },
+    "sengoku:kamiike_hime": {
+      "charge": 0.7,
+      "energy_budget": 0.9
+    },
+    "sengoku:umi_nyobo": {
+      "charge": 0.7,
+      "energy_budget": 0.9
+    },
+    "minecraft:enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:pufferfish": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:tropical_fish": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:turtle": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:squid": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:glow_squid": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:dolphin": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:guardian": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:turtle",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 5
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "sengoku:ningyo",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "sengoku:kamiike_hime",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 2
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:pufferfish",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 25
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:guardian",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:turtle",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:dolphin",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      }
+    ]
+  },
+  "temperature": 0.5
+}

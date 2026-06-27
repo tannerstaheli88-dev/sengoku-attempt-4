@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/cube",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 13],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#face"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#face"},
+				"west": {"uv": [13, 0, 16, 16], "texture": "#bottom"}
+			}
+		}
+	]
+}

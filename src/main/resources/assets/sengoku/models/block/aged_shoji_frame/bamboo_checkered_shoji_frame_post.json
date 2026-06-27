@@ -1,0 +1,7 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/template_shoji_frame_post",
+  "textures": {
+    "edge": "sengoku:block/bamboo_planks",
+    "pane": "sengoku:block/aged_shoji_frame/bamboo_checkered_shoji_frame"
+  }
+}

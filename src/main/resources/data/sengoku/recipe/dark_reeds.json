@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hay_block",
+  "pattern": [
+    "###",
+    "#/#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:hay_block"
+    },
+    "/": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "id": "sengoku:dark_reeds_block",
+    "count": 8
+  }
+}

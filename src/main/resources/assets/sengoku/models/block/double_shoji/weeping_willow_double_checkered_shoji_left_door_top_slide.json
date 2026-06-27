@@ -1,0 +1,9 @@
+{
+  "parent": "sengoku:block/double_shoji/shoji_double_left_door_top_slide",
+  "textures": {
+    "bottom": "sengoku:block/weeping_willow_planks",
+    "face": "sengoku:block/double_door/weeping_willow_checkered_double_door_top_left",
+    "particle": "sengoku:block/double_door/weeping_willow_checkered_double_door_bottom_left",
+    "top": "sengoku:block/double_door/weeping_willow_checkered_double_door_top_left"
+  }
+}

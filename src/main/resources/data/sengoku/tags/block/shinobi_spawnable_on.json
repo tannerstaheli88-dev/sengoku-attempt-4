@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deepslate_tiles",
+    "minecraft:deepslate_tile_slab",
+    "minecraft:deepslate_tile_stairs",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:polished_blackstone_brick_slab",
+    "minecraft:polished_blackstone_brick_stairs",
+    "minecraft:tuff_bricks",
+    "minecraft:tuff_brick_slab",
+    "minecraft:tuff_brick_stairs",
+    "minecraft:hay_block",
+    "#minecraft:leaves"
+  ]
+}

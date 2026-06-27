@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "lit=false": [
+      { "model": "sengoku:block/andesite_lantern_1" },
+      { "model": "sengoku:block/andesite_lantern_2" },
+      { "model": "sengoku:block/andesite_lantern_3" },
+      { "model": "sengoku:block/andesite_lantern_4" }
+    ],
+    "lit=true": [
+      { "model": "sengoku:block/andesite_lantern_1_lit" },
+      { "model": "sengoku:block/andesite_lantern_2_lit" },
+      { "model": "sengoku:block/andesite_lantern_3_lit" },
+      { "model": "sengoku:block/andesite_lantern_4_lit" }
+    ]
+  }
+}

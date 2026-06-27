@@ -1,0 +1,9 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:item/yari_blocking",
+	"textures": {
+		"0": "sengoku:item/yari/stone_yari",
+		"particle": "sengoku:item/yari/stone_yari"
+	}
+}

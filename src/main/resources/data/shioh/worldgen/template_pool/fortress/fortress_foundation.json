@@ -1,0 +1,15 @@
+{
+	"name": "shioh:fortress_foundation_conect",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "shioh:fortress/fortress_foundation",
+				"projection": "rigid",
+				"processors": "shioh:fortress_generic_degradation"
+			}
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+  "structures": [
+    {
+      "structure": "shioh:shrine",
+      "weight": 9
+    },
+    {
+      "structure": "shioh:decayed_house",
+      "weight": 15
+    },
+    {
+      "structure": "shioh:inari_shrine",
+      "weight": 8
+    },
+    {
+      "structure": "shioh:ryokan",
+      "weight": 28
+    },
+    {
+      "structure": "shioh:graveyard",
+      "weight": 10
+    },
+    {
+      "structure": "shioh:outcast_villager",
+      "weight": 12
+    },
+    {
+      "structure": "shioh:abandoned_dojo",
+      "weight": 12
+    },
+    {
+      "structure": "shioh:farmstead",
+      "weight": 8
+    },
+    {
+      "structure": "shioh:jungle_pagoda",
+      "weight": 8
+    },
+    {
+      "structure": "minecraft:mineshaft_mesa",
+      "weight": 3
+    },
+    {
+      "structure": "shioh:mineshaft_large",
+      "weight": 2
+    },
+    {
+      "structure": "minecraft:trail_ruins",
+      "weight": 5
+    },
+	{
+      "structure": "shioh:abandoned_manor",
+      "weight": 8
+    },
+    {
+      "structure": "shioh:pagoda",
+      "weight": 5
+    },
+    {
+      "structure": "shioh:lighthouse",
+      "weight": 6
+    }
+  ],
+  "placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 8
+    },
+    "salt": 520,
+    "spacing": 15,
+    "separation": 7,
+    "type": "minecraft:random_spread"
+  }
+}

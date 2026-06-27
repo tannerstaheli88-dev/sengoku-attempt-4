@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "offset": [
+        0,
+        1,
+        0
+      ],
+      "blocks": [
+        "minecraft:air",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:dandelion",
+        "minecraft:poppy",
+        "minecraft:brown_mushroom",
+        "minecraft:red_mushroom",
+        "minecraft:short_grass",
+        "minecraft:stone",
+        "minecraft:gravel",
+        "minecraft:cobbled_deepslate",
+        "minecraft:dirt",
+		"minecraft:coal_ore",
+		"minecraft:andesite",
+        "minecraft:fern",
+        "minecraft:tall_grass",
+        "minecraft:large_fern",
+        "minecraft:dead_bush",
+        "minecraft:blue_orchid",
+        "minecraft:allium",
+        "minecraft:azure_bluet",
+        "minecraft:red_tulip",
+        "minecraft:orange_tulip",
+        "minecraft:pink_tulip",
+        "minecraft:coarse_dirt",
+        "minecraft:white_tulip",
+        "minecraft:oxeye_daisy",
+        "minecraft:snow_block",
+        "minecraft:grass_block",
+        "minecraft:lily_of_the_valley",
+        "minecraft:sugar_cane",
+        "minecraft:lilac",
+        "minecraft:rose_bush",
+        "minecraft:peony",
+        "minecraft:oak_leaves",
+        "minecraft:birch_leaves",
+        "minecraft:dark_oak_leaves",
+        "minecraft:azalea_leaves",
+        "minecraft:flowering_azalea_leaves",
+		"minecraft:tube_coral_block",
+		"minecraft:horn_coral_block",
+		"minecraft:brain_coral_block",
+		"minecraft:fire_coral_block",
+		"minecraft:end_stone",
+		"minecraft:end_stone_bricks",
+		"minecraft:basalt",
+		"minecraft:seagrass",
+		"minecraft:kelp",
+		"minecraft:kelp_plant",
+		"minecraft:deepslate",
+		"minecraft:tall_seagrass",
+		"minecraft:granite",
+		"minecraft:sandstone",
+		"minecraft:horn_coral_fan",
+		"minecraft:fire_coral_fan",
+		"minecraft:tube_coral_fan",
+		"minecraft:bubble_coral_fan",
+		"minecraft:brain_coral_fan",
+		"minecraft:horn_coral",
+		"minecraft:fire_coral",
+		"minecraft:tube_coral",
+		"minecraft:bubble_coral",
+		"minecraft:brain_coral",
+		"minecraft:sea_pickle"
+      ]
+    },
+    "prioritize_tip": false,
+    "direction": "down",
+    "layers": [
+      {
+        "height": 70,
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 3,
+              "data": {
+                "Name": "minecraft:stripped_crimson_stem"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

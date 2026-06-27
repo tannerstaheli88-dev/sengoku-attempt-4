@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:stick"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+	  "sengoku:straw_hat",
+	  "sengoku:sando_hat",
+      "sengoku:straw_cape",
+	  "sengoku:black_straw_hat",
+	  "sengoku:black_sando_hat",
+      "sengoku:black_straw_cape",
+	  "sengoku:white_straw_hat",
+	  "sengoku:white_sando_hat",
+      "sengoku:white_straw_cape"
+    ]
+  }
+}

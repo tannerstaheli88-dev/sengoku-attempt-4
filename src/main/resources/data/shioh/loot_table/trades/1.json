@@ -1,0 +1,922 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:2,buy:{id:\"minecraft:baked_potato\"},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:iron_ingot\",count:3},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:copper_ingot\",count:6},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:dried_kelp\"},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "multipack.temp": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hay_block",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:2,buy:{id:\"minecraft:hay_block\"},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:wheat_seeds\",count:3},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:string\",count:3},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:10,buy:{id:\"minecraft:poisonous_potato\"},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "multipack.temp": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_log",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:jungle_log\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_sapling",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\",count:5},sell:{id:\"minecraft:jungle_sapling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_log",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:mangrove_log\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_propagule",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\",count:5},sell:{id:\"minecraft:mangrove_propagule\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_stem",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:crimson_stem\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz_block",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:quartz_block\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smooth_quartz",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:smooth_quartz\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:quartz\",count:32}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "multipack.temp": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armadillo_scute",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:armadillo_scute\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobbled_deepslate",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:cobbled_deepslate\",count:15},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:coal\",count:6},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:cobblestone\",count:15},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:packed_mud",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:packed_mud\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:stone\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smooth_stone",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:smooth_stone\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sengoku:fermented_sake_of_leaping",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"sengoku:fermented_sake_of_leaping\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sengoku:fermented_sake_bottle",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"sengoku:fermented_sake_bottle\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sengoku:fermented_sake_of_regen",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"sengoku:fermented_sake_of_regen\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sengoku:fermented_sake_of_fire_resist",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"sengoku:fermented_sake_of_fire_resist\"}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "multipack.temp": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:brown_mushroom\",count:3}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:red_mushroom\",count:3}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:paper\",count:2}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:sugar_cane\",count:3}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_wool",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:brown_wool\",count:2}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sea_pickle",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:sea_pickle\",count:2}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "multipack.temp": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:potato\",count:5}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:carrot\",count:5}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:cooked_salmon\",count:6}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:leather\",count:3}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:cookie\",count:12}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:mushroom_stew\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:suspicious_stew\",components:{\"minecraft:lore\":['{\"color\":\"blue\",\"italic\":false,\"text\":\"Saturation\"}'],\"minecraft:suspicious_stew_effects\":[{id:\"minecraft:saturation\",duration:7}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:suspicious_stew\",components:{\"minecraft:lore\":['{\"color\":\"blue\",\"italic\":false,\"text\":\"Absorption (00:30)\"}'],\"minecraft:suspicious_stew_effects\":[{id:\"minecraft:absorption\",duration:600}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "multipack.temp": 5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:gunpowder\",count:2}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:spider_eye\"},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:gold_ingot\"},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo_block",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:bamboo_block\",count:4}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:scaffolding",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:scaffolding\",count:6}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_dye",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:brown_dye\",count:2}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cherry_sapling",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:cherry_sapling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flowering_azalea",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:flowering_azalea\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom_block",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:brown_mushroom_block\",count:2}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom_block",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:red_mushroom_block\",count:2}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stem",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:8,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:mushroom_stem\",count:2}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:10,buy:{id:\"minecraft:poisonous_potato\"},sell:{id:\"minecraft:emerald\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:10,buy:{id:\"minecraft:emerald\"},sell:{id:\"minecraft:nautilus_shell\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\",count:3},sell:{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\",count:5},sell:{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\",count:5},sell:{id:\"minecraft:splash_potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "multipack.temp": 6
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 13,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:3,buy:{id:\"minecraft:emerald\",count:5},sell:{id:\"minecraft:potion\",components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_night_vision\"}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:verdant_froglight",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",count:3},sell:{id:\"minecraft:verdant_froglight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pearlescent_froglight",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",count:3},sell:{id:\"minecraft:pearlescent_froglight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ochre_froglight",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",count:3},sell:{id:\"minecraft:ochre_froglight\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tadpole_bucket",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",count:5},sell:{id:\"minecraft:tadpole_bucket\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sengoku:tea_seeds",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:12,buy:{id:\"minecraft:emerald\",count:2},sell:{id:\"sengoku:tea_seeds\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_block",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:2,buy:{id:\"minecraft:emerald\",count:12},sell:{id:\"minecraft:slime_block\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",count:3},sell:{id:\"minecraft:tipped_arrow\",count:16,components:{\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",count:4},sell:{id:\"minecraft:tipped_arrow\",count:16,components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",count:4},sell:{id:\"minecraft:tipped_arrow\",count:16,components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:2,buy:{id:'minecraft:emerald',count:16},sell:{id:'minecraft:enchanted_book',components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:depth_strider\":2}}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:1,buy:{id:'minecraft:emerald',count:22},sell:{id:'minecraft:enchanted_book',components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:depth_strider\":3}}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:2,buy:{id:'minecraft:emerald',count:10},sell:{id:'minecraft:enchanted_book',components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:bane_of_arthropods\":2}}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:2,buy:{id:'minecraft:emerald',count:16},sell:{id:'minecraft:enchanted_book',components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:bane_of_arthropods\":3}}}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{maxUses:1,buy:{id:'minecraft:emerald',count:22},sell:{id:'minecraft:enchanted_book',components:{\"minecraft:stored_enchantments\":{levels:{\"minecraft:bane_of_arthropods\":4}}}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "multipack.temp": 7
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

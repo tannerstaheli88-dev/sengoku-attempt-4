@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "shioh:stonelantern",
+			"weight": 5
+		}
+	],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 8
+    },
+		"spacing": 10,
+		"separation": 5,
+		"salt": 430930,
+		"type": "minecraft:random_spread"
+	}
+}

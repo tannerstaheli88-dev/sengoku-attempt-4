@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "shioh:castle",
+      "weight": 6
+    },
+    {
+      "structure": "shioh:bandit_outpost",
+      "weight": 18
+    },
+    {
+      "structure": "minecraft:pillager_outpost",
+      "weight": 15
+    },
+    {
+      "structure": "shioh:winter_castle",
+      "weight": 4
+    },
+    {
+      "structure": "shioh:castle_ruin",
+      "weight": 25
+    }
+  ],
+  "placement": {
+	"exclusion_zone": {
+    "other_set": "minecraft:villages",
+    "chunk_count": 7
+    },
+    "salt": 992963,
+    "spacing": 35,
+    "separation": 15,
+    "type": "minecraft:random_spread"
+  }
+}

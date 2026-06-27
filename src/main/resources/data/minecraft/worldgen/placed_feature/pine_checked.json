@@ -1,0 +1,89 @@
+{
+  "feature": "minecraft:pine",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:spruce_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [10, -1, 0],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [-10, -1, 0],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [0, -1, 10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [0, -1, -10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [10, -1, 10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [10, -1, -10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [-10, -1, 10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland"]
+            }
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [-10, -1, -10],
+              "blocks": ["minecraft:muddy_mangrove_roots","minecraft:farmland"]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "minecraft:block/shroomlight_top",
+    "front": "minecraft:block/shroomlight",
+    "side": "minecraft:block/shroomlight",
+    "bottom": "minecraft:block/shroomlight_top"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tatami_block",
+  "pattern": [
+    "##",
+    "//",
+    "//"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:grass"
+    },
+    "/": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "id": "sengoku:oak_tatami_block",
+    "count": 6
+  }
+}

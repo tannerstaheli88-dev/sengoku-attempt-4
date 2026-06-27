@@ -1,0 +1,9 @@
+{
+  "type": "sengoku:sake_brewing",
+  "ingredients": [
+    { "item": "sengoku:rice" },
+    { "item": "minecraft:poisonous_potato" },
+    { "item": "minecraft:ghast_tear" }
+  ],
+  "output": { "item": "sengoku:fermented_sake_of_regen", "count": 1 }
+}

@@ -1,0 +1,23 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "minecraft:end_cities"
+    },
+    "salt": 19123341,
+    "separation": 2,
+    "spacing": 10,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "minecraft:sea_lantern",
+      "weight": 25
+    },
+    {
+      "structure": "shioh:dragon_statue",
+      "weight": 1
+    }
+  ]
+}

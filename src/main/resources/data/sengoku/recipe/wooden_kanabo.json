@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_kanabo",
+  "pattern": [
+    " # ",
+    " # ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "/": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "sengoku:wooden_kanabo",
+    "count": 1
+  }
+}

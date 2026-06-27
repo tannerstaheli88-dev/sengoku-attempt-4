@@ -1,0 +1,285 @@
+{
+  "name": "minecraft:village/forest/streets",
+  "fallback": "minecraft:village/micro/terminators",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "location": "minecraft:village/forest/town_centers/dirt_empire",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_crossroad_3",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_crossroad_1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_main_street1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_main_street1b",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_main_straight1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_main_straight2",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_main_curve1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_crossroad_2",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_crossroad_4",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_crossroad_5",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_corner_1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_corner_2",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_corner_3",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_turn_1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_square_1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_crossroad_6",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight":11,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_2",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_3",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_4",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_5",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_6",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_7",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_8",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_9",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_straight_10",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/farm_side1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_farm_street1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_farm_street1b",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "location": "minecraft:village/forest/streets/forest_farm_street_left1",
+        "processors": "minecraft:forest_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:husk_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_nuppeppo.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_nuppeppo.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:husk"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}

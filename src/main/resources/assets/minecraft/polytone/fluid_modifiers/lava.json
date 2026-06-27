@@ -1,0 +1,4 @@
+{
+   "targets": ["minecraft:lava", "minecraft:flowing_lava"],
+   "colormap": "shioh:colormap_lava"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "shioh:foliage/trees/birch/birch",
+    "features": [
+      {
+        "chance": 0.025,
+        "feature": "shioh:foliage/trees/birch/giant_birch"
+      },
+      {
+        "chance": 0.34,
+        "feature": {
+          "feature": "shioh:foliage/trees/birch/birch_tall2",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.34,
+        "feature": "shioh:foliage/trees/birch/giant_birch"
+      }
+    ]
+  }
+}

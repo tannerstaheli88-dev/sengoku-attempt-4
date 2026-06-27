@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:chest"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:oak_tansu_cabinet",
+      "sengoku:black_pine_tansu_cabinet",
+      "sengoku:birch_tansu_cabinet",
+      "sengoku:kiso_tansu_cabinet",
+      "sengoku:keyaki_tansu_cabinet",
+      "sengoku:dark_cedar_tansu_cabinet",
+      "sengoku:mangrove_tansu_cabinet",
+      "sengoku:sakura_tansu_cabinet",
+      "sengoku:bamboo_tansu_cabinet",
+      "sengoku:bloodgood_tansu_cabinet",
+      "sengoku:weeping_willow_tansu_cabinet"
+    ]
+  }
+}

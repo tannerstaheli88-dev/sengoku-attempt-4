@@ -1,0 +1,50 @@
+{
+  "fallback": "shioh:outcast_villager/tori",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:mineshaft/mine_road1",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:mineshaft/mine_road2",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:mineshaft/mine_road3",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:mineshaft/mine_road4",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:mineshaft/nothing_lol",
+        "processors": "minecraft:plains_streets",
+        "projection": "terrain_matching"
+      },
+      "weight": 3
+    }
+  ]
+}

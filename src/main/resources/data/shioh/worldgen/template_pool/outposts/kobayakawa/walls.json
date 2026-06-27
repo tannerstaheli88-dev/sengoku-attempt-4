@@ -1,0 +1,69 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_outpost_wall1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water" 
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_outpost_wall_outer1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_outpost_wall_end1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_outpost_wall2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_outpost_wall_outer2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_outpost_wall_end2",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:outposts/kobayakawa/kobayakawa_road1",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling_with_water"
+      }
+    }
+  ]
+}

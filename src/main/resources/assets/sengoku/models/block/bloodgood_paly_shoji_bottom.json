@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "sengoku:block/shoji_door_bottom",
+	"textures": {
+		"top": "sengoku:block/bloodgood_planks",
+		"particle": "sengoku:block/bloodgood_paly_door_bottom",
+		"bottom": "sengoku:block/bloodgood_paly_door_bottom"
+	}
+}

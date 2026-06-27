@@ -1,0 +1,26 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "shioh:outcast_villager"
+    },
+    "salt": 14357620,
+    "separation": 18,
+    "spacing": 32
+  },
+  "structures": [
+    {
+      "structure": "minecraft:swamp_hut",
+      "weight": 1
+    },
+	{
+      "structure": "shioh:kaeru_shrine",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:village_swamp",
+      "weight": 4
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": { "item": "minecraft:cobbled_deepslate" },
+    "T": { "item": "minecraft:candle" }
+  },
+  "pattern": [
+    " S ",
+    "STS",
+    " S "
+  ],
+  "result": { "count": 1, "id": "sengoku:cobbled_deepslate_lantern" },
+  "show_notification": true
+}

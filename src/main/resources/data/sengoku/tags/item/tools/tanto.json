@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "sengoku:wooden_tanto",
+    "sengoku:stone_tanto",
+    "sengoku:iron_tanto",
+    "sengoku:golden_tanto",
+    "sengoku:diamond_tanto",
+    "sengoku:netherite_tanto",
+    "sengoku:tanto_of_tamatori_hime",
+    "sengoku:netherite_tanto_of_tamatori_hime",
+    {
+      "id": "sengoku:bronze_tanto",
+      "required": false
+    }
+  ]
+}

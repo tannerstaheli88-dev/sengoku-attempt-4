@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sengoku:block/straw_ornament"
+    },
+    "facing=south": {
+      "model": "sengoku:block/straw_ornament",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sengoku:block/straw_ornament",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "sengoku:block/straw_ornament",
+      "y": 90
+    }
+  }
+}

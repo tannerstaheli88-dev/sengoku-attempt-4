@@ -1,0 +1,39 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "wither_skull.png",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 2.5],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [8, 20, 0],
+					"submodels": [
+						{
+							"id": "bone4",
+							"invertAxis": "xy",
+							"translate": [-16, -33, -2],
+							"boxes": [
+								{"coordinates": [5, 13, -2, 6, 6, 6], "textureOffset": [0, 0]},
+								{"coordinates": [4.5, 12.5, -2.5, 7, 7, 7], "textureOffset": [0, 12]}
+							],
+							"submodels": [
+								{
+									"id": "bone16",
+									"invertAxis": "xy",
+									"translate": [0, 24, 0],
+									"rotate": [-55, 0, 0]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

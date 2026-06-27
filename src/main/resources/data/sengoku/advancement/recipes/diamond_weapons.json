@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:diamond_yari",
+      "sengoku:diamond_naginata",
+      "sengoku:diamond_tetsubo",
+      "sengoku:diamond_odachi",
+      "sengoku:diamond_tanto",
+      "sengoku:diamond_kanabo"
+    ]
+  }
+}

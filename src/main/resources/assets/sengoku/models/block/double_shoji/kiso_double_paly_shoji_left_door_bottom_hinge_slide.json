@@ -1,0 +1,9 @@
+{
+  "parent": "sengoku:block/double_shoji/shoji_double_left_door_bottom_hinge_slide",
+  "textures": {
+    "bottom": "sengoku:block/kiso_planks",
+    "face": "sengoku:block/double_door/kiso_paly_double_door_bottom_left",
+    "particle": "sengoku:block/double_door/kiso_paly_double_door_bottom_left",
+    "top": "sengoku:block/double_door/kiso_paly_double_door_bottom_left"
+  }
+}

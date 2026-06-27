@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "shioh:foliage/trees/secondary/tree_coral_giant",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": "shioh:foliage/trees/secondary/tree_coral_giant2",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

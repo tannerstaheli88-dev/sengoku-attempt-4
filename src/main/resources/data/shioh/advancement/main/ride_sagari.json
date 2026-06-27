@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_horse_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.ride_sagari.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.ride_sagari.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "used_warped_fungus_on_a_stick": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:zombie_horse"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "rewards": {
+    "experience": 175
+  }
+}

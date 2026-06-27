@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/skeleton_spawn_egg",
+	"textures": {
+		"1": "sengoku:item/yuki_onna_spawn_egg",
+		"particle": "sengoku:item/yuki_onna_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "stray_spawn_egg_0",
+			"from": [4, 4, 7],
+			"to": [12, 15, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [12, 1, 4, 12], "texture": "#1"},
+				"east": {"uv": [11, 1, 12, 12], "texture": "#1"},
+				"south": {"uv": [4, 1, 12, 12], "texture": "#1"},
+				"west": {"uv": [4, 1, 5, 12], "texture": "#1"},
+				"up": {"uv": [4, 1, 12, 2], "texture": "#1"},
+				"down": {"uv": [4, 11, 12, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "stray_spawn_egg_1",
+			"from": [5, 1, 7],
+			"to": [8, 4, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [8, 12, 5, 15], "texture": "#1"},
+				"east": {"uv": [7, 12, 8, 15], "texture": "#1"},
+				"south": {"uv": [5, 12, 8, 15], "texture": "#1"},
+				"west": {"uv": [5, 12, 6, 15], "texture": "#1"},
+				"up": {"uv": [5, 12, 8, 13], "texture": "#1"},
+				"down": {"uv": [5, 14, 8, 15], "texture": "#1"}
+			}
+		},
+		{
+			"name": "stray_spawn_egg_2",
+			"from": [8, 2, 7],
+			"to": [11, 4, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [11, 12, 8, 14], "texture": "#1"},
+				"east": {"uv": [10, 12, 11, 14], "texture": "#1"},
+				"south": {"uv": [8, 12, 11, 14], "texture": "#1"},
+				"west": {"uv": [8, 12, 9, 14], "texture": "#1"},
+				"up": {"uv": [8, 12, 11, 13], "texture": "#1"},
+				"down": {"uv": [8, 13, 11, 14], "texture": "#1"}
+			}
+		},
+		{
+			"name": "stray_spawn_egg_3",
+			"from": [9, 1, 7],
+			"to": [11, 2, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [11, 14, 9, 15], "texture": "#1"},
+				"east": {"uv": [10, 14, 11, 15], "texture": "#1"},
+				"south": {"uv": [9, 14, 11, 15], "texture": "#1"},
+				"west": {"uv": [9, 14, 10, 15], "texture": "#1"},
+				"up": {"uv": [9, 14, 11, 15], "texture": "#1"},
+				"down": {"uv": [9, 14, 11, 15], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "stray_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "sengoku:kunai"
+    },
+    {
+      "item": "sengoku:kunai"
+    },
+    {
+      "item": "sengoku:kunai"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "result": {
+    "id": "sengoku:poison_kunai",
+    "count": 3
+  }
+}

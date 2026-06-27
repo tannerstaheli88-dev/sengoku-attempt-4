@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:desert",
+    "minecraft:savanna",
+	"minecraft:savanna_plateau",
+	"minecraft:badlands",
+	"minecraft:wooded_badlands",
+	"minecraft:eroded_badlands",
+	"minecraft:warm_ocean",
+	"minecraft:old_growth_spruce_taiga",
+	"minecraft:old_growth_pine_taiga",
+	"minecraft:old_growth_birch_forest",
+	"minecraft:taiga",
+	"minecraft:sparse_jungle",
+	"minecraft:mangrove_swamp",
+	"minecraft:windswept_gravelly_hills",
+	"sengoku:ginkgo_forest",
+	"sengoku:rose_field",
+	"sengoku:autumnal_bamboo_forest"
+  ]
+}

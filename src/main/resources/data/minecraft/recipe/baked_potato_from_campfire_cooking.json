@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "sengoku:rice"
+    },
+    "S": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "#S#"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:baked_potato"
+  },
+  "show_notification": true
+}

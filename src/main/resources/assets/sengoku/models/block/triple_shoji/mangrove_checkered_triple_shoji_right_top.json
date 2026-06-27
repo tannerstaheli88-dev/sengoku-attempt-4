@@ -1,0 +1,8 @@
+{
+  "parent": "sengoku:block/triple_shoji/triple_shoji_right_top",
+  "textures": {
+    "particle": "sengoku:block/mangrove_planks",
+    "bottom": "sengoku:block/mangrove_planks",
+    "face": "sengoku:block/triple_door/mangrove_checkered_triple_door_top_side"
+  }
+}

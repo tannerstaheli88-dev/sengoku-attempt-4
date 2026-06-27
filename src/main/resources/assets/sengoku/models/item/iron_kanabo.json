@@ -1,0 +1,13 @@
+{
+  "parent": "sengoku:item/kanabo",
+  "textures": {
+    "0": "sengoku:item/kanabo/iron_kanabo",
+    "1": "sengoku:item/kanabo/iron"
+  },
+   "overrides": [
+    {
+	  "predicate": { "minecraft:blocking": 1 },
+      "model": "sengoku:item/iron_kanabo_blocking"
+    }
+  ]
+}

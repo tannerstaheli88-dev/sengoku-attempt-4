@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "sengoku:block/soul_lantern"
+    },
+    "hanging=true": [
+      {
+        "model": "sengoku:block/soul_lantern_hanging", "weight":40
+      },
+      {
+        "model": "sengoku:block/soul_lantern_hanging1", "weight":15
+      },
+      {
+        "model": "sengoku:block/soul_lantern_hanging2", "weight":15
+      },
+      {
+        "model": "sengoku:block/soul_lantern_hanging3", "weight":4
+      },
+      {
+        "model": "sengoku:block/soul_lantern_hanging2", "weight":15, "y": 270
+      },
+      {
+        "model": "sengoku:block/soul_lantern_hanging1", "weight":15, "y": 90
+      },
+      {
+        "model": "sengoku:block/soul_lantern_hanging2", "weight":15, "y": 90
+      },
+      {
+        "model": "sengoku:block/soul_lantern_hanging3", "weight":4, "y": 90
+      }
+    ]
+  }
+}

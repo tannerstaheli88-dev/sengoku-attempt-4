@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "obtain_acacia_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:acacia_planks"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:keyaki_checkered_shoji_door",
+      "sengoku:keyaki_checkered_double_shoji_door",
+      "sengoku:keyaki_checkered_triple_shoji_door",
+      "sengoku:keyaki_checkered_shoji_panel",
+      "sengoku:keyaki_paly_shoji_door",
+      "sengoku:keyaki_paly_double_shoji_door",
+      "sengoku:keyaki_paly_triple_shoji_door",
+      "sengoku:keyaki_paly_shoji_panel",
+      "sengoku:keyaki_shoji_door",
+      "sengoku:keyaki_double_shoji_door",
+      "sengoku:keyaki_triple_shoji_door",
+      "sengoku:keyaki_shoji_panel",
+      "sengoku:keyaki_covered_shoji_frame",
+      "sengoku:keyaki_checkered_shoji_frame",
+      "sengoku:keyaki_paly_shoji_frame",
+      "sengoku:keyaki_shoji_frame",
+      "sengoku:keyaki_tatami_block",
+      "sengoku:keyaki_tatami_mat"
+    ]
+  }
+}

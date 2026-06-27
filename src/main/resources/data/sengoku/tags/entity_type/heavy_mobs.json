@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:piglin_brute",
+    "minecraft:hoglin",
+    "minecraft:zoglin",
+    "minecraft:warden",
+	"minecraft:giant",
+	"minecraft:ravager",
+    "sengoku:umi_bozu",
+    "sengoku:oni_brute",
+    "sengoku:onikuma",
+	"sengoku:hitotsume_nyudo"
+  ]
+}

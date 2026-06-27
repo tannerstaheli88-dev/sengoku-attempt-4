@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "sengoku:block/shoji_frame/dark_cedar_checkered_shoji_frame"
+  }
+}

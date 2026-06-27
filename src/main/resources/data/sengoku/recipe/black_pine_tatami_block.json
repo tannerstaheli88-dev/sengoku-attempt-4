@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tatami_block",
+  "pattern": [
+    "##",
+    "//",
+    "//"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:grass"
+    },
+    "/": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "id": "sengoku:black_pine_tatami_block",
+    "count": 6
+  }
+}

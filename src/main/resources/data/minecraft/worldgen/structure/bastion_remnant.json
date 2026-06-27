@@ -1,0 +1,20 @@
+{
+  "type": "sengoku:ceiling_jigsaw",
+  "biomes": "#minecraft:has_structure/bastion_remnant",
+  "max_distance_from_center": 120,
+  "size": 17,
+  "spawn_overrides": {},
+  "start_height": {
+    "type": "sengoku:ceiling_search",
+    "max_inclusive": {
+      "absolute": 80
+    },
+    "min_inclusive": {
+      "absolute": 1
+    }
+  },
+  "start_pool": "shioh:fortress/fortress_foundation",
+  "step": "underground_decoration",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}

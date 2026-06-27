@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2": "block/bushy_nether_wart_leaves",
+		"particle": "block/bushy_nether_wart_leaves"
+	},
+	"elements": [
+		{
+			"from": [-8, -8, 7],
+			"to": [24, 24, 7],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [9.18, -9.44, -10.88],
+			"to": [9.18, 28.32, 26.88],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 9.44, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-10.72, -9.36, 9.17],
+			"to": [26.72, 28.08, 9.17],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 9.36, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [9, -8, -8],
+			"to": [9, 24, 24],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}

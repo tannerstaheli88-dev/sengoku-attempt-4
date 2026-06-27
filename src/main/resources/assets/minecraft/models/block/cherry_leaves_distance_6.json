@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_1",
+  "textures": {
+    "all": "minecraft:block/cherry_leaves1",
+    "bushy": "block/bushy_cherry_leaves_distance_6"
+  }
+}

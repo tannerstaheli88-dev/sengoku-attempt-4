@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "#shioh:collections/snowy_structures",
+	"minecraft:meadow",
+	"minecraft:mushroom_fields"
+  ]
+}

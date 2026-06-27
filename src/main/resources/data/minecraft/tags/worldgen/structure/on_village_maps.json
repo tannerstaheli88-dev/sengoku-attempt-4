@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+	"minecraft:village_taiga",
+	"minecraft:village_forest"
+  ]
+}

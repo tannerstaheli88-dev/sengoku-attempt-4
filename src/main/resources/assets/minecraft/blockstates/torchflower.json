@@ -1,0 +1,15 @@
+{
+	"variants": {
+		"": [			
+			{
+				"model": "block/torchflower"
+			},
+	                {
+				"model": "block/torchflower2"
+			},
+	                {
+				"model": "block/torchflower3"
+			}
+		]
+	}
+}

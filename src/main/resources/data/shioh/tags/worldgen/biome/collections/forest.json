@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+	"#shioh:collections/deep_forest",
+	"minecraft:cherry_grove",
+	"minecraft:old_growth_birch_forest",
+	"minecraft:flower_forest",
+	"minecraft:birch_forest",
+	"sengoku:ginkgo_forest",
+	"minecraft:savanna_plateau"
+  ]
+}

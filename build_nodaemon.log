@@ -1,0 +1,43 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.2.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+latest-loom: 1.15.5
+
+> Configure project :
+Fabric Loom: 1.15.5
+Fabric Loader: 0.18.6
+Fabric Api: 0.116.10+1.21.1
+Parchment: 1.21.1 + 2024.11.17
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :compileClientJava UP-TO-DATE
+> Task :processClientResources UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :processIncludeJars UP-TO-DATE
+> Task :clientClasses UP-TO-DATE
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :validateAccessWidener UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :remapJar
+> Task :remapJar FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':remapJar'.
+> A failure occurred while executing net.fabricmc.loom.task.RemapJarTask$RemapAction
+   > Failed to remap D:\Minecraft\mods\mod workspace\sengoku attempt 4\build\libs\sengokuFabric-2.0.8+1.21.1-Fabric.jar, java.nio.file.NoSuchFileException: D:\Minecraft\mods\mod workspace\sengoku attempt 4\build\libs\sengokuFabric-2.0.8+1.21.1-Fabric.jar
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 16s
+8 actionable tasks: 1 executed, 7 up-to-date
+EXIT_CODE=0 

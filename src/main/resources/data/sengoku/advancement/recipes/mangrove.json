@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mangrove_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:mangrove_planks"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:mangrove_checkered_shoji_door",
+      "sengoku:mangrove_checkered_double_shoji_door",
+      "sengoku:mangrove_checkered_triple_shoji_door",
+      "sengoku:mangrove_checkered_shoji_panel",
+      "sengoku:mangrove_paly_shoji_door",
+      "sengoku:mangrove_paly_double_shoji_door",
+      "sengoku:mangrove_paly_triple_shoji_door",
+      "sengoku:mangrove_paly_shoji_panel",
+      "sengoku:mangrove_shoji_door",
+      "sengoku:mangrove_double_shoji_door",
+      "sengoku:mangrove_triple_shoji_door",
+      "sengoku:mangrove_shoji_panel",
+      "sengoku:mangrove_covered_shoji_frame",
+      "sengoku:mangrove_checkered_shoji_frame",
+      "sengoku:mangrove_paly_shoji_frame",
+      "sengoku:mangrove_shoji_frame",
+      "sengoku:mangrove_tatami_block",
+      "sengoku:mangrove_tatami_mat"
+    ]
+  }
+}

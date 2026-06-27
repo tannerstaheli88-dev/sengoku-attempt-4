@@ -1,0 +1,8 @@
+{
+  "parent": "sengoku:block/triple_shoji/triple_shoji_right_bottom_open",
+  "textures": {
+    "particle": "sengoku:block/kiso_planks",
+    "bottom": "sengoku:block/kiso_planks",
+    "face": "sengoku:block/triple_door/kiso_paly_triple_door_bottom_side"
+  }
+}

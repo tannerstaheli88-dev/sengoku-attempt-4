@@ -1,0 +1,15 @@
+{
+  "values": [
+    "minecraft:beetroots",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    "minecraft:wheat",
+    "minecraft:melon_stem",
+    "minecraft:pumpkin_stem",
+    "minecraft:torchflower_crop",
+    "minecraft:pitcher_crop",
+	"sengoku:rice_crop",
+	"sengoku:ramie_crop",
+	"sengoku:tea_crop"
+  ]
+}

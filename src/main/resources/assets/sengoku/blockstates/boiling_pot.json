@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "hanging=false": { "model": "sengoku:block/boiling_pot" },
+    "hanging=true": { "model": "sengoku:block/boiling_pot_hanging" }
+  }
+}

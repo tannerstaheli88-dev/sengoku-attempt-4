@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "tatami_mat",
+  "key": {
+    "#": {
+      "item": "sengoku:sakura_tatami_block"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sengoku:sakura_tatami_mat"
+  }
+}

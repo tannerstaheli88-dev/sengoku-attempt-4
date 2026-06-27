@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "shioh:foliage/trees/birch/ginkgo_birch",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "shioh:foliage/trees/birch/keyaki_birch"
+      }
+    ]
+  }
+}

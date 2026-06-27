@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:dried_kelp"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:cod"
+    },
+    "E": {
+      "item": "minecraft:potato"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCE",
+    "AAA"
+  ],
+  "result": {
+    "id": "minecraft:cake"
+  },
+  "show_notification": true
+}

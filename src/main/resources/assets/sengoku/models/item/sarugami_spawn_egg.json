@@ -1,0 +1,75 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "sengoku:item/sarugami_spawn_egg",
+		"particle": "sengoku:item/sarugami_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "sarugami_spawn_egg_0",
+			"from": [4, 3, 6],
+			"to": [12, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [12, 0, 4, 13], "texture": "#0"},
+				"east": {"uv": [11, 0, 12, 13], "texture": "#0"},
+				"south": {"uv": [4, 0, 12, 13], "texture": "#0"},
+				"west": {"uv": [4, 0, 5, 13], "texture": "#0"},
+				"up": {"uv": [4, 0, 12, 1], "texture": "#0"},
+				"down": {"uv": [4, 12, 12, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sarugami_spawn_egg_1",
+			"from": [3, 6, 6],
+			"to": [4, 9, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [4, 7, 3, 10], "texture": "#0"},
+				"east": {"uv": [3, 7, 4, 10], "texture": "#0"},
+				"south": {"uv": [3, 7, 4, 10], "texture": "#0"},
+				"west": {"uv": [3, 7, 4, 10], "texture": "#0"},
+				"up": {"uv": [3, 7, 4, 8], "texture": "#0"},
+				"down": {"uv": [3, 9, 4, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sarugami_spawn_egg_2",
+			"from": [12, 6, 6],
+			"to": [13, 8, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [13, 8, 12, 10], "texture": "#0"},
+				"east": {"uv": [12, 8, 13, 10], "texture": "#0"},
+				"south": {"uv": [12, 8, 13, 10], "texture": "#0"},
+				"west": {"uv": [12, 8, 13, 10], "texture": "#0"},
+				"up": {"uv": [12, 8, 13, 9], "texture": "#0"},
+				"down": {"uv": [12, 9, 13, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sarugami_spawn_egg_3",
+			"from": [5, 1, 6],
+			"to": [11, 3, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 6]},
+			"faces": {
+				"north": {"uv": [11, 13, 5, 15], "texture": "#0"},
+				"east": {"uv": [10, 13, 11, 15], "texture": "#0"},
+				"south": {"uv": [5, 13, 11, 15], "texture": "#0"},
+				"west": {"uv": [5, 13, 6, 15], "texture": "#0"},
+				"up": {"uv": [5, 13, 11, 14], "texture": "#0"},
+				"down": {"uv": [5, 14, 11, 15], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "sarugami_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

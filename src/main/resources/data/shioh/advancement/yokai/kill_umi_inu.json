@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "sengoku:umi_inu_spawn_egg"
+    },
+    "title": {
+      "translate": "sengoku.advancements.kill_umi_inu.title"
+    },
+    "description": {
+      "translate": "sengoku.advancements.kill_umi_inu.description"
+    },
+    "frame": "task",
+    "hidden": true
+  },
+  "parent": "shioh:yokai/root",
+  "criteria": {
+    "giant_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "sengoku:umi_inu"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}

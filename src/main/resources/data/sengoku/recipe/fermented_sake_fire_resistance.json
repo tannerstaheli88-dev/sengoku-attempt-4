@@ -1,0 +1,9 @@
+{
+  "type": "sengoku:sake_brewing",
+  "ingredients": [
+    { "item": "sengoku:rice" },
+    { "item": "minecraft:poisonous_potato" },
+    { "item": "minecraft:magma_cream" }
+  ],
+  "output": { "item": "sengoku:fermented_sake_of_fire_resist", "count": 1 }
+}

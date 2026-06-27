@@ -1,0 +1,33 @@
+{
+  "name": "minecraft:village/plains/town_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "minecraft:village/micro/town_centers/snowy_micro_meeting_point1",
+        "processors": "shioh:cave_air_filling",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "minecraft:village/micro/town_centers/snowy_micro_meeting_point2",
+        "processors": "shioh:cave_air_filling",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "minecraft:village/micro/town_centers/snowy_micro_meeting_point3",
+        "processors": "shioh:cave_air_filling",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

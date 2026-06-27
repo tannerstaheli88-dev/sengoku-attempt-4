@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs_that_burn",
+    "#minecraft:crimson_stems",
+    "#minecraft:warped_stems",
+  	"#minecraft:lacquered_logs",
+	"#minecraft:planks",
+	"#minecraft:wooden_doors",
+	"#minecraft:wooden_fences",
+	"#c:stripped_logs",
+  	"minecraft:bamboo",
+    "minecraft:stripped_jungle_log",
+    "minecraft:stripped_jungle_wood"
+  ]
+}

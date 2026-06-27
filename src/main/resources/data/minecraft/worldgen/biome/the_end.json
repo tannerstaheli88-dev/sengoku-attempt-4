@@ -1,0 +1,81 @@
+{
+  "carvers": {},
+  "downfall": 0,
+  "effects": {
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "fog_color": 14998993,
+    "sky_color": 14008232,
+    "water_color": 2732442,
+    "water_fog_color": 1332810,
+    "particle": {
+      "options": {
+        "type": "minecraft:underwater"
+      },
+      "probability": 0.025
+    }
+  },
+  "features": [
+    [
+      "minecraft:end_spike"
+    ],
+    [],
+    [],
+    [
+	  "shioh:terrain/coral/cup_coral_patches",
+	  "shioh:terrain/coral/fire_coral_patches",
+      "shioh:foliage/grass/grass_end",
+      "shioh:foliage/grass/grass_standard",
+      "minecraft:flower_cherry",
+      "minecraft:flower_forest_flowers",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:warm_ocean_vegetation",
+      "minecraft:seagrass_warm",
+      "minecraft:sea_pickle",
+      "minecraft:seagrass_normal",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold"
+    ],
+    [
+      "minecraft:end_platform"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "sengoku:ningyo": {
+      "charge": 0.7,
+      "energy_budget": 0.7
+    },
+    "minecraft:enderman": {
+      "charge": 2,
+      "energy_budget": 0.5
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

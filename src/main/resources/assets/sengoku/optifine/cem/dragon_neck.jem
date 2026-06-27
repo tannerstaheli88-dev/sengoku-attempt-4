@@ -1,0 +1,113 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"shadowSize": 512,
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -9, 3],
+			"texture": "dragon.png",
+			"textureSize": [512, 512],
+			"submodels": [
+				{
+					"id": "Created_by_FreshLX_for_Fresh_Animations",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0]
+				}
+			]
+		},
+		{
+			"part": "neck",
+			"id": "neck",
+			"invertAxis": "xy",
+			"translate": [0, 2, 1],
+			"texture": "dragon.png",
+			"textureSize": [512, 512],
+			"submodels": [
+				{
+					"id": "body2",
+					"invertAxis": "xy",
+					"translate": [0, 8, 20],
+					"submodels": [
+						{
+							"id": "RyujinNeck3",
+							"invertAxis": "xy",
+							"translate": [0, 0, -1],
+							"boxes": [
+								{"coordinates": [-8, -8, -24, 16, 16, 24], "textureOffset": [196, 40]}
+							],
+							"submodels": [
+								{
+									"id": "RyujinHair5",
+									"invertAxis": "xy",
+									"translate": [0.5, 6.5, 15]
+								},
+								{
+									"id": "RyujinNeck4",
+									"invertAxis": "xy",
+									"translate": [0, 0, -24],
+									"boxes": [
+										{"coordinates": [-8, -8, -24, 16, 16, 24], "textureOffset": [187, 0]}
+									],
+									"submodels": [
+										{
+											"id": "RyujinNeck5",
+											"invertAxis": "xy",
+											"translate": [0, 0, -24],
+											"boxes": [
+												{"coordinates": [-10, -10, -2, 21, 20, 65], "textureOffset": [0, 0]}
+											],
+											"submodels": [
+												{
+													"id": "RyujinHair",
+													"invertAxis": "xy",
+													"translate": [0.5, 6.5, 23.5],
+													"boxes": [
+														{
+															"coordinates": [0, -6.5, -32.5, 0, 29, 65],
+															"uvNorth": [100, 483, 100, 512],
+															"uvEast": [35, 483, 100, 512],
+															"uvSouth": [165, 483, 165, 512],
+															"uvUp": [100, 483, 100, 418],
+															"uvDown": [100, 418, 100, 483]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "bone10",
+							"invertAxis": "xy",
+							"translate": [0, 3.25, -12],
+							"rotate": [-17.5, 0, 0]
+						},
+						{
+							"id": "hair_right_top2",
+							"invertAxis": "xy",
+							"translate": [3.51554, 6.4109, -12.75],
+							"rotate": [0, 0, -60]
+						},
+						{
+							"id": "hair_left_top2",
+							"invertAxis": "xy",
+							"translate": [-3.51554, 6.4109, -12.5],
+							"rotate": [0, 0, 60]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "diamond_kanabo",
+  "pattern": [
+    " # ",
+    " # ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "/": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "sengoku:diamond_kanabo",
+    "count": 1
+  }
+}

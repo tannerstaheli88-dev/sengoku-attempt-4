@@ -1,0 +1,8 @@
+{
+  "parent": "bettercombat:kanabo",
+  "attributes": {
+    "two_handed": true,
+    "pose": "bettercombat:pose_two_handed_heavy",
+    "range_bonus": 1.4
+  }
+}

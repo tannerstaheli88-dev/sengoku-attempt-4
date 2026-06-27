@@ -1,0 +1,24 @@
+{
+  "name": "meme",
+  "fallback": "shioh:cemetery/shrine/tori",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:cemetery/shrine/sakura_tori1",
+        "processors": "minecraft:plains_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:cemetery/shrine/sakura_terminator1",
+        "processors": "minecraft:plains_streets",
+        "projection": "rigid",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

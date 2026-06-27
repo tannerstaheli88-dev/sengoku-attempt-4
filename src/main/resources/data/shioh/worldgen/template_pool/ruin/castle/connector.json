@@ -1,0 +1,51 @@
+{
+  "name": "meme",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/connector1",
+        "processors": "street_plains",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/connector2",
+        "processors": "street_plains",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/connector3",
+        "processors": "street_plains",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/connector4",
+        "processors": "street_plains",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "shioh:ruin/castle_ruin/connector5",
+        "processors": "street_plains",
+        "projection": "terrain_matching",
+        "element_type": "sengoku:terrain_filling"
+      }
+    }
+  ]
+}

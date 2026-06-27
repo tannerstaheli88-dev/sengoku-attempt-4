@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:small_flowers",
+	"#minecraft:leaves",
+    "#minecraft:tall_flowers",
+	"#minecraft:logs",
+    "minecraft:short_grass",
+	"minecraft:moss_carpet",
+	"minecraft:brown_mushroom",
+	"minecraft:red_mushroom",
+    "minecraft:fern",
+    "minecraft:tall_grass",
+    "minecraft:large_fern",
+    "minecraft:dead_bush",
+    "minecraft:stone_button",
+    "minecraft:bamboo"
+  ]
+}

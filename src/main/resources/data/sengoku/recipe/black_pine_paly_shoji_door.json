@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "paly_shoji_door",
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "PS",
+    "PS",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "sengoku:black_pine_paly_shoji_door"
+  }
+}

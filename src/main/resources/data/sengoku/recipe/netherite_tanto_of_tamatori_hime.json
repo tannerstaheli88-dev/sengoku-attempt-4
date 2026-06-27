@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "sengoku:seigun_upgrade_smithing_template" },
+  "base": { "item": "sengoku:netherite_tanto" },
+  "addition": { "item": "sengoku:broken_hilt_piece" },
+  "result": { "id": "sengoku:netherite_tanto_of_tamatori_hime" }
+}

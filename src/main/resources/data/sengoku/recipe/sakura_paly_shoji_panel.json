@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "paly_shoji_panel",
+  "key": {
+    "#": {
+      "item": "minecraft:cherry_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "SPS",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "sengoku:sakura_paly_shoji_panel"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "shioh:yomilanterns",
+      "weight": 1
+    }
+  ],
+	"placement": {
+		"exclusion_zone": {
+      "other_set": "minecraft:nether_complexes",
+      "chunk_count": 3
+    },
+		"spacing": 2,
+		"separation": 1,
+	    "frequency_reduction_method": "default",
+		"frequency": 0.7,
+		"spread_type": "triangular",
+		"salt": 430930,
+		"type": "minecraft:random_spread"
+	}
+}

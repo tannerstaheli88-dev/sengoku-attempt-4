@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "obtain_spruce_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:spruce_planks"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "sengoku:black_pine_checkered_shoji_door",
+      "sengoku:black_pine_checkered_double_shoji_door",
+      "sengoku:black_pine_checkered_triple_shoji_door",
+      "sengoku:black_pine_checkered_shoji_panel",
+      "sengoku:black_pine_paly_shoji_door",
+      "sengoku:black_pine_paly_double_shoji_door",
+      "sengoku:black_pine_paly_triple_shoji_door",
+      "sengoku:black_pine_paly_shoji_panel",
+      "sengoku:black_pine_shoji_door",
+      "sengoku:black_pine_double_shoji_door",
+      "sengoku:black_pine_triple_shoji_door",
+      "sengoku:black_pine_shoji_panel",
+      "sengoku:black_pine_covered_shoji_frame",
+      "sengoku:black_pine_checkered_shoji_frame",
+      "sengoku:black_pine_paly_shoji_frame",
+      "sengoku:black_pine_shoji_frame",
+      "sengoku:black_pine_tatami_block",
+      "sengoku:black_pine_tatami_mat"
+    ]
+  }
+}

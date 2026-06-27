@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+    "X": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+	  "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:spectral_arrow"
+  }
+}

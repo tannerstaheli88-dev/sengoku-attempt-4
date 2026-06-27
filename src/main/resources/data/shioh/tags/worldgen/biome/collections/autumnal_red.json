@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:savanna_plateau",
+	"minecraft:badlands",
+	"minecraft:wooded_badlands",
+	"minecraft:warm_ocean",
+	"sengoku:hotsprings_autumnal"
+  ]
+}

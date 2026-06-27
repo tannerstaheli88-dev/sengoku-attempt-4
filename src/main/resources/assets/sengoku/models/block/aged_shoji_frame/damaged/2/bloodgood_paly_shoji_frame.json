@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:block/aged_shoji_frame/damaged/2/cube_all",
+  "textures": {
+    "all": "sengoku:block/aged_shoji_frame/damaged/2/bloodgood_paly_paly_shoji_frame"
+  }
+}

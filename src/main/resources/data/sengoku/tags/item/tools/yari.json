@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "sengoku:wooden_yari",
+    "sengoku:stone_yari",
+    "sengoku:iron_yari",
+    "sengoku:golden_yari",
+    "sengoku:diamond_yari",
+    "sengoku:netherite_yari",
+    "sengoku:yari_of_the_taisho",
+    "sengoku:netherite_yari_of_the_taisho",
+    {
+      "id": "sengoku:bronze_yari",
+      "required": false
+    }
+  ]
+}

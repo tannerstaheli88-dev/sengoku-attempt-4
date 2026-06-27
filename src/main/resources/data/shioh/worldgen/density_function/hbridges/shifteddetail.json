@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:shifted_noise",
+  "noise": "shioh:hbridges/detailed",
+  "xz_scale": 1.0,
+  "y_scale": 0,
+  "shift_x": {
+    "type": "minecraft:mul",
+    "argument1": "shioh:hbridges/noiseshift/slopex",
+    "argument2": 100
+  },
+  "shift_y": 0,
+  "shift_z": {
+    "type": "minecraft:mul",
+    "argument1": "shioh:hbridges/noiseshift/slopez",
+    "argument2": 100
+  }
+}

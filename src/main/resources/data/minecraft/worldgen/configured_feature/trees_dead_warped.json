@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "minecraft:tree_dead_warped",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.63333334,
+        "feature": {
+          "feature": "minecraft:tree_deadfallen",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

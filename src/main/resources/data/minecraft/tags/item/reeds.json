@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:hay_block",
+    "sengoku:pale_reeds_block",
+    "sengoku:dark_reeds_block"
+  ]
+}

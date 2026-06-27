@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/dead_grass4",
+		"2": "block/dead_grass1",
+		"particle": "block/grass"
+	},
+	"elements": [
+		{
+			"from": [0.5, 14, 13],
+			"to": [16.5, 24, 13],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8.5, 25, 13]},
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#2", "cullface": "up", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
+			"from": [3, 14, 1.5],
+			"to": [3, 23, 17.5],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [3, 26, 7.5]},
+			"faces": {
+				"east": {"uv": [16, 0, 0, 16], "texture": "#1", "cullface": "up", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up", "tintindex": 0}
+			}
+		}
+	]
+}

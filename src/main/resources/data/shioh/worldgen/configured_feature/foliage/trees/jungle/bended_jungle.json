@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "shioh:foliage/trees/jungle/oak",
+    "features": [
+      {
+        "chance": 0.025,
+        "feature": "shioh:foliage/trees/jungle/small_jungle"
+      },
+      {
+        "chance": 0.34,
+        "feature": {
+          "feature": "shioh:foliage/trees/jungle/jungle_big",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.2,
+        "feature": {
+          "feature": "shioh:foliage/trees/jungle/jungle_big_flowering",
+          "placement": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE"
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.34,
+        "feature": "shioh:foliage/trees/jungle/twilight_tree"
+      }
+    ]
+  }
+}

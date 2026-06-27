@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:pufferfish",
+    "minecraft:salmon",
+    "minecraft:cod",
+    "minecraft:squid",
+    "minecraft:tadpole"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shikkui",
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "S": {
+      "item": "minecraft:cherry_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+	"###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "sengoku:sakura_shikkui"
+  }
+}

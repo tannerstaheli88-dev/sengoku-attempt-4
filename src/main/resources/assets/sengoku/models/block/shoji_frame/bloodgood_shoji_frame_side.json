@@ -1,0 +1,7 @@
+{
+  "parent": "sengoku:block/shoji_frame/template_shoji_frame_side",
+  "textures": {
+    "edge": "sengoku:block/bloodgood_planks",
+    "pane": "sengoku:block/shoji_frame/bloodgood_shoji_frame"
+  }
+}

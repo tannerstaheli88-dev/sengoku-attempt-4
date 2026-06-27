@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "sengoku:wooden_odachi",
+    "sengoku:stone_odachi",
+    "sengoku:iron_odachi",
+    "sengoku:golden_odachi",
+    "sengoku:diamond_odachi",
+    "sengoku:netherite_odachi",
+    "sengoku:odachi_of_the_shugodai",
+    "sengoku:netherite_odachi_of_the_shugodai",
+    {
+      "id": "sengoku:bronze_odachi",
+      "required": false
+    }
+  ]
+}

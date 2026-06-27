@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross_tall",
+  "textures": {
+    "cross": "minecraft:block/blue_orchid"
+  }
+}

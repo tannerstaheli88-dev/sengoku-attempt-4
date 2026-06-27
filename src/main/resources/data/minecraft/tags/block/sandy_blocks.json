@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#shioh:sandstones",
+    "minecraft:end_stone",
+    "minecraft:end_stone_bricks",
+    "#minecraft:sand"
+  ]
+}

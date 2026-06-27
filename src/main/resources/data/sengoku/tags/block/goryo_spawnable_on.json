@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherrack",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:nether_bricks",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:ancient_debris",
+    "minecraft:gravel",
+    "minecraft:mycelium",
+    "minecraft:grass_block"
+  ]
+}

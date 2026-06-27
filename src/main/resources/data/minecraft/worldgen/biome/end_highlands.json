@@ -1,0 +1,141 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.0,
+  "has_precipitation": false,
+  "effects": {
+    "fog_color": 14998993,
+    "sky_color": 14008232,
+    "water_color": 2732442,
+    "water_fog_color": 1332810,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:cherry_leaves"
+      },
+      "probability": 0.005
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:turtle",
+        "maxCount": 5,
+        "minCount": 2,
+        "weight": 5
+      },
+	  {
+        "type": "minecraft:sniffer",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 3
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:vex",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "sengoku:umi_nyobo",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": [	  
+	  {
+        "type": "sengoku:kamiike_hime",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      }
+	]
+  },
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.3
+    },
+    "sengoku:ningyo": {
+      "charge": 0.7,
+      "energy_budget": 0.9
+    },
+    "sengoku:kamiike_hime": {
+      "charge": 0.7,
+      "energy_budget": 0.9
+    },
+    "sengoku:umi_nyobo": {
+      "charge": 0.7,
+      "energy_budget": 0.5
+    },
+    "minecraft:sniffer": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "minecraft:vex": {
+      "charge": 0.4,
+      "energy_budget": 0.5
+    }
+  },
+  "carvers": {},
+  "features": [
+    [
+	  "shioh:misc/deepslateboulders",
+      "shioh:terrain/end_terrain"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_gateway_return"
+    ],
+    [],
+    [
+      "minecraft:disk_sand",
+      "minecraft:disk_clay"
+    ],
+    [
+      "minecraft:ore_infested"
+    ],
+    [],
+    [
+      "shioh:foliage/trees/secondary/trees_pine",
+      "shioh:foliage/misc/oasis_vegetation_moss",
+      "minecraft:chorus_plant",
+      "minecraft:glow_lichen",
+	    "shioh:misc/mossy_rocks",
+	    "shioh:misc/stone_pillars",
+      "shioh:misc/dry_rocks",
+      "shioh:foliage/trees/bamboo/bamboo_low",
+      "shioh:foliage/grass/grass_end",
+      "shioh:foliage/trees/sakura/trees_sakura",
+      "minecraft:flower_cherry",
+      "minecraft:flower_forest_flowers",
+      "minecraft:trees_flower_forest",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
+    ]
+  ]
+}

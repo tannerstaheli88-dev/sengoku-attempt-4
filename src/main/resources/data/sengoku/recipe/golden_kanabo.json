@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "golden_kanabo",
+  "pattern": [
+    " # ",
+    " # ",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "/": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "id": "sengoku:golden_kanabo",
+    "count": 1
+  }
+}

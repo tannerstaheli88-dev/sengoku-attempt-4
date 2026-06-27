@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "shape=north_south": { "model": "sengoku:block/shiki_gravel_north_south" },
+    "shape=east_west": { "model": "sengoku:block/shiki_gravel_east_west", "y": 90 },
+    "shape=ascending_north": { "model": "sengoku:block/shiki_gravel_ascending_north" },
+    "shape=ascending_south": { "model": "sengoku:block/shiki_gravel_ascending_south", "y": 180 },
+    "shape=ascending_east": { "model": "sengoku:block/shiki_gravel_ascending_east", "y": 90 },
+    "shape=ascending_west": { "model": "sengoku:block/shiki_gravel_ascending_west", "y": 270 },
+    "shape=south_east": { "model": "sengoku:block/shiki_gravel_south_east" },
+    "shape=south_west": { "model": "sengoku:block/shiki_gravel_south_west", "y": 90 },
+    "shape=north_west": { "model": "sengoku:block/shiki_gravel_north_west", "y": 180 },
+    "shape=north_east": { "model": "sengoku:block/shiki_gravel_north_east", "y": 270 }
+  }
+}

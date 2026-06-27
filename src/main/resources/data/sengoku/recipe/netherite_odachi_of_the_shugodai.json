@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "sengoku:seigun_upgrade_smithing_template" },
+  "base": { "item": "sengoku:netherite_odachi" },
+  "addition": { "item": "sengoku:broken_hilt_piece" },
+  "result": { "id": "sengoku:netherite_odachi_of_the_shugodai" }
+}

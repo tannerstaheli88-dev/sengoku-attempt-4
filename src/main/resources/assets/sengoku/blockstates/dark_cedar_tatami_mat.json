@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top,axis=x":    { "model": "sengoku:block/dark_cedar_tatami_mat_top_x" },
+    "type=top,axis=y":    { "model": "sengoku:block/dark_cedar_tatami_mat_top" },
+    "type=top,axis=z":    { "model": "sengoku:block/dark_cedar_tatami_mat_top_z" },
+    "type=bottom,axis=x": { "model": "sengoku:block/dark_cedar_tatami_mat_bottom_x" },
+    "type=bottom,axis=y": { "model": "sengoku:block/dark_cedar_tatami_mat_bottom" },
+    "type=bottom,axis=z": { "model": "sengoku:block/dark_cedar_tatami_mat_bottom_z" },
+    "type=double,axis=x": { "model": "sengoku:block/dark_cedar_tatami_mat_double_x" },
+    "type=double,axis=y": { "model": "sengoku:block/dark_cedar_tatami_mat_double" },
+    "type=double,axis=z": { "model": "sengoku:block/dark_cedar_tatami_mat_double_z" }
+  }
+}

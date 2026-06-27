@@ -1,0 +1,16 @@
+{
+    "multipart": [
+        {   "apply": { "model": "block/nether_wart_block" }
+        },
+        {   "apply": [
+                { "model": "block/nether_wart_leaves" },
+                { "model": "block/nether_wart_leaves", "y": 90 },
+                { "model": "block/nether_wart_leaves", "y": 180 },
+                { "model": "block/nether_wart_leaves", "y": 270 },
+                { "model": "block/nether_wart_leaves2", "y": 90 },
+                { "model": "block/nether_wart_leaves2", "y": 180 },
+                { "model": "block/nether_wart_leaves2", "y": 270 }
+            ]
+        }
+    ]
+}

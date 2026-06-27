@@ -1,0 +1,17 @@
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:1b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:2b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:3b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:4b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:5b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:6b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:7b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:8b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:9b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:10b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:11b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:12b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:13b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:14b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:15b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:16b}
+execute as @e[type=shulker,predicate=shioh:5] run data merge entity @s {Color:17b}

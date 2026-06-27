@@ -1,0 +1,6 @@
+{
+  "parent": "sengoku:item/tetsubo",
+  "textures": {
+    "1": "sengoku:item/tetsubo/bronze_tetsubo"
+  }
+}

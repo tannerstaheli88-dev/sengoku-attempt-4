@@ -1,0 +1,6 @@
+{
+  "parent": "bettercombat:naginata",
+  "attributes": {
+    "range_bonus": 1.5
+  }
+}

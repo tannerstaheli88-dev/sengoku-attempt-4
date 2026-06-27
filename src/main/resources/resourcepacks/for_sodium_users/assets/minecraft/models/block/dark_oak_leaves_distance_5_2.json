@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/leaves_2",
+	"textures": {
+		"all": "block/dark_oak_leaves1",
+		"bushy": "block/bushy_dark_oak_leaves_distance_5"
+	}
+}

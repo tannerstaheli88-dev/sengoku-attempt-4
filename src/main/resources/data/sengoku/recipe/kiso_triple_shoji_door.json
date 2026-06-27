@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "triple_shoji_door",
+  "key": {
+    "#": {
+      "item": "sengoku:kiso_shoji_door"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sengoku:kiso_triple_shoji_door"
+  }
+}

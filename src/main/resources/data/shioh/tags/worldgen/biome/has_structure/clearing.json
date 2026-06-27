@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+	"ice_spikes",
+    "jungle",
+	"bamboo_jungle",
+	"jungle",
+	"windswept_hills",
+	"windswept_forest",
+    "dark_forest",
+	"flower_forest",
+	"wooded_badlands",
+    "old_growth_birch_forest",
+	"mushroom_fields"
+  ]
+}

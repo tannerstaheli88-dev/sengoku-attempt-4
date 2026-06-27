@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:block/tatami_mat_double",
+  "textures": {
+    "up": "sengoku:block/mangrove_tatami_mat_top",
+    "down": "sengoku:block/mangrove_planks",
+    "north": "sengoku:block/mangrove_tatami_mat_side",
+    "south": "sengoku:block/mangrove_tatami_mat_side",
+    "east": "sengoku:block/mangrove_tatami_mat_side",
+    "west": "sengoku:block/mangrove_tatami_mat_side",
+	"particle": "sengoku:block/mangrove_tatami_mat_top"
+  }
+}

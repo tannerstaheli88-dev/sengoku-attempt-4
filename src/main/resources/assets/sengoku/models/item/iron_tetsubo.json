@@ -1,0 +1,12 @@
+{
+  "parent": "sengoku:item/tetsubo",
+  "textures": {
+    "1": "sengoku:item/tetsubo/iron_tetsubo"
+  },
+   "overrides": [
+    {
+	  "predicate": { "minecraft:blocking": 1 },
+      "model": "sengoku:item/iron_tetsubo_blocking"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2": "block/bushy_warped_wart_leaves",
+		"particle": "block/bushy_warped_wart_leaves"
+	},
+	"elements": [
+		{
+			"from": [-6.92, -6.96, 7.13],
+			"to": [20.92, 20.88, 7.13],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7, 6.96, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.13, -6.96, -5.92],
+			"to": [6.13, 20.88, 21.92],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7, 6.96, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.9, -7.2, -6.4],
+			"to": [7.9, 21.6, 22.4],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7, 7.2, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}

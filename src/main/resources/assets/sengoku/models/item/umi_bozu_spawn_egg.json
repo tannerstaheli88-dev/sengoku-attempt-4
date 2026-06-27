@@ -1,0 +1,104 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "sengoku:item/umi_bozu_spawn_egg",
+		"particle": "sengoku:item/umi_bozu_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "umi_bozu_spawn_egg_0",
+			"from": [4, 10, 7],
+			"to": [12, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [12, 0, 4, 6], "texture": "#0"},
+				"east": {"uv": [11, 0, 12, 6], "texture": "#0"},
+				"south": {"uv": [4, 0, 12, 6], "texture": "#0"},
+				"west": {"uv": [4, 0, 5, 6], "texture": "#0"},
+				"up": {"uv": [4, 0, 12, 1], "texture": "#0"},
+				"down": {"uv": [4, 5, 12, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "umi_bozu_spawn_egg_1",
+			"from": [5, 1, 7],
+			"to": [11, 10, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [11, 6, 5, 15], "texture": "#0"},
+				"east": {"uv": [10, 6, 11, 15], "texture": "#0"},
+				"south": {"uv": [5, 6, 11, 15], "texture": "#0"},
+				"west": {"uv": [5, 6, 6, 15], "texture": "#0"},
+				"up": {"uv": [5, 6, 11, 7], "texture": "#0"},
+				"down": {"uv": [5, 14, 11, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "umi_bozu_spawn_egg_2",
+			"from": [4, 3, 7],
+			"to": [5, 9, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [5, 7, 4, 13], "texture": "#0"},
+				"east": {"uv": [4, 7, 5, 13], "texture": "#0"},
+				"south": {"uv": [4, 7, 5, 13], "texture": "#0"},
+				"west": {"uv": [4, 7, 5, 13], "texture": "#0"},
+				"up": {"uv": [4, 7, 5, 8], "texture": "#0"},
+				"down": {"uv": [4, 12, 5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "umi_bozu_spawn_egg_3",
+			"from": [11, 3, 7],
+			"to": [12, 9, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [12, 7, 11, 13], "texture": "#0"},
+				"east": {"uv": [11, 7, 12, 13], "texture": "#0"},
+				"south": {"uv": [11, 7, 12, 13], "texture": "#0"},
+				"west": {"uv": [11, 7, 12, 13], "texture": "#0"},
+				"up": {"uv": [11, 7, 12, 8], "texture": "#0"},
+				"down": {"uv": [11, 12, 12, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "umi_bozu_spawn_egg_4",
+			"from": [5, 0, 7],
+			"to": [8, 1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [8, 15, 5, 16], "texture": "#0"},
+				"east": {"uv": [7, 15, 8, 16], "texture": "#0"},
+				"south": {"uv": [5, 15, 8, 16], "texture": "#0"},
+				"west": {"uv": [5, 15, 6, 16], "texture": "#0"},
+				"up": {"uv": [5, 15, 8, 16], "texture": "#0"},
+				"down": {"uv": [5, 15, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "umi_bozu_spawn_egg_5",
+			"from": [9, 0, 7],
+			"to": [11, 1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [11, 15, 9, 16], "texture": "#0"},
+				"east": {"uv": [10, 15, 11, 16], "texture": "#0"},
+				"south": {"uv": [9, 15, 11, 16], "texture": "#0"},
+				"west": {"uv": [9, 15, 10, 16], "texture": "#0"},
+				"up": {"uv": [9, 15, 11, 16], "texture": "#0"},
+				"down": {"uv": [9, 15, 11, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "umi_bozu_spawn_egg",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

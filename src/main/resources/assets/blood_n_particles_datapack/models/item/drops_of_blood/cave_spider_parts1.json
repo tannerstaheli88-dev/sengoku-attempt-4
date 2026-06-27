@@ -1,0 +1,59 @@
+{
+	"credit": "Hecho por RenovatedStudios",
+	"textures": {
+		"0": "blood_n_particles_datapack:item/cave_spider_parts",
+		"particle": "blood_n_particles_datapack:item/cave_spider_parts"
+	},
+	"elements": [
+		{
+			"name": "part1",
+			"from": [7, -0.98, 6.45],
+			"to": [9, 15.02, 8.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.02, 8.45]},
+			"faces": {
+				"north": {"uv": [9.5, 0.5, 13.5, 1], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [5, 0.5, 9, 1], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 0, 13, 0.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [5, 0, 9, 0.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4.5, 0.5, 5, 1], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [9, 0.5, 9.5, 1], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2, 6.75, 0]
+		},
+		"ground": {
+			"rotation": [-90, 0, 90],
+			"translation": [-2, -2.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [25, -41.75, 0],
+			"translation": [0.5, 2.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"translation": [0, 4, -3.1]
+		}
+	},
+	"groups": [
+		{
+			"name": "parts",
+			"origin": [7, 0, 3],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

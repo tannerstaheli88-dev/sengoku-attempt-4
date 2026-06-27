@@ -1,0 +1,16 @@
+{
+    "pack": {
+        "description": [
+			{
+				"text": "Sengoku Dev Biome Sorter",
+				"color": "#1eb2bc"
+			},
+			{
+				"text": " - For Dev purposes and those who deleted the dimensions file so they can use superflat worlds. ",
+				"color": "gray"
+			}
+		],
+        "pack_format": 15,
+        "supported_formats": {"min_inclusive": 15, "max_inclusive": 99}
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "sengoku:golden_tanto"
+    },
+    {
+      "item": "sengoku:golden_tetsubo"
+    },
+    {
+      "item": "sengoku:golden_kanabo"
+    },
+    {
+      "item": "sengoku:golden_naginata"
+    },
+    {
+      "item": "sengoku:golden_yari"
+    },
+    {
+      "item": "sengoku:golden_odachi"
+    }
+  ],
+  "result": {
+    "id": "minecraft:gold_nugget",
+    "count": 1
+  }
+}

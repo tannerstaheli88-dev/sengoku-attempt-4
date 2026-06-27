@@ -1,0 +1,254 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body_front",
+			"id": "body_front",
+			"invertAxis": "xy",
+			"translate": [0, -6, 4],
+			"boxes": [
+				{"coordinates": [-1.5, 3.5, -4, 3, 5, 8], "textureOffset": [0, 13]}
+			],
+			"submodels": [
+				{
+					"id": "arobody_front",
+					"invertAxis": "xy",
+					"translate": [-0.5, -0.5, 0],
+					"submodels": [
+						{
+							"id": "arofin_pectoral1",
+							"invertAxis": "xy",
+							"translate": [2.1, 4.5, -3.5],
+							"rotate": [-16.92362, -40.52259, -60.55228],
+							"boxes": [
+								{"coordinates": [0, 0, 0, 6, 0, 3], "textureOffset": [9, 46]}
+							]
+						},
+						{
+							"id": "arofin_pectoral2",
+							"invertAxis": "xy",
+							"translate": [-1.1, 4.5, -3.5],
+							"rotate": [-16.92362, 40.52259, 60.55228],
+							"boxes": [
+								{"coordinates": [-6, 0, 0, 6, 0, 3], "textureOffset": [-3, 46]}
+							]
+						}
+					]
+				},
+				{
+					"id": "arofin_pelvic1",
+					"invertAxis": "xy",
+					"translate": [-0.2, 3.7, 0],
+					"rotate": [0, 0, 45],
+					"boxes": [
+						{"coordinates": [0, -2, 0, 0, 2, 4], "textureOffset": [0, -2]}
+					]
+				},
+				{
+					"id": "arofin_pelvic2",
+					"invertAxis": "xy",
+					"translate": [0.2, 3.7, 0],
+					"rotate": [0, 0, -45],
+					"boxes": [
+						{"coordinates": [0, -2, 0, 0, 2, 4], "textureOffset": [0, -4]}
+					]
+				},
+				{
+					"id": "koibody_front",
+					"invertAxis": "xy",
+					"translate": [-0.5, -0.5, 0],
+					"boxes": [
+						{"coordinates": [-1.5, 4, -4, 4, 5, 8], "textureOffset": [0, 26]}
+					],
+					"submodels": [
+						{
+							"id": "koifin_pectoral1",
+							"invertAxis": "xy",
+							"translate": [-1.5, 4, -3.5],
+							"rotate": [0, 0, 32.5],
+							"boxes": [
+								{"coordinates": [-6, 0, -0.5, 6, 0, 7], "textureOffset": [5, 39]}
+							]
+						},
+						{
+							"id": "koifin_pectoral2",
+							"invertAxis": "xy",
+							"translate": [2.5, 4, -3.5],
+							"rotate": [0, 0, -32.5],
+							"boxes": [
+								{"coordinates": [0, 0, -0.5, 6, 0, 7], "textureOffset": [-7, 39]}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "body_back",
+			"id": "body_back",
+			"invertAxis": "xy",
+			"translate": [0, -6, -4],
+			"boxes": [
+				{"coordinates": [-1.5, 3.5, 4, 3, 5, 8], "textureOffset": [0, 0]}
+			],
+			"submodels": [
+				{
+					"id": "arobody_back",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-1.5, 3.5, 4, 3, 5, 6], "textureOffset": [20, 21]}
+					]
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -6, 4],
+			"boxes": [
+				{"coordinates": [-1, 4, -7, 2, 4, 3], "textureOffset": [38, 15]}
+			],
+			"submodels": [
+				{
+					"id": "koihead",
+					"invertAxis": "xy",
+					"translate": [0, 8, -4],
+					"boxes": [
+						{"coordinates": [-1.5, -4, -3, 3, 4, 3], "textureOffset": [48, 15]}
+					],
+					"submodels": [
+						{
+							"id": "koihead_mus1",
+							"invertAxis": "xy",
+							"translate": [-1.5, -4, -2],
+							"rotate": [0, 0, -32.5],
+							"boxes": [
+								{"coordinates": [0, -1, 0, 0, 1, 1], "textureOffset": [60, 17]}
+							]
+						},
+						{
+							"id": "koihead_mus2",
+							"invertAxis": "xy",
+							"translate": [1.5, -4, -2],
+							"rotate": [0, 0, 32.5],
+							"boxes": [
+								{"coordinates": [0, -1, 0, 0, 1, 1], "textureOffset": [60, 17]}
+							]
+						}
+					]
+				},
+				{
+					"id": "arohead",
+					"invertAxis": "xy",
+					"translate": [0.5, 8.55, -5.05],
+					"rotate": [-5, 0, 0],
+					"boxes": [
+						{"coordinates": [-2, -5.15, -3.95, 3, 5, 5], "textureOffset": [46, 22], "sizeAdd": 0.1}
+					],
+					"submodels": [
+						{
+							"id": "arohead_jaw",
+							"invertAxis": "xy",
+							"translate": [0, -5.16, -3.84],
+							"rotate": [-7.5, 0, 0],
+							"boxes": [
+								{"coordinates": [-2, 0.01, -1.01, 3, 5, 1], "textureOffset": [38, 26], "sizeAdd": 0.099}
+							],
+							"submodels": [
+								{
+									"id": "arohead_mus1",
+									"invertAxis": "xy",
+									"translate": [-0.25, 4.66, -1.01],
+									"rotate": [0, -17.5, 0],
+									"boxes": [
+										{"coordinates": [0, 0.1, -2, 1, 0, 2], "textureOffset": [60, 30]}
+									]
+								},
+								{
+									"id": "arohead_mus2",
+									"invertAxis": "xy",
+									"translate": [-0.75, 4.91, -1.01],
+									"rotate": [0, 15, 0],
+									"boxes": [
+										{"coordinates": [-1, -0.15, -2, 1, 0, 2], "textureOffset": [60, 30]}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "fin_back_1",
+			"id": "fin_back_1",
+			"invertAxis": "xy",
+			"translate": [0, -10.5, -1],
+			"boxes": [
+				{"coordinates": [0, 8.5, -1, 0, 4, 5], "textureOffset": [38, -5]},
+				{"coordinates": [0, 0.5, -4, 0, 3, 8], "textureOffset": [22, 4]}
+			]
+		},
+		{
+			"part": "fin_back_2",
+			"id": "fin_back_2",
+			"invertAxis": "xy",
+			"translate": [0, -10.5, -3],
+			"boxes": [
+				{"coordinates": [0, 7.5, 4, 0, 5, 10], "textureOffset": [38, -6]},
+				{"coordinates": [0, -1.5, 4, 0, 6, 10], "textureOffset": [38, -1]}
+			],
+			"submodels": [
+				{
+					"id": "koibody_back",
+					"invertAxis": "xy",
+					"translate": [-1.5, 0, 0],
+					"submodels": [
+						{
+							"id": "koifin_pelvic2",
+							"invertAxis": "xy",
+							"translate": [2, 3.5, 4],
+							"rotate": [0, 0, 32.5],
+							"boxes": [
+								{"coordinates": [0, -6, 0, 0, 6, 8], "textureOffset": [22, -8]}
+							]
+						},
+						{
+							"id": "koifin_pelvic1",
+							"invertAxis": "xy",
+							"translate": [-0.75, 3.5, 4],
+							"rotate": [0, 0, -32.5],
+							"boxes": [
+								{"coordinates": [1.5, -5, 0, 0, 6, 8], "textureOffset": [22, -2]}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0, -6, -11.5],
+			"boxes": [
+				{"coordinates": [0, 0.5, 10, 0, 12, 10], "textureOffset": [24, 27]}
+			]
+		},
+		{
+			"part": "fin_left",
+			"id": "fin_left",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "fin_right",
+			"id": "fin_right",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

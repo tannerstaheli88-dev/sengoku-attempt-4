@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:noise",
+        "noise": "shioh:mt_fuji_ridge",
+        "xz_scale": 0.1,
+        "y_scale": 1.0
+      },
+      "argument2": {
+        "type": "minecraft:spline",
+        "min_value": -1,
+        "max_value": 1,
+        "spline": {
+          "coordinate": "shioh:yomi/continents",
+          "points": [
+            { "location": -1.0, "derivative": 0.25, "value": 0.6 },
+            { "location":  0.0, "derivative": 0.2,  "value": 0.85 },
+            { "location":  1.0, "derivative": 0.25, "value": 1.0 }
+          ]
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:spline",
+        "min_value": 0,
+        "max_value": 1,
+        "spline": {
+          "coordinate": "minecraft:y",
+          "points": [
+            { "location": 64,  "derivative": 0.0,   "value": 0.0 },
+            { "location": 140, "derivative": -0.01, "value": -0.2 },
+            { "location": 220, "derivative": 0.0,   "value": -0.6 }
+          ]
+        }
+      },
+      "argument2": {
+        "type": "minecraft:spline",
+        "min_value": -1,
+        "max_value": 1,
+        "spline": {
+          "coordinate": "shioh:yomi/wackiness",
+          "points": [
+            { "location": -1.0, "derivative": 0.0, "value": 0.0 },
+            { "location":  1.0, "derivative": 0.0, "value": 0.02 }
+          ]
+        }
+      }
+    }
+  }
+}
