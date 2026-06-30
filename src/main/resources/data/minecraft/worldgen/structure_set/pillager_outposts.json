@@ -6,11 +6,11 @@
     },
     {
       "structure": "shioh:bandit_outpost",
-      "weight": 18
+      "weight": 30
     },
     {
       "structure": "minecraft:pillager_outpost",
-      "weight": 15
+      "weight": 30
     },
     {
       "structure": "shioh:winter_castle",

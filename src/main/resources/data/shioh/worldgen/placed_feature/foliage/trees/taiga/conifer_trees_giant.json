@@ -235,7 +235,8 @@
           ],
           "blocks": [
             "minecraft:muddy_mangrove_roots",
-            "minecraft:farmland"
+            "minecraft:farmland",
+            "minecraft:moss_block"
           ]
         }
       }

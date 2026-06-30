@@ -1,13 +1,15 @@
 {
   "textures": [
-    "minecraft:big_smoke_0",
-    "minecraft:big_smoke_1",
-    "minecraft:big_smoke_2",
-    "minecraft:big_smoke_3",
-    "minecraft:big_smoke_4",
-    "minecraft:big_smoke_5",
-    "minecraft:big_smoke_6",
-    "minecraft:big_smoke_7",
-	"minecraft:big_smoke_8"
+    "sengoku:bigsplash1",
+    "sengoku:bigsplash2",
+    "sengoku:bigsplash3",
+    "sengoku:bigsplash4",
+    "sengoku:bigsplash5",
+    "sengoku:bigsplash6",
+    "sengoku:bigsplash7",
+    "sengoku:bigsplash8",
+    "sengoku:bigsplash9",
+    "sengoku:bigsplash10",
+    "sengoku:bigsplash11"
   ]
 }

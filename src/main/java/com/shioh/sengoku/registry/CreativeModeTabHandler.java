@@ -273,6 +273,7 @@ public class CreativeModeTabHandler {
             entries.prepend(Items.WITHER_SKELETON_SPAWN_EGG);
             entries.prepend(Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
             entries.prepend(Items.SHEEP_SPAWN_EGG);
+            entries.prepend(Items.GOAT_SPAWN_EGG);
             entries.prepend(ModSpawnEggs.SATOMI_SOHEI_SPAWN_EGG);
             entries.prepend(ModSpawnEggs.SATOMI_SAMURAI_SPAWN_EGG);
             entries.prepend(ModSpawnEggs.SATOMI_ASHIGARU_SPAWN_EGG);
@@ -328,7 +329,6 @@ public class CreativeModeTabHandler {
             entries.prepend(Items.SNIFFER_SPAWN_EGG);
             entries.prepend(Items.PIGLIN_BRUTE_SPAWN_EGG);
             entries.prepend(ModSpawnEggs.GORYO_SPAWN_EGG);
-            entries.prepend(Items.GOAT_SPAWN_EGG);
             entries.prepend(ModSpawnEggs.GASHADOKU_SPAWN_EGG);
             entries.prepend(ModSpawnEggs.GAKI_SPAWN_EGG);
             entries.prepend(Items.FROG_SPAWN_EGG);

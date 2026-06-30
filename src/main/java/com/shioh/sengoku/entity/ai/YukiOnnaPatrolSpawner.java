@@ -139,7 +139,7 @@ public static void recordDeath(ServerLevel level, long time) {
         BlockPos immutablePos = spawnPos.immutable();
         double weatherMultiplier = level.isThundering()
                 ? 1.0D
-                : (level.isRainingAt(immutablePos) ? 0.5D : 0.0D);
+                : (level.isRaining() && getPrecipitationAt(level, immutablePos) != Biome.Precipitation.NONE ? 0.9D : 0.0D);
         if (weatherMultiplier <= 0.0D) {
             sengokuFabric.LOGGER.debug("YukiOnnaPatrolSpawner: no rain/thunder at {}", immutablePos);
             return 0;
@@ -178,7 +178,7 @@ public static void recordDeath(ServerLevel level, long time) {
         }
 
         // Require precipitation (rain/snow) at the spawn position or a thunderstorm
-        if (!level.isThundering() && !level.isRainingAt(immutablePos)) {
+        if (!level.isThundering() && !(level.isRaining() && getPrecipitationAt(level, immutablePos) != Biome.Precipitation.NONE)) {
             sengokuFabric.LOGGER.debug("YukiOnnaPatrolSpawner: no precipitation at {} (isRainingAt={}, isThundering={})", immutablePos, level.isRainingAt(immutablePos), level.isThundering());
             return 0;
         }
@@ -248,7 +248,9 @@ public static void recordDeath(ServerLevel level, long time) {
         mob.addTag("sengoku_patrol");
         return true;
     }
-
+private Biome.Precipitation getPrecipitationAt(ServerLevel level, BlockPos pos) {
+    return level.getBiome(pos).value().getPrecipitationAt(pos);
+}
     private boolean isValidSpawnBlock(BlockState state) {
         return state.is(net.minecraft.world.level.block.Blocks.DIRT) ||
                state.is(net.minecraft.world.level.block.Blocks.GRASS_BLOCK) ||

@@ -28,7 +28,7 @@ execute as @e[type=sengoku:maikubi] at @s run particle minecraft:trial_spawner_d
 execute as @e[type=wither] at @s run particle minecraft:large_smoke ~ ~1.55 ~ 0.5 0.3 0.5 0 5 normal
 
 
-execute as @e[type=sengoku:umi_bozu] at @s run particle minecraft:cloud ~ ~1.55 ~ 1.1 0.3 1.1 0 5 normal
+execute as @e[type=sengoku:umi_bozu] at @s run particle sengoku:dragon_splash ~ ~0 ~ 1.1 0.3 1.1 0 1 normal
 execute as @e[type=sengoku:umi_bozu] at @s run particle minecraft:splash ~ ~1.55 ~ 1.5 0.3 1.5 0 5 normal
 
 execute as @e[type=husk] at @s run particle minecraft:falling_nectar ~ ~1.55 ~ 0.4 0.24 0.4 0 3 normal

@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:basalt",
-    "minecraft:smooth_basalt"
+    "minecraft:smooth_basalt",
+	"minecraft:amethyst_block" 
   ]
 }
