@@ -4,6 +4,8 @@
    "#shioh:collections/plains",
    "#shioh:collections/forest",
    "#shioh:collections/snowy_structures",
-   "minecraft:desert"
+   "minecraft:desert",
+   "minecraft:windswept_forest",
+   "minecraft:windswept_hills"
   ]
 }

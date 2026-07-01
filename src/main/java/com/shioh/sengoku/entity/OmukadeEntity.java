@@ -57,6 +57,11 @@ public class OmukadeEntity extends Spider {
     protected net.minecraft.sounds.SoundEvent getHurtSound(net.minecraft.world.damagesource.DamageSource damageSource) {
         return com.shioh.sengoku.registry.SoundRegistry.OMUKADE_HURT;
     }
+    
+    @Override
+protected net.minecraft.sounds.SoundEvent getDeathSound() {
+    return com.shioh.sengoku.registry.SoundRegistry.OMUKADE_DEATH;
+    }
 
     @Override
     protected boolean isSunBurnTick() {

@@ -29,8 +29,8 @@ public final class UmiBozuSpawner {
     );
 
     private static final int INTERVAL_TICKS = 5600; // ~3 minutes
-    private static final int MIN_RADIUS = 8;
-    private static final int MAX_RADIUS = 48;
+    private static final int MIN_RADIUS = 1;
+    private static final int MAX_RADIUS = 8;
     private static final int MAX_NEARBY_UMIBOZU = 1;
     private static final int SINGLE_INSTANCE_CHECK_RADIUS = 400;
     private static final int MIN_WATER_DEPTH = 16; // needs deep ocean

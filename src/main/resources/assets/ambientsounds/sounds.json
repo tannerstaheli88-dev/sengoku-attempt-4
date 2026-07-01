@@ -879,6 +879,15 @@
         ],
         "category": "ambient"
     },
+    "weather.ocean_storm": {
+        "sounds": [
+            {
+                "name": "ambientsounds:weather/ocean_storm",
+                "stream": true
+            }
+        ],
+        "category": "ambient"
+    },
     "wind.mesa": {
         "sounds": [
             {

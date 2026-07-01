@@ -1,0 +1,23 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "priority": 2,
+  "structures": "#minecraft:castles",
+  "spawn_condition": {
+    "type": "lithostitched:grid",
+    "radius": 35,
+    "distance_between_points": 16,
+    "condition": {
+      "type": "lithostitched:not",
+      "condition": {
+        "type": "lithostitched:height_filter",
+        "range_type": "heightmap_relative",
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+        "permitted_range": [
+          -108,
+          30
+        ]
+      }
+    },
+    "allowed_count": 0
+  }
+}

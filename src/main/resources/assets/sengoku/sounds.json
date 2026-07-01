@@ -726,34 +726,7 @@
                         "name": "sengoku:music/combat/basic_combat3",
                         "stream": true
                     }, {
-                        "name": "sengoku:music/combat/basic_combat4",
-                        "stream": true
-                    }, {
                         "name": "sengoku:music/combat/basic_combat5",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/combat/basic_combat6",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/combat/basic_combat7",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/combat/basic_combat8",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/combat/basic_combat9",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/combat/basic_combat10",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/combat/basic_combat11",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/combat/basic_combat12",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/combat/basic_combat13",
                         "stream": true
                     }, {
                         "name": "sengoku:music/combat/yokai_combat1",
@@ -778,6 +751,18 @@
                         "stream": true
                     }, {
                         "name": "sengoku:music/combat/yokai_combat8",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat9",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat10",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat11",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat12",
                         "stream": true
                     }
                 ],
@@ -910,6 +895,9 @@
                     }, {
                         "name": "sengoku:music/night_time/deep_dark2",
                         "stream": true
+                    }, {
+                        "name": "sengoku:music/night_time/deep_dark3",
+                        "stream": true
                     }
                 ],
                 "subtitle": "subtitles.music.deep_dark"
@@ -935,9 +923,6 @@
                         "stream": true
                     }, {
                         "name": "sengoku:music/night_time/deep_underground7",
-                        "stream": true
-                    }, {
-                        "name": "sengoku:music/night_time/deep_underground8",
                         "stream": true
                     }
                 ],
@@ -1275,6 +1260,12 @@
                         "stream": true
                     }, {
                         "name": "sengoku:music/combat/yokai_combat5",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat11",
+                        "stream": true
+                    }, {
+                        "name": "sengoku:music/combat/yokai_combat12",
                         "stream": true
                     }
                 ],

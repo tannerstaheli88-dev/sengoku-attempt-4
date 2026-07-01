@@ -1,0 +1,36 @@
+{
+    "name": "ocean storm",
+    "overall-raining": true,
+    "biomes": [
+        "#is_ocean",
+        "#is_river",
+        "ocean",
+        "river",
+        "coral reef",
+        "kelp forest",
+        "lake",
+        "stream",
+        "sea"
+    ],
+    "features": [
+        "water"
+    ],
+    "regions": [
+        "surface"
+    ],
+    "temperature": {
+        "min": 0
+    },
+    "sound-collections": [
+        "wind"
+    ],
+    "sounds": [
+        {
+            "name": "ocean",
+            "files": [
+                "ambientsounds:weather.ocean_storm"
+            ],
+            "volume": 0.8
+        }
+    ]
+}

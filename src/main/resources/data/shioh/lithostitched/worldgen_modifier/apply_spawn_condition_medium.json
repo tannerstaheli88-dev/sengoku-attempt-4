@@ -4,7 +4,7 @@
   "structures": "#minecraft:flat_structures_medium",
   "spawn_condition": {
     "type": "lithostitched:grid",
-    "radius": 35,
+    "radius": 32,
     "distance_between_points": 16,
     "condition": {
       "type": "lithostitched:not",

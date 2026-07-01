@@ -2,6 +2,8 @@
   "values": [
     "#shioh:collections/plains",
     "#shioh:collections/snowy_structures",
-    "#shioh:collections/forest"
+    "#shioh:collections/forest",
+	"minecraft:windswept_forest",
+	"minecraft:windswept_hills"
   ]
 }

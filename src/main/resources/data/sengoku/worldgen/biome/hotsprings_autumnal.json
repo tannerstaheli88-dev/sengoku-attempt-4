@@ -10,7 +10,7 @@
   "effects": {
     "fog_color": 12638463,
     "foliage_color": 14782528,
-    "grass_color": 9481816,
+    "grass_color": 12034369,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -92,6 +92,9 @@
     ],
     [
       "minecraft:glow_lichen",
+	  "shioh:foliage/trees/transition/hotsprings/bloodgood_trees",
+	  "shioh:foliage/trees/transition/hotsprings/orange_trees",
+	  "shioh:foliage/trees/transition/hotsprings/trees_maple",
 	  "shioh:foliage/trees/autumn/trees_hotsprings",
       "shioh:foliage/trees/autumn/trees_maple_cold",
       "shioh:foliage/trees/autumn/trees_maple",

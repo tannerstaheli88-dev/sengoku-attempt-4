@@ -1,12 +1,8 @@
 {
   "structures": [
     {
-      "structure": "shioh:bandit_outpost",
-      "weight": 30
-    },
-    {
-      "structure": "minecraft:pillager_outpost",
-      "weight": 30
+      "structure": "shioh:castle",
+      "weight": 6
     },
     {
       "structure": "shioh:castle_ruin",
@@ -18,9 +14,9 @@
     "other_set": "minecraft:villages",
     "chunk_count": 7
     },
-    "salt": 992963,
-    "spacing": 20,
-    "separation": 15,
+    "salt": 5342123,
+    "spacing": 40,
+    "separation": 30,
     "type": "minecraft:random_spread"
   }
 }

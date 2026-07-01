@@ -7,6 +7,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.util.Mth;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -562,37 +563,51 @@ targetItem.discard();
             windupTicks = 0;
         }
 
-        @Override
-        public void tick() {
-            LivingEntity target = mob.getTarget();
-            if (target == null) return;
+@Override
+public void tick() {
+    LivingEntity target = mob.getTarget();
+    if (target == null) return;
 
-            if (attackCooldown > 0) attackCooldown--;
+    if (attackCooldown > 0) attackCooldown--;
 
-            mob.getLookControl().setLookAt(target, 30.0F, 30.0F);
+    mob.getLookControl().setLookAt(target, 30.0F, 30.0F);
 
-            double dx = target.getX() - mob.getX();
-            double dz = target.getZ() - mob.getZ();
-            double dist = Math.sqrt(dx * dx + dz * dz);
+    double dx = target.getX() - mob.getX();
+    double dz = target.getZ() - mob.getZ();
+    double dist = Math.sqrt(dx * dx + dz * dz);
 
-            if (!windingUp && dist > 1.0E-6) {
-                double nx = dx / dist;
-                double nz = dz / dist;
-                Vec3 vel = mob.getDeltaMovement();
-                double speed = 0.28D;
-                double ax = (nx * speed - vel.x) * 0.2;
-                double az = (nz * speed - vel.z) * 0.2;
-                mob.setDeltaMovement(vel.x + ax, vel.y, vel.z + az);
-            }
+    if (!windingUp && dist > 1.0E-6) {
+        double nx = dx / dist;
+        double nz = dz / dist;
 
-            if (mob.level().isClientSide) return;
+        // Movement (back to direct velocity control, no pathfinding)
+        Vec3 vel = mob.getDeltaMovement();
+        double speed = 0.28D;
+        double ax = (nx * speed - vel.x) * 0.2;
+        double az = (nz * speed - vel.z) * 0.2;
+        mob.setDeltaMovement(vel.x + ax, vel.y, vel.z + az);
 
-            if (dist < 5.0 && attackCooldown <= 0 && !windingUp) {
-                windingUp = true;
-                windupTicks = 0;
-                windupTarget = target;
-                mob.playSound(SoundEvents.ELDER_GUARDIAN_CURSE, 2.0F, 0.5F);
-            }
+        // Turn the BODY to face the travel direction — this is what
+        // was actually causing the moonwalk. yBodyRot drives the
+        // walk/swim animation direction; it was never being updated.
+        float targetYaw = (float) (Math.atan2(nz, nx) * (180.0 / Math.PI)) - 90.0F;
+        float currentYaw = mob.getYRot();
+        float delta = Mth.wrapDegrees(targetYaw - currentYaw);
+        float maxTurnPerTick = 12.0F; // tune: higher = snappier turning
+        float newYaw = currentYaw + Mth.clamp(delta, -maxTurnPerTick, maxTurnPerTick);
+
+        mob.setYRot(newYaw);
+        mob.yBodyRot = newYaw;
+    }
+
+    if (mob.level().isClientSide) return;
+
+    if (dist < 5.0 && attackCooldown <= 0 && !windingUp) {
+        windingUp = true;
+        windupTicks = 0;
+        windupTarget = target;
+        mob.playSound(SoundEvents.ELDER_GUARDIAN_CURSE, 2.0F, 0.5F);
+    }
 
             if (windingUp) {
                 windupTicks++;

@@ -108,6 +108,7 @@
     ,"GravityProcessorMixin"
     ,"FoxSafeAvoidanceMixin"
     ,"MoonPhaseSpawnMixin"
+    ,"LivingEntitySuffocationMixin"
   ],
     "core": [
       "FireBlockNetherMixin"

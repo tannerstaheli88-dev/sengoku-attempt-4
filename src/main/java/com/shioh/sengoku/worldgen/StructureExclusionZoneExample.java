@@ -45,6 +45,7 @@ public class StructureExclusionZoneExample {
             "shioh:tree",
             // modded structures
             new ExclusionZoneConfig("shioh:outcast_villager", 3),
+            new ExclusionZoneConfig("shioh:castles", 3),
             // Vanilla structures
             new ExclusionZoneConfig("minecraft:villages", 8),
             new ExclusionZoneConfig("minecraft:desert_pyramids", 3),
@@ -59,14 +60,20 @@ public class StructureExclusionZoneExample {
         addMultipleExclusionZones(
             structureSetRegistry,
             "shioh:outcast_villager",
-            new ExclusionZoneConfig("minecraft:pillager_outposts", 5)
+            new ExclusionZoneConfig("minecraft:pillager_outposts", 5),
+            new ExclusionZoneConfig("shioh:castles", 5),
+        );
+        addMultipleExclusionZones(
+            structureSetRegistry,
+            "shioh:castles",
+            new ExclusionZoneConfig("minecraft:pillager_outposts", 5),
         );
         // Make woodland mansions avoid pillager outposts by 5 chunks
         addMultipleExclusionZones(
             structureSetRegistry,
             "minecraft:woodland_mansions",
             new ExclusionZoneConfig("minecraft:pillager_outposts", 5),
-            new ExclusionZoneConfig("minecraft:villages", 8)
+            new ExclusionZoneConfig("minecraft:villages", 8),
         );
         addMultipleExclusionZones(
             structureSetRegistry,

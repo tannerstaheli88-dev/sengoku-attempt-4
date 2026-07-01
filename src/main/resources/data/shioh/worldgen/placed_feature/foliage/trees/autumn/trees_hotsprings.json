@@ -29,6 +29,23 @@
       "heightmap": "OCEAN_FLOOR"
     },
     {
+      "type": "lithostitched:condition",
+      "condition": {
+        "type": "lithostitched:grid",
+        "radius": 30,
+        "distance_between_points": 6,
+        "condition": {
+          "type": "lithostitched:in_biome",
+          "biomes": [
+            "minecraft:badlands",
+            "minecraft:wooded_badlands",
+            "minecraft:savanna_plateau"
+          ]
+        },
+        "allowed_count": 0
+      }
+    },
+    {
       "type": "minecraft:biome"
     }
   ]
